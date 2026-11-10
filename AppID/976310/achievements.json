@@ -1,234 +1,234 @@
-[
-  {
-    "id": "trophy-ID001",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID002",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID003",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID004",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID005",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID006",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID007",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID008",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID009",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID010",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID011",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID012",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID013",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID014",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID015",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID016",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID017",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID018",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID019",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID020",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID021",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID022",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID023",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID024",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID025",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID026",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID027",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID028",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID029",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID030",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID031",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID032",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID033",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID034",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID035",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID036",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID037",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID038",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID039",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID040",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID041",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID042",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID043",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID044",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID045",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID046",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID047",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID048",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID049",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID050",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID051",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID052",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID053",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID054",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID055",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID056",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID057",
-    "achieved": true
-  },
-  {
-    "id": "trophy-ID058",
-    "achieved": true
-  }
-]
+{
+    "trophy-ID001":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID002":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID003":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID004":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID005":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID006":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID007":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID008":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID009":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID010":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID011":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID012":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID013":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID014":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID015":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID016":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID017":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID018":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID019":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID020":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID021":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID022":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID023":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID024":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID025":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID026":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID027":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID028":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID029":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID030":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID031":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID032":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID033":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID034":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID035":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID036":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID037":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID038":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID039":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID040":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID041":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID042":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID043":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID044":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID045":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID046":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID047":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID048":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID049":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID050":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID051":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID052":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID053":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID054":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID055":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID056":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID057":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "trophy-ID058":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     }
+}

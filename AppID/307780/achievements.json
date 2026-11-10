@@ -1,303 +1,294 @@
 {
-    "Count":  73,
-    "IsFixedSize":  true,
-    "IsReadOnly":  false,
-    "IsSynchronized":  false,
-    "Length":  73,
-    "LongLength":  73,
-    "Rank":  1,
-    "SyncRoot":  [
-                     {
-                         "id":  "Dress Up",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Pledge Yourself",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Finish Him",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Jumping Bean",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Blanch Advantage",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Hit the Dojo",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Moving Up",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Kompetitor",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Brutal End",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Treasure Hunter",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "A New Beginning",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Inner Strength",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Statistical Advantage",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "There Is a Ruler",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Time Out",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Back It Up",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Real Icon",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "So Bored",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Luck Be a Lady",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Thats How You Do It",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Cant Stop This",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Almighty",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Whos the Boss",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Throwback",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Need a Doctor",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Giving Respect",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Going The Distance",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Straight Power",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Good to be King",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Return Customer",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Faction Champion",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "INVASION",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Dark Future",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Quit-ality",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "All the Pieces",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Tower Master",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Unstoppable",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Trolling",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Not Dead Yet",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Contender",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Only a Real Master",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Bill of Goods",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Buddy",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Hara Kiri",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Jump Ship",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Number1",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Royalty",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Fox Finish",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Bloody Good Time",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "All I Do Is Win",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Disco",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "The Grinder",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Elder God",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Tower Warrior",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Hug It Out",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Robots Rule",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Tower God",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Trend Setter",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Dropping Fools",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Challenge Accepted",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Getting Tipsy",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Knockout",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Master",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Rogue Warrior",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "The Collector",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "The Kraken",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "What Doesn\u0027t Kill You Makes You Still Alive",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Where It All Started",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Dance The Night Away",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "DIE WILL YOU",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Juggernaut",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Respected Fighter",
-                         "achieved":  true
-                     },
-                     {
-                         "id":  "Lands-Down",
-                         "achieved":  true
-                     }
-                 ]
+    "A New Beginning":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "All I Do Is Win":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "All the Pieces":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Almighty":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Back It Up":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Bill of Goods":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Blanch Advantage":  {
+                             "earned":  true,
+                             "earned_time":  0
+                         },
+    "Bloody Good Time":  {
+                             "earned":  true,
+                             "earned_time":  0
+                         },
+    "Brutal End":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Buddy":  {
+                  "earned":  true,
+                  "earned_time":  0
+              },
+    "Cant Stop This":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Challenge Accepted":  {
+                               "earned":  true,
+                               "earned_time":  0
+                           },
+    "Contender":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Dance The Night Away":  {
+                                 "earned":  true,
+                                 "earned_time":  0
+                             },
+    "Dark Future":  {
+                        "earned":  true,
+                        "earned_time":  0
+                    },
+    "DIE WILL YOU":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Disco":  {
+                  "earned":  true,
+                  "earned_time":  0
+              },
+    "Dress Up":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Dropping Fools":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Elder God":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Faction Champion":  {
+                             "earned":  true,
+                             "earned_time":  0
+                         },
+    "Finish Him":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Fox Finish":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Getting Tipsy":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Giving Respect":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Going The Distance":  {
+                               "earned":  true,
+                               "earned_time":  0
+                           },
+    "Good to be King":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "Hara Kiri":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Hit the Dojo":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Hug It Out":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Inner Strength":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "INVASION":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Juggernaut":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Jump Ship":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Jumping Bean":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Knockout":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Kompetitor":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Lands-Down":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Luck Be a Lady":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Master":  {
+                   "earned":  true,
+                   "earned_time":  0
+               },
+    "Moving Up":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Need a Doctor":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Not Dead Yet":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Number1":  {
+                    "earned":  true,
+                    "earned_time":  0
+                },
+    "Only a Real Master":  {
+                               "earned":  true,
+                               "earned_time":  0
+                           },
+    "Pledge Yourself":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "Quit-ality":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "Real Icon":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Respected Fighter":  {
+                              "earned":  true,
+                              "earned_time":  0
+                          },
+    "Return Customer":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "Robots Rule":  {
+                        "earned":  true,
+                        "earned_time":  0
+                    },
+    "Rogue Warrior":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Royalty":  {
+                    "earned":  true,
+                    "earned_time":  0
+                },
+    "So Bored":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Statistical Advantage":  {
+                                  "earned":  true,
+                                  "earned_time":  0
+                              },
+    "Straight Power":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Thats How You Do It":  {
+                                "earned":  true,
+                                "earned_time":  0
+                            },
+    "The Collector":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "The Grinder":  {
+                        "earned":  true,
+                        "earned_time":  0
+                    },
+    "The Kraken":  {
+                       "earned":  true,
+                       "earned_time":  0
+                   },
+    "There Is a Ruler":  {
+                             "earned":  true,
+                             "earned_time":  0
+                         },
+    "Throwback":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Time Out":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Tower God":  {
+                      "earned":  true,
+                      "earned_time":  0
+                  },
+    "Tower Master":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Tower Warrior":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Treasure Hunter":  {
+                            "earned":  true,
+                            "earned_time":  0
+                        },
+    "Trend Setter":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Trolling":  {
+                     "earned":  true,
+                     "earned_time":  0
+                 },
+    "Unstoppable":  {
+                        "earned":  true,
+                        "earned_time":  0
+                    },
+    "What Doesn\u0027t Kill You Makes You Still Alive":  {
+                                                             "earned":  true,
+                                                             "earned_time":  0
+                                                         },
+    "Where It All Started":  {
+                                 "earned":  true,
+                                 "earned_time":  0
+                             },
+    "Whos the Boss":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      }
 }

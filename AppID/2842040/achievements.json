@@ -1,238 +1,238 @@
-[
-  {
-    "id": "Outlaws_Ach_1",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_2",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_3",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_4",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_5",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_6",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_7",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_8",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_9",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_10",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_11",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_12",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_13",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_14",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_15",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_16",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_17",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_18",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_19",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_20",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_21",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_22",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_23",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_24",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_25",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_26",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_27",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_28",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_29",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_30",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_31",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_32",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_33",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_34",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_35",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_36",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_37",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_38",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_39",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_40",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_41",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_42",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_43",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_44",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_45",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_46",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_47",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_48",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_49",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_50",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_51",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_52",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_53",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_54",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_55",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_56",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_57",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_58",
-    "achieved": true
-  },
-  {
-    "id": "Outlaws_Ach_59",
-    "achieved": true
-  }
-]
+{
+    "Outlaws_Ach_1":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_10":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_11":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_12":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_13":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_14":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_15":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_16":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_17":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_18":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_19":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_2":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_20":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_21":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_22":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_23":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_24":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_25":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_26":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_27":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_28":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_29":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_3":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_30":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_31":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_32":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_33":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_34":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_35":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_36":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_37":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_38":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_39":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_4":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_40":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_41":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_42":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_43":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_44":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_45":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_46":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_47":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_48":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_49":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_5":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_50":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_51":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_52":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_53":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_54":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_55":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_56":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_57":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_58":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_59":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "Outlaws_Ach_6":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_7":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_8":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Outlaws_Ach_9":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      }
+}

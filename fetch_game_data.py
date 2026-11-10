@@ -274,14 +274,21 @@ def load_achievements_file(folder):
                 if isinstance(data, dict):
                     return data, file_path.name
                 elif isinstance(data, list):
-                    converted = {
-                        ach["apiname"]: {
-                            "earned": ach.get("achieved", 0) == 1,
-                            "earned_time": ach.get("unlocktime", 0),
+                    # List layouts: Steam cache {apiname, achieved, unlocktime},
+                    # Ubisoft {id, achieved}, or a plain achievement list {name, ...}
+                    # with no progress (all locked).
+                    converted = {}
+                    for ach in data:
+                        if not isinstance(ach, dict):
+                            continue
+                        key = ach.get("apiname") or ach.get("id") or ach.get("name")
+                        if not key:
+                            continue
+                        earned = ach.get("achieved", ach.get("earned", False))
+                        converted[str(key)] = {
+                            "earned": earned is True or earned == 1 or earned == "1",
+                            "earned_time": ach.get("unlocktime") or ach.get("earned_time") or 0,
                         }
-                        for ach in data
-                        if "apiname" in ach
-                    }
                     return converted, file_path.name
             except Exception as e:
                 print(f"Error processing {file_path}: {e}")

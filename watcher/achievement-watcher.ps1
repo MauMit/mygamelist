@@ -79,7 +79,9 @@ function Read-AchievementFile {
         try {
             $Raw = [System.IO.File]::ReadAllText($File)
             if (-not [string]::IsNullOrWhiteSpace($Raw)) {
-                return ($Raw | ConvertFrom-Json -ErrorAction Stop)
+                $Parsed = $Raw | ConvertFrom-Json -ErrorAction Stop
+                # The comma keeps a JSON list from being unrolled on return
+                return ,$Parsed
             }
         }
         catch { }
@@ -112,6 +114,44 @@ function Get-EarnedTime {
 
 
 # ------------------------------------------------------------
+# NORMALIZE ANY SUPPORTED LAYOUT TO { key: { earned, earned_time } }
+# ------------------------------------------------------------
+# Supported layouts:
+#   GSE / Goldberg map:  { "ACH_1": { "earned": true, "earned_time": 1754144765 } }
+#   Ubisoft list:        [ { "id": "FC5_Ach_1", "achieved": true } ]
+#   Steam cache list:    [ { "apiname": "ACH_1", "achieved": 1, "unlocktime": 0 } ]
+#   Achievement list:    [ { "name": "ACH_1", "displayName": "...", ... } ]  (no progress = locked)
+
+function ConvertTo-AchievementMap {
+    param($Data)
+
+    $Map = [ordered]@{}
+    if ($null -eq $Data) { return $Map }
+
+    if ($Data -is [System.Array]) {
+        foreach ($Item in $Data) {
+            if ($null -eq $Item) { continue }
+            $Key = $null
+            foreach ($Name in 'id', 'apiname', 'name') {
+                if ($Item.$Name) { $Key = [string]$Item.$Name; break }
+            }
+            if (-not $Key) { continue }
+            $Map[$Key] = [pscustomobject]@{
+                earned      = (Test-Earned $Item)
+                earned_time = (Get-EarnedTime $Item)
+            }
+        }
+        return $Map
+    }
+
+    foreach ($Property in $Data.PSObject.Properties) {
+        $Map[$Property.Name] = $Property.Value
+    }
+    return $Map
+}
+
+
+# ------------------------------------------------------------
 # MERGE ONE GAME FROM ALL SOURCES
 # ------------------------------------------------------------
 # Returns the merged JSON text, or $null if no source has the game.
@@ -128,9 +168,9 @@ function Get-MergedAchievementJson {
         if ($null -eq $Data) { continue }
         $Found = $true
 
-        foreach ($Property in $Data.PSObject.Properties) {
-            $Key = $Property.Name
-            $Entry = $Property.Value
+        $SourceMap = ConvertTo-AchievementMap $Data
+        foreach ($Key in @($SourceMap.Keys)) {
+            $Entry = $SourceMap[$Key]
 
             if (-not $Merged.Contains($Key)) {
                 $Merged[$Key] = $Entry
@@ -173,8 +213,12 @@ function ConvertTo-NormalizedJson {
     param([string]$File)
     try {
         $Data = [System.IO.File]::ReadAllText($File) | ConvertFrom-Json -ErrorAction Stop
+        # A list-format file in the repo is rewritten in the standard layout
+        if ($Data -is [System.Array]) { return $null }
         $Map = [ordered]@{}
         foreach ($Property in $Data.PSObject.Properties) { $Map[$Property.Name] = $Property.Value }
+        # Junk written by an earlier version (a list read as an object)
+        if ($Map.Contains('IsFixedSize') -and $Map.Contains('SyncRoot')) { return $null }
         return (ConvertTo-SortedJson -Map $Map)
     }
     catch { return $null }

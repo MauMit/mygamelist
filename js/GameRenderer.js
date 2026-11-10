@@ -1,13 +1,5 @@
 import { gamesData } from './GameLoader.js';
 import { calculatePercentage, formatUnlockDate } from './utils.js';
-import { 
-    isOwnProfile, 
-    loadOwnGameData, 
-    compareAchievements, 
-    renderComparisonView,
-    setupComparisonFilters,
-    getVisitorUsername
-} from './GameCompare.js';
 
 // Global search state (Default is now 'name')
 let currentSearchTerm = '';
@@ -373,16 +365,14 @@ export function showGameDetail(appId, updateUrl = true) {
         unlocked: unlocked,
         total: total,
         percentage: percentage,
-        sortMode: 'default',
-        compareMode: false,
-        comparisonData: null
+        sortMode: 'default'
     };
 
     renderGameDetail();
 }
 
 export function renderGameDetail() {
-    const { appId, game, unlocked, total, percentage, sortMode, compareMode } = window.currentGameData;
+    const { game, unlocked, total, percentage, sortMode } = window.currentGameData;
 
     document.getElementById('games-grid').classList.add('hidden');
     document.getElementById('summary-box').classList.add('hidden');
@@ -394,19 +384,10 @@ export function renderGameDetail() {
 
     const detailView = document.getElementById('detail-view');
     
-    if (compareMode) {
-        detailView.innerHTML = renderDetailViewWithComparison(game, unlocked, total, percentage);
-    } else {
-        detailView.innerHTML = renderDetailViewNormal(game, unlocked, total, percentage, sortMode);
-    }
-    
+    detailView.innerHTML = renderDetailViewNormal(game, unlocked, total, percentage, sortMode);
+
     detailView.classList.add('active');
     window.scrollTo(0, 0);
-
-    // Setup comparison filters if in compare mode
-    if (compareMode) {
-        setupComparisonFilters();
-    }
 }
 
 // Normal view with Unlocked/Locked Categories
@@ -481,16 +462,6 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
         `;
     }
 
-    // Check for "Passport" (Visitor) from URL
-    const visitor = getVisitorUsername();
-    
-    // Show compare button ONLY if we have a visitor username in URL AND it's not the own profile
-    const compareButton = (visitor && !isOwnProfile()) ? `
-        <button class="compare-button" onclick="window.enableCompareMode()">
-            🔄 Compare Achievements
-        </button>
-    ` : '';
-
     return `
         <button class="back-button" onclick="window.hideGameDetail()">
             ← Back to All Games
@@ -518,8 +489,6 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
                         <div class="stat-label">Remaining</div>
                     </div>
                 </div>
-                
-                ${compareButton}
             </div>
         </div>
         
@@ -550,39 +519,6 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
 
             ${achievementsHTML}
         </div>
-    `;
-}
-
-// Comparison view
-function renderDetailViewWithComparison(game, unlocked, total, percentage) {
-    const { comparisonData } = window.currentGameData;
-    const theirUsername = window.githubUsername || window.location.href.split('.github.io')[0].split('//')[1];
-    
-    return `
-        <button class="back-button" onclick="window.hideGameDetail()">
-            ← Back to All Games
-        </button>
-        
-        <div class="detail-header">
-            ${game.icon ? 
-                `<img src="${game.icon}" alt="${game.name}" class="detail-game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
-                `<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="detail-game-icon">`}
-            <div class="detail-game-info">
-                <div class="detail-game-title">${game.name}</div>
-                <div class="detail-game-appid">AppID: ${game.appId}</div>
-                
-                <div class="compare-mode-toggle">
-                    <button class="toggle-btn" onclick="window.disableCompareMode()">
-                        📋 Normal View
-                    </button>
-                    <button class="toggle-btn active">
-                        🔄 Comparison
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        ${comparisonData ? renderComparisonView(game, comparisonData, theirUsername) : '<div class="loading">Loading comparison data...</div>'}
     `;
 }
 
@@ -638,10 +574,7 @@ function renderAchievement(ach, isUnlocked) {
 export function hideGameDetail() {
     const newUrl = new URL(window.location.href);
     newUrl.searchParams.delete('game');
-    // Keep 'vs' parameter if present
-    const vs = new URLSearchParams(window.location.search).get('vs');
-    if (vs) newUrl.searchParams.set('vs', vs);
-    
+
     window.history.pushState({}, '', newUrl);
 
     document.getElementById('detail-view').classList.remove('active');
@@ -669,48 +602,11 @@ export function setGridSortMode(mode) {
 export function handleDeepLink() {
     const params = new URLSearchParams(window.location.search);
     const appId = params.get('game');
-    const vsUser = params.get('vs');
 
     if (appId && gamesData.has(appId)) {
         showGameDetail(appId, false);
-
-        // If 'vs' parameter is present, automatically enable comparison mode
-        if (vsUser) {
-            window.enableCompareMode();
-        }
     }
 }
-
-// Enable comparison mode
-window.enableCompareMode = async function() {
-    const { appId, game } = window.currentGameData;
-    
-    // 1. Check if we have a visitor user (URL param)
-    const storedUser = getVisitorUsername();
-    
-    // 2. Security Check: If no user is in URL (Guest), abort.
-    if (!storedUser) {
-        return;
-    }
-    
-    // 3. Proceed immediately to loading
-    window.currentGameData.compareMode = true;
-    renderGameDetail(); // Shows the view (loading state)
-    
-    // Load data
-    const ownData = await loadOwnGameData(appId);
-    const comparisonData = compareAchievements(game, ownData);
-    
-    window.currentGameData.comparisonData = comparisonData;
-    renderGameDetail(); // Renders the final results
-};
-
-// Disable comparison mode
-window.disableCompareMode = function() {
-    window.currentGameData.compareMode = false;
-    window.currentGameData.comparisonData = null;
-    renderGameDetail();
-};
 
 // Adjust card heights dynamically
 function adjustCardHeights() {

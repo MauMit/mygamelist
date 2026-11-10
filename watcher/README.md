@@ -12,7 +12,7 @@ Two Windows scripts that send your emulator achievements to the `user` branch. F
 1. Keep a local clone of this repo checked out on the **`user`** branch:
 
    ```bash
-   git clone -b user https://github.com/<you>/achievement-viewer.git
+   git clone -b user https://github.com/<you>/mygamelist.git
    ```
 
 2. Copy both scripts somewhere outside that clone, for example your Desktop. The scripts switch the clone to `user`, which doesn't contain this `watcher/` folder.

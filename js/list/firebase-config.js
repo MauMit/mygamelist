@@ -32,6 +32,6 @@ export const enableGoogleSignIn = true;
 // fallback used when you open the page locally.
 export const achievementRepo = {
   owner: "MauMit",
-  repo: "achievement-viewer",
+  repo: "mygamelist",
   branch: "user",
 };

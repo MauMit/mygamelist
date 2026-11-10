@@ -4,7 +4,7 @@ name: Full Refresh (all games)
 # This takes about 1.5 hours, so it only runs when started by hand
 # (Actions tab > Full Refresh (all games) > Run workflow).
 #
-# It used to run every day, which made GitHub pause Actions on this fork.
+# It used to run every day, which made GitHub pause Actions on the old fork.
 # Day-to-day updates now come from the "Update Achievement Data (on push)"
 # workflow on the user branch, which only processes games the watcher changed.
 on:

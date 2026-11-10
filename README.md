@@ -1,206 +1,75 @@
-# Achievement Viewer
+# My Game List
 
-## 🚀 Setup Instructions
+A personal game tracker with achievement progress, hosted on GitHub Pages.
 
-### 1. Fork this Repository
+- **Game list** (`list.html`): track games as Currently Playing, Almost Done, Completed or Plan to Play, with score, hours, dates and notes. Sign in with email/password or Google (Firebase). Your list is saved in Firestore and works on any device.
+- **Achievement viewer** (`index.html`): every game your emulator achievement files cover, with names, icons, rarity, hidden achievement descriptions and 100% tracking.
+- **Achievement watcher** (`watcher/`): Windows scripts that push new `achievements.json` files from GSE / Goldberg saves to GitHub as you unlock them.
 
-Click the "Fork" button at the top right of this page.
+Live site: <https://maumit.github.io/mygamelist/>
 
-### 2. Enable GitHub Pages
+## How it fits together
 
-1. Go to your forked repository's **Settings**
-2. Click **Pages** in the left sidebar
-3. Under "Source", select **Deploy from a branch**
-4. Under "Branch", select **main** (or **master**) and **/ (root)**
-5. Click **Save**
-6. Wait 1-2 minutes for deployment
+```
+Game / emulator writes achievements.json
+        │   watcher/achievement-watcher.ps1 copies it, commits, pushes
+        ▼
+user branch: AppID/<appid>/achievements.json
+        │   "Update Achievement Data (on push)" workflow (changed games only)
+        ▼
+user branch: game-data.json
+        │
+        ├──▶ index.html   Achievement viewer
+        └──▶ list.html    My Game List (progress bars, import, status hints)
+```
 
-Your site will be available at: `https://YOUR-USERNAME.github.io/REPO-NAME/`
+## Branches
 
-### 3. Upload your achievement files
+| Branch | Contents |
+|---|---|
+| `main` | The website, workflows, Python data scripts and the watcher scripts. GitHub Pages deploys from here. |
+| `user` | Your data: `AppID/<appid>/` achievement files, generated `game-info.json`, `game-data.json` and `top_owners.json`. |
 
-1. Create a branch named 'user'. This branch will store all your achievement files.
-2. Create folder structure: `AppID/[Steam AppID]/`
-3. Example: `AppID/730/` for Counter-Strike 2
-4. Upload your supported achievement files
-5. Commit and push to the branch
-6. Your site will update automatically!
+## Setup
 
-#### Supported Formats (only one is needed per game)
+1. **Pages:** Settings → Pages → Source: **GitHub Actions**. The `Deploy GitHub Pages` workflow publishes `main` on every push.
+2. **Steam API key:** Settings → Secrets and variables → Actions → add `STEAM_API_KEY`. The data workflow uses it to fetch game names, icons and achievement details.
+3. **Firebase (game list login):** see [GAME-LIST-SETUP.md](GAME-LIST-SETUP.md).
+4. **Watcher:** see [watcher/README.md](watcher/README.md).
 
-##### GBE fork achievement JSON Format
+## Workflows
 
-By default they are stored in: `%AppData%\GSE Saves\{AppID}`
-Your `achievements.json` should look like this:
+| Workflow | When it runs |
+|---|---|
+| Deploy GitHub Pages | Every push to `main` |
+| Update Achievement Data (on push) | When the watcher pushes `AppID/**` files to `user`. Processes only the changed games (under a minute). |
+| Full Refresh (all games) | Only when started by hand from the Actions tab. Re-fetches every game, which takes about 1.5 hours. |
+
+## Supported achievement files
+
+Put one per game in `AppID/<Steam AppID>/` on the `user` branch.
+
+**GSE / Goldberg** `achievements.json` (`%AppData%\GSE Saves\<AppID>`):
 
 ```json
 {
-  "Defeat_Mantis": {
-    "earned": true,
-    "earned_time": 1754144765
-  },
-  "Obtain_Archetype": {
-    "earned": true,
-    "earned_time": 1754144765
-  }
+  "Defeat_Mantis": { "earned": true, "earned_time": 1754144765 }
 }
 ```
 
-##### Steam cached Achievement Watcher {AppID}.db files
-
-By default they are stored in: `%AppData%\Achievement Watcher\steam_cache\data`
-and/or `%AppData%\Achievement Watcher\steam_cache\user\{SteamID}\`
-A **Steam** label will be added automatically to these types of games.
-
-Your `{AppID}.db` should look like this:
+**Achievement Watcher Steam cache** `<AppID>.db` (`%AppData%\Achievement Watcher\steam_cache\data`):
 
 ```json
 [
-  {
-    "apiname": "ACHIEVEMENT_reached_speed_1",
-    "achieved": 0,
-    "unlocktime": 0
-  },
-  {
-    "apiname": "ACHIEVEMENT_spam_obstacles",
-    "achieved": 0,
-    "unlocktime": 0
-  }
+  { "apiname": "ACHIEVEMENT_reached_speed_1", "achieved": 0, "unlocktime": 0 }
 ]
 ```
 
-### Verify It's Working
+Optional files per game, see `AppID/_appid_/` on `main`: `<Name>.platform` adds a platform label, `blacklist` hides achievement API names, `skip` skips a game.
 
-Visit your GitHub Pages URL and you should see your achievement viewer!
+## Credits
 
-## 📁 Folder Structure
+The achievement viewer and data scripts are based on [Roschach96/achievement-viewer](https://github.com/Roschach96/achievement-viewer) (see [LICENSE](LICENSE)). Its community Hub and cross-user comparison have been removed here.
 
-```
-your-repo/ (main branch)
-├── index.html                         # Main viewer page
-├── hub.html                           # Hub viewer page
-├── css/                               # Pages layout styles folder
-│   ├── hub.css
-│   └── styles.css
-├── js/                                # Pages javascript code folder
-│   ├── utils.js
-│   ├── GameLoader.js
-│   ├── GameRenderer.js
-│   └── HubRenderer.js
-└── .github/
-    └── workflows/
-        └── fetch-game-data.yml        # Automation workflow
-
-The only important thing in the user branch below is the AppID folder, inside that the game's Steam AppID folder, inside that "Your achievement data".
-All other files are optional or auto-generated.
-
-your-repo/ (user branch)
-├── AppID/                             # Achievement data folder
-│   ├── 730/                           # Counter-Strike 2
-│   │   ├── achievements.json          # Your achievement data (only one "Your achievement data" file is required)
-│   │   └── game-info.json             # (Auto-generated) Auto-generated by workflow
-│   ├── 570/                           # Dota 2
-│   │   ├── 570.db                     # Your achievement data (only one "Your achievement data" file is required)
-│   │   └── game-info.json             # (Auto-generated) Auto-generated by workflow
-│   └── 928960/                        # Godfall
-│       ├── achievements.json          # Your achievement data (only one "Your achievement data" file is required)
-│       ├── Epic.platform              # (Optional) Platform indicator empty file (displays the text before ".platform" on the game card below AppID)
-│       ├── blacklist                  # (Optional) Skipped achievements to display. You have to use achievement API names in every lines! (Useful in cases like with Godfall where Steam version has more achievements than Epic)
-│       └── game-info.json             # (Auto-generated) Auto-generated by workflow
-├── gamercard.html                     # (Optional) Displayed on the right side of "{User}'s summary". It can be any website's "gamercard". For reference, check Exophase's "HTML Tag" version of Gamercard. Save that as a .HTML file.
-├── game-data.json                     # (Auto-generated) Combined data, auto-generated by workflow
-└── top_owners.json                    # (Auto-generated) Auto-generated and auto-updated by workflow
-```
-
-## 🔧 Customization
-
-The viewer automatically uses:
-
-- **Your GitHub username** in the header
-- **Your GitHub profile picture** as the avatar
-
-These are detected automatically from your repository URL!
-
-## 🔄 Updating Achievement Data
-
-### Manual Update (only for the uploaded game)
-
-1. Edit/replace files in `AppID/[Steam AppID]/achievements.json`
-2. Commit and push changes
-3. Site updates automatically within minutes
-
-### Automatic Update (for all games)
-
-The workflow runs daily at midnight UTC, or manually:
-
-1. Go to **Actions** tab
-2. Select **Fetch Steam Game Data**
-3. Click **Run workflow**
-
-## 📊 What You Need vs What's Optional
-
-### Required (Minimum Setup):
-
-✅ Supported achievement data file in `AppID/[Steam AppID]/` with your unlocked achievement data
-✅ GitHub Pages enabled
-
-### Optional (Enhanced Features):
-
-⭐ You can see all optional files in the "AppID/_appid_" folder in this main branch. (remove .example from them and use them as it is written inside them)
-
-## 📝 Notes
-
-- Your GitHub Pages site is public by default
-- No personal Steam account needed - just upload your achievement files
-- The viewer works offline after initial load
-
-## 🐛 Troubleshooting
-
-**No games showing?**
-
-- Check that your `AppID/*/` folder has any supported format achievement data files as mentioned in the [Supported Formats](https://github.com/Roschach96/achievement-viewer/tree/main?tab=readme-ov-file#supported-formats-only-one-is-needed-per-game) section.
-- Verify the files are valid (use a json or db etc. validator, depending on the file)
-- Check browser console for errors (F12)
-
-**Games show but no names/icons?**
-
-- Most likely Steam is using another Steam AppID for that game.
-(Example: for Dishonored the correct Steam AppID is 205100, because 217980 somehow doesn't work. You can check these things with SteamDB, you can check there if there are multiple AppIDs if you enter the game's name)
-
-**Profile picture not showing?**
-
-- Falls back to default Steam logo if GitHub avatar unavailable
-- Check that your GitHub profile is public
-
-**Workflow not running?**
-
-- Verify the workflow file exists at `.github/workflows/fetch-game-data.yml`
-- Check Actions tab for error messages
-
-## 🎮 Features
-
-- **Automatic Steam Integration** - Fetches game names, icons, and achievement details
-- **Hidden Achievement Support** - Retrieves hidden achievement descriptions
-- **Rarity Display** - Shows how many players have each achievement
-- **Golden Glow** - Rare achievements (<10%) get a special animated effect
-- **Spoiler Protection** - Hidden achievements show spoiler text (hover to reveal)
-- **Sorting Options** - Sort by completion % or recent activity
-- **Perfect Games Tracking** - Shows your 100% completed games
-- **Responsive Design** - Works on desktop and mobile
-- **The Hub feature** - A community interface. Everybody who forks the [main repo](https://github.com/Roschach96/achievement-viewer) automatically gets added to it.
-- **Compare achievements** - From your profile go to the Hub ("Open Hub" button in the upper right) and press on the user you want to be compared to.
-- **Achievement groups** - Achievements that were added later with a DLC or an update, it will be displayed in a new row.
-
-## 📄 License
-
-Free to use and modify!
-
----
-
-At first this was made for GBE fork users.
-
-Implemented and automatized the logic behind **alex47exe**'s gse_fork_tools for hidden achievement retrieval.
-
-Credit goes to **darktakayanagi** for the enhanced hidden achievement retrieval.
-
-Credit goes to **darktakayanagi** for the Hub.
+- Hidden achievement retrieval automates **alex47exe**'s gse_fork_tools.
+- Enhanced hidden achievement retrieval by **darktakayanagi**.

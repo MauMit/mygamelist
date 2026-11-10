@@ -8,7 +8,6 @@
 </head>
 <body>
     <a id="list-button" href="list.html">🎮 My Game List</a>
-    <button id="hub-button">Open Hub</button>
     <div class="container">
         <header>
             <h1>🎮 Achievement viewer</h1>
@@ -84,14 +83,6 @@
                 if (gc) gc.classList.remove('hidden');
             }
         });
-    </script>
-    <script>
-      const hubBtn = document.getElementById('hub-button');
-      if (hubBtn) {
-        hubBtn.addEventListener('click', () => {
-          window.location.href = 'hub.html';
-        });
-      }
     </script>
   </body>
 </html>

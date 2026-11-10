@@ -7,7 +7,7 @@
 - **Storage:** your list is saved in Firestore, so you see it on any device
 - **Achievements:** games your achievement watcher syncs to the `user` branch show their achievement progress, and you can import them all in one click. Status is suggested from progress (100% → Completed, 75%+ → Almost Done)
 
-Live page: `https://<your-username>.github.io/achievement-viewer/list.html`
+Live page: `https://<your-username>.github.io/mygamelist/list.html`
 
 Until Firebase is configured the page runs in **local mode**: accounts and the list are kept only in the browser you're using.
 

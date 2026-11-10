@@ -1,0 +1,122 @@
+{
+    "BLANKY_AUDIENCE_WIN":  {
+                                "earned":  false,
+                                "earned_time":  0,
+                                "max_progress":  1,
+                                "progress":  0
+                            },
+    "BLANKY_EACH_PLAYER_GUESSED_CORRECT":  {
+                                               "earned":  false,
+                                               "earned_time":  0,
+                                               "max_progress":  1,
+                                               "progress":  0
+                                           },
+    "BLANKY_HELPFUL_GUESSES":  {
+                                   "earned":  false,
+                                   "earned_time":  0,
+                                   "max_progress":  1,
+                                   "progress":  0
+                               },
+    "BLANKY_WIN_WITH_MOST_MY_BAD":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "EVERYDAY_A_RATING":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          },
+    "EVERYDAY_CANCELER":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          },
+    "EVERYDAY_FRIDAY_NIGHT":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "EVERYDAY_SELFISH_WINNER":  {
+                                    "earned":  false,
+                                    "earned_time":  0,
+                                    "max_progress":  1,
+                                    "progress":  0
+                                },
+    "QUIPLASH3_GET_QUIPLASH_AGAINST_SCHMITTY":  {
+                                                    "earned":  false,
+                                                    "earned_time":  0,
+                                                    "max_progress":  1,
+                                                    "progress":  0
+                                                },
+    "QUIPLASH3_GET_QUIPLASH_ON_EVERY_ANSWER":  {
+                                                   "earned":  false,
+                                                   "earned_time":  0,
+                                                   "max_progress":  1,
+                                                   "progress":  0
+                                               },
+    "QUIPLASH3_TRIGGER_A_RESPONSE_FROM_SCHMITTY":  {
+                                                       "earned":  false,
+                                                       "earned_time":  0,
+                                                       "max_progress":  1,
+                                                       "progress":  0
+                                                   },
+    "QUIPLASH3_WIN_AFTER_BEING_LAST":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "TALKS_AD_HOMINEM":  {
+                             "earned":  false,
+                             "earned_time":  0,
+                             "max_progress":  1,
+                             "progress":  0
+                         },
+    "TALKS_COMPLETE_THREE_GAMES":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "TALKS_GENEROUS_WIN":  {
+                               "earned":  false,
+                               "earned_time":  0,
+                               "max_progress":  1,
+                               "progress":  0
+                           },
+    "TALKS_LONG_SPEECH":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          },
+    "WORLDCHAMPIONS_COMEBACK_WIN":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "WORLDCHAMPIONS_LAST_AT_HALF":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "WORLDCHAMPIONS_MATCH_WIN_UNDERDOG":  {
+                                              "earned":  false,
+                                              "earned_time":  0,
+                                              "max_progress":  1,
+                                              "progress":  0
+                                          },
+    "WORLDCHAMPIONS_WIN_AUDIENCE_LOSE_ROOM":  {
+                                                  "earned":  false,
+                                                  "earned_time":  0,
+                                                  "max_progress":  1,
+                                                  "progress":  0
+                                              }
+}

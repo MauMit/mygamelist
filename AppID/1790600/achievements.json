@@ -1,0 +1,212 @@
+{
+    "ACH_0000":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  49,
+                     "progress":  1
+                 },
+    "ACH_0001":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0002":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0003":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0004":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0005":  {
+                     "earned":  true,
+                     "earned_time":  1732715699
+                 },
+    "ACH_0006":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0007":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0008":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0009":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0010":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0011":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0012":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0013":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0014":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0015":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0016":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0017":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0018":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0019":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0020":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0021":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0022":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0023":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0024":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0025":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0026":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0027":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0028":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0029":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0030":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0031":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0032":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0033":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0034":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0035":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0036":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0037":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0038":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0039":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0040":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0041":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0042":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0043":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  10,
+                     "progress":  3
+                 },
+    "ACH_0044":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  50,
+                     "progress":  3
+                 },
+    "ACH_0045":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  10,
+                     "progress":  9
+                 },
+    "ACH_0046":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  40,
+                     "progress":  9
+                 },
+    "ACH_0047":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0048":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_0049":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 }
+}

@@ -1,0 +1,122 @@
+{
+    "AWSHIRT_CREATE_EVERY_SHIRT_IN_FINAL_ROUND":  {
+                                                      "earned":  false,
+                                                      "earned_time":  0,
+                                                      "max_progress":  1,
+                                                      "progress":  0
+                                                  },
+    "AWSHIRT_GET_A_SHIRTALITY":  {
+                                     "earned":  false,
+                                     "earned_time":  0,
+                                     "max_progress":  1,
+                                     "progress":  0
+                                 },
+    "AWSHIRT_USE_ALL_COLORS_IN_SINGLE_DRAWING":  {
+                                                     "earned":  false,
+                                                     "earned_time":  0,
+                                                     "max_progress":  1,
+                                                     "progress":  0
+                                                 },
+    "AWSHIRT_VOTE_AGAINST_OWN_SHIRT":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "FAKINIT_COMPLETE_40_POINTING_TASKS":  {
+                                               "earned":  false,
+                                               "earned_time":  0,
+                                               "max_progress":  1,
+                                               "progress":  0
+                                           },
+    "FAKINIT_FAKER_CAUGHT_ON_FIRST_VOTE":  {
+                                               "earned":  false,
+                                               "earned_time":  0,
+                                               "max_progress":  1,
+                                               "progress":  0
+                                           },
+    "FAKINIT_FAKER_WINS_WITHOUT_SINGLE_VOTE":  {
+                                                   "earned":  false,
+                                                   "earned_time":  0,
+                                                   "max_progress":  1,
+                                                   "progress":  0
+                                               },
+    "FAKINIT_PLAY_5_GAMES_IN_A_ROW":  {
+                                          "earned":  false,
+                                          "earned_time":  0,
+                                          "max_progress":  1,
+                                          "progress":  0
+                                      },
+    "POLLPOSITION_GUESSED_EXACT_PERCENTAGE":  {
+                                                  "earned":  false,
+                                                  "earned_time":  0,
+                                                  "max_progress":  1,
+                                                  "progress":  0
+                                              },
+    "POLLPOSITION_GUESSED_WITHIN_FIVE_PERCENT_OF_AUDIENCE":  {
+                                                                 "earned":  false,
+                                                                 "earned_time":  0,
+                                                                 "max_progress":  1,
+                                                                 "progress":  0
+                                                             },
+    "POLLPOSITION_PERFECT_GUESSING_HIGHER_LOWER":  {
+                                                       "earned":  false,
+                                                       "earned_time":  0,
+                                                       "max_progress":  1,
+                                                       "progress":  0
+                                                   },
+    "POLLPOSITION_PICKED_TOP_THREE_IN_FINAL_ROUND":  {
+                                                         "earned":  false,
+                                                         "earned_time":  0,
+                                                         "max_progress":  1,
+                                                         "progress":  0
+                                                     },
+    "QUIPLASH2_CREATE_UGC":  {
+                                 "earned":  false,
+                                 "earned_time":  0,
+                                 "max_progress":  1,
+                                 "progress":  0
+                             },
+    "QUIPLASH2_GET_SUPERQUIPLASH":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "QUIPLASH2_WIN_ALL_R1_LOSE_ALL_R2":  {
+                                             "earned":  false,
+                                             "earned_time":  0,
+                                             "max_progress":  1,
+                                             "progress":  0
+                                         },
+    "QUIPLASH2_WIN_WITH_SECRET_ENTRY":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "TMP_MATH":  {
+                     "earned":  false,
+                     "earned_time":  0,
+                     "max_progress":  1,
+                     "progress":  0
+                 },
+    "TMP_QUESTION_STREAK":  {
+                                "earned":  false,
+                                "earned_time":  0,
+                                "max_progress":  1,
+                                "progress":  0
+                            },
+    "TMP_SEQUEL":  {
+                       "earned":  false,
+                       "earned_time":  0,
+                       "max_progress":  1,
+                       "progress":  0
+                   },
+    "TMP_SURVIVE_KILLING_FLOORS":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   }
+}

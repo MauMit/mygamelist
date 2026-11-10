@@ -1,0 +1,1282 @@
+{
+    "ARR_ACHIEVEMENT_01":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_02":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_03":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_04":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_05":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_06":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_07":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_08":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_09":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ARR_ACHIEVEMENT_10":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "DLC1_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC1_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC2_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_08":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_09":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC3_ACHIEVEMENT_10":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_05":  {
+                                "earned":  true,
+                                "earned_time":  1715727900
+                            },
+    "DLC4_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_08":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_09":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC4_ACHIEVEMENT_10":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_08":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_09":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_10":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC5_ACHIEVEMENT_3":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "DLC5_ACHIEVEMENT_4":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "DLC6_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_08":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_09":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "DLC6_ACHIEVEMENT_10":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEB_ACHIEVEMENT_01":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_02":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_03":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_04":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_05":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_06":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_07":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_08":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_09":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_10":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_11":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_12":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEB_ACHIEVEMENT_13":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "NEW_ACHIEVEMENT_2_0":  {
+                                "earned":  true,
+                                "earned_time":  1715730704
+                            },
+    "NEW_ACHIEVEMENT_2_1":  {
+                                "earned":  true,
+                                "earned_time":  1715730704
+                            },
+    "NEW_ACHIEVEMENT_2_10":  {
+                                 "earned":  true,
+                                 "earned_time":  1715730704
+                             },
+    "NEW_ACHIEVEMENT_2_11":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_12":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_13":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_14":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_15":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_16":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_17":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_18":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_19":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_2":  {
+                                "earned":  true,
+                                "earned_time":  1715730704
+                            },
+    "NEW_ACHIEVEMENT_2_20":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_21":  {
+                                 "earned":  true,
+                                 "earned_time":  1715730704
+                             },
+    "NEW_ACHIEVEMENT_2_22":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_23":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_24":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_25":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_26":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_27":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_28":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_29":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_3":  {
+                                "earned":  true,
+                                "earned_time":  1715730704
+                            },
+    "NEW_ACHIEVEMENT_2_30":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_31":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_2_4":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_2_5":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_2_6":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_2_7":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_2_8":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_2_9":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_0":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_10":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_11":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_12":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_13":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_14":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_15":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_16":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_17":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_18":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_19":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_20":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_21":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_22":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_23":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_24":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_25":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_26":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_27":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_28":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_29":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_3":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_30":  {
+                                 "earned":  true,
+                                 "earned_time":  1715730704
+                             },
+    "NEW_ACHIEVEMENT_3_31":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_3_4":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_5":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_6":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_7":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_8":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_3_9":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_0":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_10":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_11":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_12":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_13":  {
+                                 "earned":  true,
+                                 "earned_time":  1715725639
+                             },
+    "NEW_ACHIEVEMENT_4_14":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_15":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_16":  {
+                                 "earned":  true,
+                                 "earned_time":  1715729420
+                             },
+    "NEW_ACHIEVEMENT_4_17":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_18":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_19":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_20":  {
+                                 "earned":  true,
+                                 "earned_time":  1715725167
+                             },
+    "NEW_ACHIEVEMENT_4_21":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_22":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_23":  {
+                                 "earned":  true,
+                                 "earned_time":  1715724702
+                             },
+    "NEW_ACHIEVEMENT_4_24":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_25":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_26":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_27":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_28":  {
+                                 "earned":  true,
+                                 "earned_time":  1715730704
+                             },
+    "NEW_ACHIEVEMENT_4_29":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_3":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_30":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_31":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "NEW_ACHIEVEMENT_4_4":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_5":  {
+                                "earned":  true,
+                                "earned_time":  1715725303
+                            },
+    "NEW_ACHIEVEMENT_4_6":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_7":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_8":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_4_9":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_5_0":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_5_1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_5_2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "NEW_ACHIEVEMENT_5_3":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "RAF_ACHIEVEMENT_01":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_02":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_03":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_04":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_05":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_06":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_07":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_08":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_09":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_10":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_11":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_12":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_13":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_14":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_15":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_16":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_17":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_18":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_19":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_20":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_21":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_22":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_23":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_24":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_25":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_26":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_27":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_28":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_29":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_30":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_31":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_32":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_33":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_34":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_35":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_36":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_37":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RAF_ACHIEVEMENT_38":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_01":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_02":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_03":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_04":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_05":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_06":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_07":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_08":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_09":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_10":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RD2_ACHIEVEMENT_11":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ROYALE_ACHIEVEMENT_01":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ROYALE_ACHIEVEMENT_02":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ROYALE_ACHIEVEMENT_03":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ROYALE_ACHIEVEMENT_04":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ROYALE_ACHIEVEMENT_05":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "STK1_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK1_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK1_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK1_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK1_ACHIEVEMENT_05":  {
+                                "earned":  true,
+                                "earned_time":  1715730704
+                            },
+    "STK1_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK1_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK2_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK3_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK4_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_06":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_07":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK5_ACHIEVEMENT_08":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK6_ACHIEVEMENT_01":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK6_ACHIEVEMENT_02":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK6_ACHIEVEMENT_03":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK6_ACHIEVEMENT_04":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "STK6_ACHIEVEMENT_05":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "VSV_ACHIEVEMENT_01":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_02":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_03":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_04":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_05":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_06":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_07":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_08":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_09":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_10":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_11":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_12":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_13":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_14":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_15":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_16":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_17":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_18":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_19":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_20":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_21":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_22":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_23":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_24":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_25":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_26":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_27":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_28":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_29":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_30":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_31":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_32":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_33":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_34":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_35":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_36":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_37":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_38":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_39":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_40":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_41":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_42":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_43":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_44":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_45":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_46":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_47":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_48":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_49":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "VSV_ACHIEVEMENT_50":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           }
+}

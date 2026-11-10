@@ -1,0 +1,130 @@
+{
+    "AcquireLegendary":  {
+                             "earned":  true,
+                             "earned_time":  1712861133
+                         },
+    "AcquireUltraLegendary":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AirKills":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "AssassinFarts":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "BecomeMarshwalker":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "BossToots":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "CannonKills":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "DanceRevive":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "EntBleedDeath":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "FastGroupHeal":  {
+                          "earned":  true,
+                          "earned_time":  1712863771
+                      },
+    "FinishAllRulebooks":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "FinishWithRulebook":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "GhostKillBoss":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "GroupBurn":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "KillCartman":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "KillCartmanPerfect":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "KillHankey":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "KillHankeyPerfect":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "KillKenny":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "KillKyle":  {
+                     "earned":  true,
+                     "earned_time":  1712864118
+                 },
+    "KillLiane":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "KillStan":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "KillStanFast":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "KillVampires":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ManyVomits":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "MoonShoeKill":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "NecroCheeseNecro":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "NecroCheeseRevive":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "SocialTransmit":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "TootOnIke":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "UpgradeToRare":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "VortexDamageTrick":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          }
+}

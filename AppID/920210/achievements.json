@@ -1,188 +1,188 @@
 {
-  "COLLECT_ALL_CHARACTERS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COLLECT_ALL_KYBERBRICKS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COLLECT_EVERY_DATACARD": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMBAT_MULTIPLIER_OF_30": {
-    "earned": true,
-    "earned_time": 1785237790
-  },
-  "COMPLETE_AHCHTO_ENDOR_KEF_EXEGOL": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_ALL_GALAXY_CHALLENGES": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_ALL_GALAXY_EVENTS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_ALL_GNK": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_ALL_HUB_RACES": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_BESPIN_CRAIT_HOTH": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_CANTONICA_YAVIN_AJAN": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_CORUSCANT_JAKKU_TAKODANA": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_DAGOBAH_MUSTAFAR_UTAPAU": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_DQAR_NABOO_PASAANA": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_1": {
-    "earned": true,
-    "earned_time": 1785239477
-  },
-  "COMPLETE_EPISODE_2": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_3": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_4": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_5": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_6": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_7": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_8": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_EPISODE_9": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_FAULTYDROID_ON_TATOOINE": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_FLIGHT_LEVEL_WITHOUT_DYING": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_GEONOSIS_TATOOINE": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_KAMINO": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_KASHYYYK_KIJIMI": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "COMPLETE_SKYWALKER_SAGA": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "CREATE_25_REBEL_DISGUISES": {
-    "earned": false,
-    "earned_time": 0,
-    "max_progress": 25,
-    "progress": 0
-  },
-  "DEFEAT_3_ENEMIES_WITH_ONE_FORCE": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "DESTROY_100_TIE_FIGHTERS": {
-    "earned": false,
-    "earned_time": 0,
-    "max_progress": 100,
-    "progress": 0
-  },
-  "EARN_10B_STUDS": {
-    "earned": true,
-    "earned_time": 1784806192
-  },
-  "EARN_17K_STUDS": {
-    "earned": true,
-    "earned_time": 1784806192
-  },
-  "FULLY_UPGRADE_ALL_CHAR_CLASSES": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "FULLY_UPGRADE_ONE_CHAR_CLASS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "JEDI_MIND_TRICKS_CANTINA": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "LEVEL_CHALLENGES_ALL_LEVELS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "LEVEL_CHALLENGES_ONE_LEVEL": {
-    "earned": true,
-    "earned_time": 1784810912
-  },
-  "MINIKITS_ALL_LEVELS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "MINIKITS_ONE_LEVEL": {
-    "earned": true,
-    "earned_time": 1785235831
-  },
-  "RIDE_ALL_CREATURES": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "SHOOT_50_ENEMIES_HATS": {
-    "earned": false,
-    "earned_time": 0,
-    "max_progress": 50,
-    "progress": 0
-  },
-  "TRUE_JEDI_ALL_LEVELS": {
-    "earned": false,
-    "earned_time": 0
-  },
-  "TRUE_JEDI_ONE_LEVEL": {
-    "earned": true,
-    "earned_time": 1785235891
-  }
+    "COLLECT_ALL_CHARACTERS":  {
+                                   "earned":  true,
+                                   "earned_time":  1793370226
+                               },
+    "COLLECT_ALL_KYBERBRICKS":  {
+                                    "earned":  true,
+                                    "earned_time":  1790689001
+                                },
+    "COLLECT_EVERY_DATACARD":  {
+                                   "earned":  true,
+                                   "earned_time":  1793308107
+                               },
+    "COMBAT_MULTIPLIER_OF_30":  {
+                                    "earned":  true,
+                                    "earned_time":  1785237790
+                                },
+    "COMPLETE_AHCHTO_ENDOR_KEF_EXEGOL":  {
+                                             "earned":  true,
+                                             "earned_time":  1793308191
+                                         },
+    "COMPLETE_ALL_GALAXY_CHALLENGES":  {
+                                           "earned":  true,
+                                           "earned_time":  1793309808
+                                       },
+    "COMPLETE_ALL_GALAXY_EVENTS":  {
+                                       "earned":  true,
+                                       "earned_time":  1793310873
+                                   },
+    "COMPLETE_ALL_GNK":  {
+                             "earned":  true,
+                             "earned_time":  1793218645
+                         },
+    "COMPLETE_ALL_HUB_RACES":  {
+                                   "earned":  true,
+                                   "earned_time":  1793310873
+                               },
+    "COMPLETE_BESPIN_CRAIT_HOTH":  {
+                                       "earned":  true,
+                                       "earned_time":  1793302884
+                                   },
+    "COMPLETE_CANTONICA_YAVIN_AJAN":  {
+                                          "earned":  true,
+                                          "earned_time":  1793310625
+                                      },
+    "COMPLETE_CORUSCANT_JAKKU_TAKODANA":  {
+                                              "earned":  true,
+                                              "earned_time":  1793310873
+                                          },
+    "COMPLETE_DAGOBAH_MUSTAFAR_UTAPAU":  {
+                                             "earned":  true,
+                                             "earned_time":  1793303863
+                                         },
+    "COMPLETE_DQAR_NABOO_PASAANA":  {
+                                        "earned":  true,
+                                        "earned_time":  1793310422
+                                    },
+    "COMPLETE_EPISODE_1":  {
+                               "earned":  true,
+                               "earned_time":  1785239477
+                           },
+    "COMPLETE_EPISODE_2":  {
+                               "earned":  true,
+                               "earned_time":  1790596356
+                           },
+    "COMPLETE_EPISODE_3":  {
+                               "earned":  true,
+                               "earned_time":  1790717594
+                           },
+    "COMPLETE_EPISODE_4":  {
+                               "earned":  true,
+                               "earned_time":  1790722372
+                           },
+    "COMPLETE_EPISODE_5":  {
+                               "earned":  true,
+                               "earned_time":  1790728019
+                           },
+    "COMPLETE_EPISODE_6":  {
+                               "earned":  true,
+                               "earned_time":  1790776613
+                           },
+    "COMPLETE_EPISODE_7":  {
+                               "earned":  true,
+                               "earned_time":  1790802339
+                           },
+    "COMPLETE_EPISODE_8":  {
+                               "earned":  true,
+                               "earned_time":  1790810438
+                           },
+    "COMPLETE_EPISODE_9":  {
+                               "earned":  true,
+                               "earned_time":  1790825290
+                           },
+    "COMPLETE_FAULTYDROID_ON_TATOOINE":  {
+                                             "earned":  true,
+                                             "earned_time":  1793305148
+                                         },
+    "COMPLETE_FLIGHT_LEVEL_WITHOUT_DYING":  {
+                                                "earned":  true,
+                                                "earned_time":  1793371485
+                                            },
+    "COMPLETE_GEONOSIS_TATOOINE":  {
+                                       "earned":  true,
+                                       "earned_time":  1793310217
+                                   },
+    "COMPLETE_KAMINO":  {
+                            "earned":  true,
+                            "earned_time":  1793224803
+                        },
+    "COMPLETE_KASHYYYK_KIJIMI":  {
+                                     "earned":  true,
+                                     "earned_time":  1793223146
+                                 },
+    "COMPLETE_SKYWALKER_SAGA":  {
+                                    "earned":  true,
+                                    "earned_time":  1790825291
+                                },
+    "CREATE_25_REBEL_DISGUISES":  {
+                                      "earned":  true,
+                                      "earned_time":  1792957210,
+                                      "max_progress":  25,
+                                      "progress":  24
+                                  },
+    "DEFEAT_3_ENEMIES_WITH_ONE_FORCE":  {
+                                            "earned":  true,
+                                            "earned_time":  1790689316
+                                        },
+    "DESTROY_100_TIE_FIGHTERS":  {
+                                     "earned":  true,
+                                     "earned_time":  1790810910,
+                                     "max_progress":  100,
+                                     "progress":  99
+                                 },
+    "EARN_10B_STUDS":  {
+                           "earned":  true,
+                           "earned_time":  1784806192
+                       },
+    "EARN_17K_STUDS":  {
+                           "earned":  true,
+                           "earned_time":  1784806192
+                       },
+    "FULLY_UPGRADE_ALL_CHAR_CLASSES":  {
+                                           "earned":  true,
+                                           "earned_time":  1793206150
+                                       },
+    "FULLY_UPGRADE_ONE_CHAR_CLASS":  {
+                                         "earned":  true,
+                                         "earned_time":  1790825546
+                                     },
+    "JEDI_MIND_TRICKS_CANTINA":  {
+                                     "earned":  true,
+                                     "earned_time":  1792968572
+                                 },
+    "LEVEL_CHALLENGES_ALL_LEVELS":  {
+                                        "earned":  true,
+                                        "earned_time":  1793720254
+                                    },
+    "LEVEL_CHALLENGES_ONE_LEVEL":  {
+                                       "earned":  true,
+                                       "earned_time":  1784810912
+                                   },
+    "MINIKITS_ALL_LEVELS":  {
+                                "earned":  true,
+                                "earned_time":  1793721273
+                            },
+    "MINIKITS_ONE_LEVEL":  {
+                               "earned":  true,
+                               "earned_time":  1785235831
+                           },
+    "RIDE_ALL_CREATURES":  {
+                               "earned":  true,
+                               "earned_time":  1793721923
+                           },
+    "SHOOT_50_ENEMIES_HATS":  {
+                                  "earned":  true,
+                                  "earned_time":  1790799797,
+                                  "max_progress":  50,
+                                  "progress":  49
+                              },
+    "TRUE_JEDI_ALL_LEVELS":  {
+                                 "earned":  true,
+                                 "earned_time":  1793661300
+                             },
+    "TRUE_JEDI_ONE_LEVEL":  {
+                                "earned":  true,
+                                "earned_time":  1785235891
+                            }
 }

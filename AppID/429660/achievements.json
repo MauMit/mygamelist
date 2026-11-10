@@ -1,0 +1,206 @@
+{
+    "TROPHY_ID_ARENA_COMPLETE":  {
+                                     "earned":  true,
+                                     "earned_time":  1747226660
+                                 },
+    "TROPHY_ID_BREAK_SOUL_COMPLETE":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_CATBOX_COMPLETE":  {
+                                      "earned":  true,
+                                      "earned_time":  1747227846
+                                  },
+    "TROPHY_ID_CHARACTER_TITLE_COMPLETE":  {
+                                               "earned":  true,
+                                               "earned_time":  1746535705
+                                           },
+    "TROPHY_ID_COMPLETE":  {
+                               "earned":  true,
+                               "earned_time":  1747586352
+                           },
+    "TROPHY_ID_COOK_COMPLETE":  {
+                                    "earned":  true,
+                                    "earned_time":  1747581140
+                                },
+    "TROPHY_ID_CRYSTAL_COMPLETE":  {
+                                       "earned":  true,
+                                       "earned_time":  1747586352
+                                   },
+    "TROPHY_ID_DAMAGE_HIGHER":  {
+                                    "earned":  true,
+                                    "earned_time":  1747057256
+                                },
+    "TROPHY_ID_ENEMY_COMPLETE":  {
+                                     "earned":  true,
+                                     "earned_time":  1747586352
+                                 },
+    "TROPHY_ID_EQUIP_MASTER_AIZEN":  {
+                                         "earned":  true,
+                                         "earned_time":  1747586352
+                                     },
+    "TROPHY_ID_EQUIP_MASTER_ELEANOR":  {
+                                           "earned":  true,
+                                           "earned_time":  1747586352
+                                       },
+    "TROPHY_ID_EQUIP_MASTER_LIFESET":  {
+                                           "earned":  true,
+                                           "earned_time":  1747586352
+                                       },
+    "TROPHY_ID_EQUIP_MASTER_MAGIROUX":  {
+                                            "earned":  true,
+                                            "earned_time":  1747586352
+                                        },
+    "TROPHY_ID_EQUIP_MASTER_ROKUROU":  {
+                                           "earned":  true,
+                                           "earned_time":  1747586352
+                                       },
+    "TROPHY_ID_EQUIP_MASTER_VELVET":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_EQUIP_POWERUP_HIGHER":  {
+                                           "earned":  true,
+                                           "earned_time":  1747586352
+                                       },
+    "TROPHY_ID_GALD_HIGHER":  {
+                                  "earned":  true,
+                                  "earned_time":  1746312595
+                              },
+    "TROPHY_ID_HIT_HIGHER":  {
+                                 "earned":  true,
+                                 "earned_time":  1746312595
+                             },
+    "TROPHY_ID_HUNT_COMPLETE":  {
+                                    "earned":  true,
+                                    "earned_time":  1747216179
+                                },
+    "TROPHY_ID_ITEM_COMPLETE":  {
+                                    "earned":  true,
+                                    "earned_time":  1747586352
+                                },
+    "TROPHY_ID_LEVEL_MAX":  {
+                                "earned":  true,
+                                "earned_time":  1746439050
+                            },
+    "TROPHY_ID_LONGCHAT_COMPLETE":  {
+                                        "earned":  true,
+                                        "earned_time":  1747217094
+                                    },
+    "TROPHY_ID_MINIGAME":  {
+                               "earned":  true,
+                               "earned_time":  1747586352
+                           },
+    "TROPHY_ID_MYSTIC_COMPLETE":  {
+                                      "earned":  true,
+                                      "earned_time":  1747586352
+                                  },
+    "TROPHY_ID_SCENARIO_001":  {
+                                   "earned":  true,
+                                   "earned_time":  1746314168
+                               },
+    "TROPHY_ID_SCENARIO_002":  {
+                                   "earned":  true,
+                                   "earned_time":  1746447647
+                               },
+    "TROPHY_ID_SCENARIO_003":  {
+                                   "earned":  true,
+                                   "earned_time":  1746535157
+                               },
+    "TROPHY_ID_SCENARIO_004":  {
+                                   "earned":  true,
+                                   "earned_time":  1746798942
+                               },
+    "TROPHY_ID_SCENARIO_005":  {
+                                   "earned":  true,
+                                   "earned_time":  1746970181
+                               },
+    "TROPHY_ID_SCENARIO_006":  {
+                                   "earned":  true,
+                                   "earned_time":  1746977560
+                               },
+    "TROPHY_ID_SCENARIO_007":  {
+                                   "earned":  true,
+                                   "earned_time":  1747225208
+                               },
+    "TROPHY_ID_SCENARIO_AIZEN":  {
+                                     "earned":  true,
+                                     "earned_time":  1746972713
+                                 },
+    "TROPHY_ID_SCENARIO_ELEANOR":  {
+                                       "earned":  true,
+                                       "earned_time":  1747137294
+                                   },
+    "TROPHY_ID_SCENARIO_GUEST":  {
+                                     "earned":  true,
+                                     "earned_time":  1747227423
+                                 },
+    "TROPHY_ID_SCENARIO_KAMENIN":  {
+                                       "earned":  true,
+                                       "earned_time":  1747216435
+                                   },
+    "TROPHY_ID_SCENARIO_LIFESET":  {
+                                       "earned":  true,
+                                       "earned_time":  1747212398
+                                   },
+    "TROPHY_ID_SCENARIO_MAGIROUX":  {
+                                        "earned":  true,
+                                        "earned_time":  1747211044
+                                    },
+    "TROPHY_ID_SCENARIO_ROKUROU":  {
+                                       "earned":  true,
+                                       "earned_time":  1747216576
+                                   },
+    "TROPHY_ID_SCENARIO_SPA":  {
+                                   "earned":  true,
+                                   "earned_time":  1747581494
+                               },
+    "TROPHY_ID_SCENARIO_VELVET":  {
+                                      "earned":  true,
+                                      "earned_time":  1747210616
+                                  },
+    "TROPHY_ID_SCENARIO_ZAVEID":  {
+                                      "earned":  true,
+                                      "earned_time":  1747214199
+                                  },
+    "TROPHY_ID_SHIP_TREASURE_COMPLETE":  {
+                                             "earned":  true,
+                                             "earned_time":  1746981789
+                                         },
+    "TROPHY_ID_SHOP_RANK_MAX":  {
+                                    "earned":  true,
+                                    "earned_time":  1747586352
+                                },
+    "TROPHY_ID_SOUL_HIGHER":  {
+                                  "earned":  true,
+                                  "earned_time":  1746444957
+                              },
+    "TROPHY_ID_TREASUREBOX_COMPLETE":  {
+                                           "earned":  true,
+                                           "earned_time":  1747221916
+                                       },
+    "TROPHY_ID_VEHICLE_COMPLETE":  {
+                                       "earned":  true,
+                                       "earned_time":  1747586352
+                                   },
+    "TROPHY_ID_WANDERING_ENEMY_001":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_WANDERING_ENEMY_002":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_WANDERING_ENEMY_003":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_WANDERING_ENEMY_004":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      },
+    "TROPHY_ID_WANDERING_ENEMY_005":  {
+                                          "earned":  true,
+                                          "earned_time":  1747586352
+                                      }
+}

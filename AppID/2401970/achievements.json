@@ -1,0 +1,122 @@
+{
+    "RG_ACHIEVEMENT_1_1":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_1_2":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_1_3":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_1_4":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_1_5":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_2_1":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_2_2":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_2_3":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_2_4":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_2_5":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_ALL":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_BENCH":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "RG_ACHIEVEMENT_CHECK":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "RG_ACHIEVEMENT_DADDY":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "RG_ACHIEVEMENT_EDU":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_FAILURE":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "RG_ACHIEVEMENT_FRIEND":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "RG_ACHIEVEMENT_GLASS":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "RG_ACHIEVEMENT_HERE":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "RG_ACHIEVEMENT_LADDER":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "RG_ACHIEVEMENT_LIKE":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "RG_ACHIEVEMENT_MEM":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_NEW":  {
+                               "earned":  true,
+                               "earned_time":  1739209369
+                           },
+    "RG_ACHIEVEMENT_OBJ":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_PASSION":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "RG_ACHIEVEMENT_PROMISE":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "RG_ACHIEVEMENT_SAY":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "RG_ACHIEVEMENT_THERE":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "RG_ACHIEVEMENT_WAY":  {
+                               "earned":  true,
+                               "earned_time":  1739209723
+                           },
+    "RG_ACHIEVEMENT_WORN":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            }
+}

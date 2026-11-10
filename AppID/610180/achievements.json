@@ -1,0 +1,122 @@
+{
+    "BRK_FOUR_WAY_OVERTIME":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "BRK_OVERTIME_WITH_AUDIENCE":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "BRK_TRUE_UNDERDOG":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          },
+    "BRK_WIN_BRACKET_WITH_100_PERCENT_OF_VOTES":  {
+                                                      "earned":  false,
+                                                      "earned_time":  0,
+                                                      "max_progress":  1,
+                                                      "progress":  0
+                                                  },
+    "CIVICDOODLE_FINALROUND_DRAWINGS_ALL_DIFFERENT":  {
+                                                          "earned":  false,
+                                                          "earned_time":  0,
+                                                          "max_progress":  1,
+                                                          "progress":  0
+                                                      },
+    "CIVICDOODLE_GET_100_POOP_EMOJIS":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "CIVICDOODLE_GET_ALL_VOTES_IN_MATCHUP":  {
+                                                 "earned":  false,
+                                                 "earned_time":  0,
+                                                 "max_progress":  1,
+                                                 "progress":  0
+                                             },
+    "CIVICDOODLE_WIN_BOTH_MATCHUPS_IN_ROUND":  {
+                                                   "earned":  false,
+                                                   "earned_time":  0,
+                                                   "max_progress":  1,
+                                                   "progress":  0
+                                               },
+    "FIBBAGE3_ALL_PLAYERS_FIND_TRUTH_TMI":  {
+                                                "earned":  false,
+                                                "earned_time":  0,
+                                                "max_progress":  1,
+                                                "progress":  0
+                                            },
+    "FIBBAGE3_AUDIENCE_FOOLS_PLAYER":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "FIBBAGE3_ENTER_TRUTH_IN_FINALFIBBAGE":  {
+                                                 "earned":  false,
+                                                 "earned_time":  0,
+                                                 "max_progress":  1,
+                                                 "progress":  0
+                                             },
+    "FIBBAGE3_FOOL_EVERYONE_TMIFINAL":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "MONSTERMINGLE_AUDIENCE_WIN":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "MONSTERMINGLE_DATED_EVERY_NIGHT":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "MONSTERMINGLE_DATELESS_NIGHT":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "MONSTERMINGLE_EVERYONE_IS_A_WEREWOLF":  {
+                                                 "earned":  false,
+                                                 "earned_time":  0,
+                                                 "max_progress":  1,
+                                                 "progress":  0
+                                             },
+    "STI_BEAT_GENE":  {
+                          "earned":  false,
+                          "earned_time":  0,
+                          "max_progress":  1,
+                          "progress":  0
+                      },
+    "STI_CHOOSE_SPECIFIC_PHOTO":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  },
+    "STI_MULTIPLE_BEST_TWISTS":  {
+                                     "earned":  false,
+                                     "earned_time":  0,
+                                     "max_progress":  1,
+                                     "progress":  0
+                                 },
+    "STI_WIN_WITHOUT_BEST_TWIST":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   }
+}

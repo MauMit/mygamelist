@@ -1,0 +1,34 @@
+{
+    "ACH_ADULT":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_ALL_STICKER":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_FAKE_ENDING":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_FINISH_TUTORIAL":  {
+                                "earned":  true,
+                                "earned_time":  1739213453
+                            },
+    "ACH_MIDAGE":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "ACH_OLD":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "ACH_TEEN":  {
+                     "earned":  true,
+                     "earned_time":  1767125206
+                 },
+    "ACH_TRUE_ENDING":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        }
+}

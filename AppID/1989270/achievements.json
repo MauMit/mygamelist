@@ -1,0 +1,526 @@
+{
+    "ACH_ADV_AGILE":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_ADV_BAIT":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_ADV_FREE":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_ADV_NO_DIE":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_ADV_PACIFISM":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_ADV_UNARMED":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_ADVERSARY":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_ALONE":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_APOTH_BATTLE":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_APOTH_BLIND":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_APOTH_BOUND":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_APOTH_GRACE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_APOTH_THREADS":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_APOTHEOSIS":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_BEAST":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_BEAST_AHAB":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_BEAST_DISSOLVE":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_BEAST_DUSTIN":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_BEAST_FIGHT":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_BEAST_FLIGHT":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_BEAST_FREEZE":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_CAGE":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_CAGE_DROP":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_CAGE_FREE":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_CAGE_RIDDLE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_CAGE_TRAP":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_CLARITY":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_CREDITS":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_DAMSEL":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "ACH_DAMSEL_DEREAL":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_DAMSEL_DEREALIZE":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_DAMSEL_FREE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_DAMSEL_SLAY":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_DEN":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "ACH_DEN_COUP":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_DEN_EAT":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_DEN_LION":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_DEN_STARVE":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_DEN_STRIKE":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_DRAGON":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "ACH_DRAGON_ABANDON":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_DRAGON_FREE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_DRAGON_FUSE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_DRAGON_FUSE_HEART":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ACH_DRAGON_LOOP":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_DRAGON_OOPS":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_END_CABIN":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_END_FREE1":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_END_FREE2":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_END_LOOP":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_END_SLAY":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_END_SLAY_ALT":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_END_VOID":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_EXORCIST_III":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_FURY":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "ACH_FURY_FREE":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_FURY_HEART":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_FURY_SAD_SLAY":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_FURY_TOWER":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_FURY_UNARMED":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_GALLERY_FIXED":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_GOOD":  {
+                     "earned":  true,
+                     "earned_time":  1739210298
+                 },
+    "ACH_GOOD2":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_GRAY_BURN":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_GRAY_DROWN":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_GREY_DAMSEL":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_GREY_PRISONER":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_HAPPY":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_HAPPY_DANCE":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_HAPPY_FLAMES":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_HAPPY_GAMES":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_HAPPY_SHADOWS":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_HAPPY_SLAY":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_MIRROR_BREAK":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_MIRROR1":  {
+                        "earned":  true,
+                        "earned_time":  1762527915
+                    },
+    "ACH_MIRROR2":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_MIRROR3":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_MIRROR4":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_MIRROR5":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_MIRRORQUEST":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_MOUND_WAIT":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_NEEDLE":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "ACH_NIGHT_FALL":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_NIGHT_FREE":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_NIGHT_MONOLITH":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_NIGHT_STUCK":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_NIGHTMARE":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_PASSENGER":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_PRISONER_FREE":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_PRISONER_FULL":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_PRISONER_HEAD":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_PRISONER_RESTLESS":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "ACH_PRISONER_SLAY":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_PRISONER_STUCK":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_RAZOR":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_RAZOR_FINAL":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_RAZOR_PACIFISM":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_RAZORHEART":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_SOULS":  {
+                      "earned":  true,
+                      "earned_time":  1762528079
+                  },
+    "ACH_SPECTRE":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_SPECTRE_EXORCIST":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_SPECTRE_HEART":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_SPECTRE_HITCH":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_STRANGE_END":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_STRANGER":  {
+                         "earned":  true,
+                         "earned_time":  1762528073
+                     },
+    "ACH_STRANGER_FINISH":  {
+                                "earned":  true,
+                                "earned_time":  1762527876
+                            },
+    "ACH_THORN":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_THORN_ABANDON":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_THORN_KISS":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_THORN_LEAF":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_THORN_TRAP":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_TOWER":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_TOWER_OBEDIENT":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_TOWER_SLAY":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_TOWER_WITNESS":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_VOID1":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_VOID2":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_VOID3":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_VOID4":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_VOID5":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_WILD_FREE":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_WILD_NERVES":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_WILD_RIFT":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "ACH_WILD_WOUND":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_WITCH":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_WITCH_ABANDON":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_WITCH_ATTACK":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_WITCH_BETRAY":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_WITCH_FOOL":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_WITCH_SACRIFICE":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "ACH_WRAITH":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   }
+}

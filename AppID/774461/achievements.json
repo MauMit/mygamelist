@@ -1,0 +1,122 @@
+{
+    "PATENTLY_STUPID_FUND_THREE_SUCCESS_IN_A_ROUND":  {
+                                                          "earned":  false,
+                                                          "earned_time":  0,
+                                                          "max_progress":  1,
+                                                          "progress":  0
+                                                      },
+    "PATENTLY_STUPID_GET_ALL_BIG_CHIPS":  {
+                                              "earned":  false,
+                                              "earned_time":  0,
+                                              "max_progress":  1,
+                                              "progress":  0
+                                          },
+    "PATENTLY_STUPID_GET_NO_FUNDING_IN_EIGHT_PLAYER_GAME":  {
+                                                                "earned":  false,
+                                                                "earned_time":  0,
+                                                                "max_progress":  1,
+                                                                "progress":  0
+                                                            },
+    "PATENTLY_STUPID_LOSE_TO_GENE":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "RAPBATTLE_BEAT_GENE":  {
+                                "earned":  false,
+                                "earned_time":  0,
+                                "max_progress":  1,
+                                "progress":  0
+                            },
+    "RAPBATTLE_DESTROY_JACKBOX":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  },
+    "RAPBATTLE_FULL_CHEER":  {
+                                 "earned":  false,
+                                 "earned_time":  0,
+                                 "max_progress":  1,
+                                 "progress":  0
+                             },
+    "RAPBATTLE_MILLIONAIRE":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "SLINGSHOOT_KILL_ENEMY":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "SLINGSHOOT_RESCUE_TEAMMATE":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "SLINGSHOOT_SURVIVE_GAUNTLET":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "SLINGSHOOT_SURVIVE_GAUNTLET_SERIES":  {
+                                               "earned":  false,
+                                               "earned_time":  0,
+                                               "max_progress":  1,
+                                               "progress":  0
+                                           },
+    "SPLITTHEROOM_AUDIENCE_WIN":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  },
+    "SPLITTHEROOM_GET_A_CORRECT_PREDICTION":  {
+                                                  "earned":  false,
+                                                  "earned_time":  0,
+                                                  "max_progress":  1,
+                                                  "progress":  0
+                                              },
+    "SPLITTHEROOM_GET_A_SUPER_SPLIT":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "SPLITTHEROOM_GET_ALL_NO_VOTES":  {
+                                          "earned":  false,
+                                          "earned_time":  0,
+                                          "max_progress":  1,
+                                          "progress":  0
+                                      },
+    "YDKJ2018_AT_LEAST_FIVE_PLAYERS":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "YDKJ2018_AUDIENCE_BAD_PERFORMANCE":  {
+                                              "earned":  false,
+                                              "earned_time":  0,
+                                              "max_progress":  1,
+                                              "progress":  0
+                                          },
+    "YDKJ2018_MAX_JACK_ATTACK_POINTS":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "YDKJ2018_SCREW_EVERYONE":  {
+                                    "earned":  false,
+                                    "earned_time":  0,
+                                    "max_progress":  1,
+                                    "progress":  0
+                                }
+}

@@ -1,0 +1,50 @@
+{
+    "Ch1_ThorBattleComplete":  {
+                                   "earned":  true,
+                                   "earned_time":  1757421213
+                               },
+    "Ch2_ArenaBattleComplete":  {
+                                    "earned":  true,
+                                    "earned_time":  1784405662
+                                },
+    "Ch3_LakeEmpty":  {
+                          "earned":  true,
+                          "earned_time":  1784407299
+                      },
+    "Ch4_DefeatIlltauga":  {
+                               "earned":  true,
+                               "earned_time":  1784411374
+                           },
+    "Ch5_DefeatSjavarrisi":  {
+                                 "earned":  true,
+                                 "earned_time":  1784415013
+                             },
+    "Ch6_DefeatGothi":  {
+                            "earned":  true,
+                            "earned_time":  1784416996
+                        },
+    "Ch6_ReachBorgavirki":  {
+                                "earned":  true,
+                                "earned_time":  1784415462
+                            },
+    "Collect_Faces":  {
+                          "earned":  true,
+                          "earned_time":  0
+                      },
+    "Collect_Totems":  {
+                           "earned":  true,
+                           "earned_time":  0
+                       },
+    "DarkRot_Complete":  {
+                             "earned":  true,
+                             "earned_time":  1757417872
+                         },
+    "New_Narrator":  {
+                         "earned":  true,
+                         "earned_time":  0
+                     },
+    "Photo_Mode":  {
+                       "earned":  true,
+                       "earned_time":  1757417872
+                   }
+}

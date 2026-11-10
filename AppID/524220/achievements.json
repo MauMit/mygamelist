@@ -1,0 +1,190 @@
+{
+    "ACH_ANIMAL_RUN":  {
+                           "earned":  true,
+                           "earned_time":  1713969279
+                       },
+    "ACH_BAD_END":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_BERSERKER_KILL":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_CALL_AT_KAINES_ROOM":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "ACH_CLEAR_9S":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_CLEAR_A":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_CLEAR_A2":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_CLEAR_ALIEN_SHIP":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_CLEAR_AMUSEMENT_PARK":  {
+                                     "earned":  true,
+                                     "earned_time":  1713978991
+                                 },
+    "ACH_CLEAR_B":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_CLEAR_CASTLE_FOREST":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "ACH_CLEAR_COPY_CITY":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "ACH_CLEAR_DESERT_AREA":  {
+                                  "earned":  true,
+                                  "earned_time":  1713973415
+                              },
+    "ACH_CLEAR_HACKING_9S":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_CLEAR_MANY_QUEST":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_CLEAR_QUEST_FIRST_TIME":  {
+                                       "earned":  true,
+                                       "earned_time":  1713966826
+                                   },
+    "ACH_CLEAR_ROBOT_MT":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_CLEAR_SUBMERGE_CITY":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "ACH_COLLECT_ARCHIVE":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "ACH_COLLECT_CHIP":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_COLLECT_EM_LIST":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "ACH_DEVOLA_NOVEL_END":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "ACH_EMILE_SHOP":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_EXTRACTION":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_FISHING":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "ACH_GET_ALL_POD":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_HACKING_KILL":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "ACH_HAS_ALL_ACTIVE_SKILL":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "ACH_KILL_EM1010":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_KILL_ROBOT_BROTHER":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "ACH_LAST_REQUEST_PASCAL":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "ACH_NPC_KILL":  {
+                         "earned":  true,
+                         "earned_time":  1713976372
+                     },
+    "ACH_PANTS":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "ACH_PLAY_A2_FIRST_TIME":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "ACH_POD_LV_MAX_ALL":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "ACH_RECOVERY_CORPSE":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "ACH_RECOVERY_SELF_CORPSE":  {
+                                     "earned":  true,
+                                     "earned_time":  1713974199
+                                 },
+    "ACH_REMOTO_KILL":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "ACH_RICH_MAN":  {
+                         "earned":  true,
+                         "earned_time":  1718804585
+                     },
+    "ACH_SEE_2B_DIE":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "ACH_SHOOTING":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_SKIRT_ESCAPE":  {
+                             "earned":  true,
+                             "earned_time":  1713967248
+                         },
+    "ACH_TRUE_END":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "ACH_VISITED_BUNKER":  {
+                               "earned":  true,
+                               "earned_time":  1713959119
+                           },
+    "ACH_VISITED_RUINS_CITY":  {
+                                   "earned":  true,
+                                   "earned_time":  1713964347
+                               },
+    "ACH_WEAPON_LV_MAX":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "ACH_WEAPON_LV_MAX_ALL":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              }
+}

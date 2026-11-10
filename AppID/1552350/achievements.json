@@ -1,0 +1,122 @@
+{
+    "DRAWFULANIMATE_FOOL_SAME_PLAYER":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "DRAWFULANIMATE_PLAY_FRIEND_MODE":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "DRAWFULANIMATE_TYPE_ACHIEVEMENT":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "DRAWFULANIMATE_USE_ALL_THREE_COLORS":  {
+                                                "earned":  false,
+                                                "earned_time":  0,
+                                                "max_progress":  1,
+                                                "progress":  0
+                                            },
+    "JOB_JOB_TAPS":  {
+                         "earned":  false,
+                         "earned_time":  0,
+                         "max_progress":  1,
+                         "progress":  0
+                     },
+    "JOB_JOB_THREE_RAINBOWS":  {
+                                   "earned":  false,
+                                   "earned_time":  0,
+                                   "max_progress":  1,
+                                   "progress":  0
+                               },
+    "JOB_JOB_TWO_SYNERGIES":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "JOB_JOB_WEEKDAY_PLAYING":  {
+                                    "earned":  false,
+                                    "earned_time":  0,
+                                    "max_progress":  1,
+                                    "progress":  0
+                                },
+    "POLL_MINE_ALL_ALONE":  {
+                                "earned":  false,
+                                "earned_time":  0,
+                                "max_progress":  1,
+                                "progress":  0
+                            },
+    "POLL_MINE_IN_THE_DARK":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "POLL_MINE_PERFECT_ROUND":  {
+                                    "earned":  false,
+                                    "earned_time":  0,
+                                    "max_progress":  1,
+                                    "progress":  0
+                                },
+    "POLL_MINE_VS_THE_WORLD":  {
+                                   "earned":  false,
+                                   "earned_time":  0,
+                                   "max_progress":  1,
+                                   "progress":  0
+                               },
+    "THEWHEEL_BACK_TO_BACK_WINNER":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "THEWHEEL_EARN_EVERY_POWER_SLICE":  {
+                                            "earned":  false,
+                                            "earned_time":  0,
+                                            "max_progress":  1,
+                                            "progress":  0
+                                        },
+    "THEWHEEL_LOTS_OF_POINTS_FROM_ONE_SLICE":  {
+                                                   "earned":  false,
+                                                   "earned_time":  0,
+                                                   "max_progress":  1,
+                                                   "progress":  0
+                                               },
+    "THEWHEEL_SPIN_WHEN_EVERYONE_CAN_WIN":  {
+                                                "earned":  false,
+                                                "earned_time":  0,
+                                                "max_progress":  1,
+                                                "progress":  0
+                                            },
+    "WEAPONS_DRAWN_FLAWLESS_DETECTIVE":  {
+                                             "earned":  false,
+                                             "earned_time":  0,
+                                             "max_progress":  1,
+                                             "progress":  0
+                                         },
+    "WEAPONS_DRAWN_MIDNIGHT_PLAYING":  {
+                                           "earned":  false,
+                                           "earned_time":  0,
+                                           "max_progress":  1,
+                                           "progress":  0
+                                       },
+    "WEAPONS_DRAWN_SCHMITTY_KILLED":  {
+                                          "earned":  false,
+                                          "earned_time":  0,
+                                          "max_progress":  1,
+                                          "progress":  0
+                                      },
+    "WEAPONS_DRAWN_TEN_TARGETS":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  }
+}

@@ -1,0 +1,398 @@
+{
+    "AchAllArtificialWonderBuilt":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "AchAllArtificialWonders":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "AchAllCapitalsInfluenced":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "AchAllEmpireEliminated":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchAllEraStarsVictory":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchAllianceFormerLiege":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchAllResearchDone":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchAllResources":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "AchAllWondrousLuxuryResources":  {
+                                          "earned":  false,
+                                          "earned_time":  0
+                                      },
+    "AchAllyCount":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "AchArtificialWonderDestroyed":  {
+                                         "earned":  false,
+                                         "earned_time":  0
+                                     },
+    "AchCityTerritories1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchCityTerritories2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchCollectibleCollectedCount1":  {
+                                          "earned":  false,
+                                          "earned_time":  0
+                                      },
+    "AchCollectibleCollectedCount2":  {
+                                          "earned":  false,
+                                          "earned_time":  0
+                                      },
+    "AchCollectibleCollectedCount3":  {
+                                          "earned":  false,
+                                          "earned_time":  0
+                                      },
+    "AchContinentsColonized":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchDifficultyBeaten3":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchDifficultyBeaten4":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchDifficultyBeaten5":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchDiscoverContinentEarly":  {
+                                      "earned":  false,
+                                      "earned_time":  0
+                                  },
+    "AchDoubleFameVictory":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchEndGameWithEndlessMod":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "AchEraStarsAesthete1":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchEraStarsAesthete2":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchEraStarsAgrarian1":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchEraStarsAgrarian2":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchEraStarsBuilder1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchEraStarsBuilder2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchEraStarsExpansionist1":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "AchEraStarsExpansionist2":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "AchEraStarsMilitarist1":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchEraStarsMilitarist2":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchEraStarsScientist1":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchEraStarsScientist2":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchExpertPersonaBeaten":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchExtractAllResources":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchExtremeIdeology":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchFirstEveryEra":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "AchForestCut":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "AchHolySiteDestroyed":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchLandmarksDiscovered":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchLastThenFirstInEra":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchLongestRailroad":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchMinorEmpireAssimilatedCount1":  {
+                                            "earned":  false,
+                                            "earned_time":  0
+                                        },
+    "AchMinorEmpireAssimilatedCount2":  {
+                                            "earned":  false,
+                                            "earned_time":  0
+                                        },
+    "AchMinorEmpireAssimilatedCount3":  {
+                                            "earned":  false,
+                                            "earned_time":  0
+                                        },
+    "AchMinorFactionFriendly":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "AchMoneyAccumulation2":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchMoneyAccumulation3":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchMultiplayer":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "AchNeolithicLost":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "AchNeolithicPacifist":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchNoCivicsShakedown":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchNoDefeat":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "AchNuclearWeapons1":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchNuclearWeapons2":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchNuclearWeapons3":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchNukeCapital":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "AchNukeFormerAlly":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "AchNukeThreeEmpires":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchOnlyReligion":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "AchProductionFood1":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchProductionFood2":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchProductionIndustry1":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchProductionIndustry2":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchProductionMoney1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchProductionMoney2":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchProductionScience1":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchProductionScience2":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchQuickWarVictory":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchReforestation":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "AchRefusedAllDemands":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchRentArmies1":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "AchRentArmies2":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "AchRentArmies3":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "AchSevenArtificialWonders":  {
+                                      "earned":  false,
+                                      "earned_time":  0
+                                  },
+    "AchSixDifferentAffinities":  {
+                                      "earned":  false,
+                                      "earned_time":  0
+                                  },
+    "AchStateReligionChanged":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "AchSurrenderVictory":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchTradeAllPlayers":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchTradeAllResources":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "AchTurnsPlayed1":  {
+                            "earned":  true,
+                            "earned_time":  1721283091
+                        },
+    "AchTurnsPlayed2":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "AchUnitKillCount1":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "AchUnitKillCount2":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "AchVassalizedAll":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "AchVictoryEndless1":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchVictoryEndless2":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "AchVictoryHalfCombatStrength":  {
+                                         "earned":  false,
+                                         "earned_time":  0
+                                     },
+    "AchVictoryNoMilitaryUnit":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "AchVictoryOneCity":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "AchVictorySameCulture1":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchVictorySameCulture2":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "AchVictoryStability":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchVictoryTerritories":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "AchWarOnLiege":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "AchWarVictoryNoLoss":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "AchWinWithoutDeclareWar":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                }
+}

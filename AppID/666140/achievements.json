@@ -1,0 +1,366 @@
+{
+    "A_0300_1":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "A_AD_10":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "A_DIVORCE":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "A_ENTER_MININGAREA_1":  {
+                                 "earned":  true,
+                                 "earned_time":  1744134348
+                             },
+    "A_FELLTREE_200":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "A_FOUNDSECRETROOM_1":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "A_JEALOUS":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "A_KICKTREE_300":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "A_KILL_RAREMONS":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "A_MARRY":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "A_OPENCHEST_50":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "A_Party_1":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "A_Party_10":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "A_PASSALLDUNGEN":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "A_PK_WINALLNPC":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "A_TrialRuins_0":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "A_TrialRuins_10":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "A_TrialRuins_100":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "A_TrialRuins_50":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "A_TrialRuins_AllBuff":  {
+                                 "earned":  false,
+                                 "earned_time":  0
+                             },
+    "A_TrialRuins_NoBuff50":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "B_COOKFAIL_1":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "B_EXPAND_HOME_6":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "B_FINISH_ORDER_150":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "B_RANK1":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "B_RATING_S":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "B_UNLOCK_BLUEPAINT_57":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "B_UNLOCK_COOK_30":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "C_Arlo":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "C_DrXu":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "C_Emily":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "C_GINGER":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "C_GUST":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "C_MINT":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "C_PHYLLIS":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "G_ALL_CONSTELLATION":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "G_BALLOON_R_90":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "G_CATCHCOW_50":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "G_DART_150":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "G_EXAMINEGOODS_100":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "G_Fireworks":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "G_FISHINGMATCH":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "G_GHOSTCAVE":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "G_HOTPOT_85":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "G_PAINT_HAPPY":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "G_RPS3-0_50":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "G_SEESAW":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "G_SLOTS_500":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "G_SWING_HAPPY":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "G_WIN_GOBANG_50":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "I_DIAMOND_1":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "I_GIVECD_C":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "I_GIVECD_R":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "I_MONEYAMOUNT_10000":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "I_POOPS_500":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "I_RELIC_15":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "M_ACK":  {
+                  "earned":  false,
+                  "earned_time":  0
+              },
+    "M_Arrested":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "M_BRIDGE":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "M_CAN_ENTER_RUINS":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "M_CATCHGIFT_7":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "M_DIDI_5":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "M_FinalFight":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "M_FIRST_DAY":  {
+                        "earned":  true,
+                        "earned_time":  1716149755
+                    },
+    "M_HARBOR":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "M_MEMORIES":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "M_MTAP":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "M_MUSEUM":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "M_NEW_BUILDER":  {
+                          "earned":  true,
+                          "earned_time":  1743790252
+                      },
+    "M_Papa":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "M_RogueKnight":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "M_SOUTHBLOCK":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "M_TREEFARM":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "O_MAKE_POOPS":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "R_BAG_ALL_SPACE":  {
+                            "earned":  true,
+                            "earned_time":  1744137038
+                        },
+    "R_HP_2000":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "R_VP_600":  {
+                     "earned":  false,
+                     "earned_time":  0
+                 },
+    "S_Adore":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "S_BAD_GIFT":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "S_CAT":  {
+                  "earned":  true,
+                  "earned_time":  1744139716
+              },
+    "S_DOG":  {
+                  "earned":  false,
+                  "earned_time":  0
+              },
+    "S_FirstBaby":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "S_FRIEND_30":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "S_GIFTTIME_500":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "S_GOOD_GIFT_50":  {
+                           "earned":  false,
+                           "earned_time":  0
+                       },
+    "S_GoodParent":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "S_GROUP_PHOTO":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "S_MEAL":  {
+                   "earned":  false,
+                   "earned_time":  0
+               },
+    "S_MISSDATE":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "S_SecondBaby":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "S_TALK_TIMES_500":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         }
+}

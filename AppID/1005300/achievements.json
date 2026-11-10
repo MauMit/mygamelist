@@ -1,0 +1,122 @@
+{
+    "JOKEBOAT_BEAT_A_GREAT_JOKE":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "JOKEBOAT_COMPETE_AGAINST_THE_LOWEST_JOKE":  {
+                                                     "earned":  false,
+                                                     "earned_time":  0,
+                                                     "max_progress":  1,
+                                                     "progress":  0
+                                                 },
+    "JOKEBOAT_PERFORMED_ALL_JOKES":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "JOKEBOAT_WON_ALL_MATCHUPS":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  },
+    "PTB_ALIENS_WIN_AFTER_FAILED_VOTE":  {
+                                             "earned":  false,
+                                             "earned_time":  0,
+                                             "max_progress":  1,
+                                             "progress":  0
+                                         },
+    "PTB_ALIENS_WIN_IN_5_MINUTES":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "PTB_ALIENS_WIN_WITH_NO_HACKS":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "PTB_HUMANS_WIN_WITH_1_SECOND":  {
+                                         "earned":  false,
+                                         "earned_time":  0,
+                                         "max_progress":  1,
+                                         "progress":  0
+                                     },
+    "RIDICTIONARY_CROWD_PLEASER":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "RIDICTIONARY_USED_ALL_CHARACTERS":  {
+                                             "earned":  false,
+                                             "earned_time":  0,
+                                             "max_progress":  1,
+                                             "progress":  0
+                                         },
+    "RIDICTIONARY_WON_ALL_THREE_ROUNDS":  {
+                                              "earned":  false,
+                                              "earned_time":  0,
+                                              "max_progress":  1,
+                                              "progress":  0
+                                          },
+    "RIDICTIONARY_WON_WITH_MUCAS_RANCH":  {
+                                              "earned":  false,
+                                              "earned_time":  0,
+                                              "max_progress":  1,
+                                              "progress":  0
+                                          },
+    "ROLEMODELS_GET_CONSOLATION":  {
+                                       "earned":  false,
+                                       "earned_time":  0,
+                                       "max_progress":  1,
+                                       "progress":  0
+                                   },
+    "ROLEMODELS_OBLIVIOUS_MAJORITY":  {
+                                          "earned":  false,
+                                          "earned_time":  0,
+                                          "max_progress":  1,
+                                          "progress":  0
+                                      },
+    "ROLEMODELS_SELF_DOUBLE_DOWN":  {
+                                        "earned":  false,
+                                        "earned_time":  0,
+                                        "max_progress":  1,
+                                        "progress":  0
+                                    },
+    "ROLEMODELS_SIX_MAJORITIES_ONE_ROUND":  {
+                                                "earned":  false,
+                                                "earned_time":  0,
+                                                "max_progress":  1,
+                                                "progress":  0
+                                            },
+    "TMP2_CRACK_A_PASSWORD":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "TMP2_GET_A_QUIPLASH":  {
+                                "earned":  false,
+                                "earned_time":  0,
+                                "max_progress":  1,
+                                "progress":  0
+                            },
+    "TMP2_WIN_AS_AUDIENCE":  {
+                                 "earned":  false,
+                                 "earned_time":  0,
+                                 "max_progress":  1,
+                                 "progress":  0
+                             },
+    "TMP2_WIN_WITH_HAT":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          }
+}

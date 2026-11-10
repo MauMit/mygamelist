@@ -1,0 +1,158 @@
+{
+    "ACHI_achi":  {
+                      "earned":  false,
+                      "earned_time":  0,
+                      "max_progress":  1,
+                      "progress":  0
+                  },
+    "ACHI_applesnake":  {
+                            "earned":  false,
+                            "earned_time":  0,
+                            "max_progress":  1,
+                            "progress":  0
+                        },
+    "ACHI_carrot":  {
+                        "earned":  false,
+                        "earned_time":  0,
+                        "max_progress":  1,
+                        "progress":  0
+                    },
+    "ACHI_cartridgeplayers":  {
+                                  "earned":  false,
+                                  "earned_time":  0,
+                                  "max_progress":  1,
+                                  "progress":  0
+                              },
+    "ACHI_ClickShadow":  {
+                             "earned":  false,
+                             "earned_time":  0,
+                             "max_progress":  1,
+                             "progress":  0
+                         },
+    "ACHI_DeathJuice":  {
+                            "earned":  false,
+                            "earned_time":  0,
+                            "max_progress":  1,
+                            "progress":  0
+                        },
+    "ACHI_final":  {
+                       "earned":  false,
+                       "earned_time":  0,
+                       "max_progress":  1,
+                       "progress":  0
+                   },
+    "ACHI_foundu":  {
+                        "earned":  false,
+                        "earned_time":  0,
+                        "max_progress":  1,
+                        "progress":  0
+                    },
+    "ACHI_greatdance":  {
+                            "earned":  false,
+                            "earned_time":  0,
+                            "max_progress":  1,
+                            "progress":  0
+                        },
+    "ACHI_hellmegawin":  {
+                             "earned":  false,
+                             "earned_time":  0,
+                             "max_progress":  1,
+                             "progress":  0
+                         },
+    "ACHI_hellwin":  {
+                         "earned":  false,
+                         "earned_time":  0,
+                         "max_progress":  1,
+                         "progress":  0
+                     },
+    "ACHI_logA":  {
+                      "earned":  false,
+                      "earned_time":  0,
+                      "max_progress":  1,
+                      "progress":  0
+                  },
+    "ACHI_logB":  {
+                      "earned":  false,
+                      "earned_time":  0,
+                      "max_progress":  1,
+                      "progress":  0
+                  },
+    "ACHI_mitastory":  {
+                           "earned":  false,
+                           "earned_time":  0,
+                           "max_progress":  1,
+                           "progress":  0
+                       },
+    "ACHI_mmnice":  {
+                        "earned":  false,
+                        "earned_time":  0,
+                        "max_progress":  1,
+                        "progress":  0
+                    },
+    "ACHI_none":  {
+                      "earned":  false,
+                      "earned_time":  0,
+                      "max_progress":  1,
+                      "progress":  0
+                  },
+    "ACHI_omta":  {
+                      "earned":  false,
+                      "earned_time":  0,
+                      "max_progress":  1,
+                      "progress":  0
+                  },
+    "ACHI_PinguinTusim":  {
+                              "earned":  false,
+                              "earned_time":  0,
+                              "max_progress":  1,
+                              "progress":  0
+                          },
+    "ACHI_racingfirst":  {
+                             "earned":  false,
+                             "earned_time":  0,
+                             "max_progress":  1,
+                             "progress":  0
+                         },
+    "ACHI_safelife":  {
+                          "earned":  false,
+                          "earned_time":  0,
+                          "max_progress":  1,
+                          "progress":  0
+                      },
+    "ACHI_slaphead":  {
+                          "earned":  false,
+                          "earned_time":  0,
+                          "max_progress":  1,
+                          "progress":  0
+                      },
+    "ACHI_stopu":  {
+                       "earned":  false,
+                       "earned_time":  0,
+                       "max_progress":  1,
+                       "progress":  0
+                   },
+    "ACHI_supermegapuperplayer":  {
+                                      "earned":  false,
+                                      "earned_time":  0,
+                                      "max_progress":  1,
+                                      "progress":  0
+                                  },
+    "ACHI_tetro":  {
+                       "earned":  false,
+                       "earned_time":  0,
+                       "max_progress":  1,
+                       "progress":  0
+                   },
+    "ACHI_WinFIght":  {
+                          "earned":  false,
+                          "earned_time":  0,
+                          "max_progress":  1,
+                          "progress":  0
+                      },
+    "ACHI_wrumwrum":  {
+                          "earned":  false,
+                          "earned_time":  0,
+                          "max_progress":  1,
+                          "progress":  0
+                      }
+}

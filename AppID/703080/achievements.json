@@ -1,0 +1,154 @@
+{
+    "Animal_AdoptAny":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "Animal_Albino":  {
+                          "earned":  false,
+                          "earned_time":  0
+                      },
+    "Animal_Birth":  {
+                         "earned":  false,
+                         "earned_time":  0
+                     },
+    "Animal_CircleOfLife":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "Animal_DiverseBabyElephants":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "Animal_Hero":  {
+                        "earned":  false,
+                        "earned_time":  0
+                    },
+    "Animal_HighGenetic":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Animal_LionBearTigerPresent":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "Animal_ManyBirth":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "Animal_ManyHighWelfare":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "Animal_ReleaseAny":  {
+                              "earned":  false,
+                              "earned_time":  0
+                          },
+    "Animal_ReleaseManyEndangered":  {
+                                         "earned":  false,
+                                         "earned_time":  0
+                                     },
+    "Campaign_AdoptStoryElephant":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "Campaign_AllBronze":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Campaign_AllBronze_Hard":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "Campaign_AllGold":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "Campaign_AllGold_Hard":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              },
+    "Campaign_AllSilver":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Campaign_AllSilver_Hard":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "Campaign_AnyBronze":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Campaign_AnyGold":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "Campaign_AnySilver":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Exhibit_AllItems":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "Franchise_AllBiome":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Franchise_AllContinent":  {
+                                   "earned":  false,
+                                   "earned_time":  0
+                               },
+    "Franchise_Community":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "Franchise_Education":  {
+                                "earned":  false,
+                                "earned_time":  0
+                            },
+    "Franchise_FirstFranchise":  {
+                                     "earned":  false,
+                                     "earned_time":  0
+                                 },
+    "Franchise_Loans":  {
+                            "earned":  false,
+                            "earned_time":  0
+                        },
+    "Franchise_ManyFranchise":  {
+                                    "earned":  false,
+                                    "earned_time":  0
+                                },
+    "Franchise_ResearchAnimalAny":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "Franchise_ThreeKeeperRoster":  {
+                                        "earned":  false,
+                                        "earned_time":  0
+                                    },
+    "Game_BarrierLength":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Game_ManyUniqueEnrichments":  {
+                                       "earned":  false,
+                                       "earned_time":  0
+                                   },
+    "Game_StaffMaxLevel":  {
+                               "earned":  false,
+                               "earned_time":  0
+                           },
+    "Game_Startup":  {
+                         "earned":  true,
+                         "earned_time":  1722175385
+                     },
+    "Game_TrackLength":  {
+                             "earned":  false,
+                             "earned_time":  0
+                         },
+    "Game_ZoopediaComplete":  {
+                                  "earned":  false,
+                                  "earned_time":  0
+                              }
+}

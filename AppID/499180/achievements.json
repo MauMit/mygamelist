@@ -1,0 +1,54 @@
+{
+    "closure":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "solved2":  {
+                    "earned":  true,
+                    "earned_time":  1715781779
+                },
+    "solved3":  {
+                    "earned":  true,
+                    "earned_time":  1715861915
+                },
+    "solved4":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "solved5":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "solved6":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "solved7":  {
+                    "earned":  false,
+                    "earned_time":  0
+                },
+    "speed_run":  {
+                      "earned":  false,
+                      "earned_time":  0
+                  },
+    "traversed2":  {
+                       "earned":  true,
+                       "earned_time":  1715781716
+                   },
+    "traversed3":  {
+                       "earned":  true,
+                       "earned_time":  1715861791
+                   },
+    "traversed4":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "traversed5":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   },
+    "traversed6":  {
+                       "earned":  false,
+                       "earned_time":  0
+                   }
+}

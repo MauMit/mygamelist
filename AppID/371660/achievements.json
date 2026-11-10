@@ -1,277 +1,277 @@
-﻿{
-    "1":  {
-              "earned":  0,
-              "description":  "Survive the mammoth hunt.",
-              "displayName":  "This Way To Oros"
-          },
-    "2":  {
-              "earned":  0,
-              "description":  "Repel the Udam attack.",
-              "displayName":  "Spearproof"
-          },
-    "3":  {
-              "earned":  0,
-              "description":  "Rescue a Wenja captive from the Izila.",
-              "displayName":  "Liberator"
-          },
-    "4":  {
-              "earned":  0,
-              "description":  "Escape the Udam caverns.",
-              "displayName":  "Uncaged"
-          },
-    "5":  {
-              "earned":  0,
-              "description":  "Steal the Izila mask of Krati.",
-              "displayName":  "Krati, Krati, Krati!"
-          },
-    "6":  {
-              "earned":  0,
-              "description":  "Karoosh joins the Wenja village.",
-              "displayName":  "Deadeye"
-          },
-    "7":  {
-              "earned":  0,
-              "description":  "Tensay joins the Wenja village.",
-              "displayName":  "Spiritual Advisor"
-          },
-    "8":  {
-              "earned":  0,
-              "description":  "Wogah joins the Wenja village.",
-              "displayName":  "Mister Fix-It"
-          },
-    "9":  {
-              "earned":  0,
-              "description":  "Jayma joins the Wenja village.",
-              "displayName":  "Gray Huntress"
-          },
-    "10":  {
-               "earned":  0,
-               "description":  "Complete any 12 specialist missions.",
-               "displayName":  "Twelve Labors"
-           },
-    "11":  {
-               "earned":  0,
-               "description":  "Complete the mission, The Fall of Batari.",
-               "displayName":  "To Ash"
-           },
-    "12":  {
-               "earned":  0,
-               "description":  "Complete the mission, The Hunt for Ull.",
-               "displayName":  "Evolution in Action"
-           },
-    "13":  {
-               "earned":  0,
-               "description":  "Tame the bloodfang sabretooth.",
-               "displayName":  "Here Kitty"
-           },
-    "14":  {
-               "earned":  0,
-               "description":  "Tame the great scar bear.",
-               "displayName":  "Big Teddy"
-           },
-    "15":  {
-               "earned":  0,
-               "description":  "Fight the bloodtusk mammoth.",
-               "displayName":  "Endangered"
-           },
-    "16":  {
-               "earned":  0,
-               "description":  "Tame the snowblood wolf.",
-               "displayName":  "Good Boy"
-           },
-    "17":  {
-               "earned":  0,
-               "description":  "Build or upgrade any 2 village huts.",
-               "displayName":  "Home Improvement"
-           },
-    "18":  {
-               "earned":  0,
-               "description":  "Your Wenja tribe reaches a population of 20.",
-               "displayName":  "Subdivisions"
-           },
-    "19":  {
-               "earned":  0,
-               "description":  "Kill and skin 1 tamed beast.",
-               "displayName":  "Tears of Shame"
-           },
-    "20":  {
-               "earned":  0,
-               "description":  "Complete all hut upgrades.",
-               "displayName":  "Real Estate Baron"
-           },
-    "21":  {
-               "earned":  0,
-               "description":  "Eliminate 25 enemies using any takedown.",
-               "displayName":  "Killer\u0027s Belief"
-           },
-    "22":  {
-               "earned":  0,
-               "description":  "Eliminate 100 enemies using a club.",
-               "displayName":  "And Stay Down"
-           },
-    "23":  {
-               "earned":  0,
-               "description":  "Eliminate 100 enemies using a spear.",
-               "displayName":  "Skewered"
-           },
-    "24":  {
-               "earned":  0,
-               "description":  "Eliminate 100 enemies using a bow.",
-               "displayName":  "Sharpshooter"
-           },
-    "25":  {
-               "earned":  0,
-               "description":  "Eliminate 50 enemies with fire.",
-               "displayName":  "Inflammable"
-           },
-    "26":  {
-               "earned":  0,
-               "description":  "Eliminate 10 enemies using a sling.",
-               "displayName":  "David And Goliath"
-           },
-    "27":  {
-               "earned":  0,
-               "description":  "Eliminate 25 enemies while riding any beast.",
-               "displayName":  "Outta My Way"
-           },
-    "28":  {
-               "earned":  0,
-               "description":  "Influence 25 enemies using poison.",
-               "displayName":  "Bad Trip"
-           },
-    "29":  {
-               "earned":  0,
-               "description":  "Eliminate 10 enemies using sting bombs.",
-               "displayName":  "BEES!"
-           },
-    "30":  {
-               "earned":  0,
-               "description":  "Eliminate 15 enemies using throwing shards.",
-               "displayName":  "Quickdraw"
-           },
-    "31":  {
-               "earned":  0,
-               "description":  "Kill a target 50 feet away or more using a spear.",
-               "displayName":  "Right On Target"
-           },
-    "32":  {
-               "earned":  0,
-               "description":  "Kill a target 70 feet away or more using an arrow.",
-               "displayName":  "Bullseye"
-           },
-    "33":  {
-               "earned":  0,
-               "description":  "Eliminate 10 enemies using hunting traps.",
-               "displayName":  "Gotcha"
-           },
-    "34":  {
-               "earned":  0,
-               "description":  "Eliminate 50 hostile targets using a tamed beast.",
-               "displayName":  "Sic \u0027Em"
-           },
-    "35":  {
-               "earned":  0,
-               "description":  "Eliminate 15 enemies using your owl.",
-               "displayName":  "Feathered Friend"
-           },
-    "36":  {
-               "earned":  0,
-               "description":  "Learn all skills.",
-               "displayName":  "Expert Wenja"
-           },
-    "37":  {
-               "earned":  0,
-               "description":  "Use the crafting ability 100 times to craft weapons or arrows.",
-               "displayName":  "Armorer"
-           },
-    "38":  {
-               "earned":  0,
-               "description":  "Climb to the peak of Pardaku Lookout and leap off.",
-               "displayName":  "Kanda Of Faith"
-           },
-    "39":  {
-               "earned":  0,
-               "description":  "Capture 10 outposts.",
-               "displayName":  "Skirmish"
-           },
-    "40":  {
-               "earned":  0,
-               "description":  "Capture all outposts.",
-               "displayName":  "Expansion"
-           },
-    "41":  {
-               "earned":  0,
-               "description":  "Capture all forts.",
-               "displayName":  "Conquest"
-           },
-    "42":  {
-               "earned":  0,
-               "description":  "Tame 7 beasts.",
-               "displayName":  "Menagerie"
-           },
-    "43":  {
-               "earned":  0,
-               "description":  "Tame 1 rare beast.",
-               "displayName":  "Fancy Friend"
-           },
-    "44":  {
-               "earned":  0,
-               "description":  "Heal a tamed beast 25 times.",
-               "displayName":  "Veterinarian"
-           },
-    "45":  {
-               "earned":  0,
-               "description":  "Pickup 80 collectibles.",
-               "displayName":  "Cave Hoarder"
-           },
-    "46":  {
-               "earned":  0,
-               "description":  "Complete 15 \"Help Wenja\" quests.",
-               "displayName":  "Good Neighbor"
-           },
-    "47":  {
-               "earned":  0,
-               "description":  "Discover 15 hidden locations.",
-               "displayName":  "Mapmaker"
-           },
-    "48":  {
-               "earned":  0,
-               "description":  "Complete 10 \"Tribal Clash\" quests.",
-               "displayName":  "Crush Your Enemies"
-           },
-    "49":  {
-               "earned":  0,
-               "description":  "Complete 5 \"Beast Kill\" quests.",
-               "displayName":  "Master Tracker"
-           },
-    "50":  {
-               "earned":  0,
-               "description":  "Discover the future past.",
-               "displayName":  "Mark 4 Wenja"
-           },
-    "51":  {
-               "earned":  0,
-               "description":  "Obtain all the Achievements.",
-               "displayName":  "Apex Predator"
-           },
-    "52":  {
-               "earned":  0,
-               "description":  "Finish the game in Survivor mode (Any difficulty).",
-               "displayName":  "TOP OF THE FOOD CHAIN"
-           },
-    "53":  {
-               "earned":  0,
-               "description":  "Finish the game in Survivor mode (Any difficulty) and the Second chance option activated.",
-               "displayName":  "TOP OF THE FOOD CHAIN (2ND CHANCE)"
-           },
-    "54":  {
-               "earned":  0,
-               "description":  "Finish the game in Survivor mode (Any difficulty) and the Permadeath option activated.",
-               "displayName":  "TOP OF THE FOOD CHAIN (PERMADEATH)"
-           },
-    "55":  {
-               "earned":  0,
-               "description":  "Finish the game in Survivor mode (Expert difficulty) and the Permadeath option activated... Forget it... No-one will ever achieve it.",
-               "displayName":  "SURVIVAL OF THE FITTEST"
-           }
+{
+    "FCPrimal_Ach_1":  {
+                           "description":  "Survive the mammoth hunt.",
+                           "displayName":  "This Way To Oros",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_10":  {
+                            "description":  "Complete any 12 specialist missions.",
+                            "displayName":  "Twelve Labors",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_11":  {
+                            "description":  "Complete the mission, The Fall of Batari.",
+                            "displayName":  "To Ash",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_12":  {
+                            "description":  "Complete the mission, The Hunt for Ull.",
+                            "displayName":  "Evolution in Action",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_13":  {
+                            "description":  "Tame the bloodfang sabretooth.",
+                            "displayName":  "Here Kitty",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_14":  {
+                            "description":  "Tame the great scar bear.",
+                            "displayName":  "Big Teddy",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_15":  {
+                            "description":  "Fight the bloodtusk mammoth.",
+                            "displayName":  "Endangered",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_16":  {
+                            "description":  "Tame the snowblood wolf.",
+                            "displayName":  "Good Boy",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_17":  {
+                            "description":  "Build or upgrade any 2 village huts.",
+                            "displayName":  "Home Improvement",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_18":  {
+                            "description":  "Your Wenja tribe reaches a population of 20.",
+                            "displayName":  "Subdivisions",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_19":  {
+                            "description":  "Kill and skin 1 tamed beast.",
+                            "displayName":  "Tears of Shame",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_2":  {
+                           "description":  "Repel the Udam attack.",
+                           "displayName":  "Spearproof",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_20":  {
+                            "description":  "Complete all hut upgrades.",
+                            "displayName":  "Real Estate Baron",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_21":  {
+                            "description":  "Eliminate 25 enemies using any takedown.",
+                            "displayName":  "Killer\u0027s Belief",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_22":  {
+                            "description":  "Eliminate 100 enemies using a club.",
+                            "displayName":  "And Stay Down",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_23":  {
+                            "description":  "Eliminate 100 enemies using a spear.",
+                            "displayName":  "Skewered",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_24":  {
+                            "description":  "Eliminate 100 enemies using a bow.",
+                            "displayName":  "Sharpshooter",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_25":  {
+                            "description":  "Eliminate 50 enemies with fire.",
+                            "displayName":  "Inflammable",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_26":  {
+                            "description":  "Eliminate 10 enemies using a sling.",
+                            "displayName":  "David And Goliath",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_27":  {
+                            "description":  "Eliminate 25 enemies while riding any beast.",
+                            "displayName":  "Outta My Way",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_28":  {
+                            "description":  "Influence 25 enemies using poison.",
+                            "displayName":  "Bad Trip",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_29":  {
+                            "description":  "Eliminate 10 enemies using sting bombs.",
+                            "displayName":  "BEES!",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_3":  {
+                           "description":  "Rescue a Wenja captive from the Izila.",
+                           "displayName":  "Liberator",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_30":  {
+                            "description":  "Eliminate 15 enemies using throwing shards.",
+                            "displayName":  "Quickdraw",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_31":  {
+                            "description":  "Kill a target 50 feet away or more using a spear.",
+                            "displayName":  "Right On Target",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_32":  {
+                            "description":  "Kill a target 70 feet away or more using an arrow.",
+                            "displayName":  "Bullseye",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_33":  {
+                            "description":  "Eliminate 10 enemies using hunting traps.",
+                            "displayName":  "Gotcha",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_34":  {
+                            "description":  "Eliminate 50 hostile targets using a tamed beast.",
+                            "displayName":  "Sic \u0027Em",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_35":  {
+                            "description":  "Eliminate 15 enemies using your owl.",
+                            "displayName":  "Feathered Friend",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_36":  {
+                            "description":  "Learn all skills.",
+                            "displayName":  "Expert Wenja",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_37":  {
+                            "description":  "Use the crafting ability 100 times to craft weapons or arrows.",
+                            "displayName":  "Armorer",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_38":  {
+                            "description":  "Climb to the peak of Pardaku Lookout and leap off.",
+                            "displayName":  "Kanda Of Faith",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_39":  {
+                            "description":  "Capture 10 outposts.",
+                            "displayName":  "Skirmish",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_4":  {
+                           "description":  "Escape the Udam caverns.",
+                           "displayName":  "Uncaged",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_40":  {
+                            "description":  "Capture all outposts.",
+                            "displayName":  "Expansion",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_41":  {
+                            "description":  "Capture all forts.",
+                            "displayName":  "Conquest",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_42":  {
+                            "description":  "Tame 7 beasts.",
+                            "displayName":  "Menagerie",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_43":  {
+                            "description":  "Tame 1 rare beast.",
+                            "displayName":  "Fancy Friend",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_44":  {
+                            "description":  "Heal a tamed beast 25 times.",
+                            "displayName":  "Veterinarian",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_45":  {
+                            "description":  "Pickup 80 collectibles.",
+                            "displayName":  "Cave Hoarder",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_46":  {
+                            "description":  "Complete 15 \"Help Wenja\" quests.",
+                            "displayName":  "Good Neighbor",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_47":  {
+                            "description":  "Discover 15 hidden locations.",
+                            "displayName":  "Mapmaker",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_48":  {
+                            "description":  "Complete 10 \"Tribal Clash\" quests.",
+                            "displayName":  "Crush Your Enemies",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_49":  {
+                            "description":  "Complete 5 \"Beast Kill\" quests.",
+                            "displayName":  "Master Tracker",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_5":  {
+                           "description":  "Steal the Izila mask of Krati.",
+                           "displayName":  "Krati, Krati, Krati!",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_50":  {
+                            "description":  "Discover the future past.",
+                            "displayName":  "Mark 4 Wenja",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_51":  {
+                            "description":  "Obtain all the Achievements.",
+                            "displayName":  "Apex Predator",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_52":  {
+                            "description":  "Finish the game in Survivor mode (Any difficulty).",
+                            "displayName":  "TOP OF THE FOOD CHAIN",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_53":  {
+                            "description":  "Finish the game in Survivor mode (Any difficulty) and the Second chance option activated.",
+                            "displayName":  "TOP OF THE FOOD CHAIN (2ND CHANCE)",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_54":  {
+                            "description":  "Finish the game in Survivor mode (Any difficulty) and the Permadeath option activated.",
+                            "displayName":  "TOP OF THE FOOD CHAIN (PERMADEATH)",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_55":  {
+                            "description":  "Finish the game in Survivor mode (Expert difficulty) and the Permadeath option activated... Forget it... No-one will ever achieve it.",
+                            "displayName":  "SURVIVAL OF THE FITTEST",
+                            "earned":  0
+                        },
+    "FCPrimal_Ach_6":  {
+                           "description":  "Karoosh joins the Wenja village.",
+                           "displayName":  "Deadeye",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_7":  {
+                           "description":  "Tensay joins the Wenja village.",
+                           "displayName":  "Spiritual Advisor",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_8":  {
+                           "description":  "Wogah joins the Wenja village.",
+                           "displayName":  "Mister Fix-It",
+                           "earned":  0
+                       },
+    "FCPrimal_Ach_9":  {
+                           "description":  "Jayma joins the Wenja village.",
+                           "displayName":  "Gray Huntress",
+                           "earned":  0
+                       }
 }

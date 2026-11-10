@@ -1,27 +1,37 @@
 # ============================================================
-# Achievement Viewer - Automatic GSE + Goldberg Watcher
+# My Game List - Automatic GSE + Goldberg Achievement Watcher
 # ============================================================
 #
 # Watches:
 #   %APPDATA%\GSE Saves
 #   %APPDATA%\Goldberg SteamEmu Saves
 #
-# When achievements.json changes:
+# On start it catches up: every game in both folders is synced once,
+# so achievements earned while the watcher wasn't running are uploaded.
+# After that it keeps watching. When a game writes achievements.json:
 #   1. Waits for the emulator to finish writing
-#   2. Validates the JSON
-#   3. Copies it to AppID\<AppID>\achievements.json
-#   4. Commits the change
-#   5. Pushes it to the GitHub "user" branch
+#   2. Merges that game's files from BOTH folders (an achievement counts
+#      as earned if either folder has it, with the earliest unlock time),
+#      so an empty placeholder in one folder can't hide progress in the other
+#   3. Writes AppID\<AppID>\achievements.json in the repo if it changed
+#   4. Commits, pulls the latest "user" branch, and pushes
 #
 # Usage:
 #   powershell -ExecutionPolicy Bypass -File achievement-watcher.ps1
-#   powershell -ExecutionPolicy Bypass -File achievement-watcher.ps1 -RepoPath "D:\path\to\achievement-viewer"
+#   powershell -ExecutionPolicy Bypass -File achievement-watcher.ps1 -Once
+#   powershell -ExecutionPolicy Bypass -File achievement-watcher.ps1 -DryRun
+#   powershell -ExecutionPolicy Bypass -File achievement-watcher.ps1 -RepoPath "D:\path\to\mygamelist"
 #
-# -RepoPath must be a local clone of this repo checked out on the "user" branch.
+#   -Once     Sync everything once, push, and exit (what sync-gse.bat runs)
+#   -DryRun   Show what would change, without writing or pushing anything
+#
+# -RepoPath must be a local clone of the repo checked out on the "user" branch.
 # ============================================================
 
 param(
-    [string]$RepoPath = (Join-Path $env:USERPROFILE "Desktop\Egna Projekt\achievement-viewer\achievement-viewer")
+    [string]$RepoPath = (Join-Path $env:USERPROFILE "Desktop\Egna Projekt\achievement-viewer\achievement-viewer"),
+    [switch]$Once,
+    [switch]$DryRun
 )
 
 
@@ -29,25 +39,19 @@ param(
 # CONFIGURATION
 # ------------------------------------------------------------
 
-$GSEPath = Join-Path $env:APPDATA "GSE Saves"
-
-$GoldbergPath = Join-Path $env:APPDATA "Goldberg SteamEmu Saves"
+# Achievement save folders, in priority order (first wins on ties)
+$Sources = @(
+    [pscustomobject]@{ Name = "GSE";      Path = (Join-Path $env:APPDATA "GSE Saves") },
+    [pscustomobject]@{ Name = "Goldberg"; Path = (Join-Path $env:APPDATA "Goldberg SteamEmu Saves") }
+)
 
 $AppIDPath = Join-Path $RepoPath "AppID"
 
-# Wait this many seconds after an emulator changes achievements.json.
-$WriteDelaySeconds = 5
+# Wait this long after the last change before syncing, so the emulator has
+# finished writing and several quick unlocks end up in one commit.
+$QuietSeconds = 8
 
-# Wait this many seconds before committing.
-# This helps combine several quick achievement updates into one commit.
-$CommitDelaySeconds = 5
-
-
-# ------------------------------------------------------------
-# GLOBAL STATE
-# ------------------------------------------------------------
-
-$script:GitSyncRunning = $false
+$Utf8NoBom = New-Object System.Text.UTF8Encoding $false
 
 
 # ------------------------------------------------------------
@@ -55,519 +59,275 @@ $script:GitSyncRunning = $false
 # ------------------------------------------------------------
 
 function Write-Log {
-
-    param(
-        [string]$Message
-    )
-
+    param([string]$Message)
     $Time = Get-Date -Format "HH:mm:ss"
-
     Write-Host "[$Time] $Message"
 }
 
 
 # ------------------------------------------------------------
-# CHECK APPID
+# READ ONE achievements.json
 # ------------------------------------------------------------
 
-function Test-SteamAppID {
+function Read-AchievementFile {
+    param([string]$File)
 
-    param(
-        [string]$AppID
-    )
+    if (-not (Test-Path -LiteralPath $File)) { return $null }
 
-    if ($AppID -match '^\d+$') {
-        return $true
+    # The emulator may still be writing; try a few times
+    for ($Try = 1; $Try -le 3; $Try++) {
+        try {
+            $Raw = [System.IO.File]::ReadAllText($File)
+            if (-not [string]::IsNullOrWhiteSpace($Raw)) {
+                return ($Raw | ConvertFrom-Json -ErrorAction Stop)
+            }
+        }
+        catch { }
+        Start-Sleep -Seconds 2
     }
 
+    Write-Log "WARNING: $File is not valid JSON. Skipping it."
+    return $null
+}
+
+
+function Test-Earned {
+    param($Entry)
+    if ($null -eq $Entry) { return $false }
+    foreach ($Name in 'earned', 'unlocked', 'achieved') {
+        $Value = $Entry.$Name
+        if ($Value -eq $true -or $Value -eq 1 -or $Value -eq '1') { return $true }
+    }
     return $false
 }
 
 
-# ------------------------------------------------------------
-# CHECK JSON
-# ------------------------------------------------------------
-
-function Test-AchievementJSON {
-
-    param(
-        [string]$File
-    )
-
-    if (-not (Test-Path -LiteralPath $File)) {
-        return $false
+function Get-EarnedTime {
+    param($Entry)
+    foreach ($Name in 'earned_time', 'unlock_time', 'unlocktime') {
+        if ($Entry.$Name) { return [int64]$Entry.$Name }
     }
-
-    try {
-
-        $Content = Get-Content -LiteralPath $File -Raw -ErrorAction Stop
-
-        if ([string]::IsNullOrWhiteSpace($Content)) {
-            return $false
-        }
-
-        $null = $Content | ConvertFrom-Json -ErrorAction Stop
-
-        return $true
-
-    }
-    catch {
-
-        return $false
-    }
+    return [int64]0
 }
 
 
 # ------------------------------------------------------------
-# GIT SYNC
+# MERGE ONE GAME FROM ALL SOURCES
+# ------------------------------------------------------------
+# Returns the merged JSON text, or $null if no source has the game.
+
+function Get-MergedAchievementJson {
+    param([string]$AppID)
+
+    $Merged = [ordered]@{}
+    $Found = $false
+
+    foreach ($Source in $Sources) {
+        $File = Join-Path (Join-Path $Source.Path $AppID) "achievements.json"
+        $Data = Read-AchievementFile -File $File
+        if ($null -eq $Data) { continue }
+        $Found = $true
+
+        foreach ($Property in $Data.PSObject.Properties) {
+            $Key = $Property.Name
+            $Entry = $Property.Value
+
+            if (-not $Merged.Contains($Key)) {
+                $Merged[$Key] = $Entry
+                continue
+            }
+
+            $Current = $Merged[$Key]
+            $CurrentEarned = Test-Earned $Current
+            $NewEarned = Test-Earned $Entry
+
+            if ($NewEarned -and -not $CurrentEarned) {
+                $Merged[$Key] = $Entry
+            }
+            elseif ($NewEarned -and $CurrentEarned) {
+                # Both earned: keep the earliest real unlock time
+                $CurrentTime = Get-EarnedTime $Current
+                $NewTime = Get-EarnedTime $Entry
+                if ($NewTime -gt 0 -and ($CurrentTime -eq 0 -or $NewTime -lt $CurrentTime)) {
+                    $Merged[$Key] = $Entry
+                }
+            }
+        }
+    }
+
+    if (-not $Found) { return $null }
+    return (ConvertTo-SortedJson -Map $Merged)
+}
+
+
+# Same data always gives the same text: keys sorted, same formatting
+function ConvertTo-SortedJson {
+    param($Map)
+    $Sorted = [ordered]@{}
+    foreach ($Key in ($Map.Keys | Sort-Object)) { $Sorted[$Key] = $Map[$Key] }
+    return (ConvertTo-Json -InputObject $Sorted -Depth 10)
+}
+
+
+function ConvertTo-NormalizedJson {
+    param([string]$File)
+    try {
+        $Data = [System.IO.File]::ReadAllText($File) | ConvertFrom-Json -ErrorAction Stop
+        $Map = [ordered]@{}
+        foreach ($Property in $Data.PSObject.Properties) { $Map[$Property.Name] = $Property.Value }
+        return (ConvertTo-SortedJson -Map $Map)
+    }
+    catch { return $null }
+}
+
+
+# ------------------------------------------------------------
+# SYNC ONE GAME INTO THE REPO
+# ------------------------------------------------------------
+# Returns "added", "updated" or $null (no change).
+
+function Sync-Game {
+    param([string]$AppID)
+
+    if ($AppID -notmatch '^\d+$') { return $null }
+
+    $Json = Get-MergedAchievementJson -AppID $AppID
+    if ($null -eq $Json) { return $null }
+
+    $DestinationFolder = Join-Path $AppIDPath $AppID
+    $DestinationFile = Join-Path $DestinationFolder "achievements.json"
+
+    $Change = "added"
+    if (Test-Path -LiteralPath $DestinationFile) {
+        if ((ConvertTo-NormalizedJson -File $DestinationFile) -eq $Json) { return $null }
+        $Change = "updated"
+    }
+
+    if (-not $DryRun) {
+        if (-not (Test-Path -LiteralPath $DestinationFolder)) {
+            New-Item -ItemType Directory -Path $DestinationFolder -Force | Out-Null
+        }
+        [System.IO.File]::WriteAllText($DestinationFile, $Json, $Utf8NoBom)
+    }
+
+    return $Change
+}
+
+
+function Get-AllAppIDs {
+    $IDs = New-Object System.Collections.Generic.SortedSet[string]
+    foreach ($Source in $Sources) {
+        if (-not (Test-Path -LiteralPath $Source.Path)) { continue }
+        Get-ChildItem -LiteralPath $Source.Path -Directory |
+            Where-Object { $_.Name -match '^\d+$' -and (Test-Path -LiteralPath (Join-Path $_.FullName "achievements.json")) } |
+            ForEach-Object { [void]$IDs.Add($_.Name) }
+    }
+    return $IDs
+}
+
+
+function Sync-Games {
+    param([string[]]$AppIDs)
+
+    $Changed = 0
+    foreach ($AppID in $AppIDs) {
+        $Result = Sync-Game -AppID $AppID
+        if ($Result) {
+            $Changed++
+            $Verb = if ($DryRun) { "would be $Result" } else { $Result }
+            Write-Log "  AppID $AppID $Verb"
+        }
+    }
+    return $Changed
+}
+
+
+# ------------------------------------------------------------
+# GIT
 # ------------------------------------------------------------
 
-function Start-GitSync {
+function Invoke-Git {
+    param([string[]]$Arguments, [string]$ErrorMessage)
+    & git @Arguments
+    if ($LASTEXITCODE -ne 0) { throw $ErrorMessage }
+}
 
-    if ($script:GitSyncRunning) {
 
-        Write-Log "Git sync is already running. Skipping duplicate request."
+function Update-FromGitHub {
+    # Make sure we're on "user" and have the latest data commits from GitHub
+    $Branch = (git branch --show-current).Trim()
+    if ($Branch -ne "user") {
+        Write-Log "Switching to the user branch..."
+        Invoke-Git @("checkout", "user") "Could not switch to the user branch."
+    }
 
+    Write-Log "Getting the latest user branch from GitHub..."
+    & git pull --rebase --autostash origin user
+    if ($LASTEXITCODE -ne 0) {
+        & git rebase --abort *> $null
+        throw "git pull failed. Check the repo folder for conflicts."
+    }
+}
+
+
+function Publish-Changes {
+    if ($DryRun) { return }
+
+    & git add -A AppID
+    if ($LASTEXITCODE -ne 0) { throw "git add failed." }
+
+    & git diff --cached --quiet
+    $HasStagedChanges = ($LASTEXITCODE -ne 0)
+
+    # Commits left over from an earlier failed push still need uploading
+    $Unpushed = [int](git rev-list --count "origin/user..user" 2>$null)
+
+    if (-not $HasStagedChanges -and $Unpushed -eq 0) {
+        Write-Log "Nothing new to upload."
         return
     }
 
-    $script:GitSyncRunning = $true
+    if ($HasStagedChanges) {
+        $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+        Invoke-Git @("commit", "-q", "-m", "Sync achievements - $Timestamp") "Git commit failed."
+    }
+
+    # GitHub Actions may have added an "Update game data" commit meanwhile.
+    # It only touches game-info.json / game-data.json; this script only
+    # touches achievements.json, so a rebase is safe.
+    & git pull --rebase --autostash origin user
+    if ($LASTEXITCODE -ne 0) {
+        & git rebase --abort *> $null
+        throw "git pull failed. Your commit is kept locally and will be pushed next time."
+    }
+
+    Write-Log "Pushing to GitHub..."
+    Invoke-Git @("push", "-q", "origin", "user") "Git push failed. Your commit is kept locally and will be pushed next time."
+
+    Write-Log "SUCCESS: achievements uploaded. The website updates in about a minute."
+}
+
+
+function Invoke-Sync {
+    param([string[]]$AppIDs, [string]$Label)
 
     try {
-
-        Write-Log "Waiting $CommitDelaySeconds seconds before Git sync..."
-
-        Start-Sleep -Seconds $CommitDelaySeconds
-
         Set-Location -LiteralPath $RepoPath
+        if (-not $DryRun) { Update-FromGitHub }
 
-        # ----------------------------------------------------
-        # Verify Git repository
-        # ----------------------------------------------------
+        Write-Log "$Label"
+        $Changed = Sync-Games -AppIDs $AppIDs
 
-        git rev-parse --is-inside-work-tree *> $null
+        if ($Changed -eq 0) { Write-Log "All games are already up to date." }
+        elseif ($DryRun) { Write-Log "$Changed game(s) would be uploaded. (Dry run: nothing was written.)" }
 
-        if ($LASTEXITCODE -ne 0) {
-            throw "The configured repository folder is not a Git repository."
-        }
-
-
-        # ----------------------------------------------------
-        # Check current branch
-        # ----------------------------------------------------
-
-        $CurrentBranch = (git branch --show-current).Trim()
-
-        Write-Log "Current Git branch: $CurrentBranch"
-
-
-        # ----------------------------------------------------
-        # Switch to user branch if necessary
-        # ----------------------------------------------------
-
-        if ($CurrentBranch -ne "user") {
-
-            Write-Log "Switching to user branch..."
-
-            git checkout user
-
-            if ($LASTEXITCODE -ne 0) {
-                throw "Could not switch to the user branch."
-            }
-        }
-
-
-        # ----------------------------------------------------
-        # Stage AppID changes
-        # ----------------------------------------------------
-
-        Write-Log "Checking for achievement changes..."
-
-        git add -A AppID
-
-        if ($LASTEXITCODE -ne 0) {
-            throw "git add failed."
-        }
-
-
-        # ----------------------------------------------------
-        # Check staged changes
-        # ----------------------------------------------------
-
-        git diff --cached --quiet
-
-        $HasStagedChanges = ($LASTEXITCODE -ne 0)
-
-        # Commits left over from an earlier failed push still need uploading
-        $Unpushed = [int](git rev-list --count "origin/user..user" 2>$null)
-
-        if (-not $HasStagedChanges -and $Unpushed -eq 0) {
-
-            Write-Log "No achievement changes need to be uploaded."
-
-            return
-        }
-
-
-        if ($HasStagedChanges) {
-
-            # ------------------------------------------------
-            # Display changes
-            # ------------------------------------------------
-
-            Write-Log "Changes detected:"
-
-            git status --short
-
-
-            # ------------------------------------------------
-            # Commit
-            # ------------------------------------------------
-
-            $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-
-            Write-Log "Creating Git commit..."
-
-            git commit -m "Sync achievements - $Timestamp"
-
-            if ($LASTEXITCODE -ne 0) {
-                throw "Git commit failed."
-            }
-        }
-        else {
-
-            Write-Log "Uploading $Unpushed earlier commit(s) that weren't pushed yet..."
-        }
-
-
-        # ----------------------------------------------------
-        # Pull first
-        # ----------------------------------------------------
-        # After each push, GitHub Actions commits updated game data
-        # ("Update game data [skip ci]") to the user branch. Pull it in
-        # before pushing, or the next push is rejected as out of date.
-        # The bot only touches game-info.json / game-data.json and this
-        # script only touches achievements.json, so a rebase is safe.
-
-        Write-Log "Pulling latest user branch from GitHub..."
-
-        git pull --rebase --autostash origin user
-
-        if ($LASTEXITCODE -ne 0) {
-            git rebase --abort *> $null
-            throw "git pull failed. Your commit is kept locally; it will be pushed with the next change."
-        }
-
-
-        # ----------------------------------------------------
-        # Push
-        # ----------------------------------------------------
-
-        Write-Log "Pushing to GitHub user branch..."
-
-        git push origin user
-
-        if ($LASTEXITCODE -ne 0) {
-            throw "Git push failed."
-        }
-
-
-        Write-Host ""
-        Write-Log "SUCCESS!"
-        Write-Log "Achievement changes were uploaded to GitHub."
-        Write-Host ""
-
+        Publish-Changes
     }
     catch {
-
         Write-Host ""
         Write-Log "ERROR: $($_.Exception.Message)"
         Write-Host ""
-
     }
-    finally {
-
-        $script:GitSyncRunning = $false
-    }
-}
-
-
-# ------------------------------------------------------------
-# COPY ACHIEVEMENT FILE
-# ------------------------------------------------------------
-
-function Sync-AchievementFile {
-
-    param(
-        [string]$SourceFile,
-        [string]$SourceName
-    )
-
-    Write-Host ""
-
-    Write-Log "${SourceName}: achievement file changed."
-
-    Write-Log "File:"
-    Write-Log "  $SourceFile"
-
-
-    # --------------------------------------------------------
-    # Wait for emulator to finish writing
-    # --------------------------------------------------------
-
-    Write-Log "Waiting $WriteDelaySeconds seconds for emulator to finish writing..."
-
-    Start-Sleep -Seconds $WriteDelaySeconds
-
-
-    # --------------------------------------------------------
-    # Make sure file still exists
-    # --------------------------------------------------------
-
-    if (-not (Test-Path -LiteralPath $SourceFile)) {
-
-        Write-Log "File no longer exists. Ignoring."
-
-        return
-    }
-
-
-    # --------------------------------------------------------
-    # Determine AppID
-    # --------------------------------------------------------
-
-    $ParentFolder = Split-Path -Path $SourceFile -Parent
-
-    $AppID = Split-Path -Path $ParentFolder -Leaf
-
-
-    if (-not (Test-SteamAppID -AppID $AppID)) {
-
-        Write-Log "Ignoring folder because '$AppID' is not a Steam AppID."
-
-        return
-    }
-
-
-    Write-Log "Detected Steam AppID: $AppID"
-
-
-    # --------------------------------------------------------
-    # Validate JSON
-    # --------------------------------------------------------
-
-    if (-not (Test-AchievementJSON -File $SourceFile)) {
-
-        Write-Log "JSON isn't ready yet."
-
-        Write-Log "Waiting another 5 seconds..."
-
-        Start-Sleep -Seconds 5
-
-
-        if (-not (Test-AchievementJSON -File $SourceFile)) {
-
-            Write-Log "ERROR: achievements.json is not valid JSON."
-
-            return
-        }
-    }
-
-
-    Write-Log "Achievement JSON is valid."
-
-
-    # --------------------------------------------------------
-    # Destination
-    # --------------------------------------------------------
-
-    $DestinationFolder = Join-Path $AppIDPath $AppID
-
-    $DestinationFile = Join-Path $DestinationFolder "achievements.json"
-
-
-    # --------------------------------------------------------
-    # Create AppID folder
-    # --------------------------------------------------------
-
-    if (-not (Test-Path -LiteralPath $DestinationFolder)) {
-
-        New-Item `
-            -ItemType Directory `
-            -Path $DestinationFolder `
-            -Force | Out-Null
-
-        Write-Log "Created AppID\$AppID"
-    }
-
-
-    # --------------------------------------------------------
-    # Check whether source and destination are identical
-    # --------------------------------------------------------
-
-    $NeedsCopy = $true
-
-    if (Test-Path -LiteralPath $DestinationFile) {
-
-        try {
-
-            $SourceHash = (
-                Get-FileHash `
-                    -LiteralPath $SourceFile `
-                    -Algorithm SHA256
-            ).Hash
-
-            $DestinationHash = (
-                Get-FileHash `
-                    -LiteralPath $DestinationFile `
-                    -Algorithm SHA256
-            ).Hash
-
-
-            if ($SourceHash -eq $DestinationHash) {
-
-                $NeedsCopy = $false
-            }
-
-        }
-        catch {
-
-            # If hash comparison fails, just copy the file.
-            $NeedsCopy = $true
-        }
-    }
-
-
-    # --------------------------------------------------------
-    # Copy
-    # --------------------------------------------------------
-
-    if (-not $NeedsCopy) {
-
-        Write-Log "Repository already contains this exact achievement file."
-
-        return
-    }
-
-
-    Copy-Item `
-        -LiteralPath $SourceFile `
-        -Destination $DestinationFile `
-        -Force
-
-
-    Write-Log "Copied achievement data:"
-
-    Write-Log "  $SourceName"
-
-    Write-Log "  AppID $AppID"
-
-    Write-Log "  -> AppID\$AppID\achievements.json"
-
-
-    # --------------------------------------------------------
-    # Git
-    # --------------------------------------------------------
-
-    Start-GitSync
-}
-
-
-# ------------------------------------------------------------
-# CREATE FILE WATCHER
-# ------------------------------------------------------------
-
-function New-AchievementWatcher {
-
-    param(
-        [string]$Path,
-        [string]$Name
-    )
-
-
-    if (-not (Test-Path -LiteralPath $Path)) {
-
-        Write-Log "${Name}: folder not found."
-
-        Write-Log "  $Path"
-
-        return $null
-    }
-
-
-    $Watcher = New-Object System.IO.FileSystemWatcher
-
-    $Watcher.Path = $Path
-
-    $Watcher.Filter = "achievements.json"
-
-    $Watcher.IncludeSubdirectories = $true
-
-    $Watcher.NotifyFilter = (
-        [System.IO.NotifyFilters]::FileName `
-        -bor
-        [System.IO.NotifyFilters]::LastWrite `
-        -bor
-        [System.IO.NotifyFilters]::Size
-    )
-
-    $Watcher.EnableRaisingEvents = $true
-
-
-    # --------------------------------------------------------
-    # Changed event
-    # --------------------------------------------------------
-
-    $ChangedAction = {
-
-        $ChangedFile = $Event.SourceEventArgs.FullPath
-
-        $EmulatorName = $Event.MessageData
-
-
-        Sync-AchievementFile `
-            -SourceFile $ChangedFile `
-            -SourceName $EmulatorName
-    }
-
-
-    Register-ObjectEvent `
-        -InputObject $Watcher `
-        -EventName Changed `
-        -MessageData $Name `
-        -Action $ChangedAction | Out-Null
-
-
-    # --------------------------------------------------------
-    # Created event
-    # --------------------------------------------------------
-
-    $CreatedAction = {
-
-        $CreatedFile = $Event.SourceEventArgs.FullPath
-
-        $EmulatorName = $Event.MessageData
-
-
-        Sync-AchievementFile `
-            -SourceFile $CreatedFile `
-            -SourceName $EmulatorName
-    }
-
-
-    Register-ObjectEvent `
-        -InputObject $Watcher `
-        -EventName Created `
-        -MessageData $Name `
-        -Action $CreatedAction | Out-Null
-
-
-    Write-Log "Watching ${Name}:"
-
-    Write-Log "  $Path"
-
-
-    return $Watcher
 }
 
 
@@ -575,172 +335,108 @@ function New-AchievementWatcher {
 # START
 # ============================================================
 
-Clear-Host
-
-
 Write-Host ""
 Write-Host "============================================================"
-Write-Host " Achievement Viewer"
-Write-Host " Automatic GSE + Goldberg Achievement Sync"
+Write-Host " My Game List - GSE + Goldberg Achievement Sync"
 Write-Host "============================================================"
 Write-Host ""
 
-
-# ------------------------------------------------------------
-# Verify repository
-# ------------------------------------------------------------
-
-if (-not (Test-Path -LiteralPath $RepoPath)) {
-
-    Write-Host "ERROR:"
-    Write-Host ""
-    Write-Host "Repository folder does not exist:"
-    Write-Host ""
-    Write-Host $RepoPath
-    Write-Host ""
-
-    Read-Host "Press Enter to exit"
-
+if (-not (Test-Path -LiteralPath (Join-Path $RepoPath ".git"))) {
+    Write-Host "ERROR: the repo folder isn't a Git clone:"
+    Write-Host "  $RepoPath"
+    if (-not $Once) { Read-Host "Press Enter to exit" }
     exit 1
 }
-
 
 if (-not (Test-Path -LiteralPath $AppIDPath)) {
-
-    New-Item `
-        -ItemType Directory `
-        -Path $AppIDPath `
-        -Force | Out-Null
+    New-Item -ItemType Directory -Path $AppIDPath -Force | Out-Null
 }
 
-
-Set-Location -LiteralPath $RepoPath
-
-
-Write-Log "Repository:"
-
-Write-Log "  $RepoPath"
-
+Write-Log "Repository: $RepoPath"
+foreach ($Source in $Sources) {
+    $State = if (Test-Path -LiteralPath $Source.Path) { "" } else { "  (not found)" }
+    Write-Log "$($Source.Name): $($Source.Path)$State"
+}
 Write-Host ""
 
+# Catch up on everything that changed while the watcher wasn't running
+$All = Get-AllAppIDs
+Invoke-Sync -AppIDs $All -Label "Checking all $($All.Count) games..."
+
+if ($Once -or $DryRun) { exit 0 }
+
 
 # ------------------------------------------------------------
-# Start watchers
+# WATCH
 # ------------------------------------------------------------
+# Events are queued and handled in this loop (not in -Action callbacks),
+# so they run in the script's own scope and errors are visible.
 
 $Watchers = @()
+foreach ($Source in $Sources) {
+    if (-not (Test-Path -LiteralPath $Source.Path)) { continue }
 
+    $Watcher = New-Object System.IO.FileSystemWatcher
+    $Watcher.Path = $Source.Path
+    $Watcher.Filter = "achievements.json"
+    $Watcher.IncludeSubdirectories = $true
+    $Watcher.NotifyFilter = [System.IO.NotifyFilters]::FileName -bor [System.IO.NotifyFilters]::LastWrite -bor [System.IO.NotifyFilters]::Size
 
-$GSEWatcher = New-AchievementWatcher `
-    -Path $GSEPath `
-    -Name "GSE"
+    foreach ($EventName in 'Changed', 'Created', 'Renamed') {
+        Register-ObjectEvent -InputObject $Watcher -EventName $EventName -SourceIdentifier "AchWatch.$($Source.Name).$EventName" -MessageData $Source.Name | Out-Null
+    }
 
-
-if ($null -ne $GSEWatcher) {
-
-    $Watchers += $GSEWatcher
+    $Watcher.EnableRaisingEvents = $true
+    $Watchers += $Watcher
 }
-
-
-$GoldbergWatcher = New-AchievementWatcher `
-    -Path $GoldbergPath `
-    -Name "Goldberg"
-
-
-if ($null -ne $GoldbergWatcher) {
-
-    $Watchers += $GoldbergWatcher
-}
-
-
-# ------------------------------------------------------------
-# Make sure at least one folder exists
-# ------------------------------------------------------------
 
 if ($Watchers.Count -eq 0) {
-
-    Write-Host ""
-    Write-Host "ERROR:"
-    Write-Host ""
-    Write-Host "Neither achievement save folder could be found."
-    Write-Host ""
-
+    Write-Log "ERROR: neither achievement save folder exists."
     Read-Host "Press Enter to exit"
-
     exit 1
 }
 
-
-# ------------------------------------------------------------
-# Running
-# ------------------------------------------------------------
-
 Write-Host ""
 Write-Host "============================================================"
-Write-Host " Watcher is running"
+Write-Host " Watching for new achievements. Press CTRL+C to stop."
 Write-Host "============================================================"
 Write-Host ""
 
-Write-Host "Watching for:"
-Write-Host ""
-
-Write-Host " GSE:"
-Write-Host " $GSEPath"
-Write-Host ""
-
-Write-Host " Goldberg:"
-Write-Host " $GoldbergPath"
-Write-Host ""
-
-Write-Host "When achievements.json changes:"
-Write-Host ""
-Write-Host "  Game / emulator"
-Write-Host "       |"
-Write-Host "       v"
-Write-Host "  achievements.json"
-Write-Host "       |"
-Write-Host "       v"
-Write-Host "  AppID folder"
-Write-Host "       |"
-Write-Host "       v"
-Write-Host "  Git commit + push"
-Write-Host "       |"
-Write-Host "       v"
-Write-Host "  GitHub Action"
-Write-Host "       |"
-Write-Host "       v"
-Write-Host "  Achievement Viewer"
-Write-Host ""
-
-Write-Host "Waiting for achievement changes..."
-Write-Host ""
-Write-Host "Press CTRL+C to stop."
-Write-Host ""
-
-
-# ------------------------------------------------------------
-# Keep PowerShell alive
-# ------------------------------------------------------------
+$Pending = @{}
+$LastEvent = Get-Date
 
 try {
-
     while ($true) {
+        $Evt = Wait-Event -Timeout 2
 
-        Wait-Event -Timeout 5 | Out-Null
+        while ($Evt) {
+            if ($Evt.SourceIdentifier -like "AchWatch.*") {
+                $Path = $Evt.SourceEventArgs.FullPath
+                $AppID = Split-Path -Leaf (Split-Path -Parent $Path)
+                if ($AppID -match '^\d+$' -and -not $Pending.ContainsKey($AppID)) {
+                    Write-Log "$($Evt.MessageData): AppID $AppID changed"
+                    $Pending[$AppID] = $true
+                }
+                $LastEvent = Get-Date
+            }
+            Remove-Event -EventIdentifier $Evt.EventIdentifier
+            $Evt = Get-Event | Select-Object -First 1
+        }
+
+        if ($Pending.Count -gt 0 -and ((Get-Date) - $LastEvent).TotalSeconds -ge $QuietSeconds) {
+            $IDs = @($Pending.Keys)
+            $Pending.Clear()
+            Invoke-Sync -AppIDs $IDs -Label "Syncing $($IDs.Count) game(s)..."
+            Write-Host ""
+        }
     }
-
 }
 finally {
-
     Write-Host ""
     Write-Log "Stopping achievement watcher..."
-
-    Get-EventSubscriber | Unregister-Event -Force
-
+    Get-EventSubscriber | Where-Object { $_.SourceIdentifier -like "AchWatch.*" } | Unregister-Event -Force
     foreach ($Watcher in $Watchers) {
-
         $Watcher.EnableRaisingEvents = $false
-
         $Watcher.Dispose()
     }
 }

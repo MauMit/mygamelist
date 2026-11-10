@@ -4,8 +4,12 @@ Two Windows scripts that send your emulator achievements to the `user` branch. F
 
 | Script | What it does |
 |---|---|
-| `achievement-watcher.ps1` | Keeps running. Watches `%APPDATA%\GSE Saves` and `%APPDATA%\Goldberg SteamEmu Saves`. Each time a game writes `achievements.json`, it validates the file, copies it to `AppID\<appid>\achievements.json`, then commits and pushes to `user`. |
-| `sync-gse.bat` | One-off sync. Copies every `achievements.json` it finds in both folders, then commits and pushes once. |
+| `achievement-watcher.ps1` | Keeps running. On start it syncs every game once (catching up on anything earned while it was off), then watches `%APPDATA%\GSE Saves` and `%APPDATA%\Goldberg SteamEmu Saves`. When a game writes `achievements.json`, it writes `AppID\<appid>\achievements.json`, commits, pulls and pushes to `user`. |
+| `sync-gse.bat` | One-off sync: runs the watcher with `-Once` (sync everything, push, exit). Keep it in the same folder as the `.ps1`. |
+
+**Games in both folders are merged.** An achievement counts as earned if either folder has it, using the earliest unlock time. That way an empty placeholder in one folder (Achievement Watcher creates these, marked by `.aw-seed.json`) can't hide progress saved in the other.
+
+Add `-DryRun` to see what would be uploaded without changing anything.
 
 ## Setup
 

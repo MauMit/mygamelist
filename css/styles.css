@@ -36,6 +36,15 @@ body {
     transform: translateY(-2px);
 }
 
+/* On narrower screens, put the button above the title instead of over it */
+@media (max-width: 1100px) {
+    #list-button {
+        position: static;
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+}
+
 
 
 .container {

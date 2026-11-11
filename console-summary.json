@@ -1,20 +1,42 @@
 {
- "last_updated": 1794402767,
+ "last_updated": 1794402917,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1794402767,
-   "games": 0,
-   "waiting": 658
+   "synced": 1794402917,
+   "games": 36,
+   "waiting": 676
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794402767,
+   "synced": 1794402917,
    "games": 127,
    "waiting": 0
   }
  },
  "games": [
+  {
+   "appid": "xbox-2089483628",
+   "name": "A Plague Tale: Requiem",
+   "icon": "http://store-images.s-microsoft.com/image/apps.60562.13537574391772742.e387dd56-e35c-40fb-bc0c-c0c1decef3a1.1de59474-dc66-4ad3-8050-ee622224a589",
+   "platform": "PC (Xbox)",
+   "console": "xbox",
+   "total": 35,
+   "unlocked": 35,
+   "percent": 100,
+   "lastUnlock": 1752059559
+  },
+  {
+   "appid": "xbox-1728105232",
+   "name": "Assassin's Creed Valhalla",
+   "icon": "http://store-images.s-microsoft.com/image/apps.51716.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.802f0267-5f00-464e-ac26-a7a901bbb532",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 94,
+   "unlocked": 39,
+   "percent": 41,
+   "lastUnlock": 1627331447
+  },
   {
    "appid": "psn-NPWR19842_00",
    "name": "Assassin's Creed® Valhalla",
@@ -25,6 +47,39 @@
    "unlocked": 1,
    "percent": 1,
    "lastUnlock": 1651607832
+  },
+  {
+   "appid": "xbox-1880835530",
+   "name": "Atomfall",
+   "icon": "http://store-images.s-microsoft.com/image/apps.31123.13575061151050973.cebfa75f-b2f4-4dde-99fa-c709bab904af.942f478c-f7ec-424f-8d5a-8c8d6c7089c2",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 54,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-2046562785",
+   "name": "Avowed",
+   "icon": "http://store-images.s-microsoft.com/image/apps.40346.13624715126573049.35e3abd5-bd41-4efb-bc2a-0bfbdd50b02a.84157e34-31f1-40b6-849a-e8729c39d4b6",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 50,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1792830437",
+   "name": "Balatro",
+   "icon": "http://store-images.s-microsoft.com/image/apps.661.14272217582130616.02bf9982-d980-42d9-93e6-372b4b7e36d8.d18c23a0-8998-4cfd-a06e-9e3dc9c29d41",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 31,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
   },
   {
    "appid": "psn-NPWR10584_00",
@@ -93,6 +148,17 @@
    "lastUnlock": 1393876973
   },
   {
+   "appid": "xbox-1769971395",
+   "name": "Clair Obscur: Expedition 33",
+   "icon": "http://store-images.s-microsoft.com/image/apps.13628.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.04a10e3c-848f-424d-a431-2846f34b1a6b",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 55,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR15359_00",
    "name": "Control",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR15359_00_00D751EBF01D244B855D6F6505F39472370226458A/CA4CF82D2BDBC187FF50424C2BCCE6E88CD83DED.PNG",
@@ -148,12 +214,34 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-72159092",
+   "name": "Crash Bandicoot™ N. Sane Trilogy",
+   "icon": "http://store-images.s-microsoft.com/image/apps.26340.13619069964366497.5db0830a-5ca2-4c6f-9968-5e84b3538655.96717e5d-78fd-4997-915e-d6f3a7f786eb",
+   "platform": "PC (Xbox)",
+   "console": "xbox",
+   "total": 77,
+   "unlocked": 53,
+   "percent": 69,
+   "lastUnlock": 1636892401
+  },
+  {
    "appid": "psn-NPWR16560_00",
    "name": "Crash™ Team Racing Nitro-Fueled",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR16560_00_0007A02C97951137CEE4D2A048FD1C00709B5FB59B/81DBB28E72619BBDF7525F720738EC18E2E1DDFD.PNG",
    "platform": "PlayStation 4",
    "console": "playstation",
    "total": 48,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1885511808",
+   "name": "Date Everything!",
+   "icon": "http://store-images.s-microsoft.com/image/apps.21275.13927821742762283.65947d84-9ff2-4bcf-88a7-64f41a7faa9d.76099d23-5551-4dde-afde-83ed098e87cb",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 42,
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
@@ -225,12 +313,34 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1611895213",
+   "name": "Disney Dreamlight Valley",
+   "icon": "http://store-images.s-microsoft.com/image/apps.62890.14365104417622257.42e17a74-81d1-4e35-8c38-a935ba30ef21.80948ce2-63b2-49df-9e97-4ab247b81f10",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 15,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR03805_00",
    "name": "DmC Devil May Cry™",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR03805_00_00380D4ED8452DE94BE79CCEE8BA4989D6045B6A6F/2829C032C5F2656F5DFD4A9F6102B1A560470771.PNG",
    "platform": "PlayStation 3",
    "console": "playstation",
    "total": 59,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1916758859",
+   "name": "Donut County",
+   "icon": "http://store-images.s-microsoft.com/image/apps.14744.14011542784181932.80ac6320-df7b-4be6-9355-e9083a5d2063.a49c289c-5585-46ef-9868-1fd24a5c3f87",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 20,
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
@@ -258,12 +368,45 @@
    "lastUnlock": 1388333687
   },
   {
+   "appid": "xbox-1921123976",
+   "name": "Dream Park Story",
+   "icon": "http://store-images.s-microsoft.com/image/apps.35761.13923144670665825.2809ce2a-510b-44d1-8148-8b30e0bc7e87.06f28635-e6eb-4199-9341-34ec32f02367",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 18,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR10796_00",
    "name": "Dreams™",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR10796_00_00EE9EF6D28CEADB83360266AB593B59FF990C0172/86035042A8D26B0C7BB43EF1A7409BCD568528F3.PNG",
    "platform": "PlayStation 4",
    "console": "playstation",
    "total": 42,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-2098741842",
+   "name": "EA SPORTS FC™ 24 Xbox One",
+   "icon": "http://store-images.s-microsoft.com/image/apps.27910.14573516887607725.f997e22d-6909-4f3c-a0ef-a32a87d41052.0559a578-2085-4949-8e2d-6126a9bbf236",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 40,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1653663875",
+   "name": "EA SPORTS FC™ 25 Xbox Series X|S",
+   "icon": "http://store-images.s-microsoft.com/image/apps.19344.13738418562228928.2f1b7c14-3e99-4a31-8375-ffc682a65cb0.2b4e09e5-281d-4184-9cf6-70277a5a54b5",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 39,
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
@@ -278,6 +421,17 @@
    "unlocked": 1,
    "percent": 4,
    "lastUnlock": 1673015057
+  },
+  {
+   "appid": "xbox-332913499",
+   "name": "Fallout 76",
+   "icon": "http://store-images.s-microsoft.com/image/apps.27308.70143269474194625.b0e8b744-cb24-48cd-9498-108cc064643f.3b3afca7-622d-44bd-b112-ff6d4e025fce",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 72,
+   "unlocked": 1,
+   "percent": 1,
+   "lastUnlock": 1586954546
   },
   {
    "appid": "psn-NPWR25179_00",
@@ -333,6 +487,17 @@
    "unlocked": 6,
    "percent": 10,
    "lastUnlock": 1598451141
+  },
+  {
+   "appid": "xbox-267695549",
+   "name": "Fortnite",
+   "icon": "http://store-images.s-microsoft.com/image/apps.31130.70702278257994163.f7265b8a-f10e-49c4-8115-73c4d800af63.641ad74a-edd4-40c9-8049-3bb73387d09a",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 45,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
   },
   {
    "appid": "psn-NPWR10789_00",
@@ -456,6 +621,17 @@
    "lastUnlock": 1565104277
   },
   {
+   "appid": "xbox-1965142613",
+   "name": "Golf With Your Friends",
+   "icon": "http://store-images.s-microsoft.com/image/apps.6387.13908316754263937.a2613d65-5012-428e-8936-df4b3295d7bd.7d2ab0ab-de55-4ed7-99d5-6b77de424f11",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 58,
+   "unlocked": 2,
+   "percent": 3,
+   "lastUnlock": 1750196399
+  },
+  {
    "appid": "psn-NPWR06221_00",
    "name": "Grand Theft Auto V",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR06221_00_00943B71B23B3A5D98EB6CA419684E0F0A07FA8707/A3E52C438318CCEC6346EB2A31DBF31164A95A25.PNG",
@@ -511,6 +687,17 @@
    "lastUnlock": 1389465937
   },
   {
+   "appid": "xbox-1835926818",
+   "name": "Hellblade II: Senua's Saga",
+   "icon": "http://store-images.s-microsoft.com/image/apps.50449.14301289549560004.f1ff7c98-dc44-454c-bfda-7a6374c95761.176b5ef6-e5ae-49f6-a829-2e17b8e1f139",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 12,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR21820_00",
    "name": "HITMAN 3",
    "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR21820_00/f670a16d-edc6-4d57-9a48-8b0213c09ed2.png",
@@ -561,6 +748,17 @@
    "platform": "PlayStation 4",
    "console": "playstation",
    "total": 69,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1792227428",
+   "name": "Indiana Jones and the Great Circle",
+   "icon": "http://store-images.s-microsoft.com/image/apps.475.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.890d72d8-ceb4-4c0d-9653-e9fbcfeb27c7",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 55,
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
@@ -786,6 +984,17 @@
    "lastUnlock": 1531168414
   },
   {
+   "appid": "xbox-1962388658",
+   "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+   "icon": "http://store-images.s-microsoft.com/image/apps.2577.14515021988943563.1f3fe501-2a70-4602-ab4f-93c0a60ab77c.c894ce94-91a9-4e3a-993b-80dbdebd2ea8",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 61,
+   "unlocked": 61,
+   "percent": 100,
+   "lastUnlock": 1770466658
+  },
+  {
    "appid": "psn-NPWR11974_00",
    "name": "Little Nightmares",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR11974_00_00F8E589325CE5C9E4BC479997BE6E9AE9A3214781/61E5D1B9BE30031957EB8CBC7FB15ACD538730F2.PNG",
@@ -830,6 +1039,17 @@
    "lastUnlock": 1611276900
   },
   {
+   "appid": "xbox-2011136108",
+   "name": "Medieval Dynasty",
+   "icon": "http://store-images.s-microsoft.com/image/apps.21853.14156112272410024.305e8482-2c5b-4228-abdb-396b9bfe447c.c92a0c3a-10af-4418-a1b2-11fbfa535f66",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 44,
+   "unlocked": 21,
+   "percent": 48,
+   "lastUnlock": 1738608353
+  },
+  {
    "appid": "psn-NPWR03485_00",
    "name": "METAL GEAR SOLID 4",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR03485_00_00F5923ACADEECADE40DF76DACD3E51E26432F3C74/DD209D574BCAF3DF9DF27335522CC0AFBDE68A5B.PNG",
@@ -839,6 +1059,17 @@
    "unlocked": 5,
    "percent": 15,
    "lastUnlock": 1397893089
+  },
+  {
+   "appid": "xbox-1615644955",
+   "name": "Microsoft Flight Simulator 2024",
+   "icon": "http://store-images.s-microsoft.com/image/apps.35992.14546949033229931.f4e841b6-7779-427d-8821-1b81b953e7fb.3683c779-ba7f-41c6-9dbf-911b653baa05",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 27,
+   "unlocked": 1,
+   "percent": 4,
+   "lastUnlock": 1743667804
   },
   {
    "appid": "psn-NPWR11631_00",
@@ -874,6 +1105,17 @@
    "lastUnlock": 1630264091
   },
   {
+   "appid": "xbox-2040686890",
+   "name": "My Time at Sandrock",
+   "icon": "http://store-images.s-microsoft.com/image/apps.60105.13907683889228979.59937977-1a57-4871-afde-66c690b605c2.19b6d7df-3cc1-4632-a596-8af5f8323ca2",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 30,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR04773_00",
    "name": "NBA 2K14",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR04773_00_00BDAB0EFBD968B29D4EA3B9678808ECD48A6252E7/7FC9340B36EE9C385FBA2C763CFCEFF7574B27E4.PNG",
@@ -905,6 +1147,17 @@
    "unlocked": 4,
    "percent": 8,
    "lastUnlock": 1633814603
+  },
+  {
+   "appid": "xbox-1757462338",
+   "name": "Ni no Kuni Wrath of the White Witch™ Remastered",
+   "icon": "http://store-images.s-microsoft.com/image/apps.57893.14101239125163632.01de9600-be68-4ca2-ad44-3bd38be94a52.4b2ed267-ccba-45eb-b8bd-97484e350d07",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 33,
+   "unlocked": 33,
+   "percent": 100,
+   "lastUnlock": 1725921130
   },
   {
    "appid": "psn-NPWR03632_00",
@@ -960,6 +1213,17 @@
    "unlocked": 15,
    "percent": 34,
    "lastUnlock": 1395864534
+  },
+  {
+   "appid": "xbox-1670311038",
+   "name": "Persona 3 Reload",
+   "icon": "http://store-images.s-microsoft.com/image/apps.59768.13660021874166335.cf99aaa0-1039-41d3-bafe-7239ec9e261c.219dd9bc-69b7-4f09-b013-d5e3092cf821",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 56,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
   },
   {
    "appid": "psn-NPWR11866_00",
@@ -1039,6 +1303,17 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1634930870",
+   "name": "REMATCH",
+   "icon": "http://store-images.s-microsoft.com/image/apps.32652.14036668029170653.97838000-87b6-4a56-9c79-e4eddcea3b6f.0e8acd37-4ade-4b98-b9a1-3ce6befe26d8",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 37,
+   "unlocked": 1,
+   "percent": 3,
+   "lastUnlock": 1750519743
+  },
+  {
    "appid": "psn-NPWR20494_00",
    "name": "RIDERS REPUBLIC",
    "icon": "https://psnobj.prod.dl.playstation.net/psnobj/NPWR20494_00/3da14929-92ae-4250-9541-2c85a01a0e55.png",
@@ -1094,6 +1369,39 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1912862912",
+   "name": "Sniper Elite: Resistance",
+   "icon": "http://store-images.s-microsoft.com/image/apps.35799.13884837624671830.a1b4bcb8-63aa-419a-ac34-76ae03d6dca7.b1e4cff9-0303-4380-ac8b-a98c79b7cb9b",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 70,
+   "unlocked": 14,
+   "percent": 20,
+   "lastUnlock": 1740951369
+  },
+  {
+   "appid": "xbox-1704490079",
+   "name": "South of Midnight",
+   "icon": "http://store-images.s-microsoft.com/image/apps.31946.13678609147241298.c742bfe1-6624-4d6a-800e-503c12872c58.bf5a297c-46e9-4f84-ace0-768fc3345071",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 40,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-56347639",
+   "name": "Spyro™ Reignited Trilogy",
+   "icon": "http://store-images.s-microsoft.com/image/apps.17991.13709344681304622.947598b8-f8f2-4612-a37c-b93b58e6b6fa.f24346e5-4e25-4894-9829-f75efc062152",
+   "platform": "PC (Xbox)",
+   "console": "xbox",
+   "total": 105,
+   "unlocked": 105,
+   "percent": 100,
+   "lastUnlock": 1546540885
+  },
+  {
    "appid": "psn-NPWR17456_00",
    "name": "STAR WARS™: Squadrons Trophies",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR17456_00_000D851C1C9C8CE47F12C9573809F6502143788033/47DC3724918C63EE9A7FC77EE781DD86A1C38745.PNG",
@@ -1103,6 +1411,28 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-2079794073",
+   "name": "Starfield",
+   "icon": "http://store-images.s-microsoft.com/image/apps.1647.13567343664224659.1eb6fdf9-8a0b-4344-a135-ab17dfa3c609.39331391-9de2-48f8-8643-8eb1bd964383",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 82,
+   "unlocked": 26,
+   "percent": 32,
+   "lastUnlock": 1696282509
+  },
+  {
+   "appid": "xbox-1938834516",
+   "name": "State of Decay 2: Juggernaut Edition",
+   "icon": "http://store-images.s-microsoft.com/image/apps.43642.14425140369408817.14846606-f5bc-4fb1-b355-26ef6a25e847.281240fb-379d-4800-9b0a-b36b5935daa7",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 153,
+   "unlocked": 23,
+   "percent": 15,
+   "lastUnlock": 1670118821
   },
   {
    "appid": "psn-NPWR07518_00",
@@ -1171,6 +1501,17 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1695979902",
+   "name": "The Elder Scrolls IV: Oblivion Remastered",
+   "icon": "http://store-images.s-microsoft.com/image/apps.59365.13768907753672648.dcd706bb-ce91-4b3f-9525-10b1d4af8423.991ee19d-3b4e-40f9-a06e-1af5ffa31cca",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 60,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR11189_00",
    "name": "The Last Guardian™",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR11189_00_002E23CDE65F9517721AB3F33175284660F2870326/95CD92E78B21DC633BFB2EF52C89D5E38A7D6DF7.PNG",
@@ -1226,6 +1567,17 @@
    "lastUnlock": 1583448122
   },
   {
+   "appid": "xbox-1879711255",
+   "name": "The Outer Worlds 2",
+   "icon": "http://store-images.s-microsoft.com/image/apps.41744.14086924108488409.5098cc78-dcb3-4bc1-858f-48fa36bb7026.e990bffb-c0f2-4506-b06d-f537efb4b3ee",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 48,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
+  },
+  {
    "appid": "psn-NPWR15483_00",
    "name": "The Walking Dead: The Final Season",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR15483_00_008E8E64C1C6F2D161FB4516D1383BAB8C6423045A/9AC44C5F4557A7B5B1E28B821603682F3C7B62A6.PNG",
@@ -1257,6 +1609,28 @@
    "unlocked": 18,
    "percent": 49,
    "lastUnlock": 1601419661
+  },
+  {
+   "appid": "xbox-1877908426",
+   "name": "Tony Hawk's™ Pro Skater™ 3 + 4",
+   "icon": "http://store-images.s-microsoft.com/image/apps.7791.13968131629601189.02100553-7fb7-4f1a-b080-6b3ac33c153c.1164e424-06a5-4cbd-a501-43f0aedc4f1a",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 32,
+   "unlocked": 1,
+   "percent": 3,
+   "lastUnlock": 1752220029
+  },
+  {
+   "appid": "xbox-1993685552",
+   "name": "UFC® 5",
+   "icon": "http://store-images.s-microsoft.com/image/apps.46202.13630336651997545.a96b0d89-5d07-42df-a32b-c465113ff69c.ad15bfa9-2dac-43d6-a6ef-bfb72b56dcac",
+   "platform": "Xbox Series X|S",
+   "console": "xbox",
+   "total": 31,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
   },
   {
    "appid": "psn-NPWR00462_00",
@@ -1314,6 +1688,17 @@
    "lastUnlock": 1563214984
   },
   {
+   "appid": "xbox-84790147",
+   "name": "Watch Dogs®: Legion",
+   "icon": "http://store-images.s-microsoft.com/image/apps.158.65664549497403424.a741b357-ecc5-4fa6-bfad-4f3a95f27506.1e2e55df-bdf2-4db6-bf18-615b2b33c20a",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 49,
+   "unlocked": 26,
+   "percent": 53,
+   "lastUnlock": 1608373899
+  },
+  {
    "appid": "psn-NPWR09521_00",
    "name": "WORLD OF FINAL FANTASY",
    "icon": "https://image.api.playstation.com/trophy/np/NPWR09521_00_00E76DEFE2D538AFA5F7C6A4B6A2B9027CF1457E11/1C4494AFFF3286A50914C0A42941328138433285.PNG",
@@ -1323,6 +1708,17 @@
    "unlocked": 27,
    "percent": 55,
    "lastUnlock": 1494421096
+  },
+  {
+   "appid": "xbox-1811697311",
+   "name": "World War Z",
+   "icon": "http://store-images.s-microsoft.com/image/apps.21350.13930466181469843.cc2c5344-433d-41d8-871b-e5fc827bb7d8.8605df6a-8561-49a8-b6e9-64b266a4a95a",
+   "platform": "PC (Xbox)",
+   "console": "xbox",
+   "total": 35,
+   "unlocked": 0,
+   "percent": 0,
+   "lastUnlock": 0
   },
   {
    "appid": "psn-NPWR15631_00",

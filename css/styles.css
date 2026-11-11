@@ -1275,3 +1275,27 @@ box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.8),
     display: block;
     letter-spacing: 0.5px;
 }
+/* ---------- Xbox / PlayStation games ---------- */
+/* Console box art is square or portrait: show it whole instead of cropping */
+.game-icon.console-art,
+.detail-game-icon.console-art {
+    object-fit: contain;
+    background: #0f151c;
+}
+
+.ach-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 7px;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: 700;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.12);
+    color: #c7d5e0;
+}
+.ach-badge-gamerscore { background: rgba(16, 124, 16, 0.35); color: #9be39b; }
+.ach-badge-platinum   { background: rgba(160, 190, 230, 0.25); color: #d6e6ff; }
+.ach-badge-gold       { background: rgba(212, 175, 55, 0.28); color: #ffd86b; }
+.ach-badge-silver     { background: rgba(192, 192, 192, 0.25); color: #e4e4e4; }
+.ach-badge-bronze     { background: rgba(205, 127, 50, 0.28); color: #f0b27a; }

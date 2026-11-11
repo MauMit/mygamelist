@@ -1,5 +1,5 @@
 import { createStore } from './store.js';
-import { loadAchievementSummaries, suggestStatus, steamCover } from './achievements.js';
+import { loadAchievementSummaries, suggestStatus, steamCover, consoleFamily } from './achievements.js';
 import { parseMvglExport, entryKey, normalizeTitle, normalizePlatform } from './mvgl.js';
 import { findCovers } from './covers.js';
 
@@ -23,6 +23,7 @@ const state = {
   user: null,
   games: [],
   ach: new Map(),
+  consoleIndex: new Map(),
   achMeta: null,
   filter: 'all',
   search: '',
@@ -69,7 +70,23 @@ function coverFor(game) {
 }
 
 function achFor(game) {
-  return game.appid ? state.ach.get(String(game.appid)) || null : null;
+  if (game.appid) return state.ach.get(String(game.appid)) || null;
+  // Console games (e.g. imported from MyVideoGameList) match synced Xbox/PlayStation
+  // progress by platform family + title
+  const family = consoleFamily(game.platform);
+  return family ? state.consoleIndex.get(family + '|' + normalizeTitle(game.title)) || null : null;
+}
+
+function buildConsoleIndex() {
+  const index = new Map();
+  for (const a of state.ach.values()) {
+    if (!a.console) continue;
+    const key = a.console + '|' + normalizeTitle(a.name);
+    const prev = index.get(key);
+    // Same game on two consoles (e.g. PS4 + PS5 versions): use the one with more progress
+    if (!prev || (a.unlocked || 0) > (prev.unlocked || 0)) index.set(key, a);
+  }
+  state.consoleIndex = index;
 }
 
 function relDate(unixSeconds) {
@@ -482,7 +499,11 @@ async function quickStatus(id, status) {
 // ------------------------------------------------------------
 function importCandidates() {
   const listed = new Set(state.games.map((g) => String(g.appid || '')));
-  return [...state.ach.values()].filter((a) => !listed.has(a.appid)).sort((a, b) => (b.lastUnlock || 0) - (a.lastUnlock || 0));
+  // Console games already on the list by title (no appid) count as listed too
+  const linked = new Set(state.games.map((g) => achFor(g)).filter(Boolean).map((a) => a.appid));
+  return [...state.ach.values()]
+    .filter((a) => !listed.has(a.appid) && !linked.has(a.appid))
+    .sort((a, b) => (b.lastUnlock || 0) - (a.lastUnlock || 0));
 }
 
 function openImport() {
@@ -810,6 +831,7 @@ async function main() {
   loadAchievementSummaries().then((res) => {
     state.ach = res.games;
     state.achMeta = res;
+    buildConsoleIndex();
     fillDatalist();
     renderAchSource();
     if (state.user) renderAll();

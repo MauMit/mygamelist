@@ -5,6 +5,7 @@ A personal game tracker with achievement progress, hosted on GitHub Pages.
 - **Game list** (`list.html`): track games as Currently Playing, Almost Done, Completed or Plan to Play, with score, hours, dates and notes. Sign in with email/password or Google (Firebase). Your list is saved in Firestore and works on any device.
 - **Achievement viewer** (`index.html`): every game your emulator achievement files cover, with names, icons, rarity, hidden achievement descriptions and 100% tracking.
 - **Achievement watcher** (`watcher/`): Windows scripts that push new `achievements.json` files from GSE / Goldberg saves to GitHub as you unlock them.
+- **Xbox + PlayStation** (`console/`): a workflow that syncs your Xbox achievements and PlayStation trophies every 6 hours. Setup: [console/README.md](console/README.md).
 
 Live site: <https://maumit.github.io/mygamelist/>
 
@@ -43,6 +44,7 @@ user branch: game-data.json
 |---|---|
 | Deploy GitHub Pages | Every push to `main` |
 | Update Achievement Data (on push) | When the watcher pushes `AppID/**` files to `user`. Processes only the changed games (under a minute). |
+| Sync Xbox + PlayStation Achievements | Every 6 hours, or by hand. Fetches only console games with new progress. Needs `OPENXBL_KEY` / `PSN_NPSSO` secrets. |
 | Full Refresh (all games) | Only when started by hand from the Actions tab. Re-fetches every game, which takes about 1.5 hours. |
 
 ## Supported achievement files

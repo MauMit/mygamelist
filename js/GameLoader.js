@@ -182,6 +182,23 @@ export async function loadGamesFromAppIds(appIds) {
     }
 }
 
+// Xbox / PlayStation games synced by the "Sync Xbox + PlayStation Achievements"
+// workflow (console-data.json on the user branch). Missing file = no console games.
+export async function loadConsoleGames() {
+    try {
+        const response = await fetch(baseUrl + 'console-data.json', { cache: 'no-cache' });
+        if (!response.ok) return;
+        const data = await response.json();
+        for (const game of data.games || []) {
+            if (game && game.appid && game.info) {
+                await processGameData(String(game.appid), game.achievements || {}, game.info);
+            }
+        }
+    } catch (e) {
+        console.log('No console achievements loaded:', e);
+    }
+}
+
 export async function loadGamesFromData(gameDataList) {
     const loadingDiv = document.getElementById('loading');
     
@@ -229,7 +246,9 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
                 unlocked: userAch ? (userAch.earned || userAch.unlocked || userAch.achieved || false) : false,
                 unlocktime: userAch ? (userAch.earned_time || userAch.unlock_time || userAch.unlocktime || 0) : 0,
                 rarity: achInfo.percent || null,
-                group: achInfo.group || null
+                group: achInfo.group || null,
+                badge: achInfo.badge || null,
+                badgeType: achInfo.badgeType || null
             });
         }
     } else {
@@ -251,7 +270,9 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
                 unlocked: ach.earned || ach.unlocked || ach.achieved || false,
                 unlocktime: ach.earned_time || ach.unlock_time || ach.unlocktime || 0,
                 rarity: ach.percent || null,
-                group: ach.group || null
+                group: ach.group || null,
+                badge: ach.badge || null,
+                badgeType: ach.badgeType || null
             });
         }
     }
@@ -262,7 +283,8 @@ async function processGameData(appId, achievementsData, gameInfo = null) {
         icon: gameIcon,
         achievements,
         usesDb: usesDb,
-        platform: platform
+        platform: platform,
+        console: gameInfo?.console || null
     });
 }
 
@@ -325,6 +347,7 @@ export async function init() {
 
                 if (appIds.length > 0) {
                     await loadGamesFromAppIds(appIds);
+                    await loadConsoleGames();
                     return;
                 }
             }
@@ -332,6 +355,7 @@ export async function init() {
 
         const gameData = await loadGameDataWithCache();
         await loadGamesFromData(gameData);
+        await loadConsoleGames();
         return;
 
     } catch (error) {

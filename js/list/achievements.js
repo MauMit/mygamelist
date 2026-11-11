@@ -76,6 +76,7 @@ export async function loadAchievementSummaries() {
     const data = await res.json();
     const list = Array.isArray(data) ? data : data.games || [];
     const summaries = list.map(summarize).filter((s) => s.appid && s.appid !== 'undefined');
+    summaries.push(...(await loadConsoleSummaries(src)));
     const result = { games: new Map(summaries.map((s) => [s.appid, s])), lastUpdated: data.last_updated || null, source: src };
     try {
       localStorage.setItem(SUMMARY_CACHE_KEY, JSON.stringify({ summaries, lastUpdated: result.lastUpdated }));
@@ -91,6 +92,30 @@ export async function loadAchievementSummaries() {
     } catch { /* ignore */ }
     return { games: new Map(), lastUpdated: null, source: src, fromCache: false, error: err };
   }
+}
+
+// Xbox / PlayStation progress synced by the console workflow (small summary file)
+async function loadConsoleSummaries(src) {
+  try {
+    const url = `https://raw.githubusercontent.com/${src.owner}/${src.repo}/${src.branch}/console-summary.json`;
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.games || [])
+      .filter((g) => g && g.appid)
+      .map((g) => ({ ...g, appid: String(g.appid), icon: g.icon || '' }));
+  } catch {
+    return [];
+  }
+}
+
+// Which console achievement system a list entry's platform belongs to.
+// Only platforms that have achievements/trophies (no PS1/PS2/original Xbox).
+export function consoleFamily(platform) {
+  const p = String(platform || '').toLowerCase();
+  if (/xbox\s*(360|one|series)/.test(p)) return 'xbox';
+  if (/playstation\s*(3|4|5|vita)|^ps\s*(3|4|5)(?!\d)|ps\s*vita/.test(p)) return 'playstation';
+  return null;
 }
 
 // Suggests a list status from achievement progress.

@@ -1,6 +1,8 @@
 import { gamesData } from './GameLoader.js';
 import { calculatePercentage, formatUnlockDate } from './utils.js';
 
+const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
 // Global search state (Default is now 'name')
 let currentSearchTerm = '';
 let currentSearchType = 'name'; 
@@ -324,11 +326,11 @@ function renderGameCard(game, percentage) {
             <div class="game-card-main">
                 <div class="game-header">
                     ${game.icon ? 
-                        `<img src="${game.icon}" alt="${game.name}" class="game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
+                        `<img src="${game.icon}" alt="${game.name}" class="game-icon${game.console ? ' console-art' : ''}" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
                         `<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="game-icon">`}
                     <div class="game-info">
                         <div class="game-title">${game.name}</div>
-                        <div class="game-appid">AppID: ${game.appId}</div>
+                        ${/^\d+$/.test(game.appId) ? `<div class="game-appid">AppID: ${game.appId}</div>` : ''}
                         ${platformLabel}
                     </div>
                 </div>
@@ -469,11 +471,11 @@ function renderDetailViewNormal(game, unlocked, total, percentage, sortMode) {
         
         <div class="detail-header">
             ${game.icon ? 
-                `<img src="${game.icon}" alt="${game.name}" class="detail-game-icon" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
+                `<img src="${game.icon}" alt="${game.name}" class="detail-game-icon${game.console ? ' console-art' : ''}" onerror="this.src='https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image'">` : 
                 `<img src="https://via.placeholder.com/460x215/3d5a6c/ffffff?text=No+Image" class="detail-game-icon">`}
             <div class="detail-game-info">
                 <div class="detail-game-title">${game.name}</div>
-                <div class="detail-game-appid">AppID: ${game.appId}</div>
+                <div class="detail-game-appid">${/^\d+$/.test(game.appId) ? `AppID: ${game.appId}` : esc(game.platform || '')}</div>
                 
                 <div class="progress-bar">
                     <div class="progress-fill ${percentage < 6 ? 'low-percentage' : ''}" style="width: ${percentage}%">${percentage}%</div>
@@ -557,7 +559,7 @@ function renderAchievement(ach, isUnlocked) {
                 `<img src="${isUnlocked ? ach.icon : (ach.icongray || ach.icon)}" alt="${ach.name}" class="achievement-icon ${isRare ? 'rare-glow' : ''}" onerror="this.style.display='none'">` : 
                 `<div class="achievement-icon ${isRare ? 'rare-glow' : ''}"></div>`}
             <div class="achievement-info">
-                <div class="achievement-name">${ach.name}</div>
+                <div class="achievement-name">${ach.name}${ach.badge ? ` <span class="ach-badge ach-badge-${esc(ach.badgeType || 'other')}">${esc(ach.badge)}</span>` : ''}</div>
                 ${descriptionHTML}
                 ${groupHTML}
                 ${isUnlocked && ach.unlocktime ? 

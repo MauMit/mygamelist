@@ -82,6 +82,8 @@
           <p id="ach-source" class="muted small"></p>
         </div>
         <div class="head-actions">
+          <button id="mvgl-btn" class="btn btn-ghost" type="button" title="Import a MyVideoGameList list export (.json)">📥 Import from MyVideoGameList</button>
+          <input id="mvgl-file" type="file" accept=".json,application/json" hidden>
           <button id="import-btn" class="btn btn-ghost" type="button">
             🏆 Import from achievements <span id="import-count" class="badge" hidden>0</span>
           </button>
@@ -206,6 +208,33 @@
         <span class="spacer"></span>
         <button type="button" class="btn btn-ghost" data-close>Cancel</button>
         <button type="button" class="btn btn-primary" id="import-confirm">Add selected</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- Import from MyVideoGameList -->
+  <dialog id="mvgl-dialog" class="dialog dialog-wide">
+    <div class="dialog-inner">
+      <header class="dialog-head">
+        <h2>Import from MyVideoGameList</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">✕</button>
+      </header>
+      <div class="dialog-body">
+        <p id="mvgl-summary" class="small"></p>
+        <div id="mvgl-chips" class="mvgl-chips"></div>
+        <label class="check-all"><input type="checkbox" id="mvgl-link" checked> <span id="mvgl-link-label">Link achievement progress for matching PC games</span></label>
+        <label class="check-all" id="mvgl-update-wrap"><input type="checkbox" id="mvgl-update"> <span id="mvgl-update-label">Update games already on your list</span></label>
+        <div class="mvgl-filter" role="group" aria-label="Show">
+          <button type="button" class="status-tab active" data-show="new">New</button>
+          <button type="button" class="status-tab" data-show="existing">Already on list</button>
+        </div>
+        <div id="mvgl-list" class="mvgl-list"></div>
+      </div>
+      <footer class="dialog-foot">
+        <span id="mvgl-count" class="muted small"></span>
+        <span class="spacer"></span>
+        <button type="button" class="btn btn-ghost" data-close>Cancel</button>
+        <button type="button" class="btn btn-primary" id="mvgl-confirm">Import</button>
       </footer>
     </div>
   </dialog>

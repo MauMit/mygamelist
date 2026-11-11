@@ -1,5 +1,6 @@
 import { createStore } from './store.js';
 import { loadAchievementSummaries, suggestStatus, steamCover } from './achievements.js';
+import { parseMvglExport, entryKey, normalizeTitle, normalizePlatform } from './mvgl.js';
 
 // ------------------------------------------------------------
 // Constants
@@ -487,6 +488,132 @@ async function onImportConfirm() {
 }
 
 // ------------------------------------------------------------
+// Import from MyVideoGameList
+// ------------------------------------------------------------
+let mvgl = null;
+
+function prepareMvgl(entries, fileName) {
+  const byKey = new Map(state.games.map((g) => [entryKey(g.title, g.platform), g]));
+  const byMvglId = new Map(state.games.filter((g) => g.mvglEntryId != null).map((g) => [g.mvglEntryId, g]));
+  const byAppid = new Map(state.games.filter((g) => g.appid).map((g) => [String(g.appid), g]));
+  const achByTitle = new Map([...state.ach.values()].map((a) => [normalizeTitle(a.name), a]));
+
+  const fresh = [];
+  const existing = [];
+  const seen = new Set();
+  for (const e of entries) {
+    const key = entryKey(e.title, e.platform);
+    const isPc = normalizePlatform(e.platform) === 'pc';
+    const ach = isPc ? achByTitle.get(normalizeTitle(e.title)) || null : null;
+    const match = (e.mvglEntryId != null && byMvglId.get(e.mvglEntryId)) || byKey.get(key) || (ach && byAppid.get(ach.appid)) || null;
+    const item = { ...e, key, ach, match };
+    if (match) existing.push(item);
+    else if (!seen.has(key)) { seen.add(key); fresh.push(item); }
+  }
+  mvgl = { fileName, total: entries.length, fresh, existing, show: 'new' };
+}
+
+function renderMvgl() {
+  const m = mvgl;
+  const linkable = m.fresh.filter((e) => e.ach).length + m.existing.filter((e) => e.ach && !e.match.appid).length;
+  $('#mvgl-summary').textContent = `${m.fileName}: ${m.total} games. ${m.fresh.length} new, ${m.existing.length} already on your list.`;
+
+  const counts = {};
+  m.fresh.forEach((e) => (counts[e.status] = (counts[e.status] || 0) + 1));
+  $('#mvgl-chips').innerHTML = STATUSES.filter((s) => counts[s.id])
+    .map((s) => `<span class="pill" style="--c:${s.color}">${esc(s.label)}: ${counts[s.id]}</span>`).join('');
+
+  $('#mvgl-link-label').textContent = `Link achievement progress for ${linkable} matching PC game${linkable === 1 ? '' : 's'}`;
+  $('#mvgl-link').closest('label').hidden = linkable === 0;
+  $('#mvgl-update-label').textContent = `Also update the ${m.existing.length} game${m.existing.length === 1 ? '' : 's'} already on your list (status, score, hours and dates from MyVideoGameList)`;
+  $('#mvgl-update-wrap').hidden = m.existing.length === 0;
+
+  $$('.mvgl-filter [data-show]').forEach((b) => b.classList.toggle('active', b.dataset.show === m.show));
+  const rows = m.show === 'new' ? m.fresh : m.existing;
+  const LIMIT = 300;
+  $('#mvgl-list').innerHTML = rows.length
+    ? rows.slice(0, LIMIT).map((e) => `<div class="mvgl-row">
+        <span class="t" title="${esc(e.title)}">${esc(e.title)}</span>
+        <span class="p muted">${esc(e.platform || '–')}</span>
+        <span>${pill(e.status)}</span>
+        <span class="linked" title="${e.ach ? `Achievements: ${e.ach.unlocked}/${e.ach.total}` : ''}">${e.ach ? '🏆 ' + e.ach.percent + '%' : ''}</span>
+      </div>`).join('') + (rows.length > LIMIT ? `<div class="mvgl-more muted small">…and ${rows.length - LIMIT} more</div>` : '')
+    : `<div class="mvgl-more muted small">${m.show === 'new' ? 'Nothing new to add.' : 'None of these games are on your list yet.'}</div>`;
+
+  const updating = $('#mvgl-update').checked ? m.existing.length : 0;
+  const parts = [`${m.fresh.length} to add`];
+  if (updating) parts.push(`${updating} to update`);
+  $('#mvgl-count').textContent = parts.join(', ');
+  $('#mvgl-confirm').textContent = m.fresh.length || updating ? `Import ${m.fresh.length + updating} games` : 'Nothing to import';
+  $('#mvgl-confirm').disabled = !(m.fresh.length || updating);
+}
+
+async function onMvglFile(e) {
+  const file = e.target.files && e.target.files[0];
+  e.target.value = '';
+  if (!file) return;
+  try {
+    const entries = parseMvglExport(await file.text());
+    if (!entries.length) throw new Error('The export has no games in it.');
+    prepareMvgl(entries, file.name);
+    $('#mvgl-update').checked = false;
+    $('#mvgl-link').checked = true;
+    renderMvgl();
+    $('#mvgl-dialog').showModal();
+  } catch (err) {
+    toast(err.message, true);
+  }
+}
+
+async function onMvglConfirm() {
+  const link = $('#mvgl-link').checked;
+  const update = $('#mvgl-update').checked;
+  const btn = $('#mvgl-confirm');
+  btn.disabled = true;
+  btn.textContent = 'Importing…';
+  try {
+    const toAdd = mvgl.fresh.map((e) => clean({
+      title: e.title,
+      status: e.status,
+      platform: e.platform,
+      score: e.score,
+      hours: e.hours,
+      startedAt: e.startedAt,
+      finishedAt: e.finishedAt,
+      notes: e.notes,
+      appid: link && e.ach ? e.ach.appid : null,
+      cover: null,
+      mvglEntryId: e.mvglEntryId,
+      source: 'myvideogamelist',
+    }));
+    if (toAdd.length) await state.store.addMany(toAdd);
+
+    let updated = 0;
+    if (update) {
+      for (const e of mvgl.existing) {
+        const patch = clean({
+          status: e.status,
+          score: e.score ?? undefined,
+          hours: e.hours ?? undefined,
+          startedAt: e.startedAt ?? undefined,
+          finishedAt: e.finishedAt ?? undefined,
+          appid: link && e.ach && !e.match.appid ? e.ach.appid : undefined,
+          mvglEntryId: e.mvglEntryId ?? undefined,
+        });
+        await state.store.update(e.match.id, patch);
+        updated++;
+      }
+    }
+
+    $('#mvgl-dialog').close();
+    toast(`Imported ${toAdd.length} game${toAdd.length === 1 ? '' : 's'}${updated ? `, updated ${updated}` : ''} from MyVideoGameList`);
+  } catch (err) {
+    toast(err.message, true);
+    renderMvgl();
+  }
+}
+
+// ------------------------------------------------------------
 // Events
 // ------------------------------------------------------------
 function bindEvents() {
@@ -543,6 +670,12 @@ function bindEvents() {
   $('#import-list').addEventListener('change', (e) => { if (e.target.type === 'checkbox') updateImportSummary(); });
   $('#import-all').addEventListener('change', (e) => { $$('#import-list input[type=checkbox]').forEach((b) => (b.checked = e.target.checked)); updateImportSummary(); });
   $('#import-confirm').addEventListener('click', onImportConfirm);
+
+  $('#mvgl-btn').addEventListener('click', () => $('#mvgl-file').click());
+  $('#mvgl-file').addEventListener('change', onMvglFile);
+  $('#mvgl-confirm').addEventListener('click', onMvglConfirm);
+  $('#mvgl-update').addEventListener('change', renderMvgl);
+  $$('.mvgl-filter [data-show]').forEach((b) => b.addEventListener('click', () => { mvgl.show = b.dataset.show; renderMvgl(); }));
 
   $$('dialog [data-close]').forEach((b) => b.addEventListener('click', () => b.closest('dialog').close()));
   $$('dialog').forEach((d) => d.addEventListener('click', (e) => { if (e.target === d) d.close(); }));

@@ -277,6 +277,20 @@ main { max-width: 1400px; margin: 0 auto; padding: 28px 24px 60px; }
 .import-item select { width: 100%; background: var(--panel); color: var(--text); border: 1px solid var(--line-2); border-radius: 6px; padding: 6px; font: inherit; font-size: 0.85rem; }
 .import-item input[type=checkbox], .check-all input { width: 18px; height: 18px; accent-color: var(--accent); }
 
+/* ---------- MyVideoGameList import ---------- */
+.mvgl-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.mvgl-chips .pill { font-size: 0.8rem; }
+.mvgl-filter { display: flex; gap: 6px; margin: 14px 0 10px; }
+.mvgl-list { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 8px; max-height: 46vh; overflow-y: auto; }
+.mvgl-row {
+  display: grid; grid-template-columns: minmax(0, 1fr) 170px 130px 54px; gap: 12px; align-items: center;
+  padding: 8px 12px; border-top: 1px solid var(--line); font-size: 0.9rem;
+}
+.mvgl-row:first-child { border-top: 0; }
+.mvgl-row .t { color: var(--text); font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mvgl-row .linked { color: #ffd36b; font-size: 0.8rem; font-weight: 700; }
+.mvgl-more { padding: 10px 12px; text-align: center; border-top: 1px solid var(--line); }
+
 /* ---------- Toast ---------- */
 .toast {
   position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 100;
@@ -315,4 +329,6 @@ main { max-width: 1400px; margin: 0 auto; padding: 28px 24px 60px; }
   .import-item { grid-template-columns: 22px 72px minmax(0, 1fr); }
   .import-item img { width: 72px; }
   .import-item select { grid-column: 2 / -1; }
+  .mvgl-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .mvgl-row .p, .mvgl-row .linked { display: none; }
 }

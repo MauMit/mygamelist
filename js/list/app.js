@@ -1,6 +1,7 @@
 import { createStore } from './store.js';
 import { loadAchievementSummaries, suggestStatus, steamCover } from './achievements.js';
 import { parseMvglExport, entryKey, normalizeTitle, normalizePlatform } from './mvgl.js';
+import { findCovers } from './covers.js';
 
 // ------------------------------------------------------------
 // Constants
@@ -83,7 +84,11 @@ function relDate(unixSeconds) {
 function coverHtml(game, cls = 'cover') {
   const src = coverFor(game);
   const letter = esc(initials(game.title));
-  return `<div class="${cls}">${letter}${src ? `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
+  if (!src) return `<div class="${cls}">${letter}</div>`;
+  // Steam header art is already wide; box art (Wikipedia, custom) is shown whole over a blurred copy
+  const wide = /steamstatic\.com|steampowered\.com|steamcdn/.test(src);
+  const fit = wide ? '' : ` fit" style="--bg:url('${esc(src).replace(/'/g, '%27')}')`;
+  return `<div class="${cls}${fit}">${letter}<img src="${esc(src)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('fit');this.remove()"></div>`;
 }
 
 function pill(statusId) {
@@ -488,6 +493,52 @@ async function onImportConfirm() {
 }
 
 // ------------------------------------------------------------
+// Cover art for games without Steam art (runs in the background)
+// ------------------------------------------------------------
+let coverRunStarted = false;
+
+async function fillMissingCovers() {
+  if (coverRunStarted || !state.user) return;
+  const needs = state.games.filter((g) => !g.cover && !g.appid && !g.coverChecked && g.title);
+  if (!needs.length) return;
+  coverRunStarted = true;
+
+  const byTitle = new Map();
+  for (const g of needs) {
+    if (!byTitle.has(g.title)) byTitle.set(g.title, []);
+    byTitle.get(g.title).push(g);
+  }
+
+  let done = 0;
+  let found = 0;
+  const total = byTitle.size;
+  const status = $('#cover-status');
+  const show = () => {
+    status.hidden = false;
+    status.textContent = `Finding cover art… ${done}/${total}`;
+  };
+  show();
+
+  try {
+    await findCovers([...byTitle.keys()], async (title, url) => {
+      for (const g of byTitle.get(title) || []) {
+        const patch = url ? { cover: url, coverSource: 'wikipedia', coverChecked: true } : { coverChecked: true };
+        try { await state.store.update(g.id, patch, { touch: false }); } catch { /* try again next visit */ }
+      }
+      done++;
+      if (url) found++;
+      show();
+    });
+    toast(`Found cover art for ${found} of ${total} games`);
+  } catch (err) {
+    console.warn('Cover lookup stopped:', err);
+  } finally {
+    status.hidden = true;
+    coverRunStarted = false;
+  }
+}
+
+// ------------------------------------------------------------
 // Import from MyVideoGameList
 // ------------------------------------------------------------
 let mvgl = null;
@@ -717,8 +768,21 @@ async function main() {
     show('app');
     renderAchSource();
     renderAll();
+    let firstLoad = true;
+    let renderQueued = false;
     state.unsubscribeGames = state.store.subscribe(
-      (games) => { state.games = games; renderAll(); },
+      (games) => {
+        state.games = games;
+        // Coalesce bursts of updates (imports, cover lookups) into one redraw per frame
+        if (!renderQueued) {
+          renderQueued = true;
+          requestAnimationFrame(() => { renderQueued = false; renderAll(); });
+        }
+        if (firstLoad) {
+          firstLoad = false;
+          setTimeout(fillMissingCovers, 1500);
+        }
+      },
       (err) => toast(err.message, true)
     );
   });

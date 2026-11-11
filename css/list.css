@@ -193,6 +193,16 @@ main { max-width: 1400px; margin: 0 auto; padding: 28px 24px 60px; }
   display: grid; place-items: center; color: var(--muted); font-size: 2rem; font-weight: 700;
 }
 .cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Box art (portrait): show the whole cover over a blurred, darkened copy */
+.cover.fit, .thumb.fit { position: relative; overflow: hidden; }
+.cover.fit::before, .thumb.fit::before {
+  content: ''; position: absolute; inset: -16px;
+  background: var(--bg) center / cover no-repeat;
+  filter: blur(14px) brightness(0.45) saturate(1.2);
+}
+.cover.fit img, .thumb.fit img { object-fit: contain; z-index: 1; }
+.thumb.fit img { position: absolute; inset: 0; width: 100%; height: 100%; }
 .pill {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 3px 10px; border-radius: 999px; font-size: 0.76rem; font-weight: 700;

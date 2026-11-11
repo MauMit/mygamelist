@@ -86,7 +86,9 @@ async function createFirebaseStore() {
       );
     },
     add: wrap((game) => fsMod.addDoc(gamesCol(), stamp({ ...game, createdAt: Date.now() }))),
-    update: wrap((id, patch) => fsMod.updateDoc(fsMod.doc(gamesCol(), id), stamp(patch))),
+    // opts.touch === false: don't change updatedAt (background fixes like covers)
+    update: wrap((id, patch, opts = {}) =>
+      fsMod.updateDoc(fsMod.doc(gamesCol(), id), opts.touch === false ? patch : stamp(patch))),
     remove: wrap((id) => fsMod.deleteDoc(fsMod.doc(gamesCol(), id))),
     addMany: wrap(async (games) => {
       for (let i = 0; i < games.length; i += 400) {
@@ -169,9 +171,13 @@ function createLocalStore() {
       requireUser();
       saveGames([...loadGames(), stamp({ ...game, id: newId(), createdAt: Date.now() })]);
     },
-    async update(id, patch) {
+    async update(id, patch, opts = {}) {
       requireUser();
-      saveGames(loadGames().map((g) => (g.id === id ? stamp({ ...g, ...patch }) : g)));
+      saveGames(loadGames().map((g) => {
+        if (g.id !== id) return g;
+        const next = { ...g, ...patch };
+        return opts.touch === false ? next : stamp(next);
+      }));
     },
     async remove(id) {
       requireUser();

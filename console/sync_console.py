@@ -105,6 +105,7 @@ class Xbox:
             "Accept-Language": "en-US",
         })
         self.calls = 0
+        self.logged_empty = False
 
     def get(self, path):
         if self.calls >= MAX_XBOX_CALLS:
@@ -146,6 +147,8 @@ class Xbox:
             token = None
             for _ in range(6):
                 data = self.get(path + (f"?continuationToken={token}" if token else ""))
+                if isinstance(data, dict) and isinstance(data.get("content"), (dict, list)):
+                    data = data["content"]
                 if isinstance(data, list):
                     items += data
                     break
@@ -155,6 +158,10 @@ class Xbox:
                     break
             if items:
                 return items
+            if not self.logged_empty:
+                self.logged_empty = True
+                log(f"Xbox: {path.split('/')[2]} gave no achievements for title {title_id}; "
+                    f"response looked like {self.shape(data)}")
         return []
 
     @staticmethod
@@ -244,6 +251,8 @@ class Xbox:
                                     f"/account looked like {self.shape(account)}")
         if not titles:
             log(f"Xbox: no titles found; /player/titleHistory looked like {self.shape(history)}")
+        elif not previous:
+            log(f"Xbox: {len(titles)} titles; first one looked like {self.shape(titles[0])}")
 
         games, fetched, waiting = [], 0, 0
         for t in titles:

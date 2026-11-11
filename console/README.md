@@ -1,6 +1,6 @@
 # Xbox + PlayStation achievements
 
-The **Sync Xbox + PlayStation Achievements** workflow runs every 6 hours. It saves your Xbox achievements and PlayStation trophies to `console-data.json` and `console-summary.json` on the `user` branch. From there:
+The **Sync Xbox + PlayStation Achievements** workflow runs every hour. It saves your Xbox achievements and PlayStation trophies to `console-data.json` and `console-summary.json` on the `user` branch. From there:
 
 - **Achievement viewer** (`index.html`) shows them next to your PC games, labelled with their console, gamerscore or trophy type (Platinum / Gold / Silver / Bronze), rarity and DLC packs.
 - **My Game List** (`list.html`) matches them by title to your Xbox 360/One/Series and PS3/PS4/PS5/Vita games and shows progress bars. Nothing on your list needs to change.
@@ -17,7 +17,7 @@ Each platform is optional. If its secret is missing, that platform is skipped.
    - Name: `OPENXBL_KEY`
    - Secret: the key
 
-The free plan allows 150 requests an hour. Each run uses at most 110, so a large first sync is spread over a few runs. After that, only games with new achievements are fetched.
+The free plan allows 150 requests an hour. Each run uses at most 110, so a large first sync is spread over several hourly runs (about 35 games per run). After that, only games with new achievements are fetched.
 
 ## PlayStation: `PSN_NPSSO`
 
@@ -33,7 +33,7 @@ Sony has no public API. This uses the same trophy API as the PlayStation app, si
 ## Running it
 
 - **First time:** Actions → **Sync Xbox + PlayStation Achievements** → **Run workflow**.
-- **After that:** it runs every 6 hours on its own.
+- **After that:** it runs every hour on its own. Runs where nothing changed take a few seconds and make 1–2 API calls per platform.
 - **If one platform fails** (for example an expired PSN token), the other still syncs, the last good data is kept, and the run is marked failed with the reason in the log.
 
 ## What gets published

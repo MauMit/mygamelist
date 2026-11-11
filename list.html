@@ -131,11 +131,13 @@
       <div class="dialog-body">
         <div id="game-preview" class="game-preview"></div>
         <div class="form-grid">
-          <label class="field span-2">
-            <span>Title *</span>
-            <input id="f-title" type="text" list="ach-titles" required maxlength="150" autocomplete="off">
-            <datalist id="ach-titles"></datalist>
-          </label>
+          <div class="field span-2 title-field">
+            <label for="f-title">Title *</label>
+            <input id="f-title" type="text" required maxlength="150" autocomplete="off" spellcheck="false"
+              placeholder="Start typing to search, e.g. zelda ocarina"
+              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="title-suggest">
+            <ul id="title-suggest" class="suggest" role="listbox" aria-label="Matching games" hidden></ul>
+          </div>
           <label class="field">
             <span>Status</span>
             <select id="f-status"></select>
@@ -148,6 +150,7 @@
               <option>Xbox Series X|S</option><option>Xbox One</option><option>Nintendo Switch 2</option><option>Nintendo Switch</option>
               <option>Nintendo 3DS</option><option>Retro / Emulator</option><option>Mobile</option>
             </datalist>
+            <span id="platform-chips" class="chips" hidden></span>
           </label>
           <label class="field">
             <span>Score</span>

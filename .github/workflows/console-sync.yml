@@ -6,7 +6,7 @@ name: Sync Xbox + PlayStation Achievements
 # Only games with new progress are re-fetched, so a run takes a minute or two.
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

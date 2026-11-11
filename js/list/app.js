@@ -2,6 +2,7 @@ import { createStore } from './store.js';
 import { loadAchievementSummaries, suggestStatus, steamCover, consoleFamily } from './achievements.js';
 import { parseMvglExport, entryKey, normalizeTitle, normalizePlatform } from './mvgl.js';
 import { findCovers } from './covers.js';
+import { searchGames, gamePlatforms, titleMatches } from './gamesearch.js';
 
 // ------------------------------------------------------------
 // Constants
@@ -374,9 +375,172 @@ async function onAuthSubmit(e) {
 // ------------------------------------------------------------
 // Add / edit dialog
 // ------------------------------------------------------------
-function fillDatalist() {
-  const titles = [...state.ach.values()].sort((a, b) => a.name.localeCompare(b.name));
-  $('#ach-titles').innerHTML = titles.map((a) => `<option value="${esc(a.name)}"></option>`).join('');
+// Title search dropdown: games already on the list, games with synced
+// achievements, then Wikipedia's video game articles (title, year, box art).
+const suggest = { items: [], active: -1, timer: 0, ctrl: null, platformCtrl: null, seq: 0 };
+
+function localSuggestions(q) {
+  const out = [];
+  const onList = state.games.filter((g) => titleMatches(g.title, q))
+    .sort((a, b) => a.title.length - b.title.length).slice(0, 4);
+  for (const g of onList) {
+    out.push({ kind: 'list', title: g.title, sub: [g.platform, STATUS[g.status] && STATUS[g.status].label].filter(Boolean).join(' · '), cover: coverFor(g), game: g });
+  }
+  const linked = new Set(state.games.map((g) => String(g.appid || '')));
+  const ach = [...state.ach.values()].filter((a) => !linked.has(a.appid) && titleMatches(a.name, q))
+    .sort((a, b) => a.name.length - b.name.length).slice(0, 3);
+  for (const a of ach) {
+    out.push({ kind: 'ach', title: a.name, sub: `${a.platform || 'PC'} · ${a.unlocked}/${a.total} achievements`, cover: a.icon, ach: a });
+  }
+  return out;
+}
+
+function renderSuggest(loading = false) {
+  const box = $('#title-suggest');
+  const input = $('#f-title');
+  const q = input.value.trim();
+  if (!q || (!suggest.items.length && !loading)) {
+    box.hidden = true;
+    input.setAttribute('aria-expanded', 'false');
+    return;
+  }
+  const tag = { list: 'On your list', ach: 'Achievements synced', web: '' };
+  box.innerHTML = suggest.items.map((s, i) => `
+    <li id="sg-${i}" role="option" class="sg-item${i === suggest.active ? ' active' : ''}" data-i="${i}" aria-selected="${i === suggest.active}">
+      <span class="sg-art${s.kind === 'ach' ? ' wide' : ''}">${s.cover ? `<img src="${esc(s.cover)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</span>
+      <span class="sg-text"><span class="sg-title">${esc(s.title)}${s.year ? ` <span class="sg-year">(${esc(s.year)})</span>` : ''}</span>
+      <span class="sg-sub">${esc(s.sub || '')}</span></span>
+      ${tag[s.kind] ? `<span class="sg-tag sg-${s.kind}">${tag[s.kind]}</span>` : ''}
+    </li>`).join('')
+    + (loading ? '<li class="sg-note" aria-hidden="true">Searching…</li>' : '')
+    + (!loading && suggest.items.every((s) => s.kind !== 'web') && suggest.searched ? '<li class="sg-note">No other matches. You can still save it with this title.</li>' : '');
+  box.hidden = false;
+  input.setAttribute('aria-expanded', 'true');
+  if (suggest.active >= 0) input.setAttribute('aria-activedescendant', `sg-${suggest.active}`);
+  else input.removeAttribute('aria-activedescendant');
+}
+
+function closeSuggest() {
+  clearTimeout(suggest.timer);
+  if (suggest.ctrl) suggest.ctrl.abort();
+  suggest.items = [];
+  suggest.active = -1;
+  suggest.searched = false;
+  renderSuggest();
+}
+
+function forgetPick() {
+  // Typing a different title drops the cover and platform hints of the game picked before
+  const title = $('#f-title');
+  if (title.dataset.pickedCover && $('#f-cover').value === title.dataset.pickedCover) $('#f-cover').value = '';
+  title.dataset.picked = '';
+  title.dataset.pickedCover = '';
+  if (suggest.platformCtrl) suggest.platformCtrl.abort();
+  setPlatformChips([]);
+}
+
+function onTitleInput() {
+  forgetPick();
+  const q = $('#f-title').value.trim();
+  // A title typed exactly like a synced game links its achievements
+  const exact = [...state.ach.values()].find((a) => a.name.toLowerCase() === q.toLowerCase());
+  if (exact) {
+    $('#f-appid').value = exact.appid;
+    if (!$('#f-platform').value) $('#f-platform').value = exact.platform || 'PC';
+  }
+  clearTimeout(suggest.timer);
+  if (suggest.ctrl) suggest.ctrl.abort();
+  suggest.active = -1;
+  suggest.searched = false;
+  if (q.length < 2) { suggest.items = []; renderSuggest(); updatePreview(); return; }
+
+  suggest.items = localSuggestions(q);
+  renderSuggest(true);
+  const seq = ++suggest.seq;
+  suggest.timer = setTimeout(async () => {
+    suggest.ctrl = new AbortController();
+    try {
+      const results = await searchGames(q, { signal: suggest.ctrl.signal });
+      if (seq !== suggest.seq) return;
+      const web = results.map((r) =>({ kind: 'web', title: r.title, year: r.year, sub: r.description && !/^\d{4} video games?$/i.test(r.description) ? r.description : '', cover: r.cover, wikiTitle: r.wikiTitle }));
+      suggest.items = [...localSuggestions(q), ...web];
+      suggest.searched = true;
+      renderSuggest();
+    } catch (e) {
+      if (e.name === 'AbortError' || seq !== suggest.seq) return;
+      suggest.searched = true;
+      renderSuggest();
+    }
+  }, 300);
+  updatePreview();
+}
+
+function onTitleKey(e) {
+  const box = $('#title-suggest');
+  if (box.hidden || !suggest.items.length) {
+    if (e.key === 'ArrowDown' && $('#f-title').value.trim().length >= 2) { onTitleInput(); e.preventDefault(); }
+    return;
+  }
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    const n = suggest.items.length;
+    suggest.active = e.key === 'ArrowDown' ? (suggest.active + 1) % n : (suggest.active - 1 + n) % n;
+    renderSuggest(!suggest.searched);
+    const el = $(`#sg-${suggest.active}`);
+    if (el) el.scrollIntoView({ block: 'nearest' });
+  } else if (e.key === 'Enter') {
+    // With the list open, Enter picks the highlighted game (or just closes the list),
+    // so a half-typed title isn't saved by accident
+    e.preventDefault();
+    if (suggest.active >= 0) pickSuggestion(suggest.items[suggest.active]);
+    else closeSuggest();
+  } else if (e.key === 'Escape') {
+    e.preventDefault();
+    e.stopPropagation(); // keep the dialog open
+    closeSuggest();
+  }
+}
+
+function setPlatformChips(names) {
+  const box = $('#platform-chips');
+  if (!names.length) { box.hidden = true; box.innerHTML = ''; return; }
+  const current = $('#f-platform').value.trim();
+  box.innerHTML = names.map((n) => `<button type="button" class="chip${n === current ? ' on' : ''}" data-platform="${esc(n)}">${esc(n)}</button>`).join('');
+  box.hidden = false;
+}
+
+async function pickSuggestion(s) {
+  if (!s) return;
+  closeSuggest();
+  if (s.kind === 'list') {
+    // Already on the list: open it instead of adding a duplicate
+    $('#game-dialog').close();
+    openGameDialog(s.game);
+    toast(`${s.title} is already on your list`);
+    return;
+  }
+  const title = $('#f-title');
+  forgetPick();
+  title.value = s.title;
+  if (s.kind === 'ach') {
+    $('#f-appid').value = s.ach.appid;
+    if (!$('#f-platform').value) $('#f-platform').value = s.ach.platform || 'PC';
+  } else {
+    title.dataset.picked = s.wikiTitle;
+    if (s.cover && !$('#f-cover').value) {
+      $('#f-cover').value = s.cover;
+      title.dataset.pickedCover = s.cover;
+    }
+    $('#f-appid').value = '';
+    suggest.platformCtrl = new AbortController();
+    gamePlatforms(s.wikiTitle, { signal: suggest.platformCtrl.signal }).then((names) => {
+      if (title.dataset.picked !== s.wikiTitle) return;
+      if (names.length === 1 && !$('#f-platform').value) $('#f-platform').value = names[0];
+      setPlatformChips(names);
+    }).catch(() => { /* platforms are only a hint */ });
+  }
+  updatePreview();
+  $('#f-platform').focus();
 }
 
 function updatePreview() {
@@ -387,9 +551,13 @@ function updatePreview() {
   if (!cover && !a) { box.classList.remove('show'); box.innerHTML = ''; }
   else {
     box.classList.add('show');
-    box.innerHTML = `${cover ? `<img src="${esc(cover)}" alt="" onerror="this.style.visibility='hidden'">` : ''}
+    // Box art (portrait) from Wikipedia or a pasted URL; Steam headers are wide
+    const boxart = cover && !/steamstatic\.com|steampowered\.com/.test(cover);
+    const note = a ? progressHtml(a) || '<span class="muted small">No achievements for this game.</span>'
+      : appid ? '<span class="muted small">No achievement data synced for this AppID.</span>' : '';
+    box.innerHTML = `${cover ? `<img class="${boxart ? 'boxart' : ''}" src="${esc(cover)}" alt="" onerror="this.style.visibility='hidden'">` : ''}
       <div class="gp-info"><div class="gp-title">${esc($('#f-title').value || (a && a.name) || '')}</div>
-      ${a ? progressHtml(a) || '<span class="muted small">No achievements for this game.</span>' : '<span class="muted small">No achievement data synced for this AppID.</span>'}</div>`;
+      ${note}</div>`;
   }
   const link = $('#view-ach');
   link.hidden = !a;
@@ -414,21 +582,15 @@ function openGameDialog(game = null) {
   $('#f-appid').value = g.appid || '';
   $('#f-cover').value = g.cover || '';
   $('#f-notes').value = g.notes || '';
+  $('#f-title').dataset.picked = '';
+  $('#f-title').dataset.pickedCover = '';
+  closeSuggest();
+  setPlatformChips([]);
   updatePreview();
   $('#game-dialog').showModal();
   if (!game) $('#f-title').focus();
 }
 
-function onTitleInput() {
-  // Picking a title from the achievement list links its AppID
-  const title = $('#f-title').value.trim().toLowerCase();
-  const match = [...state.ach.values()].find((a) => a.name.toLowerCase() === title);
-  if (match) {
-    $('#f-appid').value = match.appid;
-    if (!$('#f-platform').value) $('#f-platform').value = match.platform || 'PC';
-  }
-  updatePreview();
-}
 
 async function onGameSubmit(e) {
   e.preventDefault();
@@ -454,6 +616,7 @@ async function onGameSubmit(e) {
     finishedAt,
     appid: appid || null,
     cover: $('#f-cover').value.trim() || null,
+    ...($('#f-cover').value.trim() && $('#f-cover').value.trim() === $('#f-title').dataset.pickedCover ? { coverSource: 'wikipedia' } : {}),
     notes: $('#f-notes').value.trim() || null,
   });
 
@@ -788,6 +951,25 @@ function bindEvents() {
   $('#game-form').addEventListener('submit', onGameSubmit);
   $('#delete-game').addEventListener('click', onDeleteGame);
   $('#f-title').addEventListener('input', onTitleInput);
+  $('#f-title').addEventListener('keydown', onTitleKey);
+  $('#f-title').addEventListener('blur', () => setTimeout(() => { if (document.activeElement !== $('#f-title')) closeSuggest(); }, 150));
+  // mousedown keeps focus in the title box so the list doesn't close before the click lands
+  $('#title-suggest').addEventListener('mousedown', (e) => e.preventDefault());
+  $('#title-suggest').addEventListener('click', (e) => {
+    const li = e.target.closest('[data-i]');
+    if (li) pickSuggestion(suggest.items[Number(li.dataset.i)]);
+  });
+  $('#platform-chips').addEventListener('click', (e) => {
+    const chip = e.target.closest('[data-platform]');
+    if (!chip) return;
+    e.preventDefault();
+    $('#f-platform').value = chip.dataset.platform;
+    $$('#platform-chips .chip').forEach((c) => c.classList.toggle('on', c === chip));
+  });
+  $('#f-platform').addEventListener('input', () => {
+    $$('#platform-chips .chip').forEach((c) => c.classList.toggle('on', c.dataset.platform === $('#f-platform').value.trim()));
+  });
+  $('#game-dialog').addEventListener('close', closeSuggest);
   $('#f-appid').addEventListener('input', updatePreview);
   $('#f-cover').addEventListener('change', updatePreview);
   $('#f-status').addEventListener('change', () => {
@@ -832,7 +1014,6 @@ async function main() {
     state.ach = res.games;
     state.achMeta = res;
     buildConsoleIndex();
-    fillDatalist();
     renderAchSource();
     if (state.user) renderAll();
   });

@@ -100,12 +100,15 @@
           <input id="search" class="input" type="search" placeholder="Search your list…" aria-label="Search your list">
           <select id="sort" class="input" aria-label="Sort">
             <option value="updated">Recently updated</option>
-            <option value="title">Title A–Z</option>
+            <option value="title">Title</option>
+            <option value="platform">Platform</option>
+            <option value="status">Status</option>
             <option value="progress">Achievement %</option>
             <option value="score">Score</option>
             <option value="hours">Hours played</option>
             <option value="added">Date added</option>
           </select>
+          <button id="sort-dir" class="sort-dir" type="button">▼</button>
           <div class="view-toggle" role="group" aria-label="View">
             <button type="button" data-view="grid" class="active" title="Grid view" aria-label="Grid view">▦</button>
             <button type="button" data-view="list" title="List view" aria-label="List view">☰</button>

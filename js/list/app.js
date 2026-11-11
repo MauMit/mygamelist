@@ -34,7 +34,7 @@ const state = {
 
 try { Object.assign(state, JSON.parse(localStorage.getItem(PREFS_KEY) || '{}')); } catch { /* ignore */ }
 const savePrefs = () => {
-  try { localStorage.setItem(PREFS_KEY, JSON.stringify({ sort: state.sort, view: state.view, filter: state.filter })); } catch { /* ignore */ }
+  try { localStorage.setItem(PREFS_KEY, JSON.stringify({ sort: state.sort, sortDir: state.sortDir, view: state.view, filter: state.filter })); } catch { /* ignore */ }
 };
 
 // ------------------------------------------------------------
@@ -156,19 +156,61 @@ function visibleGames() {
   let list = state.games.filter((g) => (state.filter === 'all' || g.status === state.filter) &&
     (!q || [g.title, g.platform, g.notes].some((v) => String(v || '').toLowerCase().includes(q))));
 
-  const pct = (g) => (achFor(g)?.percent ?? -1);
-  const sorters = {
-    updated: (a, b) => (b.updatedAt || 0) - (a.updatedAt || 0),
-    added: (a, b) => (b.createdAt || 0) - (a.createdAt || 0),
-    title: (a, b) => String(a.title).localeCompare(String(b.title), undefined, { sensitivity: 'base' }),
-    progress: (a, b) => pct(b) - pct(a),
-    score: (a, b) => (b.score || 0) - (a.score || 0),
-    hours: (a, b) => (b.hours || 0) - (a.hours || 0),
-  };
-  // Ties (e.g. a batch import) fall back to most recent achievement unlock
+  const key = SORT_VALUES[state.sort] ? state.sort : 'updated';
+  const value = SORT_VALUES[key];
+  const dir = sortDir() === 'asc' ? 1 : -1;
   const lastUnlock = (g) => achFor(g)?.lastUnlock || 0;
-  const primary = sorters[state.sort] || sorters.updated;
-  return list.sort((a, b) => primary(a, b) || lastUnlock(b) - lastUnlock(a));
+  const byTitle = (a, b) => String(a.title).localeCompare(String(b.title), undefined, { sensitivity: 'base', numeric: true });
+
+  return list.sort((a, b) => {
+    const va = value(a);
+    const vb = value(b);
+    // Empty values ("–") always go last, whichever direction
+    if (va == null || vb == null) {
+      if (va == null && vb == null) return byTitle(a, b);
+      return va == null ? 1 : -1;
+    }
+    const c = typeof va === 'string'
+      ? va.localeCompare(vb, undefined, { sensitivity: 'base', numeric: true })
+      : va - vb;
+    // Ties (e.g. a batch import) fall back to latest achievement unlock, then title
+    return c * dir || lastUnlock(b) - lastUnlock(a) || byTitle(a, b);
+  });
+}
+
+// Value each sort key compares on; null means "no value"
+const STATUS_ORDER = { playing: 0, almost: 1, completed: 2, plan: 3 };
+const SORT_VALUES = {
+  updated: (g) => g.updatedAt || 0,
+  added: (g) => g.createdAt || 0,
+  title: (g) => String(g.title || ''),
+  platform: (g) => (g.platform ? String(g.platform) : null),
+  status: (g) => STATUS_ORDER[g.status] ?? 9,
+  score: (g) => (g.score ? Number(g.score) : null),
+  hours: (g) => (g.hours ? Number(g.hours) : null),
+  progress: (g) => { const a = achFor(g); return a && a.total ? a.percent : null; },
+};
+// Direction a column starts in when you first click it
+const DEFAULT_DIR = { updated: 'desc', added: 'desc', title: 'asc', platform: 'asc', status: 'asc', score: 'desc', hours: 'desc', progress: 'desc' };
+
+function sortDir() {
+  return state.sortDir === 'asc' || state.sortDir === 'desc' ? state.sortDir : (DEFAULT_DIR[state.sort] || 'desc');
+}
+
+function setSort(key, dir) {
+  state.sort = key;
+  state.sortDir = dir || DEFAULT_DIR[key] || 'desc';
+  $('#sort').value = key;
+  savePrefs();
+  renderGames();
+}
+
+function sortHeader(key, label, cls = '') {
+  const active = state.sort === key;
+  const dir = sortDir();
+  const arrow = active ? (dir === 'asc' ? '▲' : '▼') : '↕';
+  const aria = active ? (dir === 'asc' ? 'ascending' : 'descending') : 'none';
+  return `<button type="button" class="sort-head ${cls}${active ? ' active' : ''}" data-sort="${key}" aria-sort="${aria}" title="Sort by ${esc(label)}">${esc(label)} <span class="arrow" aria-hidden="true">${arrow}</span></button>`;
 }
 
 function renderGames() {
@@ -177,6 +219,10 @@ function renderGames() {
   const list = visibleGames();
   box.className = 'games ' + state.view;
   $$('.view-toggle button').forEach((b) => b.classList.toggle('active', b.dataset.view === state.view));
+  const asc = sortDir() === 'asc';
+  $('#sort-dir').textContent = asc ? '▲' : '▼';
+  $('#sort-dir').title = asc ? 'Ascending (click to reverse)' : 'Descending (click to reverse)';
+  $('#sort-dir').setAttribute('aria-label', $('#sort-dir').title);
 
   if (!list.length) {
     box.innerHTML = '';
@@ -195,7 +241,7 @@ function renderGames() {
   empty.hidden = true;
 
   if (state.view === 'list') {
-    box.innerHTML = `<div class="row-head"><span>#</span><span></span><span>Title</span><span class="c-platform">Platform</span><span>Status</span><span class="c-score">Score</span><span class="c-hours">Hours</span><span class="c-progress">Achievements</span></div>` +
+    box.innerHTML = `<div class="row-head"><span>#</span><span></span>${sortHeader('title', 'Title')}${sortHeader('platform', 'Platform', 'c-platform')}${sortHeader('status', 'Status')}${sortHeader('score', 'Score', 'c-score')}${sortHeader('hours', 'Hours', 'c-hours')}${sortHeader('progress', 'Achievements', 'c-progress')}</div>` +
       list.map((g, i) => {
         const a = achFor(g);
         const s = STATUS[g.status] || STATUS.playing;
@@ -690,7 +736,17 @@ function bindEvents() {
   $('#status-tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-filter]'); if (b) setFilter(b.dataset.filter); });
 
   $('#search').addEventListener('input', (e) => { state.search = e.target.value; renderGames(); });
-  $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; savePrefs(); renderGames(); });
+  $('#sort').addEventListener('change', (e) => setSort(e.target.value));
+  $('#sort-dir').addEventListener('click', () => setSort(state.sort, sortDir() === 'asc' ? 'desc' : 'asc'));
+  // Column headers in list view: click to sort, click again to reverse
+  $('#games').addEventListener('click', (e) => {
+    const head = e.target.closest('[data-sort]');
+    if (!head) return;
+    e.stopPropagation();
+    const key = head.dataset.sort;
+    if (state.sort === key) setSort(key, sortDir() === 'asc' ? 'desc' : 'asc');
+    else setSort(key);
+  }, true);
   $$('.view-toggle button').forEach((b) => b.addEventListener('click', () => { state.view = b.dataset.view; savePrefs(); renderGames(); }));
 
   const openFromEvent = (e) => {

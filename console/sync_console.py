@@ -192,15 +192,58 @@ class Xbox:
             definition["badgeType"] = "gamerscore"
         return aid, definition, {"earned": earned, "earned_time": t}
 
+    @staticmethod
+    def find_xuid(data, depth=0):
+        """Looks for the xuid anywhere in an OpenXBL response (the layout varies)."""
+        if depth > 5:
+            return None
+        if isinstance(data, dict):
+            for k in ("xuid", "xid", "Xuid"):
+                v = data.get(k)
+                if v and str(v).isdigit():
+                    return str(v)
+            users = data.get("profileUsers") or data.get("people")
+            if isinstance(users, list) and users and isinstance(users[0], dict):
+                v = users[0].get("id") or users[0].get("xuid")
+                if v and str(v).isdigit():
+                    return str(v)
+            for v in data.values():
+                found = Xbox.find_xuid(v, depth + 1)
+                if found:
+                    return found
+        elif isinstance(data, list):
+            for v in data[:3]:
+                found = Xbox.find_xuid(v, depth + 1)
+                if found:
+                    return found
+        return None
+
+    @staticmethod
+    def shape(data, depth=0):
+        """Key names only (no values), for error messages."""
+        if isinstance(data, dict) and depth < 2:
+            return "{" + ", ".join(f"{k}: {Xbox.shape(v, depth + 1)}" for k, v in list(data.items())[:12]) + "}"
+        if isinstance(data, list):
+            return f"[{len(data)} items]"
+        return type(data).__name__
+
     def sync(self, previous):
         history = self.get("/player/titleHistory")
+        if isinstance(history, list):
+            history = {"titles": history}
         titles = history.get("titles") or (history.get("content") or {}).get("titles") or []
-        xuid = history.get("xuid")
+        xuid = None
+        for k in ("xuid", "xid"):
+            if history.get(k):
+                xuid = str(history[k])
         if not xuid:
             account = self.get("/account")
-            xuid = ((account.get("profileUsers") or [{}])[0]).get("id")
-        if not xuid:
-            raise ProviderError("Could not find your Xbox user id (xuid) from OpenXBL.")
+            xuid = self.find_xuid(account)
+            if not xuid:
+                raise ProviderError("Could not find your Xbox user id (xuid) from OpenXBL. "
+                                    f"/account looked like {self.shape(account)}")
+        if not titles:
+            log(f"Xbox: no titles found; /player/titleHistory looked like {self.shape(history)}")
 
         games, fetched, waiting = [], 0, 0
         for t in titles:

@@ -1,0 +1,451 @@
+{
+  "appid": "552700",
+  "name": "WORLD OF FINAL FANTASY®",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552700/header.jpg?t=1793266973",
+  "achievements": {
+    "Trophy000": {
+      "name": "True Grymoirian",
+      "description": "Obtained every achievement.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/c71389eb61b4fbf494fe9444ff08928237fb9a29.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "Trophy001": {
+      "name": "The End?",
+      "description": "Reached an ending.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.4"
+    },
+    "Trophy002": {
+      "name": "Turn Those Corners Up",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/b3be487c42afdad3e68bf9c9c90ed96ec4caa992.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.1"
+    },
+    "Trophy003": {
+      "name": "Gateway to Adventure",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "81.7"
+    },
+    "Trophy004": {
+      "name": "The Saviors of Cornelia",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "51.9"
+    },
+    "Trophy005": {
+      "name": "Crimson vs. Azure",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "30.0"
+    },
+    "Trophy006": {
+      "name": "A Prophecy Fulfilled",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.9"
+    },
+    "Trophy007": {
+      "name": "The Final Reckoning",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "17.0"
+    },
+    "Trophy008": {
+      "name": "Mirage Keeper",
+      "description": "Imprismed your first Mirage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.8"
+    },
+    "Trophy009": {
+      "name": "Mirage Collector",
+      "description": "Recorded a large number of Mirages in the Mirage Manual.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.1"
+    },
+    "Trophy010": {
+      "name": "Mirage Enthusiast",
+      "description": "Recorded a huge number of Mirages in the Mirage Manual.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.1"
+    },
+    "Trophy011": {
+      "name": "Mirage Scholar",
+      "description": "Recorded an inconceivable number of Mirages in the Mirage Manual.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.2"
+    },
+    "Trophy012": {
+      "name": "Mirage Master",
+      "description": "Recorded every last Mirage in the Mirage Manual.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/b3be487c42afdad3e68bf9c9c90ed96ec4caa992.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Trophy013": {
+      "name": "Caretaker",
+      "description": "Mastered your first Mirage Board.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.8"
+    },
+    "Trophy014": {
+      "name": "Legendary Caretaker",
+      "description": "Mastered 100 Mirage Boards.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "Trophy015": {
+      "name": "A Medium Awakens",
+      "description": "Obtained your first Champion Medal.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.1"
+    },
+    "Trophy016": {
+      "name": "Canon Fodder",
+      "description": "Obtained every last Champion Medal.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.2"
+    },
+    "Trophy017": {
+      "name": "Battle Aficionado",
+      "description": "Battled 100 times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.2"
+    },
+    "Trophy018": {
+      "name": "Battle Fanatic",
+      "description": "Battled 500 times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.2"
+    },
+    "Trophy019": {
+      "name": "Treasure Hunter",
+      "description": "Opened 100 treasure chests.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.1"
+    },
+    "Trophy020": {
+      "name": "Treasure Liberator",
+      "description": "Opened every last treasure chest.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.0"
+    },
+    "Trophy021": {
+      "name": "Sweet Revenge",
+      "description": "Defeated your first murkrift Mirage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.7"
+    },
+    "Trophy022": {
+      "name": "All in a Day’s Murk",
+      "description": "Defeated every last murkrift Mirage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "Trophy023": {
+      "name": "Thirst for the Undiscovered",
+      "description": "Found the secret area in every dungeon.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.1"
+    },
+    "Trophy024": {
+      "name": "The Power of Fantasy",
+      "description": "Completed your first intervention battle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.5"
+    },
+    "Trophy025": {
+      "name": "Time Tamperer",
+      "description": "Completed 10 intervention battles.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "19.8"
+    },
+    "Trophy026": {
+      "name": "Threads of Fate",
+      "description": "Completed 30 intervention battles.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.3"
+    },
+    "Trophy027": {
+      "name": "Transcender of Time",
+      "description": "Completed every last intervention battle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.3"
+    },
+    "Trophy028": {
+      "name": "A Helping Hand",
+      "description": "Fulfilled a townsperson’s request for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.3"
+    },
+    "Trophy029": {
+      "name": "People Pleaser",
+      "description": "Fulfilled the requests of every last townsperson in need.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "Trophy030": {
+      "name": "It’s Just Justice",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.7"
+    },
+    "Trophy031": {
+      "name": "Soul Eater",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "13.4"
+    },
+    "Trophy032": {
+      "name": "The Cranberry Knights",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "21.5"
+    },
+    "Trophy033": {
+      "name": "Inking Up a Stink",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "13.8"
+    },
+    "Trophy034": {
+      "name": "An Inseparable Pair",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.5"
+    },
+    "Trophy035": {
+      "name": "The Dyad’s Servants",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "13.0"
+    },
+    "Trophy036": {
+      "name": "Nine Lives",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.4"
+    },
+    "Trophy037": {
+      "name": "Accursed Man-thing!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "Trophy038": {
+      "name": "Never Give Up the Ghost",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "Trophy039": {
+      "name": "Love Tap",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "Trophy040": {
+      "name": "A New Challenger",
+      "description": "Won your first Coliseum battle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.1"
+    },
+    "Trophy041": {
+      "name": "Winning Streak",
+      "description": "Defeated 30 teams at the Coliseum.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.8"
+    },
+    "Trophy042": {
+      "name": "Reigning Champ",
+      "description": "Defeated every last opponent in the Coliseum.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "Trophy043": {
+      "name": "Across the Unknown",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.5"
+    },
+    "Trophy044": {
+      "name": "Crossover Cogna",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/79caabed793ff9dc69b08f03d819a89f071f2d82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.8"
+    },
+    "Trophy045": {
+      "name": "Magitek Knight",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.3"
+    },
+    "Trophy046": {
+      "name": "Blitzball Ace",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.2"
+    },
+    "Trophy047": {
+      "name": "The Fast and the Nebulous",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "Trophy048": {
+      "name": "Zip Zip WHACK!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/77088a27e19b93ab0929346d90a2a09f89ace35f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/552700/1470801b42fd32f9c8350baf3635460e034b2ccc.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.4"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

@@ -1,0 +1,496 @@
+{
+  "appid": "801800",
+  "name": "Atomfall",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg?t=1776701587",
+  "achievements": {
+    "01": {
+      "name": "Back Door",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/41fd92cc929cdad291dc58956461a9546e96e5aa.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/e759ab2867dc2cceedc10c513eec7e654c9fa242.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "02": {
+      "name": "Emergency Extraction",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/d44990c5828374c5cca9db3d921e9cb028b58e21.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/8aa570dbde383e3b6ac860b0d30b9596c1237c07.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.7"
+    },
+    "03": {
+      "name": "At One with the Soil",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/80ff606de503f21bd7082aae7bd62178bf72b64d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/15c97a31e1f026b2606c37ba53d15b310a69e9c4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "04": {
+      "name": "Operation Atomfall",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/9ece4e769cd8386f7b9f97a5881f30f1f493a115.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/cc3edf62ad1c15a8fa6c274be467bee60e706bb5.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.0"
+    },
+    "05": {
+      "name": "Oubliette",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/5e5aebbd5dd3711d7c1d4651b3583240c2c69c80.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/e81f849c26de54fb94193004316033d4eb449cad.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.6"
+    },
+    "06": {
+      "name": "Do you require the Operator?",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/0f09a998d290d3c9c18c73eb2353623c438a6da0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/32bfd59a7514ca4ab20b1bada4defb45f133e03c.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.5"
+    },
+    "07": {
+      "name": "The Interchange",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/66f8dbfda08171e9d6f1b9735430547e930091b0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/93957d2506cf5eab590291b50e299fd71b305753.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "64.6"
+    },
+    "08": {
+      "name": "Alpha",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/b4e389ac9a80b0c2ae232500d739f7cd825e006f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/12b467b71a7131a2a9cb2199fe8b84c09a40129a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "36.3"
+    },
+    "09": {
+      "name": "Bravo",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/22200a3ce47696228644a309980fe97e78e34ccf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/2c507ddbf647e5e12ae305651b77bbc2810ef52d.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "37.8"
+    },
+    "10": {
+      "name": "Charlie",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/e9aba0e8d0afdc84a9e63b4a28ed112876dd80c1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/2a484e2261c6f9c16e7ee44871429ef4d7b538e2.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.3"
+    },
+    "11": {
+      "name": "Delta",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/9fb92c24e11f59874ef75ec640fcc99b02d51ace.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/769db1f835aa9284ed1c3b4c331d0786c879bf82.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.4"
+    },
+    "12": {
+      "name": "Reverse the Polarity",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c7bf52974743921aaa965ee5ec7f2c55f177a69c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/4ecdf894758ae43bd6fadbbbf83cbff25c1bb0bd.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "42.3"
+    },
+    "13": {
+      "name": "Oberon",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/0fee25ea77b155309eb83423e52e5e2d100e7131.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/85eb4c353d7ee20a8e1f739790e1318b5f1b8e17.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.0"
+    },
+    "14": {
+      "name": "Detectorist",
+      "description": "Pick up the metal detector",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/471adf3a3daa8030cf40f9a72ac1cccbcde34571.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/ae3a8819447093e25328e6d2d07b47d6de159c9d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "78.4"
+    },
+    "15": {
+      "name": "Where There's Muck There's Brass",
+      "description": "Find 10 metal detector caches",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/4a14cb2c0bc0164ca58c448261c8384c026bb02b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/1943b78d9a84bcad4e7eb2a37f53df69e57e1c48.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "44.3"
+    },
+    "16": {
+      "name": "Packed Lunch",
+      "description": "Find 5 buried lunchboxes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/b0164210a19273c3fa805e547bcb2eb0b59be939.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/29724db4b9206c1a29ddd56dd6a220700fe17339.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.6"
+    },
+    "17": {
+      "name": "Avid Collector",
+      "description": "Find 10 comics",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/520deb058ad9e9a6c72ca5e96dfca39163f8bac5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/0f1ac75fbc9be99671b1a1776ef4af2889db0b54.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.1"
+    },
+    "18": {
+      "name": "Radiophonic",
+      "description": "Find 5 audio logs",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/8aaea9b35dca6c5c9266b70cc68b560ef39a77b6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/57b504a3d7499c2479a99dac6a2fd35e863a9b94.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.3"
+    },
+    "19": {
+      "name": "Mate's Rates",
+      "description": "Find 5 traders in the Quarantine Zone",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/3c7aaf721b47ae3f5724982e93bf5c3b23edfbf4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/7ba082c3b05c4ce9eee0a7aaffe77a29e05a65e8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.5"
+    },
+    "20": {
+      "name": "We Want Information",
+      "description": "Read 50 notes in the Quarantine Zone",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/67a99df2fe92216ec51a3ce3b6fd0519b0b04b05.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/928c8bf5a1c499fbb64728b6e06f9550262c5b7b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.7"
+    },
+    "21": {
+      "name": "Refer to Manual",
+      "description": "Learn 12 skills",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/051f3d7d1fca4ba39f48b526239eae6e9e569d96.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/f50f72b151f645b51996a89be90c0c5e6eb50c05.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.3"
+    },
+    "22": {
+      "name": "Quick Exit",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/fdd10339378301967b7bb6b887ef9fdf4afb30f1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/4db11e6d3342e05cca3cf4976a1bcbfcf25f81f4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.5"
+    },
+    "23": {
+      "name": "Not Expecting a Call",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/48d11f9583f84f717072f761968873f0645b21b8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/eab2201ee053d06cf39e920bc8c25b4d80761a8a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.6"
+    },
+    "24": {
+      "name": "Orna mental",
+      "description": "Find and destroy 10 Garden Gnomes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/07b8f3fbc3435801f9feb083526b94ef0178cf1b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/ccaab191d4dbdd5bfdd86aff2cb1fa9c21205691.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "25": {
+      "name": "Homemade",
+      "description": "Find and learn 10 recipes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/702da105db53708c1bb183c5f32d2235c55289a6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/eee3d4192f03ea32302f7d3cf3f8966c6a33db86.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.8"
+    },
+    "26": {
+      "name": "Make Do and Mend",
+      "description": "Upgrade a firearm to pristine condition",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/28683299b652be799f74d0ff6cf1af933b366e9e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c4a95fb4ee17d25a65d0f921658b4f250ac322cb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.6"
+    },
+    "27": {
+      "name": "Unplugged",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/a8b9166e31b03307bfff31335cf8260dde0a6f90.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c7026016326e850426350eea229dfb6450001189.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.5"
+    },
+    "28": {
+      "name": "Any Old Iron",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/4c9059d1c4746054420658e342930124b4e00808.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/1260f5055ba116366f1a33213a276732bc17e595.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "17.5"
+    },
+    "29": {
+      "name": "Fast Bowl",
+      "description": "Kill 10 enemies with a thrown weapon",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/32eae9e35dc012e70311869aa7b60f526cd66586.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/a0941b53006cf4cf4f61d0a07fa567d3dd2da597.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "30": {
+      "name": "Hit for Six",
+      "description": "Redirect a thrown grenade with the cricket bat",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/cfe31146c320ba26bbe71e3d43064624711f5a5b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/590565df1f39c1aa52495d604cd606617539f421.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.5"
+    },
+    "31": {
+      "name": "Burglar",
+      "description": "Use the Signal Redirector to unlock 5 doors",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c4e8a283192da508fe7253082402d8487b3f9756.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/a4fcb47d115b6f25efcb290306caa8704bf59244.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.2"
+    },
+    "32": {
+      "name": "Batteries Not Included",
+      "description": "Power up a deactivated robot",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/dbd591bc72bd81a2415f913a2ccf7a948243d5b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/27d5c4851f14875cb225961356906e2431eaeb42.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.2"
+    },
+    "33": {
+      "name": "Caught Red-handed",
+      "description": "Cause an enemy to drop their Molotov cocktail",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/84c80def4e03d47a1e3188016c68fe14c1c1f208.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/8054b702eb8d93a21b5d835de36a455844bf5b23.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.0"
+    },
+    "34": {
+      "name": "Target Practice",
+      "description": "Get 6 kills with the MK.VI Revolver without reloading",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/0dd3f75b01ce4fa9fd6b7f3e36c8d1d9f57077f3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/2cc7639ee0de376359e7868a4e420cd5150550d8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.3"
+    },
+    "35": {
+      "name": "Grand Slam",
+      "description": "Take out at least 5 enemies in one explosion",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/3f750a08c20f23410f24d099636cc80bf4235bea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/4e240d63cdd3819f60947125f4b51d1e58839370.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.6"
+    },
+    "36": {
+      "name": "High Tea",
+      "description": "Consume a Cornish pasty, English tea, and a slice of cake in 30s",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/21032b07e1172fb3733c48d5e313a4e0aa7f8133.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/f5b40e6a614b44de1375a945705f9dee5b074568.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.7"
+    },
+    "37": {
+      "name": "Mind Over Matter",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/6582989c1e9c86e796ec2928c52f686fd1103c0d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/2fbfdcf50291443a9504cf2d980537fe387272a8.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.4"
+    },
+    "38": {
+      "name": "A Throne Fit For All Things",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/3a8f51cc8129e95e88467005c518963f17c85d0f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/eb23b2cea67ebe31104e13ce08164b7e13968577.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.3"
+    },
+    "39": {
+      "name": "Seaworthy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/5bb359754636cbea1a96e2114fa18334ece34254.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c7ff2b653f890e2c6bab29e613321d98b8df3a4d.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.2"
+    },
+    "40": {
+      "name": "Exhumation",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/06275f54eef7c504ed35a6931d9a1ad5b5576f01.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/9b0e36893f137bf1865d9b629d82671ea36c2beb.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.8"
+    },
+    "41": {
+      "name": "Our Island Gnome",
+      "description": "Find and destroy 15 Garden Gnomes on Midsummer Isle",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/691681ba55f6f56b00dab1005e66a5aa69259e60.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/d9dd51c4a87f45613eafeeae0800aa78f4924c21.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.8"
+    },
+    "42": {
+      "name": "Recalling Our Past",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/90fa04e8f5f75c2fa466bb4ffa2d37fc6779f41f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/c7eb8cee0e51f5fd9e4676f799c6a35afbbf7c46.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.3"
+    },
+    "43": {
+      "name": "Fish Fingers",
+      "description": "Kill an Aquatic Feral in a fist fight",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/1f27ba05c9bf5e869f1049ac0bf8d5ab1041b3be.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/685e6af9e29a935436b8a34c953654f5a3fa5a99.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "44": {
+      "name": "Midsummer Picnic",
+      "description": "Consume an Infection Sample, Infected Honeycomb, and Druids' Tonic within 10 seconds",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/62e4b6ca29078a926895059e5790c007de6242d8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/d4c393ab0b8ac7a48f6422a1b83679daeb7cd830.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.3"
+    },
+    "45": {
+      "name": "Buzzkill",
+      "description": "Use an Explosive Lure on the Beekeeper’s Swarm",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/566702e7c37e70c1365cf21a9052effe797732a7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/0aa35a29ec7a1d8cc67b13a704ebd7d9f036bb47.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.6"
+    },
+    "46": {
+      "name": "Collapsing the Heavens",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/08dcbca56630d9720e8fee19c3efebb01f60732a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/7dbd926b7014d6f462bd67c725d823fef2312020.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.5"
+    },
+    "47": {
+      "name": "Creature of Thought",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/9ac41300e371eb780c729b1227976b8653ef7a2d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/ea96c8dae4382aadae961f25eb10b0117134eb8f.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "48": {
+      "name": "Permission Granted",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/68088a655583a4ef76ce1fa2e2f5efc8c5a4e2dd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/20549a53d5c49a0821e115ce32e6e33dafa4020f.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.2"
+    },
+    "49": {
+      "name": "New Directive",
+      "description": "Have a reprogrammed robot ally destroy 5 enemies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/a6d4e0dfb281af2ea24b8dab0e9e22c6cdf667df.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/3b36ee341a2e5bc82e1aed0ce4870cefde3a394f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "50": {
+      "name": "See How You Like It",
+      "description": "Destroy 3 robots using a salvaged robot weapon.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/ee4f31f46939e206ea2df20c82258aef5a3bdbfe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/abeb44fc9c6a41650f916d7ffe7bf269efc095d8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.5"
+    },
+    "51": {
+      "name": "Gnome on the Range",
+      "description": "Find and destroy 10 garden gnomes in Stafell Crag.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/ab54c30f7b7acb65e0044f38f8c1180942427797.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/581aba374f0d7236205dceafb7375cafeb3522b8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.6"
+    },
+    "52": {
+      "name": "Fight Amongst Yourselves",
+      "description": "Affect 6 enemies with Red Mist Bombs in a short space of time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/08d23ac3c8796526d613ec75e743b3b29fd9814a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/721374a6060516879e4291147dad78490c5a4107.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.7"
+    },
+    "53": {
+      "name": "Must… Kill…",
+      "description": "Kill 3 enemies with your fists while the Red Strain Adaptation skill is active.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/013d20f2713075330f28810eff2970d16d1019ef.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/7237928ddd3c2939e315b7ab446aefb3c65d4bdc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.6"
+    },
+    "54": {
+      "name": "Red Handed",
+      "description": "Kill a Contaminated human in a fist fight.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/9cfd0f0bd64b91f49aa262e570b2f045de566f76.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/801800/757424650b56900a885e4c7c615ffa7327624bcc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.3"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

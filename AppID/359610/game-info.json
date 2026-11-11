@@ -1,0 +1,172 @@
+{
+  "appid": "359610",
+  "name": "Assassin’s Creed® Chronicles: India",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359610/header.jpg?t=1692034847",
+  "achievements": {
+    "ACCIndia_Ach_1": {
+      "name": "Infiltrator",
+      "description": "Complete Memory Sequence 1.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/e8e5c5a01586242ff5273f87290800d570c5613b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/5b8e1707d3dc48a0fa511ff6fbc0535400790327.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.6"
+    },
+    "ACCIndia_Ach_2": {
+      "name": "The End?",
+      "description": "Complete Assassin's Creed® Chronicles: India.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/7c4a7559e50e6813392be5bdf9042d3695747949.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/11a1e475cf41c0f69449c10feb2a2883765076b8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.9"
+    },
+    "ACCIndia_Ach_3": {
+      "name": "Not Your Usual Assassin",
+      "description": "Complete Assassin's Creed® Chronicles: India without killing anyone.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/7a37857a03c3ff72df6360d7c97b70b867a1ce93.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/dce7d78fe3f15cb762665100a588436178955968.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "ACCIndia_Ach_4": {
+      "name": "Invisible Master",
+      "description": "Complete Assassin's Creed® Chronicles: India in Plus Hard mode without being seen once.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/a60bd3b83b2844442a592eeea14fe745ee08dce2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/bb5ac28808127c5f5c71a5b1900bd1b2cf458854.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "ACCIndia_Ach_5": {
+      "name": "Thief",
+      "description": "Pickpocket or Loot 100 enemies without being seen.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/0c3ee003ff12e88c08cf90835ae1555e8364d2cc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/5316350e20c301b6fd8d577a4937ff24bbfa683c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "ACCIndia_Ach_6": {
+      "name": "Smoke Gets In Their Eyes",
+      "description": "Use the Smoke to pass by 100 enemies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/1ea68f1dc85c728f38c4f4fe2c5ed9303dcf5e11.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/49ca9ba61c9556118cfda4ea2949224a3c02c1dc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "ACCIndia_Ach_7": {
+      "name": "Two For One",
+      "description": "Multi kill 200 enemies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/a0596e7f6c4e879bfb62c4f9ca19e2a93e79e471.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/fff8e80da1d08df452aca0adb62f44020faaede7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "ACCIndia_Ach_8": {
+      "name": "Take Me Down",
+      "description": "Take down 100 enemies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/3764fc43040307787401f25310d575882c5b7931.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/3be018cf4a149bf90c6b54fca7f3fe353fc5d7c3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "ACCIndia_Ach_9": {
+      "name": "Gone In A Flash",
+      "description": "Have 100 enemies pass by you whilst using Helix Blend.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/47a5591df1d2a9cc2f23d3b5e71e888670c1e829.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/26357ece7a450d38e722bc3617378db04cb67968.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "ACCIndia_Ach_10": {
+      "name": "Leave No Trace",
+      "description": "Dispose of 100 enemies using Helix Blade.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/4dabae2e762b916dfd24bcc1d48f3bca90b6c359.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/8b2f95c3f5fe8d2fe485acf2eb5bd285e13a6461.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "ACCIndia_Ach_11": {
+      "name": "Like A Shadow",
+      "description": "Achieve Shadow Gold Style rating 30 times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/d3189491e243f476e0b6602eedd1f03f56504a6d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/445419ec375c4202c67f3327edfe211ce16cc4c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.4"
+    },
+    "ACCIndia_Ach_12": {
+      "name": "Like An Assassin",
+      "description": "Achieve Assassin Gold Style rating 30 times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/faf3cd7d93425e23631bb6cc66e1db1767fb449e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/ec5e2c6f15c33f7a0138a20993c5edfcf2cbf771.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "ACCIndia_Ach_13": {
+      "name": "Like A Silencer",
+      "description": "Achieve Silencer Gold Style rating 30 times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/45662eec35a784880839830a22e79b279976f070.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/b3bdbce73bfc86b0fa6632834505e84f421b68cc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "ACCIndia_Ach_14": {
+      "name": "Consistent Combo",
+      "description": "Reach the maximum score multiplier in any memory sequence and maintain it for two more sections.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/567db28bc9c77a2046fdb246c6e0356f59e0a49b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/e69362f68085c3c782f781ce0d212bc7c6355987.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.4"
+    },
+    "ACCIndia_Ach_15": {
+      "name": "A Speedy Rescue",
+      "description": "In Memory Sequence 3, rescue Hamid in under 5 minutes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/07b70b769f06e738152f4893de20d0549b92868a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/8aecdf28e864e8324be14b108e63f700044e8947.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.0"
+    },
+    "ACCIndia_Ach_16": {
+      "name": "Faster Than Light",
+      "description": "Complete Memory Sequence 4 in under 9 minutes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/74122fac5890cb7da626082624bbe2c0b569d33e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/a609368eb3f142fed2a2c63b5895be8a065b6608.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "ACCIndia_Ach_17": {
+      "name": "Sharp Shooter",
+      "description": "Clear the Mortar Guards in Memory Sequence 8 without taking any damage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/6c5e74ed6a6f7056b231a054ef74f4b45ed020ce.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/8a2a647c0bba780b416a83c938c56fb6ccc62a72.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "ACCIndia_Ach_18": {
+      "name": "Faster Than An Elephant",
+      "description": "Complete Memory Sequence 9 in under 7 minutes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/c634aec5c9c5ea97f4c67dca748ebf4600e894dd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/359610/60d5e2e9dffb2ba00e12bf5d06a115d16cd435f6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.7"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

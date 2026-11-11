@@ -1,0 +1,190 @@
+{
+  "appid": "610180",
+  "name": "The Jackbox Party Pack 4",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/610180/header.jpg?t=1728584458",
+  "achievements": {
+    "FIBBAGE3_AUDIENCE_FOOLS_PLAYER": {
+      "name": "Fibbage 3: Crowd Teaser",
+      "description": "Audience fools a player",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/7ea611ac161e0f376e523faeec9c39535cb33ee8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/d055a509eef39f56f265f5a4ebcb8ec885176421.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.6"
+    },
+    "FIBBAGE3_ENTER_TRUTH_IN_FINALFIBBAGE": {
+      "name": "Fibbage 3: Doubly Impressive",
+      "description": "Write a lie that's actually the truth in the final round of Fibbage 3",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/7ea611ac161e0f376e523faeec9c39535cb33ee8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/412a1c8a3d847d104eafd3c526de325fbdb5da10.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.8"
+    },
+    "FIBBAGE3_ALL_PLAYERS_FIND_TRUTH_TMI": {
+      "name": "Fibbage 3: Open Book ",
+      "description": "All players pick the truth in a 5+ player game of Enough About You (non final round)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/c8c466674b55e203ce8cf637b075f518f848935e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/412a1c8a3d847d104eafd3c526de325fbdb5da10.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.1"
+    },
+    "FIBBAGE3_FOOL_EVERYONE_TMIFINAL": {
+      "name": "Fibbage 3: Would You Believe?",
+      "description": "Fool 7 players in the final round of Enough About You",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/7ea611ac161e0f376e523faeec9c39535cb33ee8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/412a1c8a3d847d104eafd3c526de325fbdb5da10.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "MONSTERMINGLE_DATELESS_NIGHT": {
+      "name": "Monster Seeking Monster: Consolation Prize",
+      "description": "Nobody gets a date during one of the nights",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/53540cffd93f3dd774206825b8ff9e132bb80680.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/a712570abbef5befaef24e3e201556298f61f32e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.5"
+    },
+    "MONSTERMINGLE_AUDIENCE_WIN": {
+      "name": "Monster Seeking Monster: Mob Rule",
+      "description": "Finish a game with the Audience as the winner",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/53540cffd93f3dd774206825b8ff9e132bb80680.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/a712570abbef5befaef24e3e201556298f61f32e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "MONSTERMINGLE_EVERYONE_IS_A_WEREWOLF": {
+      "name": "Monster Seeking Monster: I'm Lycan It",
+      "description": "Finish a game with everyone turned into werewolves",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/53540cffd93f3dd774206825b8ff9e132bb80680.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/a712570abbef5befaef24e3e201556298f61f32e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "MONSTERMINGLE_DATED_EVERY_NIGHT": {
+      "name": "Monster Seeking Monster: MasterDater",
+      "description": "A player successfully gets a date all six nights of the game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/53540cffd93f3dd774206825b8ff9e132bb80680.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/a712570abbef5befaef24e3e201556298f61f32e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.0"
+    },
+    "STI_BEAT_GENE": {
+      "name": "Survive the Internet: Yasss Gene",
+      "description": "Beat Gene in a game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/0def2c9cee0fbe90e7c604e817acc97a328409e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/0f8f69227dc811fe28e019048172f7c37a8f59cb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.1"
+    },
+    "STI_MULTIPLE_BEST_TWISTS": {
+      "name": "Survive the Internet: Second-Degree Burn",
+      "description": "Get the Best Burn twice in one game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/0def2c9cee0fbe90e7c604e817acc97a328409e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/cc139c130bce2cb86e2edbd7215b32799ca7734c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.0"
+    },
+    "STI_WIN_WITHOUT_BEST_TWIST": {
+      "name": "Survive the Internet: Shadow Star",
+      "description": "Win a game without getting a Best Burn",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/0def2c9cee0fbe90e7c604e817acc97a328409e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/cc139c130bce2cb86e2edbd7215b32799ca7734c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.5"
+    },
+    "STI_CHOOSE_SPECIFIC_PHOTO": {
+      "name": "Survive the Internet: Stick Pic",
+      "description": "Select the image of the animal that lives the \"life of a twig eater\"",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/0def2c9cee0fbe90e7c604e817acc97a328409e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/cc139c130bce2cb86e2edbd7215b32799ca7734c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "19.3"
+    },
+    "BRK_WIN_BRACKET_WITH_100_PERCENT_OF_VOTES": {
+      "name": "Bracketeering: Clean Sweep",
+      "description": "Win a bracket with an answer that gets 100% of the votes each round",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/dd893bb2c9ed8ae6afe51e32c479e8667743c21f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/38ad0a6b327ab09bfe2598a2a3573f8fe95b2621.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.0"
+    },
+    "BRK_TRUE_UNDERDOG": {
+      "name": "Bracketeering: Cinderella Story",
+      "description": "Win a bracket with an answer that everyone predicted would lose each round",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/37001bc4f2f6b3e3f8857bd76e56a41c276c4ede.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/38ad0a6b327ab09bfe2598a2a3573f8fe95b2621.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.5"
+    },
+    "BRK_FOUR_WAY_OVERTIME": {
+      "name": "Bracketeering: Button Masher",
+      "description": "Win a 4-way tied overtime match up",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/dd893bb2c9ed8ae6afe51e32c479e8667743c21f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/38ad0a6b327ab09bfe2598a2a3573f8fe95b2621.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.3"
+    },
+    "BRK_OVERTIME_WITH_AUDIENCE": {
+      "name": "Bracketeering: Split Decision",
+      "description": "Have a match up go to overtime with an audience playing along",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/dd893bb2c9ed8ae6afe51e32c479e8667743c21f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/38ad0a6b327ab09bfe2598a2a3573f8fe95b2621.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.7"
+    },
+    "CIVICDOODLE_GET_ALL_VOTES_IN_MATCHUP": {
+      "name": "Civic Doodle: Popular Vote",
+      "description": "Get all player votes and 90% of audience votes in a single matchup (5+ player game)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/b4a3fb1391a9f4a3d26344222917d4799c8c88af.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/11dcc864df12c8bf3c7d8e96833fee1ba0bbb9b0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.1"
+    },
+    "CIVICDOODLE_FINALROUND_DRAWINGS_ALL_DIFFERENT": {
+      "name": "Civic Doodle: Design by Committee",
+      "description": "Each part of the final round portrait comes from a different player",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/b4a3fb1391a9f4a3d26344222917d4799c8c88af.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/11dcc864df12c8bf3c7d8e96833fee1ba0bbb9b0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.1"
+    },
+    "CIVICDOODLE_GET_100_POOP_EMOJIS": {
+      "name": "Civic Doodle: Civic Doodie",
+      "description": "Draw something that gets 100 poop emojis",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/165d6a1ca44cbdaf49409162482c7b25dff9e7ff.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/11dcc864df12c8bf3c7d8e96833fee1ba0bbb9b0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.2"
+    },
+    "CIVICDOODLE_WIN_BOTH_MATCHUPS_IN_ROUND": {
+      "name": "Civic Doodle: Reelection",
+      "description": "Get both of your additions accepted in a single round (non final round)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/b4a3fb1391a9f4a3d26344222917d4799c8c88af.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/610180/ed0d8aba4091573f021cf7f725693cc0570688de.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.6"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

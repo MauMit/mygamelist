@@ -1,0 +1,829 @@
+{
+  "appid": "666140",
+  "name": "My Time at Portia",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/666140/header.jpg?t=1790754894",
+  "achievements": {
+    "M_FIRST_DAY": {
+      "name": "Newcomer",
+      "description": "Arrive at Portia.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/6b54f396e9d53a472f6c3418474902f8c39d0779.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "90.9"
+    },
+    "M_NEW_BUILDER": {
+      "name": "I am a Builder",
+      "description": "Register your workshop.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4c721657a522273675106bb13e801172daee9f87.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "76.1"
+    },
+    "M_CAN_ENTER_RUINS": {
+      "name": "Adventurer",
+      "description": "Pass the test to enter the Collapsed Wasteland.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/bb811d824de9bff52a122e34f80d68740f2ff354.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.8"
+    },
+    "M_DIDI_5": {
+      "name": "City Transporter",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/9695035989696ac97e57f8bd9a906638f54bc409.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.1"
+    },
+    "I_GIVECD_R": {
+      "name": "Science Power",
+      "description": "Provide 100 Data Discs to the Research Center.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/37f8ddd22a49cd4ef8e772201f7d123807b793ef.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/599246039a9a864975ee1c4bce4e2cd98dff5287.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.4"
+    },
+    "I_GIVECD_C": {
+      "name": "Friend of Nature",
+      "description": "Provide 100 Data Discs to the Church of the Light.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/b6cd41f8044ba4c42890ce1996bb4a07b72fda4f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.8"
+    },
+    "M_TREEFARM": {
+      "name": "Savior of Tree Farm",
+      "description": "Help the Portia Tree Farm be operational again.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4fbc2f5fca5461e3eb4f426e407d8a02cc7db18f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.6"
+    },
+    "M_ACK": {
+      "name": "Hello Mr. Ack",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/aa3ff28bc28202f47cbaab989ece0d95a795e985.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.5"
+    },
+    "M_BRIDGE": {
+      "name": "Across the River",
+      "description": "Help build the Portia Bridge.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f45363a00bf963819c4f250a1112e7d0480969f4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.9"
+    },
+    "M_CATCHGIFT_7": {
+      "name": "Quick Hands",
+      "description": "Pick up 7 gifts during the Day of the Bright Sun event.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a6427881fd8bbc47ae68ead243c61c99519e6b83.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.2"
+    },
+    "G_HOTPOT_85": {
+      "name": "A True Hotpot",
+      "description": "Keep the spiciness of the hotpot above 85 for 10 seconds during the Winter Solstice festival.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/08b08d59389e43cba37feb18e6bbb7c35b2e43a6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.1"
+    },
+    "G_CATCHCOW_50": {
+      "name": "Mad Cowboy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/e868f67dfd89bf2ff5ab88e0cf630bcf7de03cb1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "G_WIN_GOBANG_50": {
+      "name": "Master of Cross Five",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/086f04eb10de965acc67a94d64620b8f3557de35.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "0.9"
+    },
+    "G_DART_150": {
+      "name": "Eagle Eye",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/5efd41c69877c170803d3e2ed491337988ee6363.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.1"
+    },
+    "G_BALLOON_R_90": {
+      "name": "Sharp Shooter",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/2470bb041f4f6f84bd8c666c2ff1547bb5f795f7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.1"
+    },
+    "G_SLOTS_500": {
+      "name": "The Gambler",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/3e2ddfb38bd78c6bbca26d2b59afbbffd173ce17.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "G_RPS3-0_50": {
+      "name": "Rock Paper Win!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/fc93d00c114a89d02976da0081742def153239b6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "0.9"
+    },
+    "G_EXAMINEGOODS_100": {
+      "name": "Eyes on Fire",
+      "description": "Completed 100 Inspections at the Commerce Guild.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/6e3632e2201d394e1fd162665bce101029c1614c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.1"
+    },
+    "I_POOPS_500": {
+      "name": "Shovel Officer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/fb5e25969470f37c69ee3c6dd49f7f2b60e0bd16.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.4"
+    },
+    "I_DIAMOND_1": {
+      "name": "Forever",
+      "description": "Find a diamond.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/cd593e08931e64ce84d548c69348f844fd9e73e4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.4"
+    },
+    "I_RELIC_15": {
+      "name": "Archaeologist",
+      "description": "Recover 15 different types of relics.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/1511a41e41a77e956f7b67c358bdd698e8c5ba2c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.1"
+    },
+    "I_MONEYAMOUNT_10000": {
+      "name": "Middle Class",
+      "description": "Accumulate 10,000 Gols.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/5c8e602c5e501e6427800af16dd29a106e824d28.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.5"
+    },
+    "B_RANK1": {
+      "name": "Premier Workshop",
+      "description": "Be ranked number one in a seasonal workshop ranking.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/88d14e60bcd7fee4f6e0f28cbd37c18b11092ba2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.2"
+    },
+    "B_RATING_S": {
+      "name": "Popular",
+      "description": "Workshop reputation reaches Level S.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/60575e2172dad7b0d77f4dc48182c3e220a8c31e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.8"
+    },
+    "B_UNLOCK_BLUEPAINT_57": {
+      "name": "Well-rounded Workshop",
+      "description": "Gather 50 assembly diagrams.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/72555995658fbe61599ff5723a426e5149a0efa1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.8"
+    },
+    "B_FINISH_ORDER_150": {
+      "name": "Workaholic",
+      "description": "Complete 150 Commerce Guild commissions.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/182a298c35dfd0236bd3581016503187ba9547ed.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.3"
+    },
+    "B_EXPAND_HOME_6": {
+      "name": "Real Estate Tycoon",
+      "description": "Expand the land area of the workshop to the maximum.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/d6df8a6e8e927870d0fa23984b038bdde00d0e12.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.2"
+    },
+    "B_UNLOCK_COOK_30": {
+      "name": "Master Chef",
+      "description": "Successfully make 30 different dishes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/d0678bce9253b0f0c27775b2e7c60d596a914f8d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "B_COOKFAIL_1": {
+      "name": "Bad Cook",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/23d7a36f47fdccca2932b4266234f95b93e9c227.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "25.7"
+    },
+    "A_ENTER_MININGAREA_1": {
+      "name": "Ruin Diver",
+      "description": "Enter the Abandoned Ruins for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4059b34fb94674b648a60fd6ab968fa07bfaf958.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "70.9"
+    },
+    "A_FOUNDSECRETROOM_1": {
+      "name": "Relic Explorer",
+      "description": "Discover a mysterious room in Abandoned Ruins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/51f11a7dbf659e19cb599b82237f3e97e02eedc4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.8"
+    },
+    "A_FELLTREE_200": {
+      "name": "Lumberjack",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/76fba28da33a899b98bbf2ed2d32feb747bf737a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "37.8"
+    },
+    "A_KICKTREE_300": {
+      "name": "The Kicker",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/bbeee3875d843bbcc95028e2bd17e0a230cdd94d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.9"
+    },
+    "A_AD_10": {
+      "name": "The Advertiser",
+      "description": "Place 5 advertisements in the Portia Times for the workshop.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/111c9da6739f4c5daa6b54a2749bfa44c88f732c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "R_BAG_ALL_SPACE": {
+      "name": "All That Weight",
+      "description": "Unlock all backpack slots.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/0f426f803083c455e8cba298ec3dc74ad326465b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.9"
+    },
+    "A_OPENCHEST_50": {
+      "name": "Treasure Hunter",
+      "description": "Open 50 treasure chests.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/14ecc117145b5a7c02cbdd95d3e41c6831d3a674.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.6"
+    },
+    "A_0300_1": {
+      "name": "Too Tired",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/98a775023b9707d09b74aa1786469a284c755dc3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "49.9"
+    },
+    "R_HP_2000": {
+      "name": "Meat Shield",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/bbafdd7bf7cc5102d514e8fe1a9965a1a79c4c81.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.4"
+    },
+    "R_VP_600": {
+      "name": "Athlete",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/70084b15cd49cac2a379b6b8b69d5bd72376af12.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.3"
+    },
+    "A_PK_WINALLNPC": {
+      "name": "Sparring Master",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/8a873a59d91f73d89bd9ffb64e25409325581b1b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.1"
+    },
+    "A_KILL_RAREMONS": {
+      "name": "Monster Hunter",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/e2a42e9e0aad095702606f0df230f8532c292799.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.8"
+    },
+    "A_PASSALLDUNGEN": {
+      "name": "Ruin Adventurer",
+      "description": "Clear all the levels in any Hazardous Ruins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/8f500dc2fdc846ed42a7a15ba1ff2d70f4e2d45a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.8"
+    },
+    "A_MARRY": {
+      "name": "Married!",
+      "description": "Congratulations!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/269baf772c68cc0522d8a3e44fdd6d962f11d75c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.7"
+    },
+    "A_DIVORCE": {
+      "name": "Heartbreak!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f331b7dec43b61d9dfee1d2fa02dc7330fa5af86.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.6"
+    },
+    "A_JEALOUS": {
+      "name": "Two Timer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a00452c8e52468daa8954c363628e3c10e4a2eb8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "S_CAT": {
+      "name": "Cat Lover",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a9dd7c2696394ec191aaa6cf0b4576aa711c1125.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "23.2"
+    },
+    "S_TALK_TIMES_500": {
+      "name": "Social",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/596e15518a258ceaf874469902ba57424e80ffda.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.2"
+    },
+    "S_FRIEND_30": {
+      "name": "Friends Everywhere",
+      "description": "Everyone likes you!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/887ba250547413ad0707e4bdd8eee16b607b2117.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.1"
+    },
+    "S_GIFTTIME_500": {
+      "name": "Generous",
+      "description": "Accumulatively give out 500 gifts.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/d34e28be22bccaad634327cae8254fc1817cd1a6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.8"
+    },
+    "S_BAD_GIFT": {
+      "name": "Unintended Mistake",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/2e4b99dd81a7a2c626ce9401e5551cfbb621b483.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "24.1"
+    },
+    "S_GOOD_GIFT_50": {
+      "name": "Eye for Gifts",
+      "description": "Accumulatively give out 50 gifts that people like.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/0cc59cc407411610fb29e9d5f0d1866b6e95586c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.0"
+    },
+    "S_GROUP_PHOTO": {
+      "name": "Say Cheese!",
+      "description": "The first photo taken with someone else.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f6f9dce8fdfaba9ac0c99accc21a2868d71be985.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/599246039a9a864975ee1c4bce4e2cd98dff5287.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.7"
+    },
+    "G_SEESAW": {
+      "name": "Birdie",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4f68dc775f90424e4d4021bc378df5a2c252dfae.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "S_MISSDATE": {
+      "name": "No Show",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/8eec67f150dc1118081642e1cea77062e2ef0d50.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "S_MEAL": {
+      "name": "It's On Me",
+      "description": "Accumulated 10 meals during dates and play dates.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a14eb5a90b5bc087875963f0a6294a5d168eebb0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.2"
+    },
+    "G_SWING_HAPPY": {
+      "name": "Full Synchronization",
+      "description": "Accumulated 10 times in the Swing mini-game where the play date is happy with the result.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/0c3cf00dde37b14992f5fa5fc141bd90db4ca2e5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "G_PAINT_HAPPY": {
+      "name": "Beach Painter",
+      "description": "Accumulated 10 times during the Doodles mini-game where the play date is happy with the result.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/2585cb501c1a11ba7bb3c479665cab9f3fa87fe4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "G_ALL_CONSTELLATION": {
+      "name": "Astronomer",
+      "description": "Recognize 5 different constellations.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a31c9b25d850ec4a684e1efe338f9835280680aa.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "O_MAKE_POOPS": {
+      "name": "Vomit...",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/5ce663f4b1fc07d9ab236c760772211b48eb7d62.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "24.5"
+    },
+    "M_MUSEUM": {
+      "name": "Ribbon Cutting",
+      "description": "Opening Of The Museum",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/ad5e2abc8ee50d1bdddd635c481d0f75801c3480.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.1"
+    },
+    "M_SOUTHBLOCK": {
+      "name": "All Roads Lead to Portia",
+      "description": "Complete South Block.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4cf66b3273f3b0c3d98c9fa4e54b0e582f7ff1f2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/599246039a9a864975ee1c4bce4e2cd98dff5287.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.5"
+    },
+    "M_HARBOR": {
+      "name": "Safe Harbor",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/7238a472de676377774f0020078b7da9ee4b01a9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/599246039a9a864975ee1c4bce4e2cd98dff5287.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "16.1"
+    },
+    "C_GUST": {
+      "name": "Romantic Proposal",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/942b6ba16d07304d0d59a7dc7aabbc254fc8411a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "C_GINGER": {
+      "name": "Welcome to the Family",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/2c6609a42ee1923d32bcf8927d396928b6c26ea0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.6"
+    },
+    "C_PHYLLIS": {
+      "name": "Dream Come True",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/beddb3807adfdc3929ce00286e0ecab86da3cb69.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "C_MINT": {
+      "name": "First love",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/8dacc9c7f3ca0b28c29899ffdf5d425742e6401d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "G_GHOSTCAVE": {
+      "name": "Fearless",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/97a78337d298b77a0e0a839940113cf478ea2ccd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "11.2"
+    },
+    "M_MEMORIES": {
+      "name": "Fast Hands",
+      "description": "Find more than 10 Ghost Badges in a single Day of Memories event.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/0e5be96135c9bac9cc25ca55ebf1ebee92144166.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "G_FISHINGMATCH": {
+      "name": "Master Fisherman",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/087e2b248a8c4bceb76dd2891fd855f5097690e2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.0"
+    },
+    "G_Fireworks": {
+      "name": "Light Up the Sky",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/1589048d0b5faca95e91d8192118eabf9457804f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "S_DOG": {
+      "name": "Dog Owner",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/2710024e45e3f31c1a9d321f08ca36a3624cae8e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.6"
+    },
+    "M_RogueKnight": {
+      "name": "The Masked Man",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/dce67b12506b2e2ab3a26264d84a7e86a3c1590b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.3"
+    },
+    "M_Arrested": {
+      "name": "Captured!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/72b5fcd978c6f51d8954d4de1aa635f121759b85.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.1"
+    },
+    "M_FinalFight": {
+      "name": "The Final Showdown",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/07c7803e9d91a21fdf7a1051dae4d22523952474.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.0"
+    },
+    "M_Papa": {
+      "name": "The End of a Journey",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/97849cc9c5ab8aa16b2ca39d0421adc94de4e853.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.9"
+    },
+    "M_MTAP": {
+      "name": "My Time at Portia",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/49870569be0a1a14a49c635025256231626ac714.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.7"
+    },
+    "C_Emily": {
+      "name": "A Fairy Tale Ending",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/15de5aad14689a5902507c487d67d198e154196b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "C_DrXu": {
+      "name": "Shooting off Fireworks",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/c4871e8c3c09fcad11dca2201440473a4190053a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.4"
+    },
+    "C_Arlo": {
+      "name": "Sweet Adventure",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/cb942d094589fae08015851e50f0c8da710aab1e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.1"
+    },
+    "S_Adore": {
+      "name": "Full Devotion",
+      "description": "Achieve the best relationship with your spouse.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/cf3a41ecb3f37ffe01f7b11978cd11f4061c00d5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.6"
+    },
+    "S_FirstBaby": {
+      "name": "First Child",
+      "description": "Have or adopt a child.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/5f0c0fe41771895207faa979d7ca78e313aacbd9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.6"
+    },
+    "S_SecondBaby": {
+      "name": "Second Child",
+      "description": "Have or adopt a second child.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/399840d990e3be19293a9044863ee65c8b42c88d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.0"
+    },
+    "S_GoodParent": {
+      "name": "Good Parent",
+      "description": "Achieve the relationship \"Happy Child\" with your kid.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/cacddc386859c4c4e8cb42a0317192fb3cba595b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.6"
+    },
+    "A_Party_1": {
+      "name": "Party Time!",
+      "description": "Throw a party.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/6e460345e338b66bbc9dbff7ac39b2902dccba08.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.7"
+    },
+    "A_Party_10": {
+      "name": "Party Master",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/9a1f2df620ea4f12c1610e300b90238928bbc7f4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "0.8"
+    },
+    "A_TrialRuins_0": {
+      "name": "A Dangerous Dive",
+      "description": "Enter the Deepest Ruins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/4c5c317df29101784ed5b7580f4ee09f27bf5feb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/599246039a9a864975ee1c4bce4e2cd98dff5287.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "A_TrialRuins_NoBuff50": {
+      "name": "Man of Steel",
+      "description": "Get to Level 50 of the Deepest Ruins without using Vending Machines.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/ec57b3ee2e1472f08d0ba43c4efcdf3e6b805680.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "A_TrialRuins_10": {
+      "name": "A Piece of Cake",
+      "description": "Clear Level 10 of the Deepest Ruins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/a2cc0f1e8edfa952d76889a618290d6d644ba585.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.8"
+    },
+    "A_TrialRuins_50": {
+      "name": "Danger Walking",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/63996ac2d37ab16f9e7180d21eb9b00d507fffa7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "A_TrialRuins_100": {
+      "name": "Legendary Diver",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/017f707960d5b72b715926252dda847360ff5e62.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "A_TrialRuins_AllBuff": {
+      "name": "Well-Rounded Warrior",
+      "description": "Used all items from the Vending Machine in the Deepest Ruins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/562b660cc7740107cfeb822aec2f2ca46819972e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/666140/f37603ee69ebe484409b963fe6096948ad8b2408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.5"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

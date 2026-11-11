@@ -1,0 +1,343 @@
+{
+  "appid": "3654560",
+  "name": "Plants vs. Zombies™: Replanted",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/2a3015b525e5d4da6d2c1a517d0a8c1504b1eee8/header.jpg?t=1763401327",
+  "achievements": {
+    "STEAM_1": {
+      "name": "Home Lawn Security",
+      "description": "Complete Adventure Mode.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/3f97d4c0b6d4604eef866079e256aa463017d7ab.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/d09dfcfe134ae81ba9fcdbe7473bfa82a72b2149.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.4"
+    },
+    "STEAM_2": {
+      "name": "Nobel Peas Prize",
+      "description": "Get the Gold Sunflower Trophy.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/647f86b531d9ad577455b78b1d46c9ddbf16243e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/d3f4ecc926e9c112d7fca90b0ba1eaf4a9c5f892.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.2"
+    },
+    "STEAM_3": {
+      "name": "Better Off Dead",
+      "description": "Get to a streak of 10 in I, Zombie Endless.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/97fca58ec2f622e5c94a55bce832aa3b2a2fc703.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/ebb73c03f9bfa262242c0f47df106eeaf0318e3a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.7"
+    },
+    "STEAM_4": {
+      "name": "China Shop",
+      "description": "Get to a streak of 15 in Vasebreaker Endless.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/ae519ac4b0a03721f9975432d09c5e31c6f0f5d8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/e17896a34dd8fe4c5093a07f8710897e93317ab5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.4"
+    },
+    "STEAM_5": {
+      "name": "SPUDOW!",
+      "description": "Blow up a zombie using a Potato Mine.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/83f7f56c131fc2c45d9487fe06cc5d9a5d1cacc4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/cf71a31f32f17325d28192ef3a0994c7fdf4a3b7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "88.1"
+    },
+    "STEAM_6": {
+      "name": "Explodonator",
+      "description": "Blow up 10 zombies with a single Cherry Bomb.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/97937a3a5c417c0bd30dd8c61239351074952290.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/7a3524d49e9dbef55dc55eefedb2553d49fd94ff.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "66.7"
+    },
+    "STEAM_7": {
+      "name": "Morticulturalist",
+      "description": "Collect all 49 plants, including plants from Crazy Dave's shop.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8e5131bb6d4d973cb532808e27e85619380e3077.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/147a012dbfff3817d9ee06a3d4ea3ef7a215c79e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.3"
+    },
+    "STEAM_8": {
+      "name": "Don't Pea In The Pool",
+      "description": "Complete a daytime pool level without using Peashooters of any kind.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/34c81ac9888ea2ee3cd7b7c6291eabeb25ff0aea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8300066ee3690422e8e4550b2291f8db9e69ef05.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.5"
+    },
+    "STEAM_9": {
+      "name": "Roll Some Heads",
+      "description": "Bowl over 5 zombies or more with a single Wall-nut.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/bd231f8f4fe29019e9eb48aa0ccbe52d5760a15b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/1cbe2f36e9c0f1a05856154be0f10c57d23eb005.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.1"
+    },
+    "STEAM_10": {
+      "name": "Grounded",
+      "description": "Complete a normal Roof level without using any catapult plants.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b0a4e85b772d170a9778af54d47def8db3a00f0f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/126d486c3ff0741e5ece3f3cf085885acb111497.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.9"
+    },
+    "STEAM_11": {
+      "name": "Cryptozombologist",
+      "description": "Discover the Yeti Zombie",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/13608b40cac0e813751cba54352716f0fbf01cd8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/384df552c7c883272f200d6474e4224ad5669594.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.4"
+    },
+    "STEAM_12": {
+      "name": "Penny Pincher",
+      "description": "Pick up 30 coins in a row on a single level without letting any disappear.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8900f2057540ee252218cc8e84c4628d81dd40f4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/83e1c27924d36d318abe7b9c07b0142cc38f1870.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "57.0"
+    },
+    "STEAM_13": {
+      "name": "Sunny Days",
+      "description": "Get 8000 sun during a single level.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/d37a5db55996e70efe24443900e2f8882747717f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/2fd2e6c7e74b625df443782602fedd80eb78f647.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.6"
+    },
+    "STEAM_14": {
+      "name": "Popcorn Party",
+      "description": "Defeat 2 Gargantuars with corn cob missiles in a single level.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8cfa159e4cfaa430a5cdd201f5f629c349a75168.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/2432462b9eb97f71f96d53e7727437c253c21385.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.1"
+    },
+    "STEAM_15": {
+      "name": "Good Morning",
+      "description": "Complete a daytime level by planting only mushrooms and Coffee Beans.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8100fe7a80c8ddaab5dec74125971b2e3bf2adbe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/0b5737420dfa3364fd7471f033a7508303ca78de.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.5"
+    },
+    "STEAM_16": {
+      "name": "No Fungus Among Us",
+      "description": "Complete a nighttime level without planting any mushrooms.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/5a280243bcf74ac29dfe5ff3e6ebf598ebcd2674.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/95a9df2124cfea822fefcb393e58a6567d011404.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.0"
+    },
+    "STEAM_17": {
+      "name": "Beyond The Grave",
+      "description": "Beat all 20 Mini-games.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/9d08dff805121508ebee0bfb5bc21d17081ceeee.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/198aec0d3d2b488d2ac66bc82d68b7110b433a42.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.7"
+    },
+    "STEAM_18": {
+      "name": "Immortal",
+      "description": "Survive 20 waves of pure zombie ferocity.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/c41fbea7bd60659b3e765f6d1fdb9818dcce67bc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/810d8b08c38af08c9a10f35e82093e1352c67536.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.9"
+    },
+    "STEAM_19": {
+      "name": "Towering Wisdom",
+      "description": "Grow the Tree of Wisdom to 100 feet.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b45b845788cb648879078070ae14faea86ec484e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8f0ab36b5252e0d53076f223a61302beb927a1ff.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.7"
+    },
+    "STEAM_20": {
+      "name": "Ask Me About Mustache Mode",
+      "description": "Enable Mustache Mode",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/8d607b0b1d56fea056c23bef8c061d574d1e3be3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/57088a62e4d6701d725e2ba9ab39d2a93804ebe7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.6"
+    },
+    "STEAM_21": {
+      "name": "Disco is Undead",
+      "description": "Hypnotize a Dancing Zombie",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/6e355b7dc5d77751da55c4d7c9dc87ec7aaaf76b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b9980f4d92687d17a8cef38e0757ac6da8fb9ed6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.6"
+    },
+    "STEAM_22": {
+      "name": "Final Rest",
+      "description": "Complete all levels in a Rest in Peace run",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/06caadded9910026ab38ccab66f42d320b5bb42a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/355f227ffb1363dea1df9892653886f76eab975f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.7"
+    },
+    "STEAM_23": {
+      "name": "Life Well Lived",
+      "description": "Complete all levels in a Rest in Peace run without losing a single lawnmower",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/5aeea51f33e2427a253415840272dbcb053af0a4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/2d892d58d8ff0799a56b7d40e64152012bf4e68e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.7"
+    },
+    "STEAM_24": {
+      "name": "Cloud Cover",
+      "description": "Complete all 12 Cloudy Day levels.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b5d6da97d9da211a2b745eee988c6d1946b85610.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/27e5062eb070b4fc9e16183ffebe5e10da862931.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.6"
+    },
+    "STEAM_25": {
+      "name": "Pyromaniac",
+      "description": "Complete a level using only explosive plants to kill zombies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/fe275166e843005fbb4bedb621838d17c19bc522.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/4eb8d06a11b3d0bf6203dd5e3a68767215f51f7c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "STEAM_26": {
+      "name": "Alive and Planting",
+      "description": "Get 40 flags in Survival Endless.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b20d124f3f9f4e47b9e20cc1603a7f47594e7e7a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/874cfcd88e95e71da6c3035814efcecf9f725eb4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.5"
+    },
+    "STEAM_27": {
+      "name": "Wall-Not Attack",
+      "description": "Complete ZomBotany without using Wall-nuts, Tall-nuts, or Pumpkins.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/bebc2d30e59eefc41014d45c3e73cf01512c58ab.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/45cf0745bd19fcc242c8769ac1ed62356f1f3c0b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.1"
+    },
+    "STEAM_28": {
+      "name": "Shooting Star",
+      "description": "Complete Seeing Stars before the first Flag Zombie arrives.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/bb7dee3ea996030f2461957c66cd94d63ed3e09c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/db56600262de7f53f4f37bfd4034e30fc1b3434a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.6"
+    },
+    "STEAM_29": {
+      "name": "Sol Invictus",
+      "description": "Complete Last Stand with 2000 or more sun remaining.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/5aa6ab419bd859d7a94dbea9b370ebae0087a80d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/76afb5cf6c99546d3ea91058680dc623fdfe843b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.9"
+    },
+    "STEAM_30": {
+      "name": "Sproing! Sproing!",
+      "description": "Complete Pogo Party without using Tall-nuts or Magnet-shrooms.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/4a6d77afe646d56e477299b45be5bd75738ff2bf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/b31a09f022e6394933ee667b9009cae3ffb52810.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.5"
+    },
+    "STEAM_31": {
+      "name": "I, Win",
+      "description": "Win all 9 I, Zombie trophies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/577af8218d49183de4a0d1a072c817b8a24e84d7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/268a465243c146c421fff5500b80dc1f0038a217.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.4"
+    },
+    "STEAM_32": {
+      "name": "Smashing!",
+      "description": "Win all 9 Vasebreaker trophies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/edb17b8da0ba93b787e7d6c38ce1b79c4730d95c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/6e0cf9651579e6376011629616f4a91f79b2ae70.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.3"
+    },
+    "STEAM_33": {
+      "name": "Last Mown Standing",
+      "description": "Defeat the last zombie in a level with a Lawn Mower.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/93dea2b9407bf5b2ecfed38f61b1339a9d746430.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/96b331cf82d06038464d791478957b4ac2f0cd59.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.3"
+    },
+    "STEAM_34": {
+      "name": "Enlightened",
+      "description": "Collect all Zen Garden, Mushroom Garden, and Aquarium Garden plants.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/9d34e520169604424531151c273b2408eb7a9887.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/21288fc1aa20fca69356c26de61b7d3dae84de62.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "STEAM_35": {
+      "name": "Second Life",
+      "description": "Complete Adventure Mode a second time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/85827ced6201fafebd19e273f0e6d284fd91b57a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/41e4d4b8d5ec2816c4da0c5a9a1bf56955b3c8b7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.1"
+    },
+    "STEAM_36": {
+      "name": "Life Half Empty",
+      "description": "Toggle on the Retro Zombie skin for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/1064555e46c5d3e084347d71a5c604fd73745ae9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/9c396b24ee4fe4d3be3303d28e3e84ae20ecd09b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.4"
+    },
+    "STEAM_37": {
+      "name": "Life Half Full",
+      "description": "Toggle on the Head Crab Zombie skin for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/a474546450b7d33a41ebeb3ffacfab7a3dfc3dac.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3654560/35c18a75684100b12521e88d933bafb9dbcb74ce.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.0"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

@@ -1,0 +1,316 @@
+{
+  "appid": "2416450",
+  "name": "MOUSE: P.I. For Hire",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg?t=1793137611",
+  "achievements": {
+    "ACHIEVEMENT_002": {
+      "name": "Tricks of the Trade",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/e19b58b79f2adb63a2cd30e10f337607a503a289.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/9bd26f4b341d68880452859ac6e322f44a4abdaf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.5"
+    },
+    "ACHIEVEMENT_003": {
+      "name": "Guns, Lots of Guns",
+      "description": "Collect all non-corporate-locked weapons",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/58f87eaeb626be6ec8c68104d7ca99b755779690.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/7288921d31767046839631d98adfee4fd24f3e95.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.6"
+    },
+    "ACHIEVEMENT_006": {
+      "name": "Babe Got Bat",
+      "description": "Collect 10 Baseball Cards",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/32d4f66880173f86fe129a747223a97bb64caf2e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3d41230d8e3b86cfc340f835cc8068f392aa9e8b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.1"
+    },
+    "ACHIEVEMENT_007": {
+      "name": "S’all in the Cards",
+      "description": "Win 30 Baseball Card matches. Home Run!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/ae7865008dddc1449d4478c692cbb12ce0651f74.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/bec44f936ec932d2c9c5590989e5b1a0b29b400f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "ACHIEVEMENT_008": {
+      "name": "So, Whodunit?",
+      "description": "Pin every clue to your evidence board",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/17ff5054ea8a7a8120c96988905dbec24af6be68.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/ffdd85b0a5b8658f50aa993f26d4fae641521043.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.5"
+    },
+    "ACHIEVEMENT_010": {
+      "name": "Burdens of Blue Betty",
+      "description": "Find key clues in the Blue Betty case.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/b63444a38e76eb59c82dd136880bf650866b3f92.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/75a88836655ce660b5e8feb9692d655ab285e9ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.5"
+    },
+    "ACHIEVEMENT_012": {
+      "name": "Comic Relief",
+      "description": "Collect 5 comic strips",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3dc33e54781acc1858a26eaaa5cb58b62d9fa3eb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/10d8ac05d28de4c5c887d26f6576e858b6084701.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "52.3"
+    },
+    "ACHIEVEMENT_013": {
+      "name": "Dime Novel Sleuth",
+      "description": "Complete 5 side jobs",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/df476a4dc576539f2852fcb9e8b257ed5057d40f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/c8abc853641ae12707964f69c8ecd7f38ebac14a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.3"
+    },
+    "ACHIEVEMENT_015": {
+      "name": "Extra! Extra!",
+      "description": "Collect all issues of the Mouseburg Herald. Even the weird ones",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/88b19116829d4875590e83a1b51af244c318d249.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/9c81ad868da7056866210185821a86e5a12bd29f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.7"
+    },
+    "ACHIEVEMENT_017": {
+      "name": "Misfortunes of the Missing Magician",
+      "description": "Find key clues in the Missing Magician case",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/dc8beed439617e6228ac406b33682438d9c1fbe7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/319aeb0f44ab08c07cfed996addafd0d75c2d0fd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.7"
+    },
+    "ACHIEVEMENT_018": {
+      "name": "Real Deal Gumshoe",
+      "description": "Complete every side job. Dot those i’s, detective",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/a9945bd9a0dae4422074abfbd71956459559aa9b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/e15a067cb0bd0076d65b192a10a2908be9308841.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.0"
+    },
+    "ACHIEVEMENT_019": {
+      "name": "We’ll B.A.N.G., ok?",
+      "description": "Upgrade every weapon to tier 3",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/a5f50061731b0bc84c03ee8e2d08ff4c3cadf396.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/d03842d1d90c239301e61d42dfefe6b79ab066b8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.9"
+    },
+    "ACHIEVEMENT_020": {
+      "name": "The Prequel",
+      "description": "Collect all comic strips. Some things never change",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/498258cf47712a4d47384d9ee53338f0bbc7f063.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/db6fe85d1648a52bd6f6ea3b817a8cf2796d0485.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "ACHIEVEMENT_022": {
+      "name": "Secrets of the Shrew Shortage",
+      "description": "Find key clues in the Shrew Shortage case",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/0bc6e424906c0d382c2aa43fccfe6815d557a3b4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/9a16bb78502d23c6eb415b6dd8aadcafae5bf771.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.2"
+    },
+    "ACHIEVEMENT_024": {
+      "name": "This is My Boomstick!",
+      "description": "Upgrade one weapon to Tier 3",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3b4a7a287290b79b93bae524cec076205a7f6595.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/1389d966d0869f1a011849913e42789a2a3c81f6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.0"
+    },
+    "ACHIEVEMENT_026": {
+      "name": "Goud’em!",
+      "description": "Kill 5 enemies within 10 seconds",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/5791510284c8af7d2f15f71434258927df9e87b5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/d7b83c262aeeb9c250863d06d9ab5b614dcb6018.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "59.7"
+    },
+    "ACHIEVEMENT_027": {
+      "name": "Cover to Cover",
+      "description": "Collect 10 issues of the Mouseburg Herald",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/ebf7d930a336181442b36aeedfad0c09d5dfe78b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/4ac405a81f70f18df9c2a202b9a8836b1d2ed5cf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.2"
+    },
+    "ACHIEVEMENT_029": {
+      "name": "Extremely Graphic Novel",
+      "description": "Collect 10 comic strips",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/bc0a8c0654f631a7679661e42f5c4cb98a45004b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/49143a5abb8f0c6b4b119c6733719c5fd3b7ced4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.8"
+    },
+    "ACHIEVEMENT_030": {
+      "name": "Paper Person",
+      "description": "Collect 5 issues of the Mouseburg Herald",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/fc1ee49771f7dea472749dff7f7d622241af8e5a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/33a08e35cb66825047748ae8626dd7db38dee553.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.2"
+    },
+    "ACHIEVEMENT_032": {
+      "name": "Pocket Aces",
+      "description": "Win one Baseball Cards match",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/c444a66fcaa7e4ec4573989c62890832b677ac97.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3f8c3aada12b3690ee4b4ea8a94cda2f1a0d221f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.5"
+    },
+    "ACHIEVEMENT_034": {
+      "name": "Everybody Loves Rayguns",
+      "description": "Unlock X1 D-Mousifier - Spike-D’s \"exclusive gun of sorts.\"",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/5deffc216c2bbef58c891ea52cde8b233ddcb92e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/69d56b9984e78c11f89982c47f5986170a38abfa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.8"
+    },
+    "ACHIEVEMENT_035": {
+      "name": "Starter Deck",
+      "description": "Collect 5 Baseball Cards",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/38c77cc2858b5e07c3fe78f68a85b4a0fbf44365.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/09284124f9bbdb65b9f5a99f431f8f72d643f18a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.5"
+    },
+    "ACHIEVEMENT_036": {
+      "name": "Card Shark",
+      "description": "Collect all Baseball Cards. A real gathering, innit?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/698ca3e60e58d5757902145a90a16da95cf916bc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3d41230d8e3b86cfc340f835cc8068f392aa9e8b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "ACHIEVEMENT_037": {
+      "name": "M-m-muenster Kill!",
+      "description": "Kill 10 enemies within 20 seconds. M-m-muenster Kill!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/182ec2505203246a6b3d74d52c868865edf947ab.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/dbfdf98b770f8680048baf8eb734a10f1d5eecd9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "47.6"
+    },
+    "ACHIEVEMENT_001": {
+      "name": "Smoked Cheese and Mirrors",
+      "description": "Wrap up the Missing Magician case",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/3be566fb8af5efd4c02fa64dca0fa0a54bd58d13.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/df080cb3c86c7aecb35294a626c45da310aaa1ae.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "ACHIEVEMENT_004": {
+      "name": "Boom Town",
+      "description": "Kill 20 enemies in a single playthrough by throwing/kicking explosive barrels",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/64aab6821e6c1285a924ede8408c03e78e91c860.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/996661cd32bc95b174ad5d2581bad36e6a693168.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.9"
+    },
+    "ACHIEVEMENT_016": {
+      "name": "Firestarter",
+      "description": "Blast 20 enemies in a single playthrough by shooting at explosive barrels.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/760598603434211c71c63fbf05fa053cbf527628.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/236379a827b1e955872e7409a1cd298214f97186.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.8"
+    },
+    "ACHIEVEMENT_028": {
+      "name": "Our Lesser Brothers",
+      "description": "Wrap up the Shrew Shortage case",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/907a48530880fa61d1b578d4ff99341cf3e0dc6b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/f49a99c73476d21c850531bee7254007e66a6e8e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.6"
+    },
+    "ACHIEVEMENT_038": {
+      "name": "Spike-D 16 TONS",
+      "description": "Crush 20 enemies with heavy objects in a single playthrough.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/7715176b67f854a44263258d5b57b81d2997e44e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/214f5881c07813b00f4720aa52f886367108d1db.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.2"
+    },
+    "ACHIEVEMENT_039": {
+      "name": "Tinsel Boulevard",
+      "description": "Wrap up the Blue Betty case",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/ec5470a38045229ea29c52ba61fe8865335e91ff.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/6c769e2da61f45227eb7fb062ae13c6250f43ee0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.5"
+    },
+    "ACHIEVEMENT_021": {
+      "name": "Quint’s Delight",
+      "description": "Kick the Wallop Bay shark till it drops the license plate",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/1a5ef2ef1f5769899ff54dd2aae6fa732ac22dc5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/abc274130d22ead4b7078510cb8539a709f40bef.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.6"
+    },
+    "ACHIEVEMENT_041": {
+      "name": "Hole-y Trinity",
+      "description": "Kill 3 enemies with one shot.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/37d5f2ad29b23ef18a225b35782ce00188009f2a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/e6a3915f84c27c6ccb36fdfe3c259e2cd5cba493.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.6"
+    },
+    "ACHIEVEMENT_040": {
+      "name": "Tip of the Cheeseberg",
+      "description": "Rest easy, detective. Case closed… or is it?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/7de0d4eecd345f59bc7aff7e46048737551b7d47.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/50c7c88281619e2bf9750850680b71655f9e54c6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.3"
+    },
+    "ACHIEVEMENT_011": {
+      "name": "Herr Flick of the Wrist",
+      "description": "Clock a BMP agitator right in the snout.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/fe0ed917769a370bb33d0b0fc54901b9985b4029.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2416450/6f8f39149eec90285f3a1acc877749f105448ec5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.3"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

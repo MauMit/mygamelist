@@ -1,0 +1,298 @@
+{
+  "appid": "1214650",
+  "name": "SOUTH PARK: SNOW DAY!",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1214650/header.jpg?t=1733320616",
+  "achievements": {
+    "MoonShoeKill": {
+      "name": "Mooncrash",
+      "description": "Kill an enemy with an aerial attack after floating with Moon Jump for at least a second.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.1"
+    },
+    "GhostKillBoss": {
+      "name": "No Tears Now, Only Dreams",
+      "description": "While Invisible, defeat a human boss with a melee attack.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "DanceRevive": {
+      "name": "Grave Dancing",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/73eb585264d3a94aaa8d9a73f8387b985eb398e7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/59d5a25a9b60a57ec5019f5f415d71396b4803b3.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.1"
+    },
+    "SocialTransmit": {
+      "name": "Socially Transmitted Distraction",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/02ccb9f55b6d2fd3aacf969f497f37549eb7e9e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/76eaf148caa69043b5894673952d60b77e36b0f6.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "KillVampires": {
+      "name": "Van Helsing",
+      "description": "Defeat 10 Vampire Kids.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "KillStanFast": {
+      "name": "Marshpooper",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "KillCartmanPerfect": {
+      "name": "Know Thy Enemy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.6"
+    },
+    "KillHankeyPerfect": {
+      "name": "Clean Underwear",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "18.5"
+    },
+    "CannonKills": {
+      "name": "Pirate Ship, Please!",
+      "description": "Kill 3 enemies with cannonballs.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/9ea0cb89f6f91e551696aa34ebd0a8c5053eaa17.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5986c67409153dfaf666bc1100239b338c539ceb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.3"
+    },
+    "AssassinFarts": {
+      "name": "Put the Ass in Assassin",
+      "description": "Fart on 3 Assassins using Fart Escape.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/374981a83930c095be7c9375b2f4077236b7ebd4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/58337a58282e2fdd359d8f191558a2c98cb61d54.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.0"
+    },
+    "NecroCheeseRevive": {
+      "name": "Middle Management",
+      "description": "Revive an ally with a Cheesed Necro.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/f2e7022f0d7cb6438a968ed063c11095ea72a620.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/b2f20268641e565eff2844a5e6e70df11056bd7e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "FastGroupHeal": {
+      "name": "Powdered Cheese Bath",
+      "description": "Heal 150 points of damage with a single Healing Totem across any number of allies.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/0d982174d5717c099ea90aa8be8e1d7223528e26.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/6289466bb69a3cbeffc3063e9e27faa8df761026.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.1"
+    },
+    "TootOnIke": {
+      "name": "Found the Toot Button",
+      "description": "Relieve the buildup of natural pressures in the gastrointestinal tract through quick, albeit semi-musical, bursts of gaseous release.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/374981a83930c095be7c9375b2f4077236b7ebd4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/58337a58282e2fdd359d8f191558a2c98cb61d54.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.2"
+    },
+    "BossToots": {
+      "name": "Impotent Vengeance",
+      "description": "Toot on an enemy faction leader while dead.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/374981a83930c095be7c9375b2f4077236b7ebd4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/58337a58282e2fdd359d8f191558a2c98cb61d54.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "KillKyle": {
+      "name": "Weed Killer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "72.7"
+    },
+    "KillLiane": {
+      "name": "The Cursed Bloodline",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.6"
+    },
+    "BecomeMarshwalker": {
+      "name": "Fully Worthy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/02ccb9f55b6d2fd3aacf969f497f37549eb7e9e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/76eaf148caa69043b5894673952d60b77e36b0f6.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.3"
+    },
+    "KillStan": {
+      "name": "Dragon Killer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.9"
+    },
+    "KillKenny": {
+      "name": "Bastardly Behavior",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "55.3"
+    },
+    "KillCartman": {
+      "name": "Inevitable Betrayal",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.8"
+    },
+    "KillHankey": {
+      "name": "Everyone Needs Ambien",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5d05b0664651894d3db87e95ebd182173be047b7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbb17fb502a32a4b73c0443d0ff4d2270a3f6b04.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.1"
+    },
+    "FinishWithRulebook": {
+      "name": "A New Rule",
+      "description": "Finish a map with one extra Rulebook applied.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/b47eb712653350bd9569278e608911079f42c543.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/08f4ed198a963f7c650b4df1a13bf4d0126644d2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.7"
+    },
+    "FinishAllRulebooks": {
+      "name": "Hardcore",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/b47eb712653350bd9569278e608911079f42c543.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/08f4ed198a963f7c650b4df1a13bf4d0126644d2.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.2"
+    },
+    "ManyVomits": {
+      "name": "The Green Seas",
+      "description": "Make at least 4 enemies Vomit with no more than 1 second in between each.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/374981a83930c095be7c9375b2f4077236b7ebd4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/58337a58282e2fdd359d8f191558a2c98cb61d54.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.3"
+    },
+    "EntBleedDeath": {
+      "name": "Tap That Maple Syrup",
+      "description": "Kill an Ent with Bleeding damage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/e85168df32a96c0536c1aac6d3eb68a79b4bd6dc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/c3c6f96aeb2b8b4b3540aa7a84ca1206916d21e8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.5"
+    },
+    "UpgradeToRare": {
+      "name": "Discerning",
+      "description": "Increase the rarity of 10 upgrades to Rare or better.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/c0017bf18f5a8cda054a9bbab1f66e00da86fcdd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbd40aebd34a718ae862a052daaeeb01034f6d57.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.6"
+    },
+    "AcquireLegendary": {
+      "name": "Legendary",
+      "description": "Acquire a Legendary Upgrade.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/c0017bf18f5a8cda054a9bbab1f66e00da86fcdd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbd40aebd34a718ae862a052daaeeb01034f6d57.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "65.3"
+    },
+    "AcquireUltraLegendary": {
+      "name": "Ultra-Legendary",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/c0017bf18f5a8cda054a9bbab1f66e00da86fcdd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/fbd40aebd34a718ae862a052daaeeb01034f6d57.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.6"
+    },
+    "NecroCheeseNecro": {
+      "name": "The Escher of Necromancy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/374981a83930c095be7c9375b2f4077236b7ebd4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/58337a58282e2fdd359d8f191558a2c98cb61d54.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "1.8"
+    },
+    "VortexDamageTrick": {
+      "name": "I'll Do It Myself",
+      "description": "Damage an enemy in your Event Horizon using your own projectile.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/0ee8e390130a9f43b6b73ffa23ef034a5d2ba51b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/5ea535413c1c7aaa0ae91b27d5dd6e48370a8ef5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.2"
+    },
+    "AirKills": {
+      "name": "Death From Above",
+      "description": "Defeat 10 enemies with weapon strikes from the air.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/e85168df32a96c0536c1aac6d3eb68a79b4bd6dc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/c3c6f96aeb2b8b4b3540aa7a84ca1206916d21e8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.6"
+    },
+    "GroupBurn": {
+      "name": "Fields Of Flame",
+      "description": "Set 4 or more enemies on fire with no more than 2 seconds in between each.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/6d246e887ffb29ca6eb244171d284c4f75105d43.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1214650/afad23ba424454e1a09beb13f270cb586f891ce9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.9"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

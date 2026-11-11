@@ -1,0 +1,1189 @@
+{
+  "appid": "1989270",
+  "name": "Slay the Princess — The Pristine Cut",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1989270/74a54248cfec29144de5e867a333c30e6d62801d/header.jpg?t=1791026492",
+  "achievements": {
+    "ACH_CREDITS": {
+      "name": "Our Song",
+      "description": "Finish the Game. (The Good Ending doesn't count)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2887cdb771c841d1f413464dd49b50a16af85066.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/095236cca57c2474f125473bca64eef053bfe22d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "66.3"
+    },
+    "ACH_SOULS": {
+      "name": "The Real Slay the Princess Starts Here",
+      "description": "You'll know it when you see it.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/64389189c4c360966dc1a70f8920a010cc84cd7d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/721373b2ddbbed5cb20742e66f9ed69d7bf78fb6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "91.8"
+    },
+    "ACH_MOUND_WAIT": {
+      "name": "I Never Left Your Side",
+      "description": "Attempt to Out-Wait Your Destiny.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/aca8bda5271e9895c6a4d45b2005dd9707850b65.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.5"
+    },
+    "ACH_MIRROR_BREAK": {
+      "name": "I Don't Need Answers",
+      "description": "Break the mirror without asking any questions.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/56a39e1b33a2ca18b202bd86048476ffb218a8b2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.5"
+    },
+    "ACH_STRANGE_END": {
+      "name": "Strange Beginnings",
+      "description": "Beget Strange Endings.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/10d76ede5bbf345d16d436f5c6454664e830fef1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.7"
+    },
+    "ACH_GOOD": {
+      "name": "The Good Ending",
+      "description": "You did it! You saved everyone!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/46cf92b58a07d705f1fab1e015b0d0c523f7f66b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c32d48596b6e5bb3a78d6c92eb7e0840d4db3918.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.0"
+    },
+    "ACH_GOOD2": {
+      "name": "Past the Point of No Return",
+      "description": "There's no going back now.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/54db72266e7c97b6cc7daebe5ca68dbafb085a9d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/913ec84c2c47f7f4fb9877dfbce4c8bb1291dbfd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.7"
+    },
+    "ACH_END_LOOP": {
+      "name": "You're on a path in the woods...",
+      "description": "And at the end of that path is a cabin.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/16aea3bd43aa7dfa44c1888c95441137d78ad867.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.4"
+    },
+    "ACH_VOID1": {
+      "name": "Denial",
+      "description": "Return to your destined path, or face the consequences.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/1de69788a114720c5ae0d543758000d29937189e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/895967f99d26a315d16488fb83cd043b43cb0f1c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.4"
+    },
+    "ACH_VOID2": {
+      "name": "Anger",
+      "description": "Why have you come back?!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/9a614501a351e61f1a39d1e1297d3e903e4b12ea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/724e2c808a511eb25f65698bb035df08e945f6f2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.2"
+    },
+    "ACH_VOID3": {
+      "name": "Bargaining",
+      "description": "What can I do to make you stop?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2d55dcde3b3b82f0c9048ff40100d06d69dcff43.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/03899acc42434210297a2a7a0e5968ec4bba7eda.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "ACH_VOID4": {
+      "name": "Depression",
+      "description": "You don't know what you're doing.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/25330b7869d0f3990ba4f460bfb6891ef075da32.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/00a3761889f2d6a3512fdbb29a903fb9ec921ba3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.8"
+    },
+    "ACH_VOID5": {
+      "name": "Acceptance",
+      "description": "This is it.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/71af2060dd09f12ec68c86ac515a317d67bf19a2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/22f205b0afe79ea1eb323f7ba90fece2ac7a7019.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.5"
+    },
+    "ACH_END_VOID": {
+      "name": "Just as you once were nothing...",
+      "description": "So have you become nothing once again.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c4165f5acfe5ba64e8f4e93ce2baec46acd5a966.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/fc36bb5d41683c6c01685b14cc3857edef7d816a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.4"
+    },
+    "ACH_END_SLAY": {
+      "name": "A New and Unending Dawn",
+      "description": "Slay the Princess.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2e8223ec430172815ef77f8a333f0e03b923b162.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.3"
+    },
+    "ACH_END_SLAY_ALT": {
+      "name": "A New and Unending Dawn, and Everyone Hates You",
+      "description": "Slay the Princess, and make some enemies along the way.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d4c5cb7501b20057db438fc8a69360146358d276.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.1"
+    },
+    "ACH_END_FREE1": {
+      "name": "There are no endings",
+      "description": "Only new beginnings",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/6c85df6c51990882d120dad2e0d884c846afc1ea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "44.9"
+    },
+    "ACH_END_FREE2": {
+      "name": "Through Conflict",
+      "description": "We Carve Meaning.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f1d6560de3f974b32c3740fb01acca4ddd3e19d0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.0"
+    },
+    "ACH_END_CABIN": {
+      "name": "And? What happens next?",
+      "description": "Whatever it is, you'll face it together.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/295b330d242980081065977ecaf68126b369580a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "34.2"
+    },
+    "ACH_MIRROR1": {
+      "name": "The Body",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f2ab3e8779f951135d923db323d5ae9b49c11824.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "92.5"
+    },
+    "ACH_MIRROR2": {
+      "name": "The Bloat",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/32870b2e1b4b1a0df358c647d9f4f2674c4bd968.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "83.0"
+    },
+    "ACH_MIRROR3": {
+      "name": "The Decay",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/88650c90b062a3431d41fd0e639fa2a08715cadc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "76.2"
+    },
+    "ACH_MIRROR4": {
+      "name": "The Remains",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f3c996cff2fb6b3b46f87473096328b7a60cb97b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "70.7"
+    },
+    "ACH_MIRROR5": {
+      "name": "The Long Quiet",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/8a42812e459fa06731eda36403be018632fe5543.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "68.0"
+    },
+    "ACH_MIRRORQUEST": {
+      "name": "Death of the Author",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7e6314f35c65175d2bd6a139076f85ab0cf16eb1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "63.3"
+    },
+    "ACH_FURY": {
+      "name": "A Weathered Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b3f1fbb30f632518f9a61c0b043dc65e187cdf6d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "32.2"
+    },
+    "ACH_GREY_PRISONER": {
+      "name": "A Deep Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5688c8194b4ed1897520ef3ed23b52f2a9b41573.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "14.6"
+    },
+    "ACH_GREY_DAMSEL": {
+      "name": "A Bright Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2dffccfb23c2721626f15afc5307b32d911cfbed.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "20.7"
+    },
+    "ACH_WRAITH": {
+      "name": "A Driven Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/aa15b664977f552549995769f5e082036065c5f3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "35.8"
+    },
+    "ACH_WILD_NERVES": {
+      "name": "A Curious and Beautiful Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ce4f1f705dc76bafe229f7b43ad983dee2e8cb43.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.6"
+    },
+    "ACH_WILD_WOUND": {
+      "name": "A Scarred and Beautiful Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ea68e0dcc861a880f0462ca3d55459ccf632cc2f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "25.8"
+    },
+    "ACH_ADVERSARY": {
+      "name": "A Bold Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/1bba223f42a04f3c1f33fad5818d0c0c483db59e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "21.0"
+    },
+    "ACH_BEAST": {
+      "name": "A Cunning Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b2f33eb6e422f8386ead87ed5cc32335626fd2f2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "16.6"
+    },
+    "ACH_DAMSEL": {
+      "name": "A Gentle Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/68b25c2fbc5d81cedc780d20abbd0e4eced26a6c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "54.2"
+    },
+    "ACH_DAMSEL_DEREAL": {
+      "name": "A Pliable Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ee7c0c0bcdc4ef509dc5ef0eddfbfa260ccb763c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.0"
+    },
+    "ACH_NIGHTMARE": {
+      "name": "A Tender Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/122057e318585300dd26244972a3d9a43bcdcc4e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "27.2"
+    },
+    "ACH_PRISONER_FULL": {
+      "name": "A Patient Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/4444e4406c6a267feed9853fc540b103bfe704f3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "36.7"
+    },
+    "ACH_PRISONER_HEAD": {
+      "name": "A Clever Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/3f1983d87a84b84c621fcc8b14d31402f22068ae.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.3"
+    },
+    "ACH_RAZOR": {
+      "name": "A Piercing Heart in a Cage of Iron",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/86a31521825835cce194c5a09c65125d7c996142.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.6"
+    },
+    "ACH_RAZORHEART": {
+      "name": "A Piercing Heart, Beating Free",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d327cdd396847dd619d70e009a4efc58970411f7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "17.1"
+    },
+    "ACH_SPECTRE": {
+      "name": "A Yearning Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b64464c21fcfa33064728270daf32c367e66a7cd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.2"
+    },
+    "ACH_STRANGER": {
+      "name": "A Rich and Vibrant Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/0f614b0c33d02bb4999276a76b952672d53f9ca1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "53.1"
+    },
+    "ACH_TOWER": {
+      "name": "An Overwhelming Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/4b93b4b125db6ebc0bf7f4e7f274d48cc34c0498.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.2"
+    },
+    "ACH_WITCH": {
+      "name": "A Righteous Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d9004891f53be452b0ba25fcc3f6f8de8cc077ec.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "38.2"
+    },
+    "ACH_NEEDLE": {
+      "name": "A Burning Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/40f82236f6a42d5eb7f25b502fae9d97a3c730e1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.9"
+    },
+    "ACH_APOTHEOSIS": {
+      "name": "A Terrifying and Divine Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/8ce428c87db07674a27654ffc59c223cf09de416.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.3"
+    },
+    "ACH_CLARITY": {
+      "name": "A Wise Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/69b45d41bc5ef166a6f3d2680b8a0b9389a864e3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "32.0"
+    },
+    "ACH_DEN": {
+      "name": "A Ravenous Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/0e6e49e700d60892c5a1fd14e59be28c809cd531.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "20.1"
+    },
+    "ACH_THORN": {
+      "name": "A Cautious Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/309bdce7e02209aa96d4f3f3d9bccdb5ce64b5af.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "30.2"
+    },
+    "ACH_ADV_UNARMED": {
+      "name": "I Didn't Hear No Bell",
+      "description": "Fight your foe unarmed and go the distance.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/db7f66e13d63940f299cedc34ee53a261cccb785.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/15d79061f918384f1aac32f9f2bca7c3f5da0544.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.6"
+    },
+    "ACH_ADV_BAIT": {
+      "name": "That Shouldn't Have Worked",
+      "description": "Take the bait from your foe.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/98a4f86903e65c086dbddb0fc8cdf8d848353b2c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/4832b2c32a465783408b43587e1c37474ce74045.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.8"
+    },
+    "ACH_ADV_PACIFISM": {
+      "name": "Strike Me Down...",
+      "description": "Unleash the power of pacifism on your foe.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/49a837ebdaaad1bc5d3d92ed596921a8b12d485b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f51f7242fd2c64c967144c33b0574a4549f3fd85.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "ACH_ADV_FREE": {
+      "name": "The Blind Leading the Blind",
+      "description": "Free someone who doesn't want to be freed",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/6d83239926eac1c45c9a15a3c08400f990398826.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/871a0c00bd71fe7791bbda8e1d89eae017b42081.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.1"
+    },
+    "ACH_ADV_AGILE": {
+      "name": "A Wide Open Field",
+      "description": "Lure a hulking foe to advantageous terrain and win.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/87409dc61ba6be7599fd38c25c32d37b3a443944.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/65ade707906a12948cbd86ab5017c0fb6f5924ec.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.8"
+    },
+    "ACH_ADV_NO_DIE": {
+      "name": "That Which Cannot Die Cannot Die...",
+      "description": "A bloody dance to last forever.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/6b1944e475a48bf34d3e01a22d276cc8944a3464.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/edd5cb3f3865cca094d3d0808fdb34d6104b0bd8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.6"
+    },
+    "ACH_BEAST_AHAB": {
+      "name": "Ahab",
+      "description": "Strike the heart from the belly of the beast.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/23115ee00698fe60dc2da2410a129d92aed6b41e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/71ad390e7ca2ad526fd18302aca87528a081d820.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.3"
+    },
+    "ACH_BEAST_DISSOLVE": {
+      "name": "Dissolving Will",
+      "description": "Free a creature while under extreme duress.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/60f04099dda16f738bfd734cec484834dae9ed05.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ed829a64a9a4f24ad403166a4504c3c283b37b8e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.6"
+    },
+    "ACH_BEAST_DUSTIN": {
+      "name": "Opossum",
+      "description": "Fool a predator by faking your own death.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7731a95261805f8792cd54ac93fa094f22971e38.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/936ae3ede7e0cc6398cb79194965801df92b599a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.3"
+    },
+    "ACH_BEAST_FIGHT": {
+      "name": "Fight",
+      "description": "Successfully take the fight to a creature in its den",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/e42b792bdd48833e976384badb87d73074eb7f82.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b0142bbc95fb94538426f88bc0eebb556a854bc8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.6"
+    },
+    "ACH_BEAST_FLIGHT": {
+      "name": "Flight",
+      "description": "Successfully flee from a creature in its den",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/368414644b6c44f36c163b681e135aaf979406c7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.2"
+    },
+    "ACH_BEAST_FREEZE": {
+      "name": "Freeze",
+      "description": "Freeze in front of a creature on your first meeting.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/cc7cfcf5dd5ba4537c58b4e9eff0ed785395deb5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f0d38c3d8f1524185209d930b75f5ced86963f0e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.5"
+    },
+    "ACH_DAMSEL_FREE": {
+      "name": "Romantic Haze",
+      "description": "Your love will set you free.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/941fecfdca78adb94e02206fcffea091e7f1dd1d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/140036bbbeb9efe523a9f2868d1a759afa05c698.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.2"
+    },
+    "ACH_DAMSEL_SLAY": {
+      "name": "Ladykiller",
+      "description": "Slay an innocent.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/64a7d4b8da4ce213b47acd59b140d052e31dc121.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.8"
+    },
+    "ACH_DAMSEL_DEREALIZE": {
+      "name": "And They Lived Happily Ever After",
+      "description": "It's all she wanted.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f3a636424c834c02c2df2e4312b51cb0f4291873.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.2"
+    },
+    "ACH_NIGHT_FALL": {
+      "name": "Terminal Velocity",
+      "description": "Fall for the rest of your life.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/37f84e11e607ea27aa5865a2a9229c1e5613c16f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d9678287af63fd233722bb091a61069ef5ff2dc9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.6"
+    },
+    "ACH_NIGHT_FREE": {
+      "name": "A World of Terror",
+      "description": "Let your terrors loose upon the world.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f86203b44ae56d4b2250a4c22da9be505c7c344f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/bda917985fc7f77b07c48896f6e4b6c358e2c3fb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.6"
+    },
+    "ACH_NIGHT_STUCK": {
+      "name": "House of... No... Leave",
+      "description": "Stuck in a dream without a stair to be seen.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/9ce5651eadcd8b1617817414ebe59b64cc553bee.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b6e3272448227abaf9286800698df5b050a84f67.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.0"
+    },
+    "ACH_NIGHT_MONOLITH": {
+      "name": "A Monolith of Fear",
+      "description": "See what hides behind her mask.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7f2af0a4f91f080669a4c2ec9b86a11778423c19.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/61569db524af1484a93739f80a81b769147759be.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.5"
+    },
+    "ACH_PRISONER_SLAY": {
+      "name": "Coldly Rational",
+      "description": "Execute a prisoner.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5aa0c425a40304a0c47fd4397d9ae661841c4311.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/406f6781a9ce5ed340bd2508d9df9023b7fed6e1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.6"
+    },
+    "ACH_PRISONER_STUCK": {
+      "name": "Prison of the Mind",
+      "description": "Become your own jailer.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a6d18e4824f2ecc2e71420289e88c23ee5aba500.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/e8dd641b05ffb095652d23fc9b96e52371be6823.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.4"
+    },
+    "ACH_PRISONER_FREE": {
+      "name": "Talking Heads",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7fc9e9d899ae2e886daa2d59eb0940c9df04cf72.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "34.9"
+    },
+    "ACH_PRISONER_RESTLESS": {
+      "name": "Restless Thoughts",
+      "description": "Have a voice ruin your happy ending.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f04ef8fbfb47be4817761aef5378df66e7fcf784.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/fc953088eec62281da9ffce9371e2ad2a9441860.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.7"
+    },
+    "ACH_RAZOR_FINAL": {
+      "name": "Water and Steel",
+      "description": "Master yourself and vanquish a sharp foe.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/09723f87de7b58baf95d8b90c84ee988f94e08ad.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "45.9"
+    },
+    "ACH_RAZOR_PACIFISM": {
+      "name": "Be formless, shapeless",
+      "description": "Allow a sharp foe to vanquish herself.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/19f1678c305299f44353d177a77ac44cc90b8413.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/3687df42607aaaa445ee3746ace8a3b74e0cb4d2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.5"
+    },
+    "ACH_SPECTRE_EXORCIST": {
+      "name": "The Exorcist",
+      "description": "Take on a spirit and destroy it the only way you can.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/caf393211bbfd715203b633952adf9ab8a48da1b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/71d60d7c3de437a299299f2e0a201c3ea5607e56.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.6"
+    },
+    "ACH_SPECTRE_HITCH": {
+      "name": "Hitchhiker",
+      "description": "Pick up a passenger and take her to her destination.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b51c8ddd40f643efc69f4d453801afc2db7757b1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/870995ac29c6f381dad7526107b1230f51c9913e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.4"
+    },
+    "ACH_SPECTRE_HEART": {
+      "name": "Heart-ripper",
+      "description": "There are worse fates to suffer than a broken heart.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/28f4e1a678e5ca917013321f8a9be2282ee237da.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/971d7c003015eaf5a3c5a470510fe4f72e86a95c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.8"
+    },
+    "ACH_STRANGER_FINISH": {
+      "name": "The Illusion of Choice",
+      "description": "When everything is possible, nothing is.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/e36d2658717cc21fccba76a26ddaabb67ac761be.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.5"
+    },
+    "ACH_TOWER_OBEDIENT": {
+      "name": "Your Obedient Servant",
+      "description": "Pledge your loyalty to your better.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/9f4129ca0311ad85554df4c98f94dd6ce9c0e24b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ea3554b9b14cd0c341a81e105b922f4d127eb803.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.8"
+    },
+    "ACH_TOWER_SLAY": {
+      "name": "Godkiller",
+      "description": "Slay your better.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/fb658de356b083c6a31f4d7bcdb058828b2cbb99.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.8"
+    },
+    "ACH_TOWER_WITNESS": {
+      "name": "The End of Something",
+      "description": "Witness your better's ascension",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/de404a9de8995f36581f112f1a75d79e5a153c2c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "19.9"
+    },
+    "ACH_WITCH_BETRAY": {
+      "name": "The Scorpion",
+      "description": "It was in your nature.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/0958a729e8bbabed4ded7cdec4b6572fee8cb2e4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/80d7d20b2a9892677cf99cc59fee51a0c10fc1cb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "ACH_WITCH_FOOL": {
+      "name": "The Frog",
+      "description": "It was in her nature.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a5054bd02d9def5c81667afd2e8881d15009d804.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/4a4ed53946cc51c331a5ed3aa1ff680eab84c37a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.2"
+    },
+    "ACH_WITCH_ATTACK": {
+      "name": "Knives Out and Masks Off",
+      "description": "Directly attack a suspicious character.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/cbc54684e7be48addb4c3971e6492d7cd789d390.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5bfad9bbdb9dd92fe6247255ccb70d2c08ff1751.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.2"
+    },
+    "ACH_WITCH_ABANDON": {
+      "name": "Playing it Safe",
+      "description": "Leave a suspicious character in the basement.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2072009a7649809d56d72a4951b2e8a9370485ed.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a2580b06b8333205ea1098401972c5d2db6a65d9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.4"
+    },
+    "ACH_WITCH_SACRIFICE": {
+      "name": "Past Life Gambit",
+      "description": "Hand your power to a suspicious character.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/2d13a721130504d6a017e3aaabc72e37ea058f24.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/3725b56a1d4f10fb98919acec4a4ea3e451e5314.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.4"
+    },
+    "ACH_WILD_FREE": {
+      "name": "A Glimpse of Something Bigger",
+      "description": "Embrace your transformation.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/fa26434895d13c881459ea1e06714956a37e117f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.4"
+    },
+    "ACH_WILD_RIFT": {
+      "name": "The Wound",
+      "description": "Some tears can never be mended.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/42b59322a635586f0b30813dad5394a5ecd1be4e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/45dab2a05337603ac957b9a788b2ae0d305987fb.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.9"
+    },
+    "ACH_EXORCIST_III": {
+      "name": "The Exorcist III",
+      "description": "When taken against your will, deal with your enemy the only way you can.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c7c16b84fe863a16858b92a3a5c90df1b8f65b70.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/1075d158396de89358dd353a34252502235de121.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.5"
+    },
+    "ACH_PASSENGER": {
+      "name": "The Passenger",
+      "description": "When taken against your will, witness your enemy's freedom.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d9fafc6b397e32201d54aa01d471ad5e3e9f2988.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/14f626911360ff61b9d2595dafa0ed8ec87e9b53.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.1"
+    },
+    "ACH_THORN_KISS": {
+      "name": "True Love's Kiss",
+      "description": "Kiss her.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/19a8f96ea447c3aceea43215cb534b4dabf1253a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.6"
+    },
+    "ACH_THORN_TRAP": {
+      "name": "Trust Issues",
+      "description": "Share a thorny prison.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/56cfb84d65c49f3363a952f38dee07e0974b7bd8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.4"
+    },
+    "ACH_THORN_ABANDON": {
+      "name": "Abandonment",
+      "description": "Abandon her in a thorny prison.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/77ab4e0218e5b0d65e30f2f46032791d5a03ea97.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.1"
+    },
+    "ACH_THORN_LEAF": {
+      "name": "Turning Over a New Leaf",
+      "description": "Work through some issues and learn to trust again.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/fc0fcc2abea1f6aa9e1b91c5262c2ce6a321db7f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.5"
+    },
+    "ACH_GRAY_DROWN": {
+      "name": "And All This Longing...",
+      "description": "Drown at the hands of a faded spirit.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d2e20ee21c3c982453ef4df32ca8d51d556f5a6e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.5"
+    },
+    "ACH_GRAY_BURN": {
+      "name": "Burning Down the House",
+      "description": "Burn at the hands of a faded spirit.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7fc766f21267ee405a1554f8ca1f2ededabca1eb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/53043a25356b59b4bad7b54b7ec1c0b7af23633a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.0"
+    },
+    "ACH_ALONE": {
+      "name": "Your New World",
+      "description": "There are worse things to be than alone.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5c8b776104442194048d6bb5389f27ab7456182c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.5"
+    },
+    "ACH_CAGE": {
+      "name": "An Open Heart, or a Watchful One",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c2f826fc9d282818c5e33a986bb40ba83c21a7b4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.3"
+    },
+    "ACH_DRAGON": {
+      "name": "An Empathetic Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a9b5fb0ab632088bb60d74a6ec78367d70ef2293.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "11.0"
+    },
+    "ACH_DRAGON_FUSE_HEART": {
+      "name": "An Empathetic Heart, Held in Stencil",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/6737fc6d835b2660bfda33e7d87399b04046810d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.4"
+    },
+    "ACH_FURY_HEART": {
+      "name": "A Weathered Heart, Held in Ribbons",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b6a2d1dba0873a09113a948acefa626682a2fbe4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.3"
+    },
+    "ACH_HAPPY": {
+      "name": "An Honest Heart",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/01472434abaf29b02c4e383f008045f4ee9945b5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.4"
+    },
+    "ACH_GALLERY_FIXED": {
+      "name": "A Song to Remember",
+      "description": "Finish the Gallery.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/791a578d74c8a24815533d39b48e36671b0b0d91.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/4f67eff2158c53127cff5b6ff3e38c8867f56634.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "ACH_CAGE_RIDDLE": {
+      "name": "The Riddle of Steel",
+      "description": "Twist a pattern in a steely cage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c56433198c6837acf435d7b556719323a9b3c6e2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.7"
+    },
+    "ACH_CAGE_TRAP": {
+      "name": "No Exit",
+      "description": "Remain stuck between the walls of a pattern in a steely cage.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/cb01cb526ca4714504d88048fc79727bb46b11e2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.1"
+    },
+    "ACH_CAGE_DROP": {
+      "name": "Free Will",
+      "description": "Exert your will at the edge of a steely cage. Even if it hurts you.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/e431036048b66b4cd450e63f6c57fd0d22e97770.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.1"
+    },
+    "ACH_CAGE_FREE": {
+      "name": "Allegory of the Cage",
+      "description": "The walls of your cage were always your own creation.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/dd53fc826a45d120a4ec15ed4513eb611a293b46.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.1"
+    },
+    "ACH_DRAGON_ABANDON": {
+      "name": "An Opportunist at Heart",
+      "description": "Leave a shared heart to languish.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b9655bfea39bb0a8bccac6041a8c3b3e98d4bec2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "ACH_DRAGON_FUSE": {
+      "name": "The Princess and the Dragon",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/87f20a7b085a9392eb3621827e718fac901bdd6e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.3"
+    },
+    "ACH_DRAGON_LOOP": {
+      "name": "You don't have to keep picking the same option",
+      "description": "You know that, right?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/e9de1415f36a315f7f18de196f94af20aeb564c1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/f2a0a88d6a437777cb704cd8066f0004cb66979d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.4"
+    },
+    "ACH_DRAGON_FREE": {
+      "name": "What Once Was One, Then Was Two",
+      "description": "Share a quiet moment after really getting to know each other.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/216cf2ff275a8e2e4ac037a51a08c72dff871e4f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.4"
+    },
+    "ACH_DRAGON_OOPS": {
+      "name": "Wait wait wait wait wait!",
+      "description": "Fail to disarm a harsh companion",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/651971822392aced5c50fb1f3ac64b68c7f8e7b1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.3"
+    },
+    "ACH_HAPPY_DANCE": {
+      "name": "I Meant It.",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/7a55571751d8d0598db14548bf2e572537c1807e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.3"
+    },
+    "ACH_HAPPY_FLAMES": {
+      "name": "We Don't Have to Let It Go Out.",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/9623bc3ed2bce7843a39769c57eefc676de5f318.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.3"
+    },
+    "ACH_HAPPY_SLAY": {
+      "name": "It's Finally Over.",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a8e1667513f1e8f593cab472c6d19862102d7246.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.4"
+    },
+    "ACH_HAPPY_GAMES": {
+      "name": "Game Night",
+      "description": "Win a game with the help of a manipulative voice.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b69bd0141ff72f71e1b2d1b61f5c635cdc0b0d6b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/03205f242bdd5698feb22a2911bf55fceb25ebed.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.1"
+    },
+    "ACH_HAPPY_SHADOWS": {
+      "name": "Shadows on the Walls",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/c69651d9fbcd01e4a57519b35ce7595e553f2a47.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "14.1"
+    },
+    "ACH_APOTH_BLIND": {
+      "name": "Something to remember you by",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/487fc74efa6652b71b5b7df866bf5bd36a69438f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.5"
+    },
+    "ACH_APOTH_BATTLE": {
+      "name": "Courage and Madness",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ac6a26fa450b499b711b34b29c1b9aeeded95aea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.2"
+    },
+    "ACH_APOTH_BOUND": {
+      "name": "A Window to the Unknown",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/035034c07e4e4be9560c5f729e7d05ec6c98d4b8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.7"
+    },
+    "ACH_APOTH_GRACE": {
+      "name": "Grace",
+      "description": "Receive grace from a divine being.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5628430abf87d975a6b86015aafbe8ff0af2b139.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.0"
+    },
+    "ACH_APOTH_THREADS": {
+      "name": "A Goddess Unraveled",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/5c5f71cd9c353a92909d24f80fc6bdd03bb38ec1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.0"
+    },
+    "ACH_DEN_LION": {
+      "name": "The Lion and the Mouse",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/71fc495f8729335a3f37026bb802cb002ba23752.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.0"
+    },
+    "ACH_DEN_EAT": {
+      "name": "She eats he eats she eats he eats...",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/3d0713e45119209c29ca2933b13a30747fdf6526.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.8"
+    },
+    "ACH_DEN_STRIKE": {
+      "name": "Heroic Strike",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/d7883c03480aac368c27e759b14b3df0aa3cc88c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.9"
+    },
+    "ACH_DEN_COUP": {
+      "name": "Coup de grâce",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ca34c40ca14dc862f6bf03f8c9f44a8fec3badd2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.9"
+    },
+    "ACH_DEN_STARVE": {
+      "name": "Hunger pangs",
+      "description": "Wait with her in a dark den.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/512e78cb383ae35693d27e282ce2df03aadd292f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.1"
+    },
+    "ACH_FURY_UNARMED": {
+      "name": "Going the distance",
+      "description": "Triumph over a scorned adversary.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/b25e02528f4809e4bf9089974ce163d3b09d95ee.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.3"
+    },
+    "ACH_FURY_FREE": {
+      "name": "A new leaf in a weathered book",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/ea9bef465f3faa3fbc1ccdaf24a810595e34fdeb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.5"
+    },
+    "ACH_FURY_SAD_SLAY": {
+      "name": "A hint of feeling",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/67f2529625790a3e679b21e2cf03fa5940ed8951.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.0"
+    },
+    "ACH_FURY_TOWER": {
+      "name": "Quantum beak",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/1199f7e13d2e01b01145b89cfaad34e4be336264.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1989270/a04858df0183f81df155b936239b6631810650c1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.9"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

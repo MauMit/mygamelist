@@ -1,0 +1,145 @@
+{
+  "appid": "1401590",
+  "name": "Disney Dreamlight Valley",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/7d9218ba90fd91c74138b323cde80dbb40f6f463/header_alt_assets_10.jpg?t=1793825700",
+  "achievements": {
+    "STEAM_ACH_FISHING": {
+      "name": "Angler",
+      "description": "Catch 1,800 fish",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/3e01f91ac5436d6362a638e48f194b4468193d78.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/70d18fd404474aa98cefc87ba5658ff185b28f79.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.2"
+    },
+    "STEAM_ACH_COOK": {
+      "name": "Chef Cook",
+      "description": "Cook 900 meals",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/6df3e0afd8f156250efa9e9da0d0be50fe9e2c9d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/8024d0528afc0919ce50b63c3d2746b32c0b3d13.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.4"
+    },
+    "STEAM_ACH_UPGRADE_HOUSE": {
+      "name": "Constructor",
+      "description": "Fully upgrade the player's House",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/8bc3b1ec1eeddd8fe04d17684749e763a55cd26f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/17a5ddddcba88039a0ef6891a22eaa13253c6ef7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.7"
+    },
+    "STEAM_ACH_MAKE_FRIENDS": {
+      "name": "Bestest Friend",
+      "description": "Have 15 Best Friends",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/a8089a13d595e24f2c5b0aeb663ca6173c8964ce.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/3fac62e1bec980706a9f8cf5b40f478f00f9a6c7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.8"
+    },
+    "STEAM_ACH_GIVE_GIFTS": {
+      "name": "Generous",
+      "description": "Give 540 Gifts",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/909a163a7d521c4676ac8ba644962c7edb6c260d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/2ddc0330ac1c82c46c22b12d30ad56289afa9674.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.9"
+    },
+    "STEAM_ACH_GET_COINS": {
+      "name": "Banker",
+      "description": "Collect 1,800,000 Star Coins",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/004b363bcfe1d80834721e771f664f780bda2dc7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/b666ac54e3cb53288fdb86d99eb4045c78cdba26.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.4"
+    },
+    "STEAM_ACH_HARVEST_VEGETABLES": {
+      "name": "Gardener",
+      "description": "Harvest 4,500 Vegetables",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/4aa3eaa95f563c3c93d9e71040f77d464a7fa3e4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/fed2266d6c58e5411e389d8b3878de9f20026907.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.2"
+    },
+    "STEAM_ACH_MINING": {
+      "name": "Miner",
+      "description": "Mine 1,800 times",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/8381d25cff0682b71a4ea540e448f87e3df0a654.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/86859eb0e79326a185919e5375e8fcd85c3c804c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.9"
+    },
+    "STEAM_ACH_REMOVE_NIGHTTHORN": {
+      "name": "Thorn Cleaner",
+      "description": "Remove 3,000 Night Thorns",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/428bc6160f7b78290552c2cfc2b61c150f350189.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/923687074971f1c994b6a3254cc057d5eaa98e8a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.7"
+    },
+    "STEAM_ACH_REPAIR_HOUSE": {
+      "name": "Renovator",
+      "description": "Build 12 Houses for friends",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/9f3a858f889ec99754c1d84566ed54940ccb0947.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/33578473752871e475de6d35628bc16bb1d74501.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.3"
+    },
+    "STEAM_ACH_DISCUSSIONS": {
+      "name": "Chit Chatter",
+      "description": "Start 1,000 daily discussions",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/d9909af1f44c62326b8e335e3108aaeeab9069e7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/569d7b777b39cab12c2b315c83e570b5a82970d6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.5"
+    },
+    "STEAM_ACH_TAKE_PICTURE": {
+      "name": "Photographer",
+      "description": "Take 50 pictures",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/d0e8415497aea2649c8fab32160135e27622b523.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/92dbc5e179d16e7b12831697d93327048bac7d27.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.7"
+    },
+    "STEAM_ACH_UNLOCK_AREA": {
+      "name": "Valley's Helper",
+      "description": "Unlock all Biomes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/f7043f0eb289e26e8f85c674bf85d4e347c675a6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/4c52b2f7920d52406965b281cc3bc21405b79907.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.5"
+    },
+    "STEAM_ACH_UNLOCK_STALLS": {
+      "name": "Goofy's Investor",
+      "description": "Unlock all of Goofy's Stalls",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/0640f6cf878f9e0c34cbee4626c12b0c3c16df6d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/d069db478c46bcf8c933b24120735546be2b7408.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.1"
+    },
+    "STEAM_ACH_ROYALDUTIES": {
+      "name": "Duty Bound",
+      "description": "Complete 1,100 Dreamlight Duties",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/7dfe8b2eeea8cd428fa149a271a84a9407d65892.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1401590/a361cc6bd08a1fefe802b822a65d389c490dc9a8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.9"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

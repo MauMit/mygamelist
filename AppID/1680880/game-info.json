@@ -1,0 +1,487 @@
+{
+  "appid": "1680880",
+  "name": "Forspoken",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1680880/header.jpg?t=1794280844",
+  "achievements": {
+    "CHAPTER_01_CLEAR": {
+      "name": "Attachments",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/3eba55ebb21b45fcba2e4a96a5f6badec8c3b3a0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "92.2"
+    },
+    "CHAPTER_02_CLEAR": {
+      "name": "Stuck",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/dea2e82723e2060cf40d2d25b7d1fd0ba8395ffd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "79.7"
+    },
+    "CHAPTER_03_CLEAR": {
+      "name": "The Interloper",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/d4c0c5a40758f977dc85992eafcff8d3376ad01c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "65.4"
+    },
+    "CHAPTER_04_CLEAR": {
+      "name": "What Must Be Done",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/abd2e6ac679f5b4581de6575a6870d644710a578.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "48.1"
+    },
+    "CHAPTER_05_CLEAR": {
+      "name": "Might and Main",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/0c1c5ab8f871204f06abc824bc5fd4b213dd524a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.6"
+    },
+    "CHAPTER_06_CLEAR": {
+      "name": "Damned If You Do...",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/89a67927b599b64a39f523a9652fee2510b4fd70.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.5"
+    },
+    "CHAPTER_07_CLEAR": {
+      "name": "The Hue of Blue",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/19a1334a7d8c6ce8b1875c3cbd4c86e1cdf4ff3d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.7"
+    },
+    "CHAPTER_08_CLEAR": {
+      "name": "The Truth Will Out",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/213da3ca717d34f83a55316477c3c799063d39a2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.7"
+    },
+    "CHAPTER_09_CLEAR": {
+      "name": "Breaking Point",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/39bc18341cd8f2ae9997e95f4d74946394060033.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "32.2"
+    },
+    "CHAPTER_10_CLEAR": {
+      "name": "None the Wiser",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/ca124782148fba2bb4a13ebab9f725fba38801fe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "31.6"
+    },
+    "CHAPTER_11_CLEAR": {
+      "name": "Forspoken",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/456218c11c1fca16b731193ae05003f2e4dfe3bc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.0"
+    },
+    "CHAPTER_12_CLEAR": {
+      "name": "Awakening",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/0e4903f830a4ccb111addb0093a16449c591217f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.5"
+    },
+    "SUBQUEST_CIPAL": {
+      "name": "Rebirth",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/f70d97eacf806ad80aea00e01eef6387be3383d6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.5"
+    },
+    "SUBQUEST_CINTA": {
+      "name": "Promises",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/0ef49cb53ee638981b4a25d597793dcff3f0a07b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.4"
+    },
+    "SUBCON_DANCE": {
+      "name": "Moves",
+      "description": "Earn the praise of the mighty Pilo with your dancing.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/f7076f2f822a2250f121143dba6b89af334ee166.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.3"
+    },
+    "SUBCON_PRAY": {
+      "name": "Remembrance",
+      "description": "Say a complete set of remembrances to the departed.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/4849c79e1970b0d2407e424cb02f0a83d25fa5f2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.9"
+    },
+    "SUBCON_TRADE": {
+      "name": "A Roaring Trade",
+      "description": "Trade poppets for all available items.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/47391ec941b560dfd793b2134324b62e477a6a29.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.7"
+    },
+    "CAMP": {
+      "name": "Outdoorsperson",
+      "description": "Set up camp.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/46137ee3e9200edd677fdb298e51cb3e0adb0b60.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.9"
+    },
+    "MONUMENT_FIRST": {
+      "name": "Pilgrimage: Initiate",
+      "description": "Visit your first monument.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/d2169009d14ccfa94afd7c91ce061e368dd40953.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "68.0"
+    },
+    "MONUMENT_TWENTY": {
+      "name": "Pilgrimage: Novice",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/1e2cd5f513b8c11044f90e6c5cfa89a8d145b1f5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "13.9"
+    },
+    "MONUMENT_ALL": {
+      "name": "Pilgrimage: Adept",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/6c5c37e6e8a0e071d18c8d4531ab8f4c0b4e5d91.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.1"
+    },
+    "LOCATION_TEN": {
+      "name": "Explorer: Seeker",
+      "description": "Visit ten points of interest.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/686071e97025a1c3ffca8e6c5b60f52634f46c9d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.7"
+    },
+    "LOCATION_FIFTY": {
+      "name": "Explorer: Pathfinder",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/9964278c0ab62f6836b8bd6d4a2d513dc36084de.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "18.1"
+    },
+    "LOCATION_HUNDRED": {
+      "name": "Explorer: Trailblazer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/c70ca54fe65c3c89b98df403119f66682db098bc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.8"
+    },
+    "SKILLTREE_FIRST": {
+      "name": "Unlocked Potential",
+      "description": "Spend mana to learn a spell for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2b9318cd2cbbe0f0ee0b705749e900c6f4fc7f05.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "87.3"
+    },
+    "SKILLTREE_ALL": {
+      "name": "Realized Potential",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/08f09bd0e30b1f9f8e2340622e49d4117776fba8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "11.2"
+    },
+    "SPRING_FIRST": {
+      "name": "Call of the Fount: Baptized",
+      "description": "Acquire magical powers for the first time at a Fount of Blessing.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/0b8161f510dedc76c4d801a3a7039b946399a7e9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "72.8"
+    },
+    "SPRING_ALL": {
+      "name": "Call of the Fount: Beatified",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/ebd245c0ab2ad5862d27d90db7ca85fe82e7b0a0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.6"
+    },
+    "MAGIC_ALL": {
+      "name": "Paragon",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/989b155f9043823853c0721866c12b95773099b9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.3"
+    },
+    "CRAFT_FIRST": {
+      "name": "Tinkerer",
+      "description": "Craft an item for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/0a16ad34175aceed3bbebeab4d9996c9d95c5bd1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "72.4"
+    },
+    "CRAFT_ALL": {
+      "name": "Craftsperson",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/504f078ec46faad34c80982cdfd8c440533a08a2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.2"
+    },
+    "EQUIPMENT_ALL": {
+      "name": "Kit and Caboodle",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/8c1a8b43277dad6336c8524fbda5bf01a9b915b2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.1"
+    },
+    "FAIRYSTEP": {
+      "name": "Hop, Step, Jump",
+      "description": "Perform five Shimmies in a row.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b091d6d4024f82bda35b2695253156d2049ebc51.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.8"
+    },
+    "PARKOUR_TIME": {
+      "name": "Hell of a Run",
+      "description": "Perform magic parkour for twenty seconds continuously.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/9726595735358ed18468ed12efca6b70619fdefc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "62.3"
+    },
+    "PARKOUR_DISTANCE": {
+      "name": "Endless Runner",
+      "description": "Travel a total of 100 km (62 mi) using magic parkour.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/e01dba94596d035ba9a10b6ef307c320b8680920.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.6"
+    },
+    "STAYING_AIR": {
+      "name": "I Can Fly!",
+      "description": "Use Float to stay airborne for ten seconds.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b65365947f11a1748c18544164e9e33c48405db2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.0"
+    },
+    "LEAPFROG": {
+      "name": "Leapfrogger",
+      "description": "Jump over enemies a total of ten times.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/96e27de1120a8eb68e595265975c8d092a76b80c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "58.6"
+    },
+    "JUSTCOUNTER": {
+      "name": "Tit for Tat",
+      "description": "Perform ten precision counters.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/8783a0e57cad8c4e70b4803a23df84fac5ef12f6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.3"
+    },
+    "CUFF_ATTACK": {
+      "name": "No Mercy",
+      "description": "Perform thirty Killer Blows.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/5912a687b22c10fa86791cb80abd39e705e1b1ce.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.0"
+    },
+    "MAGIC_BREAK": {
+      "name": "Knock 'Em Dead",
+      "description": "Finish three or more enemies with a single blast of Surge Magic.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/925acecdd573a8523ed808cfc63940228fe3c494.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "63.4"
+    },
+    "MAGIC_FLOWER": {
+      "name": "Help Me Out Here",
+      "description": "Use the Disperse spell three times in a single battle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/75a339cba4ff40e1c8a4a7cf90cc524c17280476.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.2"
+    },
+    "MAGIC_IVY": {
+      "name": "Wildfire",
+      "description": "Defeat an enemy bound by the Tangled status effect with Sila's magic.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/be0bea8723b01771dedb0d2f334d53233550a4cf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.0"
+    },
+    "MAGIC_ELECTRIC_SHOCK": {
+      "name": "Shocker",
+      "description": "Electrocute three enemies at once.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/397460aecde7e38f9b00d5a616e8f5d9bcbb5bf7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "20.8"
+    },
+    "MAGIC_TANTA": {
+      "name": "From Every Angle",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/44c6f20698bfe6088b2d1b5905b5aa665bb2545a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "25.4"
+    },
+    "CHALLENGE_FIRST": {
+      "name": "Through the Eyes of Another: Empath",
+      "description": "Complete your first flashback challenge at a Monument to Wisdom.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2688f8d6d8d8581a4f490e97a2f157f0d1a5531d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.4"
+    },
+    "CHALLENGE_TEN": {
+      "name": "Through the Eyes of Another: Seer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/7fd8b82dc5ff1e04ff108aabcac0d66094066232.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.2"
+    },
+    "CHALLENGE_ALL": {
+      "name": "Through the Eyes of Another: Visionary",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/f01f37fac4c16e4149acaebb4f11140554c010af.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "TANTACAT_ALL": {
+      "name": "Cat Person",
+      "description": "Befriend all the Tantas' familiars.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/985052ffd924bc057876e90c2acedde8074b70d2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.1"
+    },
+    "PHOTOSPOT_ALL": {
+      "name": "Happy Snapper",
+      "description": "Show pictures taken at all the photo spots to the children.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/05579e6c011d0f18154d9221d5db17268f49d0d0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "MAGICBOOST_ALL": {
+      "name": "Above and Beyond",
+      "description": "Upgrade all your spells.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b56124bbc93aa482380d8aac735f53e078791a8e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "ABOMINATIONS": {
+      "name": "Abominizer",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/501ee5b77648a52c3ec29e395929d39b0f71f5a4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/b2c4907302ef49459272ac8ac98d25529a0f18bf.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.1"
+    },
+    "ARCHIVE": {
+      "name": "Archivist",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/1115263b836f57e7f1105f1363328712780643d0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.5"
+    },
+    "STEALTH": {
+      "name": "Barely There",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/5b1a03d4e2a94eea59fc9893fae04ff9dd79b42d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1680880/2a511730603354e44305243c5bd7ca6936f0b53b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.8"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

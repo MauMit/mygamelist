@@ -37,7 +37,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/faad76d7343175540824b900a6c4a315ab96c3e4.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "44.4"
+      "percent": "44.5"
     },
     "NEW_ACHIEVEMENT_1_4": {
       "name": "A Harsh Climb ",
@@ -46,7 +46,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/2a92aaf5eb7e2c6177744685856902d057d241fa.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "43.2"
+      "percent": "43.3"
     },
     "NEW_ACHIEVEMENT_1_5": {
       "name": "Into the Fire",
@@ -55,7 +55,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/efbd8d2bc5fc8e2554e518da4e584ae5e3d5669f.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "43.0"
+      "percent": "43.1"
     },
     "NEW_ACHIEVEMENT_1_6": {
       "name": "The Blessed Pearl",
@@ -64,7 +64,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/c94789a49f4f660dc46d00e14f1f20645ad0fffe.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "34.2"
+      "percent": "34.3"
     },
     "NEW_ACHIEVEMENT_1_7": {
       "name": "Atonements ",
@@ -73,7 +73,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/f7c5717848403c03bef382f09728fb1479241170.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "32.7"
+      "percent": "32.9"
     },
     "NEW_ACHIEVEMENT_1_8": {
       "name": "Tuned In",
@@ -82,7 +82,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/bfe22046e9465c76036ff53f054f761b8fd8c5cd.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "14.1"
+      "percent": "14.2"
     },
     "NEW_ACHIEVEMENT_1_9": {
       "name": "Repatriation",
@@ -91,7 +91,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/1cd17561fa32f0b90f0f7f6064579006e01a97e2.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "9.7"
+      "percent": "9.8"
     },
     "NEW_ACHIEVEMENT_1_10": {
       "name": "Ecco!",
@@ -172,7 +172,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/e2172069c7d1764a7618af33f053f4e134c6b6a4.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "12.1"
+      "percent": "12.2"
     },
     "NEW_ACHIEVEMENT_1_19": {
       "name": "Beneath the Surface",
@@ -190,7 +190,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/43904b5edf8fb4814d0a5278b13de5e45c543de1.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "14.3"
+      "percent": "14.4"
     },
     "NEW_ACHIEVEMENT_1_21": {
       "name": "Shadows out of Time",
@@ -208,7 +208,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/6c64af28f675db1d029fcd47938bd8a34642b343.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "60.3"
+      "percent": "60.4"
     },
     "NEW_ACHIEVEMENT_1_23": {
       "name": "Archivist",
@@ -316,7 +316,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/a80e3d929c12c84b178310a29c67e3036593ae0b.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "44.3"
+      "percent": "44.4"
     },
     "NEW_ACHIEVEMENT_2_3": {
       "name": "Sanctuary of the Guardians",
@@ -334,7 +334,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/c579e5d587b41a7e321c1e341ad172571ac270f6.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "26.2"
+      "percent": "26.3"
     },
     "NEW_ACHIEVEMENT_2_5": {
       "name": "The Kid Who Vanished",
@@ -352,7 +352,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/215065eb0623c492f9fb431077ea5a538134da95.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "29.9"
+      "percent": "30.1"
     },
     "NEW_ACHIEVEMENT_2_7": {
       "name": "Lost in the Past",
@@ -361,7 +361,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/3a9c9dfba53aa22c04ce146548922cd8bc72a0ce.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "28.7"
+      "percent": "28.8"
     },
     "NEW_ACHIEVEMENT_2_8": {
       "name": "Little Horn",
@@ -388,7 +388,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/5000aa281da8385be84e1f55279f0c51e1c46119.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "31.0"
+      "percent": "31.1"
     },
     "NEW_ACHIEVEMENT_2_11": {
       "name": "Filling in the Blanks",
@@ -397,7 +397,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/8839071299fbfc4d3ccfb43b5f752f4ff0437d6c.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "37.7"
+      "percent": "37.8"
     },
     "NEW_ACHIEVEMENT_2_12": {
       "name": "Shutterbug",
@@ -406,7 +406,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/424448c5fade9cfc43120eb473acac90d68322f5.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "49.5"
+      "percent": "49.6"
     },
     "NEW_ACHIEVEMENT_2_13": {
       "name": "Locked Doors Hide Secrets",
@@ -415,7 +415,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/1c6e0fe52d19bb72b9505ae9841e668b4bbc4743.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "12.9"
+      "percent": "13.3"
     },
     "NEW_ACHIEVEMENT_2_14": {
       "name": "Out of the Vatican",
@@ -424,7 +424,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/b56f2072d80dcd14de5985a5efe7a03e637c1f92.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "11.5"
+      "percent": "11.9"
     },
     "NEW_ACHIEVEMENT_2_15": {
       "name": "The Order of Giants",
@@ -433,7 +433,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/7545a6fa30394edcecf795828a8444bf35563e3f.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "9.6"
+      "percent": "10.0"
     },
     "NEW_ACHIEVEMENT_2_16": {
       "name": "Chronicler",
@@ -442,7 +442,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/d28928c511147df32c67009904ec4f09e09128d4.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "11.4"
+      "percent": "11.8"
     },
     "NEW_ACHIEVEMENT_2_17": {
       "name": "Roman Scholar",
@@ -451,7 +451,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/f31ecf2fa2cb1dd136b76adc2c37c6e57b5c94fe.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "3.2"
+      "percent": "3.3"
     },
     "NEW_ACHIEVEMENT_2_18": {
       "name": "Symbol of Initiation",
@@ -460,7 +460,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/00fde00ad878217daa6edb9d65e3b4328c5aa653.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "10.7"
+      "percent": "11.0"
     },
     "NEW_ACHIEVEMENT_2_19": {
       "name": "The Seven Grades",
@@ -469,7 +469,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/31a006df595bad45b1300aef0099594ba7bdec80.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "3.9"
+      "percent": "4.0"
     },
     "NEW_ACHIEVEMENT_2_20": {
       "name": "Books of Power",
@@ -478,7 +478,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/8d38eb99081cc41ee3b540cf19bdf95f50b83dd4.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "5.6"
+      "percent": "5.8"
     },
     "NEW_ACHIEVEMENT_2_21": {
       "name": "Depths of the City",
@@ -487,7 +487,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/353f7f6e27ea4452ef06d53699bcd55634f554d3.jpg",
       "hidden": true,
       "group": "Base Game",
-      "percent": "4.3"
+      "percent": "4.4"
     },
     "NEW_ACHIEVEMENT_2_22": {
       "name": "Pet the Cat",
@@ -496,7 +496,7 @@
       "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2677660/bd630fac840b9de2086dbd08fbb68e34a34ff140.jpg",
       "hidden": false,
       "group": "Base Game",
-      "percent": "8.0"
+      "percent": "8.2"
     }
   },
   "platform": null,

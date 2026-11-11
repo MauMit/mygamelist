@@ -1,0 +1,244 @@
+{
+  "appid": "2527500",
+  "name": "MiSide",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/header.jpg?t=1792668822",
+  "achievements": {
+    "ACHI_WinFIght": {
+      "name": "Clabber",
+      "description": "Beaten and sour.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a83bfaf9e0f824875b7ddde9f73e9ccf818b7903.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.3"
+    },
+    "ACHI_ClickShadow": {
+      "name": "Creak in the Dark",
+      "description": "So very dark…",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/d0bfc112e758ef4b742d042c062ca36099b443e3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "86.3"
+    },
+    "ACHI_DeathJuice": {
+      "name": "Dead juice",
+      "description": "Made from the juice shown in the ad.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a5b28862a6ffb308ea3595d3e2621ef130594e62.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "70.2"
+    },
+    "ACHI_PinguinTusim": {
+      "name": "Penguin Conundrum!",
+      "description": "Have a snowball!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/376ac6acce85dd9ed23ba39be07b84dc935aff2b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.6"
+    },
+    "ACHI_safelife": {
+      "name": "Safe of life",
+      "description": "Keep safe and sound.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/80b2e3bc5641005be6001417d14c3fe9115bd904.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.1"
+    },
+    "ACHI_tetro": {
+      "name": "The fly's victory",
+      "description": "Croak-croak.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/8ccec6e6d4c6bc1e4ac37e4c784138da195caf8f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.8"
+    },
+    "ACHI_omta": {
+      "name": "O, Great Mita!",
+      "description": "Remember us.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/bfca3094413a8dd44d5acfebbbea10e6d4f71163.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.4"
+    },
+    "ACHI_foundu": {
+      "name": "Found you!",
+      "description": "OK, I'm looking right at you!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/2109fa69486b820e4dab95f72e2cf3969d24d88e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.1"
+    },
+    "ACHI_mmnice": {
+      "name": "Delicious Love",
+      "description": "What flour tastes like?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/e2788f7ff3da471042345fc64852a8d08ec1a4e2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "84.6"
+    },
+    "ACHI_none": {
+      "name": "Conditions Met",
+      "description": "Can I stay with you?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b4f5b7df5b2dd8950f82741e5dc3e0c6ec77cbae.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.0"
+    },
+    "ACHI_wrumwrum": {
+      "name": "Accelerate!",
+      "description": "Vroom-vroom!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/dcd2659117d183db021031c580e10d7d9b458301.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.9"
+    },
+    "ACHI_slaphead": {
+      "name": "Pat on the head!",
+      "description": "Hey, you're messing up my hair!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/2f9825720bf07cd45caa7147338e48e54f250fda.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "56.4"
+    },
+    "ACHI_cartridgeplayers": {
+      "name": "Caught Them All",
+      "description": "Now, who's next?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/514539a990103df4813506d71633598cb29ae9c0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.8"
+    },
+    "ACHI_mitastory": {
+      "name": "Hi, Mita",
+      "description": "They're all unique.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b6908a41c1f366273efb64f114a2388aa2305a54.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.7"
+    },
+    "ACHI_final": {
+      "name": "Is This the end?",
+      "description": "Of course it's the end!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/1d844c077b40a829ac00eab478e8b5b8e7630d3c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "63.9"
+    },
+    "ACHI_racingfirst": {
+      "name": "Going at Maximum Speed!",
+      "description": "Vrooooooooooooooom!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a274665746075fdd1227909dd928b964e0c75a5d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.1"
+    },
+    "ACHI_achi": {
+      "name": "Some Achievement?",
+      "description": "And some desciption?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/8d29c9e8c6c51598d82df600338a05b2335dd3bc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "55.9"
+    },
+    "ACHI_greatdance": {
+      "name": "The Great Dance",
+      "description": "Left, right, center!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a7b093a4349bd6e486b58e69b1c36ad3a7beac70.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.0"
+    },
+    "ACHI_applesnake": {
+      "name": "A Long Long Tail",
+      "description": "Apple, again?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/3a11efba17fadbfee1058ce4480859e8572fc655.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "19.8"
+    },
+    "ACHI_stopu": {
+      "name": "You shall not pass!",
+      "description": "Repair the fence.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a1ee7e765c4f587b152fbda98f0fdfbe5e03cffb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "33.7"
+    },
+    "ACHI_logA": {
+      "name": "Phase 1 Logs",
+      "description": "Undiscovered error.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/e25b88873226a8381214bee908636e05beca4bec.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.0"
+    },
+    "ACHI_logB": {
+      "name": "Phase 2 Logs",
+      "description": "Error fixed.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/6f27e398e60859f83680c36b4fcd2213c1379e3a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.0"
+    },
+    "ACHI_hellwin": {
+      "name": "Helluvah Win!",
+      "description": "I'm not here.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/dcb4069d119e2497d562af75209420b40234d455.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "57.9"
+    },
+    "ACHI_hellmegawin": {
+      "name": "Without Taking Damage?!",
+      "description": "As accurate as can be.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/76bae5a142e2a724dd02f6a26df54530c8e62017.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.3"
+    },
+    "ACHI_carrot": {
+      "name": "Carrot",
+      "description": "Don't look at me!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/04f84851c4866a9c0cfdb389242f0b3639feb7ef.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.3"
+    },
+    "ACHI_supermegapuperplayer": {
+      "name": "Pro Gamer",
+      "description": "Checked just about everywhere.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/a28f960c6646a6fb28d8a34c6a4f2b5a7052cdbf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2527500/b2e59be77964880c08f699e2de56199422952980.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.5"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

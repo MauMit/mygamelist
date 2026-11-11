@@ -1,0 +1,190 @@
+{
+  "appid": "774461",
+  "name": "The Jackbox Party Pack 5",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/header.jpg?t=1728584545",
+  "achievements": {
+    "YDKJ2018_AT_LEAST_FIVE_PLAYERS": {
+      "name": "YDKJ: First time for Everything",
+      "description": "Play a game with 5 or more players",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/374daa815fa379b83788ffefe8c5173c13a1a70e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/30a2eb4e1c8ec2bb3e1c49003e3396efc3380dd4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.7"
+    },
+    "YDKJ2018_MAX_JACK_ATTACK_POINTS": {
+      "name": "YDKJ: Cracker Jack Attacker",
+      "description": "Get max points on a Jack Attack, including speed bonuses",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/374daa815fa379b83788ffefe8c5173c13a1a70e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/30a2eb4e1c8ec2bb3e1c49003e3396efc3380dd4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.4"
+    },
+    "YDKJ2018_SCREW_EVERYONE": {
+      "name": "YDKJ: Everybody Gets Some",
+      "description": "Screw 7 other players and the audience",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/374daa815fa379b83788ffefe8c5173c13a1a70e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/30a2eb4e1c8ec2bb3e1c49003e3396efc3380dd4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.1"
+    },
+    "YDKJ2018_AUDIENCE_BAD_PERFORMANCE": {
+      "name": "YDKJ: This Is Why You Can't Play",
+      "description": "Less than 10% of the audience gets a question right. (In an audience of at least 5.)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/374daa815fa379b83788ffefe8c5173c13a1a70e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/30a2eb4e1c8ec2bb3e1c49003e3396efc3380dd4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.4"
+    },
+    "SPLITTHEROOM_GET_A_CORRECT_PREDICTION": {
+      "name": "Split the Room: Mind Reader",
+      "description": "Get a successful final round prediction",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/d9003a667b3c3a65753fa84b83df69ce9677f389.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/3791ffda8ee12c2e9c91e83bc9a380ef5d8b52fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.3"
+    },
+    "SPLITTHEROOM_GET_ALL_NO_VOTES": {
+      "name": "Split the Room: Naysayers",
+      "description": "Write a scenario that gets all nos",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/d9003a667b3c3a65753fa84b83df69ce9677f389.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/3791ffda8ee12c2e9c91e83bc9a380ef5d8b52fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.4"
+    },
+    "SPLITTHEROOM_GET_A_SUPER_SPLIT": {
+      "name": "Split the Room: Super Splitter",
+      "description": "Write a scenario that causes a dead even split",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/d9003a667b3c3a65753fa84b83df69ce9677f389.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/3791ffda8ee12c2e9c91e83bc9a380ef5d8b52fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.5"
+    },
+    "SPLITTHEROOM_AUDIENCE_WIN": {
+      "name": "Split the Room: Audience Victim",
+      "description": "Lose a game to the audience",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/d9003a667b3c3a65753fa84b83df69ce9677f389.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/3791ffda8ee12c2e9c91e83bc9a380ef5d8b52fa.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.8"
+    },
+    "RAPBATTLE_MILLIONAIRE": {
+      "name": "Mad Verse City: Millionaire",
+      "description": "Make a million dollars in one game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/38587686b4626ce4fcae395b5ed2d88e39fbb9fe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/2d707615b5bc0cfe935b153b63fb9dcad55e9608.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.3"
+    },
+    "RAPBATTLE_FULL_CHEER": {
+      "name": "Mad Verse City: Raise the Roof",
+      "description": "Fill the cheer meter all the way up",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/38587686b4626ce4fcae395b5ed2d88e39fbb9fe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/2d707615b5bc0cfe935b153b63fb9dcad55e9608.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.9"
+    },
+    "RAPBATTLE_BEAT_GENE": {
+      "name": "Mad Verse City: Beat Gene",
+      "description": "Beat Gene in an odd player game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/38587686b4626ce4fcae395b5ed2d88e39fbb9fe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/2d707615b5bc0cfe935b153b63fb9dcad55e9608.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.0"
+    },
+    "RAPBATTLE_DESTROY_JACKBOX": {
+      "name": "Mad Verse City: Destroy Jackbox",
+      "description": "Destroy the Jackbox Games building",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/38587686b4626ce4fcae395b5ed2d88e39fbb9fe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/2d707615b5bc0cfe935b153b63fb9dcad55e9608.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.7"
+    },
+    "SLINGSHOOT_SURVIVE_GAUNTLET": {
+      "name": "Zeeple Dome: Goopledorps",
+      "description": "Survive a Gauntlet",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/89e78b691d69f5aae545f60990fb3f76e3307e65.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/f533ba75171f3041db9b8ba485ab5d4e8bd184da.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "24.3"
+    },
+    "SLINGSHOOT_SURVIVE_GAUNTLET_SERIES": {
+      "name": "Zeeple Dome: Tossed in Space",
+      "description": "Survive a Gauntlet Series",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/89e78b691d69f5aae545f60990fb3f76e3307e65.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/f533ba75171f3041db9b8ba485ab5d4e8bd184da.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.5"
+    },
+    "SLINGSHOOT_KILL_ENEMY": {
+      "name": "Zeeple Dome: Alien Baby Steps",
+      "description": "Kill your first enemy",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/89e78b691d69f5aae545f60990fb3f76e3307e65.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/f533ba75171f3041db9b8ba485ab5d4e8bd184da.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.9"
+    },
+    "SLINGSHOOT_RESCUE_TEAMMATE": {
+      "name": "Zeeple Dome: Life Saver",
+      "description": "Rescue a floating teammate",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/89e78b691d69f5aae545f60990fb3f76e3307e65.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/f533ba75171f3041db9b8ba485ab5d4e8bd184da.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.5"
+    },
+    "PATENTLY_STUPID_LOSE_TO_GENE": {
+      "name": "Patently Stupid: Mean Gene",
+      "description": "Lose a game to Gene",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/dd6b394b4e09e26ee8d4f0ca8f6dc6f7b9115de2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/358979f09dc88b0f85d82aa75781b9d0d1381cc4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.7"
+    },
+    "PATENTLY_STUPID_GET_ALL_BIG_CHIPS": {
+      "name": "Patently Stupid: Lovin' An Innovator",
+      "description": "Your invention gets all the big chips",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/dd6b394b4e09e26ee8d4f0ca8f6dc6f7b9115de2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/358979f09dc88b0f85d82aa75781b9d0d1381cc4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.8"
+    },
+    "PATENTLY_STUPID_FUND_THREE_SUCCESS_IN_A_ROUND": {
+      "name": "Patently Stupid: Diversified!",
+      "description": "Fund three successful inventions in one round",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/dd6b394b4e09e26ee8d4f0ca8f6dc6f7b9115de2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/358979f09dc88b0f85d82aa75781b9d0d1381cc4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.0"
+    },
+    "PATENTLY_STUPID_GET_NO_FUNDING_IN_EIGHT_PLAYER_GAME": {
+      "name": "Patently Stupid: Invention's a Mother",
+      "description": "Receive no funding in an eight player game",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/dd6b394b4e09e26ee8d4f0ca8f6dc6f7b9115de2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774461/358979f09dc88b0f85d82aa75781b9d0d1381cc4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.7"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

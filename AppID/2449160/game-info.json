@@ -1,0 +1,82 @@
+{
+  "appid": "2449160",
+  "name": "While Waiting",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449160/header.jpg?t=1792781151",
+  "achievements": {
+    "ACH_ALL_STICKER": {
+      "name": "Upādāna",
+      "description": "Get all the stickers.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/5fb431f6b2c6e7c9268277b1029ae0b791d320e5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "ACH_FAKE_ENDING": {
+      "name": "All in One Place",
+      "description": "Reach the ending.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/ff75d0cbbf5ca8877a8207e2d28bd29263f3735e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "14.5"
+    },
+    "ACH_TRUE_ENDING": {
+      "name": "Nothing in All Places",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/d9b34075273a99454b1abdc81fbd0545722849d0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "5.5"
+    },
+    "ACH_FINISH_TUTORIAL": {
+      "name": "The Journey Begins",
+      "description": "Finish the tutorial.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/a0dd4e8421f8e8beb5413a83a228e57c3f14c9ad.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "99.1"
+    },
+    "ACH_TEEN": {
+      "name": "A Young Man",
+      "description": "Complete the childhood story.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/1249fa195a4d53b3bc7ba0d93e83378312932a45.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.4"
+    },
+    "ACH_ADULT": {
+      "name": "A Working Man",
+      "description": "Complete the college story.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/edb5efb7c87d1325ab4c013fc344a9143925ff11.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.9"
+    },
+    "ACH_MIDAGE": {
+      "name": "A Middle Age Man",
+      "description": "Complete the early adulthood story.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/0b0e507fc7c249245fe2984f377e48f6cedc3be0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "18.9"
+    },
+    "ACH_OLD": {
+      "name": "An Old Man",
+      "description": "Complete the middle age story.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/7b688c5f9479b73e575f6b04e1e978db843790f6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2449160/36db1cc447d4366339490dbc3a596e4e82aa905a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "17.2"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

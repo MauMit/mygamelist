@@ -1,0 +1,568 @@
+{
+  "appid": "1920480",
+  "name": "River City Girls 2",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1920480/header.jpg?t=1758823732",
+  "achievements": {
+    "ACHIEVEMENT_01": {
+      "name": "Double-Chocolate Donuts",
+      "description": "Got to class late, left school early.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/dc482b77c68ae1f92ef480f34a4ae6d67aeda5f9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/84a417f9bd166d415ee4da9967642a16324cf01e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "90.3"
+    },
+    "ACHIEVEMENT_02": {
+      "name": "Mall Rats",
+      "description": "No zombies found here.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/8ae10492cd2cedbe046844226c5dc13da28dfe25.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/b9f3fccc65ce91f10748d64425fe9abf1b08a004.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "77.6"
+    },
+    "ACHIEVEMENT_03": {
+      "name": "Forget All Your Troubles",
+      "description": "No finer place, for sure.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c0981d69c120d84918f00b6d3ade45ea0ffb80c8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/682139b6105e245153091a801520fd839ef06b3b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "59.0"
+    },
+    "ACHIEVEMENT_04": {
+      "name": "Gen Rushing",
+      "description": "The gates have been open!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/23e5c1922c9a8c238b9d996bb8d273587f2b7659.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/8b2df6c908aa2538bd3f993750d41cdb3ef257ba.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.7"
+    },
+    "ACHIEVEMENT_05": {
+      "name": "Haunting Grounds",
+      "description": "Avoided getting lost in the woods.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/50682b3d10e107af4938a80b32313e02798dfd0b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/b005292a4670af8b9a32e20964b19711209d2dca.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.8"
+    },
+    "ACHIEVEMENT_06": {
+      "name": "Boney Busywork",
+      "description": "Completed a request for a creepy skeleton monster.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/70ea3b9a0f8e9014de42ed2c221b7b6187d5dec0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/4b8fc72b24568573c7e24e08ead502e97fcd0bf3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.5"
+    },
+    "ACHIEVEMENT_07": {
+      "name": "Uptown World",
+      "description": "Don't believe me? Just watch.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/662d1144717d6953cd3070234830831f38131043.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/0ac2f3c17f977836d53b91e1d31ad62a2c25a81e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "54.1"
+    },
+    "ACHIEVEMENT_08": {
+      "name": "Our Hope",
+      "description": "Showed Mibobo a dream in your dance.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/a7d1e00be086434ea0d90c2f16b29736339b8a7f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/49cbfed9226e5b8952d263a933795d39a8d92b92.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "46.2"
+    },
+    "ACHIEVEMENT_09": {
+      "name": "Shadow Force",
+      "description": "It's a bit meta when you think about it.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/1d835094ea672365aeb5ae829bbc287a3ff6ac56.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c13f780c1f8f63af9c42c247a4eed5a48a48eb3e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.0"
+    },
+    "ACHIEVEMENT_10": {
+      "name": "We're In",
+      "description": "Found out how deep the rabbit hole goes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/780b7e4d04d4af30ef22f9ac473ce8b33ff633a3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/dd52d122bbefaf2e87a814bdcfcd64983386476e.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.9"
+    },
+    "ACHIEVEMENT_11": {
+      "name": "Wild Kids",
+      "description": "Brawl on the Boardwalk.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cba92fd678f4632b6d8efaeadadc26844c7a4f44.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c4a7a3475d1dc40c6f7382091e00f9870625dcc9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "36.4"
+    },
+    "ACHIEVEMENT_12": {
+      "name": "Do You Even Lift?",
+      "description": "Completed Shimizu's Challenge.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cf605203bf7f7dc0f4b18e42c863c9c9473cacd8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2875918d0ed31fd0f7555bea75f93b9b498f93a2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.5"
+    },
+    "ACHIEVEMENT_13": {
+      "name": "Fashionably Friendly",
+      "description": "Got disguises from a... frenemy?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/a5954cb362e56f7bb7ff597ab97e41d4d3d8cf8a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c46d9be49edafed124b671c0a48d6c2f8e0eba6a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "30.3"
+    },
+    "ACHIEVEMENT_14": {
+      "name": "Back to School",
+      "description": "Literally.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/6eff8f55f1d1c4c5c34c8d12fba8e508b635d1b2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/510b1d66b9ade4e2f7a14c8fde16e50731c82c0b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.9"
+    },
+    "ACHIEVEMENT_15": {
+      "name": "Flame Off!",
+      "description": "Avoided some serious burns.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/748df2828750a9051fcaf5c4e52795c3ed9bee4d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/b6b38d987ce6c6157081c5a416bd57754e611fcf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.0"
+    },
+    "ACHIEVEMENT_16": {
+      "name": "River City Ransom",
+      "description": "Someone is always in need of rescue in this town...",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/7be0eda5e4862ad3f23c17dbe250b7c0c314e9ef.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2cad3e8852e78e160b189d18c9e20a7cbd7d3069.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.9"
+    },
+    "ACHIEVEMENT_17": {
+      "name": "Tower of Power",
+      "description": "Showdown in little Sanwakai.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/435809d7ff295d68281af4f631d7222a735bfb27.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/5c1bf409d4cfb89596f6744786d92508502ed7bf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.9"
+    },
+    "ACHIEVEMENT_18": {
+      "name": "Power Stones",
+      "description": "Left no stone unshattered.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/fffac9256a74fee8b236d32e8b73c87099dbbbc9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2f2e04151f80c9f292c1d3f9fd4a3f1a2f7c8dcd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.6"
+    },
+    "ACHIEVEMENT_19": {
+      "name": "I Choose You!",
+      "description": "Enlisted the help of a former enemy from a Hideout.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/49b66a6a14420e3d17a69bbb60f9ef7c4fc5a51e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/57e1b0cd04591df4e171d3cbd220c0714f68d20d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "42.3"
+    },
+    "ACHIEVEMENT_20": {
+      "name": "Stranger's Danger",
+      "description": "You can't put a price on pain.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/49d4d792fc13a5b979ac44ccb16691bcb8062d96.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/4017498050e5b7fad4ccec53f10812d939391aae.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.5"
+    },
+    "ACHIEVEMENT_21": {
+      "name": "What Are You Buying?",
+      "description": "I see you have an eye for things.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/30e70bd95b952658a53d917e48fe5a70439767e4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/b36f89bd30828baac0ea9e3eb5ada9a106ae236f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "78.5"
+    },
+    "ACHIEVEMENT_22": {
+      "name": "Safety Deposit",
+      "description": "Horded your snacks at a Hideout.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/561d5747010cbb9c19661568ab92c7eb6c6be639.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/ffdfbde7743bda7ba72a90bacc49b8d699b8d18d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.3"
+    },
+    "ACHIEVEMENT_23": {
+      "name": "Cupcake on the Wall",
+      "description": "This is a conspiracy! That's what this is.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cc608beb3ae50ada111ec118d41a9b9e6398f0c0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2cc5d8c8fa59f338c892f121a554b753bb7038a7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "31.4"
+    },
+    "ACHIEVEMENT_24": {
+      "name": "An Overlooked Surprise?",
+      "description": "Don't sleep on returning here for a secret...",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/a95a6ffeb68013f4adce56eeb2a7b01db149d64f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/00cced36a0d906b7619d7b3f7d58c66ae72264c3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "53.9"
+    },
+    "ACHIEVEMENT_25": {
+      "name": "Here's Your Lesson Plan!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/19debbb8e4d977f86fa4135a58062c395d75cb96.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/1d973338611c7063136be3cfc9247bc36d4918e1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "36.1"
+    },
+    "ACHIEVEMENT_26": {
+      "name": "Let's Be Crazy",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/4088237017e1ff61841763978bda99e653c8754b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/9d90dc86169221223ad010b612bb5cd67842002b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "58.4"
+    },
+    "ACHIEVEMENT_27": {
+      "name": "Keep it Secret",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c1bbf3bc77ff4ce2a28977c02342d8d021b76af8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/75ac18e8db55ba3f0d9863539be6afeed4b52779.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "20.4"
+    },
+    "ACHIEVEMENT_28": {
+      "name": "Can You Pet The Dog?",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c8e4a0c4a34b148ac74afa33e4a68afb8ae890ca.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/66fd2541aab2c824a0ad50f5648b90451e106ad7.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "38.9"
+    },
+    "ACHIEVEMENT_29": {
+      "name": "Romance Novel",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d6094b2b27d224ffecfc79403f2056f58ebef647.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/1c222cbeb99cd0cfd2839cc08b46fa76e0bfd34e.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.6"
+    },
+    "ACHIEVEMENT_30": {
+      "name": "Cryptid Corner",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/6ca802aee472d157b3a158ad73d163a921ed26aa.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/19fe05b67da4df215190e6cb71f1224db4976f54.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "26.0"
+    },
+    "ACHIEVEMENT_31": {
+      "name": "Made Milton Proud",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2b9457dd965baca80ef1ab0d418b14524a52819f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d4a0e39cc85f3a66aae32ec7d0fc44bd93ce2a62.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "9.2"
+    },
+    "ACHIEVEMENT_32": {
+      "name": "TV Dinner",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d59179851fbd6a9f51b91f8d8b3725ae90b4dab7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/dc73393d76b75bb2c80299d5e7a035f12a7d9efb.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "ACHIEVEMENT_33": {
+      "name": "Spirited Away",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/12a8d761b12907bb8631e2b7ddc4c6de50f9b0d5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/2824d374ba059b45705e085dab8b6744f8729145.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.7"
+    },
+    "ACHIEVEMENT_34": {
+      "name": "Mine Now",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/290fbf0928ebbe6c14e612926b4ad0a719290839.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/7fd3342959c85e15092f620ec212fd5daf8b76ee.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "6.8"
+    },
+    "ACHIEVEMENT_35": {
+      "name": "Gimme a break...",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/298db53a83c594588dd3f48ca487b84b93182d9d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/821362ce7ec0cfa00c56ae05d7d692c46cab8b0c.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "4.2"
+    },
+    "ACHIEVEMENT_36": {
+      "name": "Funktasmical!",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/94e84e547a98d257c423033c3b6b1bc18b5f5a32.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/75bbaf7172f3542057482b20940e4595cbe2d03b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.2"
+    },
+    "ACHIEVEMENT_37": {
+      "name": "Purr-fect Collection",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/0e6d367505382c4eaeecd87b49e6abe797e1f796.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c9e167e9b32aa053c03ef941cd5028a18f74dbe4.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.3"
+    },
+    "ACHIEVEMENT_38": {
+      "name": "Autumn Moon",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/bec87a0befb9252faec213239db4eecc11587ef2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/14a9b4a3f75df800a4252d0250bba23d9ffec0c8.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "10.9"
+    },
+    "ACHIEVEMENT_39": {
+      "name": "Take me to the place I love",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/8584fe205b2b75bb6a8926ead0206dbdd0cfd647.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/f2e7c9d1a99649255fb49df0a281fb0c5f410ff9.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "14.2"
+    },
+    "ACHIEVEMENT_40": {
+      "name": "A Quick Detour",
+      "description": "This should have only taken a moment...",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/7fc9314fdcc15dd0627e02dff2b87f3b4c92f3f1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cf2e805e61614f0e1c5584afd4b3c968d12824bf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "65.4"
+    },
+    "ACHIEVEMENT_41": {
+      "name": "Lost Track of Time",
+      "description": "Got completely distracted while exploring River City.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/74ed7e62ca2e144f090c6cef44d5cfaf888adc86.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/710a70d272d2ed073f328eeb9b9eb35a02c29557.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.1"
+    },
+    "ACHIEVEMENT_42": {
+      "name": "Up To No Good",
+      "description": "Put a stop to some bullies making trouble in your neighborhood.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d3a8f66b396ed4b39b56f7c4e44231d1c12a9273.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/30ab90c46ce49a8dbf2000797a4de64e55342322.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "51.7"
+    },
+    "ACHIEVEMENT_43": {
+      "name": "Survival Horror",
+      "description": "Fight off an evil that has taken residence within the woods.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/1158e6530835663b692eb27c1c8c43913991664a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cfea6c429eabf47e887318e0e8767d46f9a845ea.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.4"
+    },
+    "ACHIEVEMENT_44": {
+      "name": "It's Time To Play",
+      "description": "Went maverick and spiked some enemies into sand.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/e114851f95229bc088fb9d688cb5473711f83956.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/de4a07cab0bdcd9f0a209ce554e394aed1cfe5a6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.2"
+    },
+    "ACHIEVEMENT_45": {
+      "name": "Coming Attractions",
+      "description": "Survived an early encounter with an old foe.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d23a37801f37fea6e461623a6c35d1a2f3c41b73.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/5259fa519418b82cffde99f2f981ec5973f2f520.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "71.1"
+    },
+    "ACHIEVEMENT_46": {
+      "name": "Damsel Dealing Distress",
+      "description": "Abs for days.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/16ce4d126f8ff3a37c268b6089ece6b0d286bff8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/e7d64e9aedf2e195c2d000bb3933c88892819118.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "48.0"
+    },
+    "ACHIEVEMENT_47": {
+      "name": "Broken Spell",
+      "description": "Served up a beatdown to a bewitching enchantress.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/19cfad53b7262f84ed8bfb6cd187cfba01588184.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/d115be5367e2f4f99d208b6e95bce92c3794b2cc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.1"
+    },
+    "ACHIEVEMENT_48": {
+      "name": "Giving it a Shot",
+      "description": "Breakdance Beatdowns.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/4958f2d95e519129cb95e724280937f5c11fc1e8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/363d4f3d455f7b588ae3ad22ffb7cdb98f8ddb4a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "44.6"
+    },
+    "ACHIEVEMENT_49": {
+      "name": "Ghost in the Machine",
+      "description": "Should probably update all the passwords to something like 'kittykitty123', maybe?",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/ae5d13ff8d4a9a5f5eb4c3efa310808d3fc25ddb.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/50436b60ded0503034cb8cac92a1ee897a424c23.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "35.1"
+    },
+    "ACHIEVEMENT_50": {
+      "name": "PRIMO DELIGHTS",
+      "description": "Obtained the third emblem.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/f6f05cd3a508b0e8f9483456d2ec70ab5ed68866.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/c93279710f9163b7e6d0923cf063ad888122c317.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "29.7"
+    },
+    "ACHIEVEMENT_51": {
+      "name": "A Pathetic Son",
+      "description": "Won a rematch at River City High.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/00af7d15217bf149780d3c5b7da281beead1cd69.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/a4ba7708c77badd69cdb99be4cf5071a3a13866d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.7"
+    },
+    "ACHIEVEMENT_52": {
+      "name": "Get Da Choppah!",
+      "description": "Double Cross(ed) Off!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/e9c9e5476b220b419e7d70a5b8cc772d22155872.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/8d0f3852e923ddc09440a91049c7662d31ba58c9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.0"
+    },
+    "ACHIEVEMENT_53": {
+      "name": "IMPOSSIBLE!",
+      "description": "Thwarted the leader of the Sabu Clan.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/3b6fd24704366f0083efa2cf83767014983781ae.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/7917bc633ea318b851e2c63269bea9dbb4babb9b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "25.4"
+    },
+    "ACHIEVEMENT_54": {
+      "name": "Not So Friendly",
+      "description": "That wasn't on purpose... really!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/803642d854094fed041bd6692a15924ac2521756.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/6edfa3a436234662e017329a47e8dea153058972.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "22.9"
+    },
+    "ACHIEVEMENT_55": {
+      "name": "River City Brawl",
+      "description": "The gang's all here.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cabac0de2963f397d8dae6b95deeed72ec5dde25.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/9b593215490f9931464eb80ec6468bfb065f5fbd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "49.7"
+    },
+    "ACHIEVEMENT_56": {
+      "name": "The Completionist",
+      "description": "Obtained 100% completion.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/285872222dee81984acba6674fd66f0823408c1f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/cd173aaacc308876336ced3f060c2387839044de.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.0"
+    },
+    "ACHIEVEMENT_57": {
+      "name": "Stylish!",
+      "description": "Experimented with a new look.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/e53c9d46968690b5e76c180654228a41e43d0b91.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/935a6fc418b7244027bf5124a63fd8c546da58f2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.9"
+    },
+    "ACHIEVEMENT_58": {
+      "name": "Devil Inside",
+      "description": "A sugary sweet surprise.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/77323ff123b9f390b4b45618e66e7ec47e9dbf6f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/56c0506abe7c9a145d22b5a8748682ec9d79e88c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "ACHIEVEMENT_59": {
+      "name": "Season's Greetings!",
+      "description": "Get yourself a gift for the Holidays.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/15d5883fbe353d2c9d97276be46ad2cf7534b394.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/232024206300a185463769f8a7832322d73ee091.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "13.6"
+    },
+    "ACHIEVEMENT_60": {
+      "name": "Might of the Dragon",
+      "description": "Prove yourself as the one true Dragon Master.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/25b40a531fc17ac5b80cde1ef672f9b1067a155d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/00e715223f2e12727cabfded3f4ee848b9dbbba5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.0"
+    },
+    "ACHIEVEMENT_61": {
+      "name": "Mark of the Dragon\t",
+      "description": "Obtain all moves for Billy or Jimmy.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/70039962e7633d093a94dbbf6433431f80e6a49b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/ca4189bc52ccd56ec3854fde1bdfb602516f9953.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.2"
+    },
+    "ACHIEVEMENT_62": {
+      "name": "Code of the Dragon",
+      "description": "Defeat any boss as Billy or Jimmy Lee.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/ceddcf59fff6118ec0889e7b89184ba9c4971bd1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1920480/df597b3b46dfed7fa761d1f10a37b7f275a19ec6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.1"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

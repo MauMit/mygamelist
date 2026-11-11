@@ -1,0 +1,118 @@
+{
+  "appid": "2461850",
+  "name": "Hellblade II: Senua’s Saga",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461850/eeba63cff53a732f380249a09b0be2bbf49f2635/header.jpg?t=1780854772",
+  "achievements": {
+    "Collect_Totems": {
+      "name": "Tales of Midgard",
+      "description": "Collect all the Lorestangir.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/76f9d00ec6ae37b67fa612e10766419317680487.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/0547b76f52ec3935a3d978cedb06e14bf04c610c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.6"
+    },
+    "Collect_Faces": {
+      "name": "Glimpses of the Gods",
+      "description": "Reveal secret paths behind hidden faces.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/300216664d2a9512986d2cc6011c5822b69e03a7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/a4a90c1b085cbf2531cf4befd5d36cdf12e4e605.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.7"
+    },
+    "Ch1_ThorBattleComplete": {
+      "name": "The Next Sign",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/68286949c0ef91d0f3aa42d832f4345aff263d28.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/4bf271377f9da14576b05f494d500d0111c3d4e3.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "81.5"
+    },
+    "Ch2_ArenaBattleComplete": {
+      "name": "The Man in the Middle",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/8360491ff51a376941e3e010ce67ade43cc78231.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/3512466cc8a7c43b14b83a2d44459f1d6d00f83a.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "67.5"
+    },
+    "Ch3_LakeEmpty": {
+      "name": "The Hidden World",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/c862783e6f1526627ee342e700f6b115350d726b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/4f58c9bbbee3587146c50900e1954e00e39a1442.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "57.2"
+    },
+    "Ch4_DefeatIlltauga": {
+      "name": "Returned to the Earth",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/17140c8649214770b3a3475ad1a9cb54ecca47b2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/f2dd2e425d0275a1894db11437a3745e47867f00.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "52.8"
+    },
+    "Ch5_DefeatSjavarrisi": {
+      "name": "The Storm Calmed",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/c26ba3a7c7e89d2d7b8662228bea7f0709a80340.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/0fcb17d333330d3b156f94d5d6c02d2b994528bd.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "47.8"
+    },
+    "Ch6_ReachBorgavirki": {
+      "name": "A Guiding Light",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/db5dc0d11b15e61faa0b102feeda3b2b8c612e4d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/0a77a773edc19f2e7bdd3ba65e2900307bbca4fb.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "46.6"
+    },
+    "Ch6_DefeatGothi": {
+      "name": "End the Tyranny",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/4ea518a188ac174d6bffee562fd86fabe54a5f13.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/2eda4d9355d70add3248fd003f5236e9709cc5d1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "46.3"
+    },
+    "Photo_Mode": {
+      "name": "Worth a Thousand Words",
+      "description": "Open photo mode.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/6f7b6f2397c2f19a4cc843f21a790089b476233b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/fdf5f6020771e4aa0eae1fe2c0c53d1d1cfc4cf8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "57.4"
+    },
+    "New_Narrator": {
+      "name": "Seeing Things Differently",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/873a2ac8704319f7837aa4040dfd0856a96b003e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/29d70e89ecd81d0b2a8247cb914fa89b20da6ae8.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.4"
+    },
+    "DarkRot_Complete": {
+      "name": "Dark Rot Complete",
+      "description": "Complete the story in Dark Rot.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/8faccb3bc58c18adb1f41117d6c1d3dd89b8b6ea.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2461850/4243f46135a95ec23d8e02f89f13f8d952914d38.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.0"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

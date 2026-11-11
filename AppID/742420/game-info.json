@@ -1,0 +1,586 @@
+{
+  "appid": "742420",
+  "name": "Saints Row",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742420/header.jpg?t=1764670956",
+  "achievements": {
+    "aquire_every_perk": {
+      "name": "Jack of All Trades",
+      "description": "Acquire every perk.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/9d0d9ca06999d31444d6e8d3d2a38bd69d408d94.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/9d0d9ca06999d31444d6e8d3d2a38bd69d408d94.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.0"
+    },
+    "beat_all_wingsuit_challenges": {
+      "name": "It's a Bird!",
+      "description": "Complete all wingsuit challenges.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/ccabe4ff32122be376f39c69cb8d2f5004d9a1d0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/ccabe4ff32122be376f39c69cb8d2f5004d9a1d0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.7"
+    },
+    "beat_loyalty_missions": {
+      "name": "Quality Time",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/e3de71a78069c8ed160e29c75190b28416bc65cc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.1"
+    },
+    "buy_1_thing_from_every_store": {
+      "name": "Shopping Spree",
+      "description": "Buy 1 item from every store.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/60d0e5f5baf99aba2b346040fe2e53beec57fc73.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/60d0e5f5baf99aba2b346040fe2e53beec57fc73.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.4"
+    },
+    "car_jacked_by_a_ped": {
+      "name": "Hijacked",
+      "description": "Pulled out of a car by a pedestrian.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/915f1dc4ace0312d6fa1dd79bf97baf1f7c53e4d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/915f1dc4ace0312d6fa1dd79bf97baf1f7c53e4d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.3"
+    },
+    "collect_high_amount_hero_props": {
+      "name": "The Collector",
+      "description": "Obtain 85 items in the Collectibles app.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7083bc942d99fd9c9160fd491d10ccde1d58bd59.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7083bc942d99fd9c9160fd491d10ccde1d58bd59.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.4"
+    },
+    "collect_low_amount_hero_props": {
+      "name": "Finders Keepers",
+      "description": "Obtain 5 items in the Collectibles app.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/5229f39fa0150c745f9829a7783fb88096b5a686.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/5229f39fa0150c745f9829a7783fb88096b5a686.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "28.7"
+    },
+    "complet_epilogue_mission": {
+      "name": "We could go home, or…",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/c21a4988ca4de46c1fa8edcb768140857d7446fd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "complete_all_of_wanted": {
+      "name": "The Professional",
+      "description": "Complete all jobs on the Wanted app.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/b07c5f795a9a24b2ae78392e806fb98a60e712db.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/b07c5f795a9a24b2ae78392e806fb98a60e712db.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "complete_all_side_hustles": {
+      "name": "Always Be Hustling",
+      "description": "Complete all Side Hustles.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3241644d53d61c4fb72ca25960481334a5317566.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3241644d53d61c4fb72ca25960481334a5317566.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.2"
+    },
+    "complete_challenge_packs": {
+      "name": "Challenge Accepted",
+      "description": "Complete 25 challenges.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/6cda5a4fb0f437c2aec7b70f308c9567001721b9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/6cda5a4fb0f437c2aec7b70f308c9567001721b9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.6"
+    },
+    "complete_final_mission": {
+      "name": "Showdown",
+      "description": "Complete Showdown.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/9f41b50a93bc4234016483ba2de36881727b5dbd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/9f41b50a93bc4234016483ba2de36881727b5dbd.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "19.2"
+    },
+    "complete_first_side_hustle": {
+      "name": "The Side Job",
+      "description": "Complete a Side Hustle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/617b168ff8786a951ee86c3c6b96fa11f0ec29d8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/617b168ff8786a951ee86c3c6b96fa11f0ec29d8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.4"
+    },
+    "complete_first_wanted_mission": {
+      "name": "Wet Work",
+      "description": "Complete a job on the Wanted app.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/32acf1e4c5942b7b4897ab78ef76ee9b019dc519.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/32acf1e4c5942b7b4897ab78ef76ee9b019dc519.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "43.4"
+    },
+    "complete_mission_1": {
+      "name": "First F#@!ing Day",
+      "description": "Complete First F#@!ing Day.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4376fee358a75972dc043ae31b9f836507a942a9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4376fee358a75972dc043ae31b9f836507a942a9.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "87.8"
+    },
+    "customize_a_vehicle": {
+      "name": "Tune Up",
+      "description": "Customize a vehicle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3232157eea26b27ce1e3cc8221d567df63b23ee3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3232157eea26b27ce1e3cc8221d567df63b23ee3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "41.2"
+    },
+    "customize_a_weapon": {
+      "name": "Optimized",
+      "description": "Customize a weapon.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/29ae622c1769ab69b4404d6131c2332de08f3cad.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/29ae622c1769ab69b4404d6131c2332de08f3cad.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "50.6"
+    },
+    "cutting_edge_materials": {
+      "name": "Statement Pieces",
+      "description": "Customize a weapon, a vehicle, clothing item, and your skin with a Cutting Edge material.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/367d978d3e90cc95e8abcd3b935f566389b63521.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/367d978d3e90cc95e8abcd3b935f566389b63521.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "defeat_the_collective": {
+      "name": "Chaos Tamer",
+      "description": "Defeat all members of the Idols Collective.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/e7c4cc7a8df48b643f177bb8a0d3a8602d8c0d8f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/e7c4cc7a8df48b643f177bb8a0d3a8602d8c0d8f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.2"
+    },
+    "destroy_car_with_fist_cannon": {
+      "name": "Bonus Round",
+      "description": "Destroy a car with Pugnus Sanctus Dei.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/6d70253cdcb9ff7515ecfe095c22dd6a39d65177.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/6d70253cdcb9ff7515ecfe095c22dd6a39d65177.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "4.5"
+    },
+    "disorganized_crime_instaces": {
+      "name": "Untouchable",
+      "description": "Complete 10 Crimes of Opportunity.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/882aaf87c98351cc034518e78479723417e3cac2.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/882aaf87c98351cc034518e78479723417e3cac2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.2"
+    },
+    "do_a_barrel_roll": {
+      "name": "The Spins",
+      "description": "Perform a barrel roll.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3a8c029d4eca35e98cfbcb3090750dd0e8e0cea8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/3a8c029d4eca35e98cfbcb3090750dd0e8e0cea8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "11.9"
+    },
+    "empire_tier_2": {
+      "name": "A Young Empire",
+      "description": "Unlock Criminal Empire Tier 2.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/cf1430bc6c101a31578f258de5cd42c46697390c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/cf1430bc6c101a31578f258de5cd42c46697390c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "27.9"
+    },
+    "empire_tier_3": {
+      "name": "Power Players",
+      "description": "Unlock Criminal Empire Tier 3.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/a4c102d10566e154a539fb791a2af8ee69886b71.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/a4c102d10566e154a539fb791a2af8ee69886b71.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "21.1"
+    },
+    "empire_tier_4": {
+      "name": "Masters of Santo Ileso",
+      "description": "Unlock Criminal Empire Tier 4.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/c7eb58db16b60035f36a0739d72f695e179a6777.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/c7eb58db16b60035f36a0739d72f695e179a6777.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "12.7"
+    },
+    "empire_tier_5": {
+      "name": "A Golden Age",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/80e74ceb0bd57eec3abbbd0367e4c9b5e97d923b.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "7.9"
+    },
+    "first_building_placed": {
+      "name": "Landlord",
+      "description": "Place a criminal venture.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/2fe9be47ca4711e6a9c6537a71720d8b3107fcfe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/2fe9be47ca4711e6a9c6537a71720d8b3107fcfe.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "39.7"
+    },
+    "fully_complete_a_building": {
+      "name": "Work Ethic",
+      "description": "Complete a criminal venture.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/ff69d9489ad1bd496aa4d701597411352d02139f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/ff69d9489ad1bd496aa4d701597411352d02139f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.0"
+    },
+    "fully_upgrade_1_vehicle": {
+      "name": "The Mechanic",
+      "description": "Fully upgrade a vehicle.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4d4a236f7e6e09728bed5dad0c0429e876a42c70.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4d4a236f7e6e09728bed5dad0c0429e876a42c70.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.8"
+    },
+    "fully_upgrade_a_weapon": {
+      "name": "Kitted Out",
+      "description": "Fully upgrade a weapon.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f7ade00487d6ca39a690847d7976a36e8a969190.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f7ade00487d6ca39a690847d7976a36e8a969190.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "16.1"
+    },
+    "get_betrayed": {
+      "name": "Et tu?",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f580c44b99268f0fee017ba4c10f77ca3f36cac0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "19.6"
+    },
+    "get_fired": {
+      "name": "Performance Review",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f8a9ebdd44b4a0393a84ce3f6dec1a617f69355e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "46.9"
+    },
+    "hit_max_level": {
+      "name": "Took It to The Limit",
+      "description": "Reach the maximum level.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/daa0891c196968d38ac0a873d56fb6e960cf19c5.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/daa0891c196968d38ac0a873d56fb6e960cf19c5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "18.6"
+    },
+    "infinite_boost_refill": {
+      "name": "Free Refills",
+      "description": "Refill the boost bar 3 times in a row with Infinite Boost.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/878bf28f50579702128cc02b7900b81709bc5e29.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/878bf28f50579702128cc02b7900b81709bc5e29.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.3"
+    },
+    "kill_each_faction_miniboss": {
+      "name": "Picking Fights",
+      "description": "Defeat a miniboss from each faction.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4279c9cc2182674111774b200deb0805b422233f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4279c9cc2182674111774b200deb0805b422233f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "23.1"
+    },
+    "kill_enemy_with_tetherd_object": {
+      "name": "Wrecking Ball",
+      "description": "Kill an enemy with a towed object.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/05bc1cba6d4ee1ae9f05e2e050df44f8fc4aba81.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/05bc1cba6d4ee1ae9f05e2e050df44f8fc4aba81.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "32.5"
+    },
+    "kill_tank_driver_with_rail": {
+      "name": "Armor Piercing",
+      "description": "Kill a tank driver with the Quantum Aperture.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/e0886bb2d5cb1fe51f0c8e4aa4aa030f01a8b191.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/e0886bb2d5cb1fe51f0c8e4aa4aa030f01a8b191.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "name_the_saints": {
+      "name": "Making a Name",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f56616c20ce1c6982158f1a8707924c3779fa31f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "43.6"
+    },
+    "one_third_purple": {
+      "name": "Neighborly",
+      "description": "Complete 5 districts in Santo Ileso.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f94fc691ceece197c24edb3428929be32d1b3f38.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f94fc691ceece197c24edb3428929be32d1b3f38.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "6.9"
+    },
+    "own_100_pieces_of_clothing": {
+      "name": "Closet Space",
+      "description": "Own 100 different pieces of clothing.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/92b5ccb8ad27090945d51ee7387a26ef0b092492.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/92b5ccb8ad27090945d51ee7387a26ef0b092492.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.2"
+    },
+    "prank_coop_partner": {
+      "name": "Prankster",
+      "description": "Prank a co-op partner.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/abd21c50fe04fedf2128553680de695048c9758c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/abd21c50fe04fedf2128553680de695048c9758c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.4"
+    },
+    "purchase_2_emotes": {
+      "name": "Smooth Moves",
+      "description": "Buy 2 Emotes.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/15d8bf5f68ec3c3fc24e70f5cd240e78324dabe6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/15d8bf5f68ec3c3fc24e70f5cd240e78324dabe6.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.6"
+    },
+    "quadruple_backflip": {
+      "name": "A Car Named Simone",
+      "description": "Perform a quadruple backflip with Super Air Control.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7ecf8f5387dd1fb2e358caf32b156bb071e8e8e0.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7ecf8f5387dd1fb2e358caf32b156bb071e8e8e0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.3"
+    },
+    "route_66_attractions": {
+      "name": "Tourist",
+      "description": "Complete the photo scavenger hunt.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/da7228b6e407b215748464d7cc3318b0a607244f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/da7228b6e407b215748464d7cc3318b0a607244f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.6"
+    },
+    "staggered_by_vending_machine": {
+      "name": "Food for Thought",
+      "description": "Stagger an enemy with a vending machine.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/5c68525b2e6985b6a491f895355dad79b38f436f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/5c68525b2e6985b6a491f895355dad79b38f436f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "38.1"
+    },
+    "two_thirds_purple": {
+      "name": "Community Outreach",
+      "description": "Complete 10 districts in Santo Ileso.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/26e4753abb85524bc6e938c81d377b071814c372.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/26e4753abb85524bc6e938c81d377b071814c372.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "5.1"
+    },
+    "unlock_all_vehicle_specials": {
+      "name": "Heard You Like Wheels",
+      "description": "Unlock all vehicle special upgrades.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/22f9ee1639e3ab89e4fd05446c5689100cd70acc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/22f9ee1639e3ab89e4fd05446c5689100cd70acc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "use_pinata_stick_on_pinata_bomb": {
+      "name": "Fiesta Time",
+      "description": "Hit a launched piñata with the Piñata Stick.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/eb80394ad0bfdecda894b232e51e68f0500eca0d.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/eb80394ad0bfdecda894b232e51e68f0500eca0d.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "use_profile_app": {
+      "name": "To The Nines",
+      "description": "Open the Style app for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7010d8816dc9932252de27a14044bb521267c9f8.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7010d8816dc9932252de27a14044bb521267c9f8.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "68.2"
+    },
+    "whole_map_purple": {
+      "name": "All Mine",
+      "description": "Complete all 15 districts in Santo Ileso.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/91e9161ac30b8c00f47a89cf5e1abde8ec219463.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/91e9161ac30b8c00f47a89cf5e1abde8ec219463.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.5"
+    },
+    "bfhj_complete_mission_1_collectible": {
+      "name": "Producer Credit",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/4be53f8572af28e6be4d3000e23649a9781ecb16.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "14.0"
+    },
+    "bfhj_complete_mission_2_collectible": {
+      "name": "Face Off",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/2402ffce6258483149535b4e51c9741f2da86829.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "13.0"
+    },
+    "bfhj_complete_mission_3_collectible": {
+      "name": "Hazardous Heist",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/1e65eeaf114b427ed2216da97aa78c3733c45408.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "12.4"
+    },
+    "consuela_finale": {
+      "name": "Viva La Reina",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/31f36b837aac1720ddfec84ee73aeed45e259ad3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "everybody_to_level_5": {
+      "name": "Gimme Five",
+      "description": "Attain Level 5 with all Murder Circus contestants.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f7adfadf840fb6e340c5f4c8537836d736b15aaf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/f7adfadf840fb6e340c5f4c8537836d736b15aaf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "genki_finale": {
+      "name": "Most Dangerous Game",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/abdfcbb933ed961026f697ad00c9d1f2afd5d660.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.8"
+    },
+    "groin_shot_genki": {
+      "name": "Just Like Old Times",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/691bf42cb8cc636caf05a4703761644f47ee8b9f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.0"
+    },
+    "tourist_finale": {
+      "name": "Living the Dream",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/c50b0e2166c04f1b00444e0f22786eb48369393e.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "vigilante_finale": {
+      "name": "Guilty as Charged",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/eb3a39d78b9ad3edf0615da32de47622dee4e7ab.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/95c790bbb03ad140764a34e981b6486c15109736.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "dustfaire_complete_mission_1": {
+      "name": "Blue Survivor",
+      "description": "Complete The Blue Wedding.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/489d844f72b990f4559f281181488023727290c4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/489d844f72b990f4559f281181488023727290c4.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "9.0"
+    },
+    "dustfaire_complete_mission_2": {
+      "name": "DustFaire Champion",
+      "description": "Complete DustFaire Games.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/174aabcdf9292d0e80dd03d56f79fd817a703c3c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/174aabcdf9292d0e80dd03d56f79fd817a703c3c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "dustfaire_complete_mission_3": {
+      "name": "Rod Warrior",
+      "description": "Complete The BowelRun.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7c9d0b6589346cb3c15eeaa159ef7df0536bddec.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/7c9d0b6589346cb3c15eeaa159ef7df0536bddec.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.0"
+    },
+    "dustfaire_complete_mission_4": {
+      "name": "Forger of Destiny",
+      "description": "Complete Return of the Dust King.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/cd68e44532381e293d4997025de28ad252b22fbe.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/cd68e44532381e293d4997025de28ad252b22fbe.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.8"
+    },
+    "dustfaire_complete_mission_5": {
+      "name": "Dustland Defender",
+      "description": "Complete The Battle of Ice and Dust.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/834f367fa9489d998cea96ce2aff52fbbf8be9e7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/742420/834f367fa9489d998cea96ce2aff52fbbf8be9e7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "7.7"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

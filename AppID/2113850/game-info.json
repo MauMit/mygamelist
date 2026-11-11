@@ -1,0 +1,316 @@
+{
+  "appid": "2113850",
+  "name": "Spirit City: Lofi Sessions",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113850/dde323de28b5db2af88e7fda53ed3c4dc34280bf/header.jpg?t=1793279366",
+  "achievements": {
+    "SCLS_CompleteTutorial": {
+      "name": "Welcome to Spirit City!",
+      "description": "You've officially settled into your new home in Spirit City by completing the tutorial. Welcome!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/72ad49815411cad293e83fa33a473a90309ada78.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/0122506bac761e8c7c3765ad2f35af6d35b656d5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "98.7"
+    },
+    "SCLS_FindSpirit_Dustbunny": {
+      "name": "Discovered Dustbunny",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/c6548f7ffba6d06477327d67981dd45b03eb5075.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d27e35c196daf585dae5c1dfd54512bd79cb761b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "67.9"
+    },
+    "SCLS_FindSpirit_Earlybirb": {
+      "name": "Discovered Earlybirb",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/75cc5cf8c7485d88065cdfb44fc649c2b56c37f7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d98c8779524c2cd7235368727a83859e19fbacb5.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "50.0"
+    },
+    "SCLS_FindSpirit_Hedgelog": {
+      "name": "Discovered Hedgelog",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/bb7330723229f06d98f0f2f45707a930e6251445.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/b97e7dba70e9ce5d018aff60aa85daa560040e56.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "57.1"
+    },
+    "SCLS_FindSpirit_Drizzlefin": {
+      "name": "Discovered Drizzlefin",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/0783d0435f8602820598ccd021583e65c0c714cd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d2278f9299b369d59aec0349ba22d5984ade14b0.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.3"
+    },
+    "SCLS_FindSpirit_Kettlebrew": {
+      "name": "Discovered Kettlebrew",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/56853e8a037a6f80b868c6145248dcb849064d94.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/5d419778eb0af486e4bba780b0deb54655555397.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "45.2"
+    },
+    "SCLS_FindSpirit_Trashnuki": {
+      "name": "Discovered Trashnuki",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/2342c30862a43103e8671e0ec8fea1264cf40ef4.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/af27eb187785ee778a38ece12f33ff27568454de.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "41.6"
+    },
+    "SCLS_FindSpirit_Moonpaw": {
+      "name": "Discovered Moonpaw",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/302a9ec9cc7316a5d2ad643e4e4a0ebec1b2ede7.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/346b3c766178b4dd051a88d5f55d1d75ee1f4cc3.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "49.0"
+    },
+    "SCLS_FindSpirit_Chapterpillar": {
+      "name": "Discovered Chapterpillar",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/8e3b9dd225b46ac4e169fad0ff3340acdedb7430.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/555057968d735ea0e23da4097add00777d09bad7.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "60.0"
+    },
+    "SCLS_FindSpirit_Arachknit": {
+      "name": "Discovered Arachknit",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/cbce2417c2125891c24175405efa409f9985fc30.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/da311e3842feae1befdaacb985ab27e1c4b78f13.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "53.5"
+    },
+    "SCLS_FindSpirit_Sunquill": {
+      "name": "Discovered Sunquill",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/910e50849448a552e214d449a65be7f0acc2f3ab.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/3d54a99921c0dc9f072cb8dd05bfbc0a41241a8b.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "40.0"
+    },
+    "SCLS_FindSpirit_Goopii": {
+      "name": "Discovered Goopii",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/1680e001d59bf4a97d08dd83c6e4889135ab36bf.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d2a562433b0c81fba1fdc3b19fb3fb21ffa5b4ea.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "83.5"
+    },
+    "SCLS_FindSpirit_Bulbee": {
+      "name": "Discovered Bulbee",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/53afde7effe6567b49804e066a8e3de003bd1207.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/7ab6c454ff71aea478ed5fe423bfb671413e1631.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "42.7"
+    },
+    "SCLS_FindSpirit_Inkster": {
+      "name": "Discovered Inkster",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/f49a59de255c252468a5e8c9447b6fa4f80bd9ad.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/99c26fd286f0e65ee93d2c0d34bf8f551e0ebc39.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "44.0"
+    },
+    "SCLS_FindSpirit_Vootodoo": {
+      "name": "Discovered Vootodoo",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/f068a2cc3f16f70af4421cdd850c298c432f9966.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/fe475e5b589e6df27ac9d42bec80d306a02f735c.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "43.5"
+    },
+    "SCLS_SpiritPet_01": {
+      "name": "Spirit Lover",
+      "description": "Pet a spirit for the first time.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d9f7398344328fb417ed6c864d1c62bc690ea7aa.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/fd295f08efcba32daae760793d34fdb8fffe9d19.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "83.6"
+    },
+    "SCLS_Todo_01": {
+      "name": "Checking things off!",
+      "description": "Check your first task off of your to-do list (and give yourself a high-five for a job well done!)",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/43dd00da927ef7fef7eabca897f59b7f27f2e267.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d16d15c5c22d757eca213243c375a7e60282a387.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "68.8"
+    },
+    "SCLS_Pomo_01": {
+      "name": "Getting things done!",
+      "description": "Complete your first pomodoro focus timer. Don't forget to take a break afterwards!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/996f2db6b056addee37694e19140590f2ca7bd63.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/cea58b37222f0d7d86d20744a1253cb27cbe4baf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "63.7"
+    },
+    "SCLS_Level_2": {
+      "name": "Amateur Spiritographer",
+      "description": "Congrats on your first level up, you've begun your journey to become an accomplished Spiritographer!",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/f957848cc2a0d57657b12845d17d46b16d165316.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/e89db66df0c19d765064e9f45436616beb3e252a.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "90.8"
+    },
+    "SCLS_Level_10": {
+      "name": "Scholarly Spiritographer",
+      "description": "Reach level 10, you begin to impress those around you with your trivia about Spirits.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/ed5a8fea6d89336ae4625716d7ee95c990c88b1a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/e43649b29a7998a13159e5563f3180d0d94e78b7.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "59.6"
+    },
+    "SCLS_Level_20": {
+      "name": "Proficient Spiritographer",
+      "description": "Reach level 20, Spiritography is starting to become second-nature to you.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/dbb72a37bfef55ade07498adfeacb6630cda9b43.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/e697c69e39be7b31cfb9522a9b1a207171db58ab.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "40.6"
+    },
+    "SCLS_Level_30": {
+      "name": "Veteran Spiritographer",
+      "description": "Reach level 30, Spirits begin to flock to you thanks to your knowledge and caring ways.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/c084fef2282b0ad544d76ec94cd62880ff73c9a1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/9bb91d6463cad17c3d23ddc8c6855d40f3248edf.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "26.1"
+    },
+    "SCLS_Level_40": {
+      "name": "Expert Spiritographer",
+      "description": "Reach level 40, your fellow Spiritography peers start looking up to you as the resident expert.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/01e47412742deaa014e9b12aab34ac3c169d25e6.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d52884cdd79f94185044d80cc78c452ebdafe6e0.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "15.8"
+    },
+    "SCLS_Level_50": {
+      "name": "Genius Spiritographer",
+      "description": "Reach level 50, you are pretty much a living encyclopedia for all things Spirit-related.",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/0d2efa2623505df0a4fd6d5feea8c869e7e64c57.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/1527f47d331af79b677cc3d6d4a2565db998b1e1.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "10.5"
+    },
+    "SCLS_FindSpirit_Waxolotl": {
+      "name": "Discovered Waxolotl",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/9b3da8adbc1fe3f2d8d3e4f600764862a96f50fd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/f6fedbe396941b3bf589e538443338441df90938.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "35.0"
+    },
+    "SCLS_FindSpirit_Bobapole": {
+      "name": "Discovered Bobapole",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/9b05baf246044b9ecbe7a8126610aa675fc0e63a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/99b54447bce69e8ed26a4045f44de337ca1785b1.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "36.6"
+    },
+    "SCLS_FindSpirit_Hamstereo": {
+      "name": "Discovered Hamstereo",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/c4f4ce6df3400cda0ca35f724836aa80ba41fba3.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/f5ef0b9a5890500f4b4ee3c67d7deaf2e2f8164c.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.0"
+    },
+    "SCLS_FindSpirit_APE-Bit": {
+      "name": "Discovered APE-Bit",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/1709e0c8ee08e8aa0d98e34adf77db098c6421b9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/8cb74ed9beba1fc6badcb76755cab48aaa35d343.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "33.4"
+    },
+    "SCLS_FindSpirit_Flutterfrog": {
+      "name": "Discovered Flutterfrog",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/88eef1343adacef3103862d938b0e3eece0166dd.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/04395d66260c40cdd26d530f1ffcd5b2b3740458.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "30.0"
+    },
+    "SCLS_FindSpirit_Hexwing": {
+      "name": "Discovered Hexwing",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/b1d6dbe634befb6ca9c1c037871341b6453fa407.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/ac1448c7db888ad171c631748259f624b9db6842.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.4"
+    },
+    "SCLS_FindSpirit_Twintail": {
+      "name": "Discovered Twintail",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/5b1bcf39c5a9766aa358568aaa124b0535509633.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/5d4f85d1892fe6241cfad95addfe47452317569c.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "28.0"
+    },
+    "SCLS_FindSpirit_Bloomscale": {
+      "name": "Discovered Bloomscale",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/a4b6b93d46dc61d30fca8667838a1740beb6e225.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/9b93b46905f894e7483b9ce9e40bda5023ff5f1e.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "22.9"
+    },
+    "SCLS_FindSpirit_Catsudon": {
+      "name": "Discovered Catsudon",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/7b73bdeaded3ca4e3604d86519b63d2f07ee6b92.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/c214a395cc542e3aad47b4fd30f21886917455d6.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "20.3"
+    },
+    "SCLS_FindSpirit_Deermuff": {
+      "name": "Discovered Deermuff",
+      "description": "",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/166841562ccae3b79725c1ec380dbea412817d7c.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2113850/d5ac0ae6781163cce5c8732bdafb399517a94e6e.jpg",
+      "hidden": true,
+      "group": "Base Game",
+      "percent": "15.2"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

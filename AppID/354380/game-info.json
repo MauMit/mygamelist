@@ -1,0 +1,172 @@
+{
+  "appid": "354380",
+  "name": "Assassin’s Creed® Chronicles: China",
+  "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354380/header.jpg?t=1747656056",
+  "achievements": {
+    "ACCChina_Ach_1": {
+      "name": "Vengeance Begins",
+      "description": "Assassinate Gao Feng",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/f60722ce128297bb5760f4c0662e57d0a9919a85.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/8057fc7f4a6841188014fc733a05a8fd7af194f3.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "8.3"
+    },
+    "ACCChina_Ach_2": {
+      "name": "The Assassin's Return",
+      "description": "Complete Assassin's Creed® Chronicles: China",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/971515a4be3a82686dc36e635ed8a51be1a4a599.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/9ab4da4f66383ec62cd3b7d4991b3379eaa21a82.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.9"
+    },
+    "ACCChina_Ach_3": {
+      "name": "The Way It's Meant To Be",
+      "description": "Complete every memory in the Plus or Plus Hard Game Modes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/932d6b43d1fee2c7bd31640e22a40d306b50a3ba.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/ad68076c94b824bcc9ae51ecee1b43dddc384e6c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.9"
+    },
+    "ACCChina_Ach_4": {
+      "name": "The Completionist",
+      "description": "Achieve the highest score and fastest time in each memory",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/25730c2465792803e4972d5581b9f3c22822e841.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/5747bd2da172261e9d181f6fded43eac1ae8fb20.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.8"
+    },
+    "ACCChina_Ach_5": {
+      "name": "I Fear No One",
+      "description": "Kill 100 enemies using the Helix Kill",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/c31db1f3437d6612cf5a5252974951aec0092ff9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/2c47141a07a9fca99c9d9fa8b2f036e096747ab2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.7"
+    },
+    "ACCChina_Ach_6": {
+      "name": "Low Blow",
+      "description": "Slide assassinate 25 enemies",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/10d329576dd5c8604da0c17fd7677191a0ccd928.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/09f1fb8e997929cc03ff500da7914aa3a68b64d2.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.0"
+    },
+    "ACCChina_Ach_7": {
+      "name": "The Invisible Woman",
+      "description": "Shadow Gold past 30 patrols",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/02df116c45c9909bae31d2fc9eb612ef03069cfa.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/fe0e228bec2f27e925e58d8ff54c9cdb3043bb7b.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "ACCChina_Ach_8": {
+      "name": "Now You See Me…",
+      "description": "Escape alerts 30 times",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/bc703c1bd4c0f26757c577cd451cb5732e50fc80.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/cca8a5a6f68dfeda0fee2a0c975ea5e031a59b87.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.4"
+    },
+    "ACCChina_Ach_9": {
+      "name": "Faster Than The Flame",
+      "description": "Escape the burning port in under 5 minutes",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/d78b6d37b3c6993a4dea3fa81ce85df38d92fd70.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/9f269bc94a6e7f84045112ff34a0e5ed74f7f2d5.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.9"
+    },
+    "ACCChina_Ach_10": {
+      "name": "Not A Scratch",
+      "description": "Assassinate all enemies in the ambush in Memory Sequence 8 without taking a single hit",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/db1a3009e34f90d6765fdff3638223f74d8ab181.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/47c56c4afcaa8e2a3c2db416879eed2cdc716038.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.5"
+    },
+    "ACCChina_Ach_11": {
+      "name": "Concubine Savior",
+      "description": "Save all the Concubines in Memory Sequence 9",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/74493d5da428e4107d529beb15ab1bc37b606d54.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/97876b5dbb87b3a539a67e22291110afc8daed77.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.7"
+    },
+    "ACCChina_Ach_12": {
+      "name": "Master Of Stealth",
+      "description": "Complete Memory Sequence 11 without being seen",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/15f28358a6eb14c632ccc4c3bacd0be7a2c28a6a.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/7c8d65e94551bc861ce1c624af427582f7ebd8dc.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "ACCChina_Ach_13": {
+      "name": "Clean Mind",
+      "description": "Hide 50 bodies",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/5dd26e894c3690ab6e2b28712c9db6f3c701be69.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/859e7d5ad439dc2adfeb1f38b793ff5edaf5c47c.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "2.2"
+    },
+    "ACCChina_Ach_14": {
+      "name": "Shiny",
+      "description": "Collect all the Animus Shards",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/196b7403859ecbd9e037c2ef6a102595ec4d48cc.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/2e332f588c6e7b071895a852eb1b3228a0961d68.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.0"
+    },
+    "ACCChina_Ach_15": {
+      "name": "Tell Me A Story",
+      "description": "Open all Scroll Chests",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/7153ae791800ba97d483a67216308f6941bda594.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/8830548285d40611354c16021010db516dda7988.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.2"
+    },
+    "ACCChina_Ach_16": {
+      "name": "No Witnesses",
+      "description": "Assassinate 100 enemies",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/c065620192682971c99af75df072feb9f7d4bef9.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/0b76c9a0afb2742e614862b5a76ba7743b52fb1f.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "3.8"
+    },
+    "ACCChina_Ach_17": {
+      "name": "Smash And Stab",
+      "description": "Kill 100 enemies in combat",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/80b39088ffa769f798a326a33739199c9002750f.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/2fd67da382de0510996c291046c426e5f6792280.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "1.5"
+    },
+    "ACCChina_Ach_18": {
+      "name": "Enemy Of My Enemy",
+      "description": "Inflict friendly fire from projectiles on 50 enemies",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/a8151b47a12e281f626b788ce80853424b01bcf1.jpg",
+      "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/354380/7b79a0023fece2558b6d76f714af4d09e1ff1577.jpg",
+      "hidden": false,
+      "group": "Base Game",
+      "percent": "0.8"
+    }
+  },
+  "platform": null,
+  "blacklist": [],
+  "uses_db": false
+}

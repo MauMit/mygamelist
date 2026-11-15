@@ -1,15 +1,15 @@
 {
- "last_updated": 1794764722,
+ "last_updated": 1794783181,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1794764722,
-   "games": 617,
-   "waiting": 52
+   "synced": 1794783181,
+   "games": 626,
+   "waiting": 40
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794764722,
+   "synced": 1794783181,
    "games": 127,
    "waiting": 0
   }
@@ -93,6 +93,17 @@
    "lastUnlock": -6847804800
   },
   {
+   "appid": "xbox-1313671128",
+   "name": "AFRO SAMURAI",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuC0B8AQvYk9burLqO4tI3hjBVAuCRo8fFTMfu7WmZfmaP_mjqQDO1RNuePPax7EPng--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 12,
+   "unlocked": 12,
+   "percent": 100,
+   "lastUnlock": 1365137715
+  },
+  {
    "appid": "xbox-1843310813",
    "name": "Afterparty",
    "icon": "http://store-images.s-microsoft.com/image/apps.46196.14175534148140289.70be3761-a4cd-4671-9bfd-01e5925c40c6.8762f77f-dad6-4f6f-9126-48b9a0584674",
@@ -146,6 +157,17 @@
    "unlocked": 6,
    "percent": 12,
    "lastUnlock": 1531050908
+  },
+  {
+   "appid": "xbox-1397032972",
+   "name": "Aliens: Colonial Marines",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuB7cg_KaHNpG7cTBkAMAfRCQRjwI.SKFVzykajQ4ZfDJfndx3vD7FerTv8s7oZvDKQ--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 15,
+   "unlocked": 15,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-49709880",
@@ -1347,6 +1369,17 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1263339506",
+   "name": "Dead Island Riptide",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuMV_BKRJ40v97puhwKLr_hhPfK9KXnQlilRtxv0yierrp.kb3vbftv7q6ahhsbadTg--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 1,
+   "unlocked": 1,
+   "percent": 100,
+   "lastUnlock": 1367277657
+  },
+  {
    "appid": "xbox-1263929306",
    "name": "Dead or Alive 5",
    "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuGnvty9oVcBZyE85Il03LaEo6dTmbiM_DFMWJLEPvqMLXyyNZ.ulwPsDhJXTIpNcbQ--",
@@ -2513,6 +2546,17 @@
    "lastUnlock": 0
   },
   {
+   "appid": "xbox-1297287625",
+   "name": "Forza Horizon",
+   "icon": "http://store-images.s-microsoft.com/image/apps.22383.70158812030598618.d392f4f7-994d-4142-9423-85b22caff779.17f7fb4b-b529-4aaf-b731-233a025630df",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 3,
+   "unlocked": 3,
+   "percent": 100,
+   "lastUnlock": -6847804800
+  },
+  {
    "appid": "xbox-1985701699",
    "name": "Forza Horizon 4",
    "icon": "http://store-images.s-microsoft.com/image/apps.55774.14339303838396367.e3a10a02-b1cd-411e-97aa-9dd8be1c992d.0fd9a9dc-9e16-4dcc-a5d9-b3ca90d23511",
@@ -2588,6 +2632,17 @@
    "unlocked": 2,
    "percent": 1,
    "lastUnlock": 1694687109
+  },
+  {
+   "appid": "xbox-1297287339",
+   "name": "Gears of War 3",
+   "icon": "http://store-images.s-microsoft.com/image/apps.17664.68607194681373551.b4c09a44-be36-42d6-96c5-4a33b566becd.f0735af8-acef-4b7e-b40c-d0d2b622dd37",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 4,
+   "unlocked": 4,
+   "percent": 100,
+   "lastUnlock": 1363665822
   },
   {
    "appid": "xbox-552499398",
@@ -2962,6 +3017,17 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1297287142",
+   "name": "Halo 3",
+   "icon": "http://store-images.s-microsoft.com/image/apps.23404.66523654440684222.0db9936f-9bfa-468e-903d-d71dec9a72b7.79b21a0d-7cad-40b7-8a9b-7682ab49d26e",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 15,
+   "unlocked": 15,
+   "percent": 100,
+   "lastUnlock": 1366324225
   },
   {
    "appid": "xbox-219630713",
@@ -4119,6 +4185,17 @@
    "lastUnlock": 1621685916
   },
   {
+   "appid": "xbox-1414793190",
+   "name": "Mafia II",
+   "icon": "http://store-images.s-microsoft.com/image/apps.15110.64864752449895779.8a86defe-f10b-413d-833c-96a963b88942.ac52e852-3561-40d1-916b-5a4222ca9443",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 31,
+   "unlocked": 31,
+   "percent": 100,
+   "lastUnlock": 1368006775
+  },
+  {
    "appid": "xbox-1192666733",
    "name": "Mafia III for XBOX One",
    "icon": "http://store-images.s-microsoft.com/image/apps.4958.71109541827858516.2855e051-9dc6-4e2b-aeda-f90d3027a00c.d2a465ce-30b3-4800-b0e0-5c736a875805",
@@ -4403,6 +4480,17 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1263405116",
+   "name": "MGS PW HD",
+   "icon": "http://store-images.s-microsoft.com/image/apps.32988.68850478647142423.d3f9c648-27cb-40f0-9356-f119e53ce72b.21aefbff-0013-4979-9670-166edbe7c788",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 1,
+   "unlocked": 1,
+   "percent": 100,
+   "lastUnlock": 1363680704
   },
   {
    "appid": "xbox-1777860928",
@@ -5041,6 +5129,17 @@
    "unlocked": 27,
    "percent": 75,
    "lastUnlock": 1514318249
+  },
+  {
+   "appid": "xbox-1264125925",
+   "name": "Omerta - City of Gangsters",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuC88xM2YefPFD2Xmd1ZEiOb8FgxPis3raLg6jImpwqc44cU7qdUW32VdlnwgLeb9Lg--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 2,
+   "unlocked": 2,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-1207405244",

@@ -1,15 +1,17 @@
 {
- "last_updated": 1794828516,
+ "last_updated": 1794867000,
  "sources": {
   "xbox": {
-   "status": "ok",
+   "status": "error",
    "synced": 1794828516,
    "games": 636,
-   "waiting": 27
+   "waiting": 27,
+   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "errorAt": 1794867000
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794828516,
+   "synced": 1794867000,
    "games": 127,
    "waiting": 0
   }

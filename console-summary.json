@@ -1,15 +1,15 @@
 {
- "last_updated": 1794783181,
+ "last_updated": 1794797209,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1794783181,
-   "games": 626,
-   "waiting": 40
+   "synced": 1794797209,
+   "games": 632,
+   "waiting": 32
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794783181,
+   "synced": 1794797209,
    "games": 127,
    "waiting": 0
   }
@@ -443,6 +443,17 @@
    "unlocked": 1,
    "percent": 2,
    "lastUnlock": 1569181318
+  },
+  {
+   "appid": "xbox-1128466455",
+   "name": "ASURA'S WRATH",
+   "icon": "http://store-images.s-microsoft.com/image/apps.12003.68630626095504044.e284a3a0-d73a-4f14-be4f-1b52802240ab.e4a5156f-1b21-4f8b-9371-c74a3cfa911c",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 20,
+   "unlocked": 20,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-1880835530",
@@ -1235,6 +1246,17 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1161890019",
+   "name": "Crysis 2",
+   "icon": "http://store-images.s-microsoft.com/image/apps.44602.69065092223175795.fdcc1404-e33b-4bfd-8db8-c2f81c469354.cc2c2226-3fba-474b-afb1-bf76539fb29f",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 4,
+   "unlocked": 4,
+   "percent": 100,
+   "lastUnlock": 1360703693
   },
   {
    "appid": "xbox-222473492",
@@ -2612,6 +2634,17 @@
    "lastUnlock": 1570468736
   },
   {
+   "appid": "xbox-1178929115",
+   "name": "Game of Thrones",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuCTaRnboP2uybIlxXyAe2mHDyFazadVEWPimyRMn3U1cmzTU.mBCsLOiUIGsLykujw--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 1,
+   "unlocked": 1,
+   "percent": 100,
+   "lastUnlock": -6847804800
+  },
+  {
    "appid": "xbox-1644860924",
    "name": "Gato Roboto",
    "icon": "http://store-images.s-microsoft.com/image/apps.47162.14206133284686181.2e3c1108-1e65-40ee-a776-35df7749d20b.24a981e5-4a0c-4968-ad87-2de702580a2f",
@@ -2632,6 +2665,17 @@
    "unlocked": 2,
    "percent": 1,
    "lastUnlock": 1694687109
+  },
+  {
+   "appid": "xbox-1297287213",
+   "name": "Gears of War 2",
+   "icon": "http://store-images.s-microsoft.com/image/apps.22422.65595136073047161.857e51a5-2b52-4c0e-8ac2-92b6b4609fc2.575238f4-dafa-47d8-a0b9-0ab665f39566",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 12,
+   "unlocked": 12,
+   "percent": 100,
+   "lastUnlock": 1359604996
   },
   {
    "appid": "xbox-1297287339",
@@ -4128,6 +4172,17 @@
    "unlocked": 2,
    "percent": 4,
    "lastUnlock": 1639764075
+  },
+  {
+   "appid": "xbox-1161889874",
+   "name": "LOTR: Conquest",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuEkJXti7TSLn6NRqfaWCjSp7GghFQk5xvQBWfwDndkyBtqFVHtlSy9XnoQKHNhuG6g--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 11,
+   "unlocked": 11,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-28152906",
@@ -7494,6 +7549,17 @@
    "unlocked": 18,
    "percent": 49,
    "lastUnlock": 1601419661
+  },
+  {
+   "appid": "xbox-1480659530",
+   "name": "Tony Hawk's PS HD",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuNumGvZwd6b0RXzwNpCPGwy2LTwp5aOvAaqrvIPpdb5fHdIC3SSmBKWeIkFRhoWNNw--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 6,
+   "unlocked": 6,
+   "percent": 100,
+   "lastUnlock": 1345409526
   },
   {
    "appid": "xbox-1877908426",

@@ -1,17 +1,15 @@
 {
- "last_updated": 1794867000,
+ "last_updated": 1794889877,
  "sources": {
   "xbox": {
-   "status": "error",
-   "synced": 1794828516,
-   "games": 636,
-   "waiting": 27,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "errorAt": 1794867000
+   "status": "ok",
+   "synced": 1794889877,
+   "games": 639,
+   "waiting": 24
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794867000,
+   "synced": 1794889877,
    "games": 127,
    "waiting": 0
   }
@@ -1787,6 +1785,17 @@
    "unlocked": 29,
    "percent": 100,
    "lastUnlock": 1600627173
+  },
+  {
+   "appid": "xbox-1161890059",
+   "name": "Dragon Age™ 2",
+   "icon": "http://store-images.s-microsoft.com/image/apps.27687.66622812769222919.f72813e2-a2c0-4178-94a9-276818a15412.010d3b83-47e1-4b5d-8ef9-ce2d5b1062d6",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 24,
+   "unlocked": 24,
+   "percent": 100,
+   "lastUnlock": 1300980691
   },
   {
    "appid": "xbox-976905576",
@@ -4506,6 +4515,17 @@
    "lastUnlock": 1397893089
   },
   {
+   "appid": "xbox-1263405120",
+   "name": "METAL GEAR SOLID HD: 2 & 3",
+   "icon": "http://store-images.s-microsoft.com/image/apps.34772.71751277012885558.8b1348d0-7278-47f3-aea1-5e88bba38c67.3f03a724-2fb8-4b6e-8eb3-55c2b2a2d0a9",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 9,
+   "unlocked": 9,
+   "percent": 100,
+   "lastUnlock": -6847804800
+  },
+  {
    "appid": "xbox-650249872",
    "name": "Metal Gear Solid V: Ground Zeroes",
    "icon": "http://store-images.s-microsoft.com/image/apps.30824.65636291532456667.5893b5ba-43c6-42b7-afce-10638cd992d8.bc6ee6f9-e434-4a79-aab3-ba7a3b3a9a07",
@@ -4856,6 +4876,17 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1414793364",
+   "name": "NBA 2K12",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuN1LADXkUj4M6yOSmf9VmxAb_v0lHamMvsePQoxxPZxft9z9LHCLimw2jJB4OtejcQ--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 8,
+   "unlocked": 8,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-1414793392",

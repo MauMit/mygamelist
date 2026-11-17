@@ -1,17 +1,17 @@
 {
- "last_updated": 1794925753,
+ "last_updated": 1794956104,
  "sources": {
   "xbox": {
    "status": "error",
    "synced": 1794889877,
    "games": 639,
    "waiting": 24,
-   "error": "Could not find your Xbox user id (xuid) from OpenXBL. /account looked like {content: {version: int, currentRequests: int, maxRequests: int, periodInSeconds: int, limitType: str}, code: int}",
-   "errorAt": 1794925753
+   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "errorAt": 1794956104
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794925753,
+   "synced": 1794956104,
    "games": 127,
    "waiting": 0
   }

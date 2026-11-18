@@ -1,17 +1,15 @@
 {
- "last_updated": 1794956104,
+ "last_updated": 1794975992,
  "sources": {
   "xbox": {
-   "status": "error",
-   "synced": 1794889877,
-   "games": 639,
-   "waiting": 24,
-   "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "errorAt": 1794956104
+   "status": "ok",
+   "synced": 1794975992,
+   "games": 641,
+   "waiting": 21
   },
   "playstation": {
    "status": "ok",
-   "synced": 1794956104,
+   "synced": 1794975992,
    "games": 127,
    "waiting": 0
   }
@@ -940,6 +938,17 @@
    "unlocked": 4,
    "percent": 33,
    "lastUnlock": 1512842484
+  },
+  {
+   "appid": "xbox-1414793242",
+   "name": "Bully Scholarship Ed.",
+   "icon": "http://store-images.s-microsoft.com/image/apps.36080.66873235889732843.685adf61-8959-427d-8c3e-e4a5ef4bf7f5.0a955551-c584-4ceb-b01f-aa3aaab6dc1f",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 29,
+   "unlocked": 29,
+   "percent": 100,
+   "lastUnlock": 1348169081
   },
   {
    "appid": "xbox-1161889798",
@@ -1996,6 +2005,17 @@
    "unlocked": 0,
    "percent": 0,
    "lastUnlock": 0
+  },
+  {
+   "appid": "xbox-1161890044",
+   "name": "EA SPORTS™ MMA",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuKPEOxxC6WB9StrmLfYnQgy_G._S_EGgrfkjBn7PRQD9Z7pC8liMouoQYkVm1RZt0g--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 15,
+   "unlocked": 15,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-419391420",

@@ -1,5 +1,5 @@
 {
- "last_updated": 1795059193,
+ "last_updated": 1795094188,
  "sources": {
   "xbox": {
    "status": "error",
@@ -7,11 +7,11 @@
    "games": 641,
    "waiting": 21,
    "error": "Could not find your Xbox user id (xuid) from OpenXBL. /account looked like {content: {version: int, currentRequests: int, maxRequests: int, periodInSeconds: int, limitType: str}, code: int}",
-   "errorAt": 1795059193
+   "errorAt": 1795094188
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795059193,
+   "synced": 1795094188,
    "games": 127,
    "waiting": 0
   }

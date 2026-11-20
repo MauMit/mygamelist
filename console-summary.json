@@ -1,15 +1,17 @@
 {
- "last_updated": 1795124426,
+ "last_updated": 1795144948,
  "sources": {
   "xbox": {
-   "status": "ok",
+   "status": "error",
    "synced": 1795124426,
    "games": 643,
-   "waiting": 19
+   "waiting": 19,
+   "error": "Could not find your Xbox user id (xuid) from OpenXBL. /account looked like {content: {version: int, currentRequests: int, maxRequests: int, periodInSeconds: int, limitType: str}, code: int}",
+   "errorAt": 1795144948
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795124426,
+   "synced": 1795144948,
    "games": 128,
    "waiting": 0
   }
@@ -3014,9 +3016,9 @@
    "platform": "PlayStation 5",
    "console": "playstation",
    "total": 55,
-   "unlocked": 0,
-   "percent": 0,
-   "lastUnlock": 0
+   "unlocked": 1,
+   "percent": 2,
+   "lastUnlock": 1795127436
   },
   {
    "appid": "xbox-1814675537",

@@ -1,17 +1,15 @@
 {
- "last_updated": 1795144948,
+ "last_updated": 1795179515,
  "sources": {
   "xbox": {
-   "status": "error",
-   "synced": 1795124426,
-   "games": 643,
-   "waiting": 19,
-   "error": "Could not find your Xbox user id (xuid) from OpenXBL. /account looked like {content: {version: int, currentRequests: int, maxRequests: int, periodInSeconds: int, limitType: str}, code: int}",
-   "errorAt": 1795144948
+   "status": "ok",
+   "synced": 1795179515,
+   "games": 645,
+   "waiting": 17
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795144948,
+   "synced": 1795179515,
    "games": 128,
    "waiting": 0
   }
@@ -324,6 +322,17 @@
    "unlocked": 46,
    "percent": 69,
    "lastUnlock": 1559665802
+  },
+  {
+   "appid": "xbox-1431505017",
+   "name": "Assassin's Creed Revelations",
+   "icon": "http://store-images.s-microsoft.com/image/apps.26511.69185667608240241.f27a3b66-bf77-490f-9c1d-11fd3a2567d4.3ffc8df0-87cb-44db-97d2-79eed37b2e69",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 2,
+   "unlocked": 2,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-1560034050",
@@ -5901,6 +5910,17 @@
    "unlocked": 1,
    "percent": 2,
    "lastUnlock": 1600425054
+  },
+  {
+   "appid": "xbox-1128466461",
+   "name": "Resident Evil Operation Raccoon City",
+   "icon": "http://store-images.s-microsoft.com/image/apps.36815.13761533290592568.af43fccf-5822-4056-a761-4aa1783dcc58.fa7bf6ba-8a29-4a00-8f63-947791b2cd89",
+   "platform": "Xbox One",
+   "console": "xbox",
+   "total": 2,
+   "unlocked": 2,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-472512000",

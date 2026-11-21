@@ -1,15 +1,15 @@
 {
- "last_updated": 1795227681,
+ "last_updated": 1795259483,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1795227681,
-   "games": 649,
-   "waiting": 13
+   "synced": 1795259483,
+   "games": 650,
+   "waiting": 12
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795227681,
+   "synced": 1795259483,
    "games": 128,
    "waiting": 0
   }
@@ -3058,9 +3058,9 @@
    "platform": "PlayStation 5",
    "console": "playstation",
    "total": 55,
-   "unlocked": 1,
-   "percent": 2,
-   "lastUnlock": 1795127436
+   "unlocked": 2,
+   "percent": 4,
+   "lastUnlock": 1795257942
   },
   {
    "appid": "xbox-1814675537",
@@ -6603,6 +6603,17 @@
    "unlocked": 1,
    "percent": 6,
    "lastUnlock": 1497794038
+  },
+  {
+   "appid": "xbox-1096157313",
+   "name": "Spider-Man™:Dimensions",
+   "icon": "http://images-eds.xboxlive.com/image?url=S35PkG.Po6AuYMOCXUZRrEOttKZnyhla8BAvz_.mFVKA4u8jVObzUIIr.IPhFRiAXDCYYehBCXOsKscjqVzwuPUUeJy84zN7EU5ymtupLw0941B_1KEHP8l7PrlGXaRUTgmtIG81PYKdT3sBRUc.Ng--",
+   "platform": "Xbox 360",
+   "console": "xbox",
+   "total": 6,
+   "unlocked": 6,
+   "percent": 100,
+   "lastUnlock": -6847804800
   },
   {
    "appid": "xbox-1480657295",

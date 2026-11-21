@@ -1,15 +1,15 @@
 {
- "last_updated": 1795259483,
+ "last_updated": 1795284006,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1795259483,
+   "synced": 1795284006,
    "games": 650,
-   "waiting": 12
+   "waiting": 11
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795259483,
+   "synced": 1795284006,
    "games": 128,
    "waiting": 0
   }

@@ -1,15 +1,15 @@
 {
- "last_updated": 1795360973,
+ "last_updated": 1795384225,
  "sources": {
   "xbox": {
    "status": "ok",
-   "synced": 1795360973,
+   "synced": 1795384225,
    "games": 650,
    "waiting": 11
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795360973,
+   "synced": 1795384225,
    "games": 128,
    "waiting": 0
   }
@@ -3058,9 +3058,9 @@
    "platform": "PlayStation 5",
    "console": "playstation",
    "total": 55,
-   "unlocked": 4,
-   "percent": 7,
-   "lastUnlock": 1795293392
+   "unlocked": 5,
+   "percent": 9,
+   "lastUnlock": 1795364617
   },
   {
    "appid": "xbox-1814675537",

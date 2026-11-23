@@ -1,17 +1,15 @@
 {
- "last_updated": 1795402222,
+ "last_updated": 1795438467,
  "sources": {
   "xbox": {
-   "status": "error",
-   "synced": 1795384225,
+   "status": "ok",
+   "synced": 1795438467,
    "games": 650,
-   "waiting": 11,
-   "error": "OpenXBL /achievements/x360/2533274878003355/title/1397819420 returned HTTP 504",
-   "errorAt": 1795402222
+   "waiting": 11
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795402222,
+   "synced": 1795438467,
    "games": 128,
    "waiting": 0
   }

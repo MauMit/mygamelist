@@ -1,15 +1,17 @@
 {
- "last_updated": 1795384225,
+ "last_updated": 1795402222,
  "sources": {
   "xbox": {
-   "status": "ok",
+   "status": "error",
    "synced": 1795384225,
    "games": 650,
-   "waiting": 11
+   "waiting": 11,
+   "error": "OpenXBL /achievements/x360/2533274878003355/title/1397819420 returned HTTP 504",
+   "errorAt": 1795402222
   },
   "playstation": {
    "status": "ok",
-   "synced": 1795384225,
+   "synced": 1795402222,
    "games": 128,
    "waiting": 0
   }
@@ -3058,9 +3060,9 @@
    "platform": "PlayStation 5",
    "console": "playstation",
    "total": 55,
-   "unlocked": 5,
-   "percent": 9,
-   "lastUnlock": 1795364617
+   "unlocked": 6,
+   "percent": 11,
+   "lastUnlock": 1795385330
   },
   {
    "appid": "xbox-1814675537",
